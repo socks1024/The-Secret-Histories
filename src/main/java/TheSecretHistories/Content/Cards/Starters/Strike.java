@@ -26,11 +26,14 @@ public class Strike extends TemplateCustomCard {
         this.damage = this.baseDamage = 6;
         this.tags.add(CardTags.STARTER_STRIKE);
         this.tags.add(CardTags.STRIKE);
+
+        this.principleCount = this.basePrincipleCount = 2;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.upgradeDamage(3);
+
     }
 
     @Override

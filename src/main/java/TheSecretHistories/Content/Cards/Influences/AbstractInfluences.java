@@ -3,7 +3,6 @@ package TheSecretHistories.Content.Cards.Influences;
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelCard;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FRAGMENT;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.INFLUENCE;
 
 public abstract class AbstractInfluences extends TemplateMultiLevelCard {
@@ -14,8 +13,10 @@ public abstract class AbstractInfluences extends TemplateMultiLevelCard {
     private static final CardRarity RARITY = CardRarity.SPECIAL;
     private static final CardTarget TARGET = CardTarget.SELF;
 
+    private static final int UPGRADE_TIMES_LIMIT = 3;
+
     public AbstractInfluences(String id, CardTags principleTag) {
-        super(id, COST, TYPE, COLOR, RARITY, TARGET, 3);
+        super(id, COST, TYPE, COLOR, RARITY, TARGET, UPGRADE_TIMES_LIMIT);
 
         this.tags.add(INFLUENCE);
         this.tags.add(principleTag);
@@ -25,15 +26,15 @@ public abstract class AbstractInfluences extends TemplateMultiLevelCard {
 
         this.upgradeTimesLimit = 3;
 
-        this.magicNumber = this.baseMagicNumber = 2;
+        this.principleCount = this.basePrincipleCount = 2;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(GetMagicNumberIncrease(timesUpgraded));
+        upgradePrincipleCount(GetPrincipleIncrease(timesUpgraded));
     }
 
-    private int GetMagicNumberIncrease(int timesUpgraded)
+    private int GetPrincipleIncrease(int timesUpgraded)
     {
         // 2 6 10 15
         // 2 + 4 = 6

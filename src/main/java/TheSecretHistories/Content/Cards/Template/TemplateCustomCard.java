@@ -61,11 +61,22 @@ public abstract class TemplateCustomCard extends CustomCard {
         return (s1+s2+s3);
     }
 
-    protected void GainPrinciple(AbstractPlayer player, AbstractPrinciple principle) {
+    protected void PlayerGainPrinciple(AbstractPlayer player, AbstractPrinciple principle) {
         AbstractDungeon.actionManager.addToBottom(new GainPrincipleAction(player, principle));
     }
 
-    protected void ConsumePrinciple(AbstractPlayer player, AbstractPrinciple[] principles, AbstractGameAction onConsumed) {
+    protected void ConsumePlayerPrinciple(AbstractPlayer player, AbstractPrinciple[] principles, AbstractGameAction onConsumed) {
         AbstractDungeon.actionManager.addToBottom(new ConsumePrincipleAction(player, principles, onConsumed));
+    }
+
+    public int principleCount;
+
+    public int basePrincipleCount;
+
+    public boolean upgradedPrincipleCount = false;
+
+    public void upgradePrincipleCount(int amount) {
+        this.principleCount += amount;
+        this.upgradedPrincipleCount = true;
     }
 }

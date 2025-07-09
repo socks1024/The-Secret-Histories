@@ -19,8 +19,6 @@ public abstract class TemplateMultiLevelCard extends TemplateCustomCard{
     @Override
     public void upgrade() {
 
-        if (!upgraded) upgraded = true;
-
         if (timesUpgraded < upgradeTimesLimit){
 
             OnUpgrade(timesUpgraded);
@@ -28,6 +26,10 @@ public abstract class TemplateMultiLevelCard extends TemplateCustomCard{
             this.timesUpgraded ++;
 
             RefreshUI();
+
+        } else {
+
+            upgraded = true;
         }
     }
 

@@ -1,7 +1,6 @@
 package TheSecretHistories.Content.Cards.Fragments;
 
 import TheSecretHistories.Content.Powers.Principles.Grail;
-import TheSecretHistories.Content.Powers.Principles.Heart;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -18,6 +17,6 @@ public class FragmentGrail extends AbstractFragment{
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        GainPrinciple(abstractPlayer, new Grail(abstractPlayer, magicNumber));
+        PlayerGainPrinciple(abstractPlayer, new Grail(abstractPlayer, this.principleCount));
     }
 }

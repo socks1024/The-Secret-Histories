@@ -1,8 +1,6 @@
 package TheSecretHistories.Content.Cards.Fragments;
 
-import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelCard;
-import TheSecretHistories.Data.MultiLevelCardStrings;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FRAGMENT;
@@ -15,17 +13,19 @@ public abstract class AbstractFragment extends TemplateMultiLevelCard {
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
+    private static final int UPGRADE_TIMES_LIMIT = 6;
+
     public AbstractFragment(String id, CardTags principleTag) {
-        super(id, COST, TYPE, COLOR, RARITY, TARGET, 6);
+        super(id, COST, TYPE, COLOR, RARITY, TARGET, UPGRADE_TIMES_LIMIT);
 
         this.tags.add(FRAGMENT);
         this.tags.add(principleTag);
 
-        this.magicNumber = this.baseMagicNumber = 2;
+        this.principleCount = this.basePrincipleCount = 2;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(2);
+        upgradePrincipleCount(2);
     }
 }

@@ -17,6 +17,6 @@ public class FragmentLantern extends AbstractFragment {
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        GainPrinciple(abstractPlayer, new Lantern(abstractPlayer, magicNumber));
+        PlayerGainPrinciple(abstractPlayer, new Lantern(abstractPlayer, this.principleCount));
     }
 }
