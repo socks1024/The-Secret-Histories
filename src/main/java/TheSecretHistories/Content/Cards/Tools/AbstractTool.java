@@ -24,11 +24,6 @@ public abstract class AbstractTool extends TemplateCustomCard {
     }
 
     @Override
-    protected void OnUpgrade(int timesUpgraded) {
-
-    }
-
-    @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
         PlayerGainPrinciple();
     }

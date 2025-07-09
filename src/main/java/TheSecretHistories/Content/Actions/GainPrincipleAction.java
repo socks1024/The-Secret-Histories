@@ -11,33 +11,33 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
 
 public class GainPrincipleAction extends AbstractGameAction {
 
-    private AbstractPrinciple principle;
+    private AbstractPrinciple principlePower;
 
-    public GainPrincipleAction(AbstractCreature target, AbstractPrinciple principle){
+    public GainPrincipleAction(AbstractCreature target, AbstractPrinciple principlePower){
         this.target = target;
 
-        this.principle = principle;
+        this.principlePower = principlePower;
     }
 
     public GainPrincipleAction(AbstractCreature target, AbstractCard.CardTags principleTag, int amount) {
         this.target = target;
 
-        this.principle = GetPrinciplePowerByTag(principleTag, amount);
+        this.principlePower = GetPrinciplePowerByTag(principleTag, amount);
     }
 
     @Override
     public void update() {
 
-        if (!target.hasPower(principle.ID) || principle.stack) {
+        if (!target.hasPower(principlePower.ID) || principlePower.stack) {
 
-            AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(target, source, principle));
+            AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(target, source, principlePower));
 
         } else {
 
-            AbstractPrinciple currPrinciple = (AbstractPrinciple)target.getPower(principle.ID);
+            AbstractPrinciple currPrinciple = (AbstractPrinciple)target.getPower(principlePower.ID);
 
-            if (currPrinciple.amount < principle.amount){
-                currPrinciple.amount = principle.amount;
+            if (currPrinciple.amount < principlePower.amount){
+                currPrinciple.amount = principlePower.amount;
             }
 
         }
@@ -46,6 +46,7 @@ public class GainPrincipleAction extends AbstractGameAction {
     }
 
     private AbstractPrinciple GetPrinciplePowerByTag(AbstractCard.CardTags tags, int principle) {
+
         if(tags.equals(LANTERN)){return new Lantern(AbstractDungeon.player, principle);}
         if(tags.equals(FORGE)){return new Forge(AbstractDungeon.player, principle);}
         if(tags.equals(EDGE)){return new Edge(AbstractDungeon.player, principle);}
