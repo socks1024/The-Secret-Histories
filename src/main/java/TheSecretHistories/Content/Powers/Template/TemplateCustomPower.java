@@ -1,0 +1,50 @@
+package TheSecretHistories.Content.Powers.Template;
+
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
+import com.megacrit.cardcrawl.localization.PowerStrings;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+
+public abstract class TemplateCustomPower extends AbstractPower{
+
+    private PowerStrings powerStrings;
+
+    public TemplateCustomPower(String id, String img)
+    {
+        this.ID = id;
+
+        SetPowerImg(this, img);
+
+        this.powerStrings = CardCrawlGame.languagePack.getPowerStrings(id);
+        this.name = powerStrings.NAME;
+
+        this.updateDescription();
+    }
+
+    public void updateDescription(){
+        this.description = String.format(powerStrings.DESCRIPTIONS[0]);
+    }
+
+    protected void SetPowerImg(AbstractPower power, String img)
+    {
+        String path128 = MakePowerImgPath128(img);
+        String path48 = MakePowerImgPath48(img);
+        power.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage(path128),0,0,128,128);
+        power.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage(path48),0,0,48,48);
+    }
+
+    protected static String MakePowerImgPath128(String img){
+        String s1 = "TheSecretHistories/img/powers/";
+        String s2 = img + "128.png";
+
+        return s1+s2;
+    }
+
+    protected static String MakePowerImgPath48(String img){
+        String s1 = "TheSecretHistories/img/powers/";
+        String s2 = img + "48.png";
+
+        return s1+s2;
+    }
+}

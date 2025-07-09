@@ -1,0 +1,385 @@
+{
+  "TheSecretHistories:FragmentLantern": {
+    "NAMES": [
+      "守夜人的秘密",
+      "漫宿一瞥",
+      "不仁梵咒",
+      "烁光祷文",
+      "聚集法术",
+      "攀升梵咒",
+      "照明之秘"
+    ],
+    "IMG_PATHS": [
+      "fragmentlantern",
+      "fragmentlanternb",
+      "fragmentlanternc",
+      "fragmentlanternd",
+      "fragmentlanterne",
+      "fragmentlanternf",
+      "fragmentlanterng"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:灯 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:FragmentForge": {
+    "NAMES": [
+      "铁匠的秘密",
+      "热烈的祷告",
+      "塑形之咏",
+      "巧匠祷文",
+      "裂变法术",
+      "熔炉颂",
+      "铸造之秘"
+    ],
+    "IMG_PATHS": [
+      "fragmentforge",
+      "fragmentforgeb",
+      "fragmentforgec",
+      "fragmentforged",
+      "fragmentforgee",
+      "fragmentforgef",
+      "fragmentforgeg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:铸 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:FragmentEdge": {
+    "NAMES": [
+      "刀子的秘密",
+      "千夫长的教诲",
+      "狻猊行动",
+      "上校的具名者",
+      "狮子匠的具名者",
+      "谋杀连珠",
+      "武力之秘"
+    ],
+    "IMG_PATHS": [
+      "fragmentedge",
+      "fragmentedgeb",
+      "fragmentedgec",
+      "fragmentedged",
+      "fragmentedgee",
+      "fragmentedgef",
+      "fragmentedgeg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:刃 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:FragmentWinter": {
+    "NAMES": [
+      "守墓人的秘密",
+      "纯白之礼",
+      "落日行动",
+      "骨白鸽祷文",
+      "失落司辰的吟诵",
+      "具名者的分裂",
+      "狼言"
+    ],
+    "IMG_PATHS": [
+      "fragmentwinter",
+      "fragmentwinterb",
+      "fragmentwinterc",
+      "fragmentwinterd",
+      "fragmentwintere",
+      "fragmentwinterf",
+      "fragmentwinterg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:冬 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:FragmentHeart": {
+    "NAMES": [
+      "雷鸣的秘密",
+      "行步的言辞",
+      "唤醒之咏",
+      "成双祷文",
+      "惊醒法术",
+      "丝绒符咒",
+      "不休之秘"
+    ],
+    "IMG_PATHS": [
+      "fragmentheart",
+      "fragmentheartb",
+      "fragmentheartc",
+      "fragmentheartd",
+      "fragmenthearte",
+      "fragmentheartf",
+      "fragmentheartg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:心 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:FragmentGrail": {
+    "NAMES": [
+      "赤红的秘密",
+      "伟大的咒语",
+      "悦人的圣礼",
+      "酩酊祷文",
+      "销魂法术",
+      "芳卉述论",
+      "吞食之秘"
+    ],
+    "IMG_PATHS": [
+      "fragmentgrail",
+      "fragmentgrailb",
+      "fragmentgrailc",
+      "fragmentgraild",
+      "fragmentgraile",
+      "fragmentgrailf",
+      "fragmentgrailg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:杯 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:FragmentMoth": {
+    "NAMES": [
+      "理发师的警告",
+      "林地低语",
+      "蜕衣舞者的预言",
+      "鼹鼠的劝诫",
+      "蜈蚣的证词",
+      "诞于股，甜于胸",
+      "杉中牝马"
+    ],
+    "IMG_PATHS": [
+      "fragmentmoth",
+      "fragmentmothb",
+      "fragmentmothc",
+      "fragmentmothd",
+      "fragmentmothe",
+      "fragmentmothf",
+      "fragmentmothg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:蛾 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:FragmentKnock": {
+    "NAMES": [
+      "锁匠的秘密",
+      "伊维库姆仪式之一",
+      "伤口通行权",
+      "弧月祷文",
+      "蚺虵法术",
+      "门阈唤起",
+      "开启之秘"
+    ],
+    "IMG_PATHS": [
+      "fragmentknock",
+      "fragmentknockb",
+      "fragmentknockc",
+      "fragmentknockd",
+      "fragmentknocke",
+      "fragmentknockf",
+      "fragmentknockg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:启 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:FragmentSecretHistories": {
+    "NAMES": [
+      "密教残篇",
+      "鬼祟的真相",
+      "被遗忘的史籍",
+      "禁断的史诗",
+      "悬而未定的模棱两可",
+      "浪游旅人的地图",
+      "午港奇闻"
+    ],
+    "IMG_PATHS": [
+      "fragmentsecrethistories",
+      "fragmentsecrethistoriesb",
+      "fragmentsecrethistoriesc",
+      "fragmentsecrethistoriesd",
+      "fragmentsecrethistoriese",
+      "fragmentsecrethistoriesf",
+      "fragmentsecrethistoriesg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:密传 NL tsh:秘史 之 tsh:准则 - !M! "
+    ]
+  },
+
+  "TheSecretHistories:InfluenceLantern": {
+    "NAMES": [
+      "初识的光芒",
+      "强烈的光芒",
+      "暴烈的光芒",
+      "骄盛夺目"
+    ],
+    "IMG_PATHS": [
+      "influencelantern",
+      "influencelanternc",
+      "influencelanterne",
+      "influencelanterng"
+    ],
+    "DESCRIPTION":  [
+      " tsh:影响 NL tsh:灯 之 tsh:准则 - !M! NL 虚无 。 消耗 。"
+    ]
+  },
+
+  "TheSecretHistories:InfluenceForge": {
+    "NAMES": [
+      "上升的热力",
+      "颤抖的热力",
+      "蒸腾的热力",
+      "炽烈已极"
+    ],
+    "IMG_PATHS": [
+      "influenceforge",
+      "influenceforgec",
+      "influenceforgee",
+      "influenceforged"
+    ],
+    "DESCRIPTION":  [
+      " tsh:影响 NL tsh:铸 之 tsh:准则 - !M! NL 虚无 。 消耗 。"
+    ]
+  },
+
+  "TheSecretHistories:InfluenceEdge": {
+    "NAMES": [
+      "激振的气氛",
+      "昂扬的气氛",
+      "狂怒的气氛",
+      "破局之力"
+    ],
+    "IMG_PATHS": [
+      "influenceedge",
+      "influenceedgec",
+      "influenceedgee",
+      "influenceedgeg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:影响 NL tsh:刃 之 tsh:准则 - !M! NL 虚无 。 消耗 。"
+    ]
+  },
+
+  "TheSecretHistories:InfluenceWinter": {
+    "NAMES": [
+      "冷冽的气场",
+      "冰结的气场",
+      "严寒的气场",
+      "无暇的冰霜"
+    ],
+    "IMG_PATHS": [
+      "influencewinter",
+      "influencewinterc",
+      "influencewintere",
+      "influencewinterg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:影响 NL tsh:冬 之 tsh:准则 - !M! NL 虚无 。 消耗 。"
+    ]
+  },
+
+  "TheSecretHistories:InfluenceHeart": {
+    "NAMES": [
+      "战栗的气息",
+      "脉动的气息",
+      "鼓震的气息",
+      "近在眉睫"
+    ],
+    "IMG_PATHS": [
+      "influenceheart",
+      "influenceheartc",
+      "influencehearte",
+      "influenceheartg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:影响 NL tsh:心 之 tsh:准则 - !M! NL 虚无 。 消耗 。"
+    ]
+  },
+
+  "TheSecretHistories:InfluenceGrail": {
+    "NAMES": [
+      "抬头的食欲",
+      "急切的食欲",
+      "难耐的食欲",
+      "道成肉红身"
+    ],
+    "IMG_PATHS": [
+      "influencegrail",
+      "influencegrailc",
+      "influencegraile",
+      "influencegrailg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:影响 NL tsh:杯 之 tsh:准则 - !M! NL 虚无 。 消耗 。"
+    ]
+  },
+
+  "TheSecretHistories:InfluenceMoth": {
+    "NAMES": [
+      "脑中的嗡鸣",
+      "灵魂的振响",
+      "心灵的咆哮",
+      "旧日的渴慕"
+    ],
+    "IMG_PATHS": [
+      "influencemoth",
+      "influencemothc",
+      "influencemothe",
+      "influencemothg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:影响 NL tsh:蛾 之 tsh:准则 - !M! NL 虚无 。 消耗 。"
+    ]
+  },
+
+  "TheSecretHistories:InfluenceKnock": {
+    "NAMES": [
+      "抬头的食欲",
+      "急切的食欲",
+      "难耐的食欲",
+      "道成肉红身"
+    ],
+    "IMG_PATHS": [
+      "influenceknock",
+      "influenceknockc",
+      "influenceknocke",
+      "influenceknockg"
+    ],
+    "DESCRIPTION":  [
+      " tsh:影响 NL tsh:启 之 tsh:准则 - !M! NL 虚无 。 消耗 。"
+    ]
+  },
+
+  "TheSecretHistories:Mansus": {
+    "NAMES": [
+      "道路：林地",
+      "道路：纯白之门",
+      "道路：牡鹿之门",
+      "道路：蜘蛛之门",
+      "道路：孔雀之门"
+    ],
+    "IMG_PATHS": [
+      "waywood",
+      "waywhite",
+      "waystag_after",
+      "wayspider",
+      "waypeacock"
+    ],
+    "DESCRIPTIONS": [
+      " tsh:漫宿 - tsh:林地 NL 消耗2 tsh:灯 / tsh:蛾 / tsh:启 , NL 并选择1张牌加入手牌。",
+      " tsh:漫宿 - tsh:纯白之门 NL 消耗4 tsh:灯 / tsh:冬 / tsh:心 / tsh:启 , NL 并选择1张牌加入手牌。",
+      " tsh:漫宿 - tsh:牡鹿之门 NL 消耗6 tsh:灯 / tsh:启 , NL 并选择1张牌加入手牌。",
+      " tsh:漫宿 - tsh:蜘蛛之门 NL 消耗8 tsh:灯 / tsh:杯 / tsh:启 , NL 并选择1张牌加入手牌。",
+      " tsh:漫宿 - tsh:孔雀之门 NL 消耗10 tsh:灯 / tsh:铸 / tsh:刃 / tsh:启 , NL 并选择1张牌加入手牌。"
+    ]
+  }
+}
