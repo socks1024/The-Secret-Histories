@@ -7,17 +7,15 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.KNOCK;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.SECRET_HISTORIES;
 
 public class InfluenceKnock extends AbstractFragment {
 
     public static String ID = StringUtils.MakeID(InfluenceKnock.class.getSimpleName());
 
-    public InfluenceKnock() {
-        super(ID, KNOCK);
-    }
+    public static CardTags PRINCIPLE_TAG = KNOCK;
 
-    @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        PlayerGainPrinciple(abstractPlayer, new Knock(abstractPlayer, this.principleCount));
+    public InfluenceKnock() {
+        super(ID, PRINCIPLE_TAG);
     }
 }

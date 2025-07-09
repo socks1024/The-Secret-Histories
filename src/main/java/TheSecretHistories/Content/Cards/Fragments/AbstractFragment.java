@@ -1,6 +1,8 @@
 package TheSecretHistories.Content.Cards.Fragments;
 
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FRAGMENT;
@@ -21,11 +23,18 @@ public abstract class AbstractFragment extends TemplateMultiLevelCard {
         this.tags.add(FRAGMENT);
         this.tags.add(principleTag);
 
+        this.principleTag = principleTag;
+
         this.principleCount = this.basePrincipleCount = 2;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradePrincipleCount(2);
+    }
+
+    @Override
+    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
+        PlayerGainPrinciple();
     }
 }

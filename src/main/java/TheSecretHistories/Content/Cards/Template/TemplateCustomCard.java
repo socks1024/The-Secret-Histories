@@ -15,6 +15,8 @@ public abstract class TemplateCustomCard extends CustomCard {
 
     protected CardStrings cardStrings;
 
+    protected CardTags principleTag;
+
     public TemplateCustomCard(String id, String imgName, int cost, CardType type, CardColor color, CardRarity rarity, CardTarget target) {
         this(id, CardCrawlGame.languagePack.getCardStrings(id).NAME, imgName, cost, CardCrawlGame.languagePack.getCardStrings(id).DESCRIPTION, type, color, rarity, target);
 
@@ -61,8 +63,16 @@ public abstract class TemplateCustomCard extends CustomCard {
         return (s1+s2+s3);
     }
 
-    protected void PlayerGainPrinciple(AbstractPlayer player, AbstractPrinciple principle) {
-        AbstractDungeon.actionManager.addToBottom(new GainPrincipleAction(player, principle));
+    protected void PlayerGainPrinciple(AbstractPrinciple principle) {
+        AbstractDungeon.actionManager.addToBottom(new GainPrincipleAction(AbstractDungeon.player, principle));
+    }
+
+    protected void PlayerGainPrinciple(CardTags principleTag, int amount) {
+        AbstractDungeon.actionManager.addToBottom(new GainPrincipleAction(AbstractDungeon.player, principleTag, amount));
+    }
+
+    protected void PlayerGainPrinciple() {
+        PlayerGainPrinciple(principleTag, principleCount);
     }
 
     protected void ConsumePlayerPrinciple(AbstractPlayer player, AbstractPrinciple[] principles, AbstractGameAction onConsumed) {

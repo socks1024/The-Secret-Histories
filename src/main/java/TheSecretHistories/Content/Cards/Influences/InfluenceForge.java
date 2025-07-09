@@ -7,17 +7,15 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FORGE;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.SECRET_HISTORIES;
 
 public class InfluenceForge extends AbstractFragment {
 
     public static String ID = StringUtils.MakeID(InfluenceForge.class.getSimpleName());
 
-    public InfluenceForge() {
-        super(ID, FORGE);
-    }
+    public static CardTags PRINCIPLE_TAG = FORGE;
 
-    @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        PlayerGainPrinciple(abstractPlayer, new Forge(abstractPlayer, this.principleCount));
+    public InfluenceForge() {
+        super(ID, PRINCIPLE_TAG);
     }
 }

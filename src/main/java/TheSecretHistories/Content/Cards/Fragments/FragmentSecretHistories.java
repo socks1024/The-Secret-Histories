@@ -1,24 +1,18 @@
 package TheSecretHistories.Content.Cards.Fragments;
 
-import TheSecretHistories.Content.Powers.Principles.SecretHistories;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.SECRETHISTORY;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.SECRET_HISTORIES;
 
 public class FragmentSecretHistories extends AbstractFragment{
 
     public static String ID = StringUtils.MakeID(FragmentSecretHistories.class.getSimpleName());
 
+    public static CardTags PRINCIPLE_TAG = SECRET_HISTORIES;
+
     public FragmentSecretHistories() {
-        super(ID, SECRETHISTORY);
+        super(ID, PRINCIPLE_TAG);
 
         this.exhaust = true;
-    }
-
-    @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        PlayerGainPrinciple(abstractPlayer, new SecretHistories(abstractPlayer, this.principleCount));
     }
 }

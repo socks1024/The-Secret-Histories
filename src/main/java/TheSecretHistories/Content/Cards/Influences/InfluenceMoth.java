@@ -7,17 +7,15 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.MOTH;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.SECRET_HISTORIES;
 
 public class InfluenceMoth extends AbstractFragment {
 
     public static String ID = StringUtils.MakeID(InfluenceMoth.class.getSimpleName());
 
-    public InfluenceMoth() {
-        super(ID, MOTH);
-    }
+    public static CardTags PRINCIPLE_TAG = MOTH;
 
-    @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        PlayerGainPrinciple(abstractPlayer, new Moth(abstractPlayer, this.principleCount));
+    public InfluenceMoth() {
+        super(ID, PRINCIPLE_TAG);
     }
 }

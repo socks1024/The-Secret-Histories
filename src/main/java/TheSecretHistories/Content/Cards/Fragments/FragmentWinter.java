@@ -5,18 +5,16 @@ import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.WINTER;
 
 public class FragmentWinter extends AbstractFragment{
 
     public static String ID = StringUtils.MakeID(FragmentWinter.class.getSimpleName());
 
-    public FragmentWinter() {
-        super(ID, WINTER);
-    }
+    public static CardTags PRINCIPLE_TAG = WINTER;
 
-    @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        PlayerGainPrinciple(abstractPlayer, new Winter(abstractPlayer, this.principleCount));
+    public FragmentWinter() {
+        super(ID, PRINCIPLE_TAG);
     }
 }

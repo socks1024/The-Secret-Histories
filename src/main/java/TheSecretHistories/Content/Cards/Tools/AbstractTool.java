@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.Tools;
 
+import TheSecretHistories.Content.Actions.GainPrincipleAction;
 import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -7,11 +8,9 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.TOOL;
 
-public class AbstractTool extends TemplateCustomCard {
+public abstract class AbstractTool extends TemplateCustomCard {
 
     private static final CardColor COLOR = CULT_BLUE;
-
-    protected CardTags principleTag;
 
     public AbstractTool(String id, String imgName, int cost, CardType type, CardRarity rarity, CardTarget target, CardTags principleTag) {
         super(id, imgName, cost, type, COLOR, rarity, target);
@@ -31,7 +30,7 @@ public class AbstractTool extends TemplateCustomCard {
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-
+        PlayerGainPrinciple();
     }
 
     private static int GetDefaultPrincipleCountByRarity(CardRarity rarity) {

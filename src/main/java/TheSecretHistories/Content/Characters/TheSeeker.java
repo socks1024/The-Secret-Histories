@@ -247,7 +247,7 @@ public class TheSeeker extends CustomPlayer {
         @SpireEnum
         public static AbstractCard.CardTags KNOCK;
         @SpireEnum
-        public static AbstractCard.CardTags SECRETHISTORY;
+        public static AbstractCard.CardTags SECRET_HISTORIES;
 
         @SpireEnum
         public static AbstractPower.PowerType PRINCIPLE;

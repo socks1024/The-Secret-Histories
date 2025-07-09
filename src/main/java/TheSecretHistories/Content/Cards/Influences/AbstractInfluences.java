@@ -1,6 +1,8 @@
 package TheSecretHistories.Content.Cards.Influences;
 
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.INFLUENCE;
@@ -20,6 +22,8 @@ public abstract class AbstractInfluences extends TemplateMultiLevelCard {
 
         this.tags.add(INFLUENCE);
         this.tags.add(principleTag);
+
+        this.principleTag = principleTag;
 
         this.exhaust = true;
         this.isEthereal = true;
@@ -49,5 +53,10 @@ public abstract class AbstractInfluences extends TemplateMultiLevelCard {
         }
 
         return 0;
+    }
+
+    @Override
+    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
+        PlayerGainPrinciple();
     }
 }
