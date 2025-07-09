@@ -1,5 +1,6 @@
 package TheSecretHistories.ModCore;
 import TheSecretHistories.Content.Characters.TheSeeker;
+import TheSecretHistories.Data.DynamicVariable.PrincipleVariant;
 import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.abstracts.CustomRelic;
@@ -54,6 +55,8 @@ public class TheSecretHistories implements EditCardsSubscriber, EditStringsSubsc
 
     @Override
     public void receiveEditCards() {
+        BaseMod.addDynamicVariable(new PrincipleVariant());
+
         new AutoAdd(modID)
                 .packageFilter(packageNameCard)
                 .setDefaultSeen(true)
