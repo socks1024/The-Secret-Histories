@@ -1,0 +1,39 @@
+package TheSecretHistories.Content.Cards.Tools.Winter;
+
+import TheSecretHistories.Content.Cards.Tools.AbstractTool;
+import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.WINTER;
+
+public class ToolWinterD extends AbstractTool {
+
+    public static final String ID = StringUtils.MakeID(ToolWinterD.class.getSimpleName());
+
+    private static final CardTags PRINCIPLE_TAG = WINTER;
+
+    private static final String IMG_NAME = "toolwinterd";
+    private static final int COST = 2;
+    private static final CardType TYPE = CardType.SKILL;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
+
+    public ToolWinterD() {
+        super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+
+        this.magicNumber = this.baseMagicNumber = 1;
+    }
+
+    @Override
+    protected void OnUpgrade(int timesUpgraded) {
+        upgradeMagicNumber(1);
+    }
+
+    @Override
+    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
+        super.use(abstractPlayer, abstractMonster);
+
+
+    }
+}

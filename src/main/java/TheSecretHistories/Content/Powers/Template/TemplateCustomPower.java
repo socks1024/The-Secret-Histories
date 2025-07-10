@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Powers.Template;
 
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.PowerStrings;
@@ -10,7 +11,7 @@ public abstract class TemplateCustomPower extends AbstractPower{
 
     private PowerStrings powerStrings;
 
-    public TemplateCustomPower(String id, String img)
+    public TemplateCustomPower(String id, String img, AbstractCreature owner, int amount)
     {
         this.ID = id;
 
@@ -20,10 +21,19 @@ public abstract class TemplateCustomPower extends AbstractPower{
         this.name = powerStrings.NAME;
 
         this.updateDescription();
+
+        this.owner = owner;
+        this.amount = amount;
     }
 
     public void updateDescription(){
-        this.description = String.format(powerStrings.DESCRIPTIONS[0]);
+        String newDescription = powerStrings.DESCRIPTIONS[0];
+
+        if (newDescription.contains("%d")) {
+            this.description = String.format(newDescription, amount);
+        } else {
+            this.description = String.format(newDescription);
+        }
     }
 
     protected void SetPowerImg(AbstractPower power, String img)

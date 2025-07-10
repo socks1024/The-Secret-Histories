@@ -1,6 +1,6 @@
 package TheSecretHistories.Content.Characters;
 
-import TheSecretHistories.Content.Cards.Fragments.FragmentLantern;
+import TheSecretHistories.Content.Cards.Fragments.*;
 import TheSecretHistories.Content.Cards.Starters.Strike;
 import TheSecretHistories.ModCore.TheSecretHistories;
 import TheSecretHistories.Content.Relics.TemporaryHeadquarters;
@@ -74,16 +74,14 @@ public class TheSeeker extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
 
         retVal.add(FragmentLantern.ID);
-        retVal.add(FragmentLantern.ID);
-        retVal.add(FragmentLantern.ID);
-        retVal.add(FragmentLantern.ID);
-        retVal.add(FragmentLantern.ID);
-
-        retVal.add(Strike.ID);
-        retVal.add(Strike.ID);
-        retVal.add(Strike.ID);
-        retVal.add(Strike.ID);
-        retVal.add(Strike.ID);
+        retVal.add(FragmentForge.ID);
+        retVal.add(FragmentEdge.ID);
+        retVal.add(FragmentWinter.ID);
+        retVal.add(FragmentHeart.ID);
+        retVal.add(FragmentGrail.ID);
+        retVal.add(FragmentMoth.ID);
+        retVal.add(FragmentKnock.ID);
+        retVal.add(FragmentSecretHistories.ID);
 
         return retVal;
     }

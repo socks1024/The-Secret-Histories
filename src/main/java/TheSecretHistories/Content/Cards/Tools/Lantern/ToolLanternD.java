@@ -2,29 +2,29 @@ package TheSecretHistories.Content.Cards.Tools.Lantern;
 
 import TheSecretHistories.Content.Cards.Tools.AbstractTool;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.unique.GamblingChipAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.HeatsinkPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.LANTERN;
 
-public class ToolLanternB extends AbstractTool {
+public class ToolLanternD extends AbstractTool {
 
-    public static final String ID = StringUtils.MakeID(ToolLanternB.class.getSimpleName());
+    public static final String ID = StringUtils.MakeID(ToolLanternD.class.getSimpleName());
 
     private static final CardTags PRINCIPLE_TAG = LANTERN;
 
-    private static final String IMG_NAME = "toollanternb";
+    private static final String IMG_NAME = "toollanternd";
     private static final int COST = 1;
-    private static final CardType TYPE = CardType.POWER;
-    private static final CardRarity RARITY = CardRarity.COMMON;
+    private static final CardType TYPE = CardType.SKILL;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    public ToolLanternB() {
+    public ToolLanternD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.exhaust = true;
     }
 
     @Override
@@ -36,6 +36,6 @@ public class ToolLanternB extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new HeatsinkPower(abstractPlayer, magicNumber)));
+        addToBot(new GamblingChipAction(AbstractDungeon.player));
     }
 }

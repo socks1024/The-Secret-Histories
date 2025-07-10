@@ -11,6 +11,8 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 
+import java.util.Objects;
+
 public abstract class TemplateCustomCard extends CustomCard {
 
     protected CardStrings cardStrings;
@@ -43,7 +45,8 @@ public abstract class TemplateCustomCard extends CustomCard {
 
     protected void UpgradeNameAndDescription(){
         this.upgradeName();
-        this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+        if (cardStrings.UPGRADE_DESCRIPTION != null & !Objects.equals(cardStrings.UPGRADE_DESCRIPTION, ""))
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
         this.initializeDescription();
     }
 

@@ -6,21 +6,21 @@
     ]
   },
 
-  "SecretHistories:Forge": {
+  "TheSecretHistories:Forge": {
     "NAME": "铸",
     "DESCRIPTIONS": [
       "铸是变换与毁灭的准则。"
     ]
   },
 
-  "SecretHistories:Edge": {
+  "TheSecretHistories:Edge": {
     "NAME": "刃",
     "DESCRIPTIONS": [
       "刃是战斗与抗争的准则。"
     ]
   },
 
-  "SecretHistories:Winter": {
+  "TheSecretHistories:Winter": {
     "NAME": "冬",
     "DESCRIPTIONS": [
       "冬是静默、终结和不尽然逝去之物的准则。[回合结束时，受到",
@@ -28,38 +28,52 @@
     ]
   },
 
-  "SecretHistories:Heart": {
+  "TheSecretHistories:Heart": {
     "NAME": "心",
     "DESCRIPTIONS": [
       "心是长存与延续的准则。"
     ]
   },
 
-  "SecretHistories:Grail": {
+  "TheSecretHistories:Grail": {
     "NAME": "杯",
     "DESCRIPTIONS": [
       "杯是生育与飨宴的准则。"
     ]
   },
 
-  "SecretHistories:Moth": {
+  "TheSecretHistories:Moth": {
     "NAME": "蛾",
     "DESCRIPTIONS": [
       "蛾，狂野又凶险，是混沌与渴慕的准则。[可以叠加，但回合结束时失去所有蛾。]"
     ]
   },
 
-  "SecretHistories:Knock": {
+  "TheSecretHistories:Knock": {
     "NAME": "启",
     "DESCRIPTIONS": [
       "启是开启与拆解的准则。"
     ]
   },
 
-  "SecretHistories:SecretHistory": {
+  "TheSecretHistories:SecretHistories": {
     "NAME": "秘史",
     "DESCRIPTIONS": [
       "秘史描绘了世界不为人知的千头万绪及它的重重过往。[可以叠加，结算时根据层数获得额外奖励。]"
+    ]
+  },
+
+  "TheSecretHistories:ToolLanternFPower": {
+    "NAME": "守夜人之镜",
+    "DESCRIPTIONS": [
+      "回合开始时，每有 %d tsh:灯 ,抽1张牌。"
+    ]
+  },
+
+  "TheSecretHistories:ToolForgeBPower": {
+    "NAME": "朱砂护身符",
+    "DESCRIPTIONS": [
+      "若有至少 %d 铸，可以打出状态牌，并将其消耗。"
     ]
   }
 }

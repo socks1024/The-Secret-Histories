@@ -8,11 +8,8 @@ public class Moth extends AbstractPrinciple{
     public static final String POWER_ID = StringUtils.MakeID(Moth.class.getSimpleName());
     private static final String IMG_NAME = "moth";
 
-    public Moth(AbstractCreature owner, int Amount){
-        super(POWER_ID, IMG_NAME);
-
-        this.owner = owner;
-        this.amount = Amount;
+    public Moth(AbstractCreature owner, int amount){
+        super(POWER_ID, IMG_NAME, owner, amount);
 
         this.stack = true;
     }
