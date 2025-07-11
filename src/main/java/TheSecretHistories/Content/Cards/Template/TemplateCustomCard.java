@@ -1,12 +1,9 @@
 package TheSecretHistories.Content.Cards.Template;
 
-import TheSecretHistories.Content.Actions.ConsumePrincipleAction;
-import TheSecretHistories.Content.Actions.GainPrincipleAction;
+import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
 import TheSecretHistories.Content.Powers.Principles.AbstractPrinciple;
 import basemod.abstracts.CustomCard;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -66,20 +63,12 @@ public abstract class TemplateCustomCard extends CustomCard {
         return (s1+s2+s3);
     }
 
-    protected void PlayerGainPrinciple(AbstractPrinciple principle) {
-        AbstractDungeon.actionManager.addToBottom(new GainPrincipleAction(AbstractDungeon.player, principle));
-    }
-
     protected void PlayerGainPrinciple(CardTags principleTag, int amount) {
         AbstractDungeon.actionManager.addToBottom(new GainPrincipleAction(AbstractDungeon.player, principleTag, amount));
     }
 
     protected void PlayerGainPrinciple() {
         PlayerGainPrinciple(principleTag, principleCount);
-    }
-
-    protected void ConsumePlayerPrinciple(AbstractPlayer player, AbstractPrinciple[] principles, AbstractGameAction onConsumed) {
-        AbstractDungeon.actionManager.addToBottom(new ConsumePrincipleAction(player, principles, onConsumed));
     }
 
     public int principleCount;

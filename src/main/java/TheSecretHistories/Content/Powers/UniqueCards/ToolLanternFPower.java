@@ -7,12 +7,12 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 
 public class ToolLanternFPower extends TemplateCustomPower {
 
-    public static final String ID = StringUtils.MakeID(ToolLanternFPower.class.getSimpleName());
+    public static final String POWER_ID = StringUtils.MakeID(ToolLanternFPower.class.getSimpleName());
 
     private static final String IMG_NAME = "toollanternf";
 
     public ToolLanternFPower(AbstractCreature owner, int amount) {
-        super(ID, IMG_NAME, owner, amount);
+        super(POWER_ID, IMG_NAME, owner, amount);
     }
 
     @Override

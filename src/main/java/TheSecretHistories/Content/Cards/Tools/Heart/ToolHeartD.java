@@ -1,27 +1,28 @@
-package TheSecretHistories.Content.Cards.Tools.Winter;
+package TheSecretHistories.Content.Cards.Tools.Heart;
 
 import TheSecretHistories.Content.Cards.Tools.AbstractTool;
-import TheSecretHistories.Content.Powers.UniqueCards.ToolWinterDPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.BlurPower;
 
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.WINTER;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
 
-public class ToolWinterD extends AbstractTool {
+public class ToolHeartD extends AbstractTool {
 
-    public static final String ID = StringUtils.MakeID(ToolWinterD.class.getSimpleName());
+    public static final String ID = StringUtils.MakeID(ToolHeartD.class.getSimpleName());
 
-    private static final CardTags PRINCIPLE_TAG = WINTER;
+    private static final CardTags PRINCIPLE_TAG = HEART;
 
-    private static final String IMG_NAME = "toolwinterd";
-    private static final int COST = 2;
+    private static final String IMG_NAME = "toolheartd";
+    private static final int COST = 1;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
-    private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
+    private static final CardTarget TARGET = CardTarget.SELF;
 
-    public ToolWinterD() {
+    public ToolHeartD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
         this.magicNumber = this.baseMagicNumber = 1;
@@ -36,6 +37,6 @@ public class ToolWinterD extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new ApplyPowerAction(abstractMonster, abstractPlayer, new ToolWinterDPower(abstractMonster, magicNumber)));
+        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new BlurPower(abstractPlayer, magicNumber)));
     }
 }

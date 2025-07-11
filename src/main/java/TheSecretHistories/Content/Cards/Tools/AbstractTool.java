@@ -1,6 +1,5 @@
 package TheSecretHistories.Content.Cards.Tools;
 
-import TheSecretHistories.Content.Actions.GainPrincipleAction;
 import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;

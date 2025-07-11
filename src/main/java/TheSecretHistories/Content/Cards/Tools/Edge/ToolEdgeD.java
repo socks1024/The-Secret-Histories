@@ -38,6 +38,6 @@ public class ToolEdgeD extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new ToolEdgeDPower(abstractPlayer, 1)));
+        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new ToolEdgeDPower(abstractPlayer)));
     }
 }

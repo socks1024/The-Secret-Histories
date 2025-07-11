@@ -9,12 +9,12 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 
 public class ToolForgeBPower extends TemplateCustomPower {
 
-    public static final String ID = StringUtils.MakeID(ToolForgeBPower.class.getSimpleName());
+    public static final String POWER_ID = StringUtils.MakeID(ToolForgeBPower.class.getSimpleName());
 
     private static final String IMG_NAME = "toolforgeb";
 
     public ToolForgeBPower(AbstractCreature owner, int amount) {
-        super(ID, IMG_NAME, owner, amount);
+        super(POWER_ID, IMG_NAME, owner, amount);
     }
 
     @Override
