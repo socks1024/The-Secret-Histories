@@ -14,7 +14,7 @@ public abstract class AbstractTool extends TemplateCustomCard {
     public AbstractTool(String id, String imgName, int cost, CardType type, CardRarity rarity, CardTarget target, CardTags principleTag) {
         super(id, imgName, cost, type, COLOR, rarity, target);
 
-        this.principleCount = GetDefaultPrincipleCountByRarity(rarity);
+        this.principleCount = this.basePrincipleCount = GetDefaultPrincipleCountByRarity(rarity);
 
         this.principleTag = principleTag;
 

@@ -28,8 +28,6 @@ public abstract class AbstractInfluences extends TemplateMultiLevelCard {
         this.exhaust = true;
         this.isEthereal = true;
 
-        this.upgradeTimesLimit = 3;
-
         this.principleCount = this.basePrincipleCount = 2;
     }
 

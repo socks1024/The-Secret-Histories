@@ -8,17 +8,9 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
-
 public class GainPrincipleAction extends AbstractGameAction {
 
-    private AbstractPrinciple principlePower;
-
-    public GainPrincipleAction(AbstractCreature target, AbstractPrinciple principlePower){
-        this.target = target;
-
-        this.principlePower = principlePower;
-    }
+    private final AbstractPrinciple principlePower;
 
     public GainPrincipleAction(AbstractCreature target, AbstractCard.CardTags principleTag, int amount) {
         this.target = target;

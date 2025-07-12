@@ -17,15 +17,17 @@ public abstract class TemplateCustomCard extends CustomCard {
     protected CardTags principleTag;
 
     public TemplateCustomCard(String id, String imgName, int cost, CardType type, CardColor color, CardRarity rarity, CardTarget target) {
-        this(id, CardCrawlGame.languagePack.getCardStrings(id).NAME, imgName, cost, CardCrawlGame.languagePack.getCardStrings(id).DESCRIPTION, type, color, rarity, target);
+        this(id, CardCrawlGame.languagePack.getCardStrings(id), imgName, cost, type, color, rarity, target);
+    }
 
-        this.cardStrings = CardCrawlGame.languagePack.getCardStrings(id);
+    public TemplateCustomCard(String id, CardStrings cardStrings, String imgName, int cost, CardType type, CardColor color, CardRarity rarity, CardTarget target) {
+        this(id, cardStrings.NAME, imgName, cost, cardStrings.DESCRIPTION, type, color, rarity, target);
+
+        this.cardStrings = cardStrings;
     }
 
     public TemplateCustomCard(String id, String name, String imgName, int cost, String description, CardType type, CardColor color, CardRarity rarity, CardTarget target){
         super(id, name, MakeCardImgPath(type, imgName), cost, description, type, color, rarity, target);
-
-        this.cardStrings = CardCrawlGame.languagePack.getCardStrings(id);
     }
 
     @Override

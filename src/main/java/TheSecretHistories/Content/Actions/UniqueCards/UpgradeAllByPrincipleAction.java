@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Actions.UniqueCards;
 
+import TheSecretHistories.Utils.DeckUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
@@ -21,17 +22,12 @@ public class UpgradeAllByPrincipleAction extends AbstractGameAction {
     @Override
     public void update() {
 
-        for (AbstractCard c : p.hand.group) {
+        for (AbstractCard c : DeckUtils.GetBattleDeck()) {
             TryUpgradeThis(c);
-            c.superFlash();
-        }
 
-        for (AbstractCard c : p.drawPile.group) {
-            TryUpgradeThis(c);
-        }
-
-        for (AbstractCard c : p.discardPile.group) {
-            TryUpgradeThis(c);
+            if (p.hand.contains(c)) {
+                c.superFlash();
+            }
         }
 
         this.isDone = true;

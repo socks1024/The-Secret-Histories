@@ -32,11 +32,13 @@ public class ToolEdgeBAction extends AbstractGameAction {
             AbstractDungeon.effectList.add(new FlashAtkImgEffect(this.target.hb.cX, this.target.hb.cY, AttackEffect.SMASH));
             this.target.damage(this.info);
             if ((((AbstractMonster)this.target).isDying || this.target.currentHealth <= 0) && !this.target.halfDead && !this.target.hasPower("Minion")) {
-                addToBot(new ApplyPowerAction(source, source, new StrengthPower(source, str)));
+                addToTop(new ApplyPowerAction(source, source, new StrengthPower(source, str)));
             }
 
             if ((AbstractDungeon.getCurrRoom()).monsters.areMonstersBasicallyDead()) AbstractDungeon.actionManager.clearPostCombatActions();
         }
         tickDuration();
+
+        isDone = true;
     }
 }

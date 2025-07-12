@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Cards.Tools.Forge;
 
 import TheSecretHistories.Content.Actions.UniqueCards.UpgradeByPrincipleAction;
 import TheSecretHistories.Content.Cards.Tools.AbstractTool;
+import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -39,6 +40,7 @@ public class ToolForgeD extends AbstractTool {
         super.use(abstractPlayer, abstractMonster);
 
         addToBot(new DamageAction(abstractMonster, new DamageInfo(abstractPlayer, damage)));
-        addToBot(new UpgradeByPrincipleAction(abstractPlayer, TOOL));
+        if(upgraded) addToBot(new UpgradeByPrincipleAction(abstractPlayer, TOOL));
+        else addToBot(new UpgradeByPrincipleAction(abstractPlayer, TOOL, DeckUtils.GetBattleDeck()));
     }
 }

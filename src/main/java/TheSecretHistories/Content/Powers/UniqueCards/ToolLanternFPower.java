@@ -1,6 +1,6 @@
 package TheSecretHistories.Content.Powers.UniqueCards;
 
-import TheSecretHistories.Content.Actions.UniqueCards.ToolLanternFAction;
+import TheSecretHistories.Content.Actions.UniqueCards.DrawCardsByLanternAction;
 import TheSecretHistories.Content.Powers.Template.TemplateCustomPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -18,7 +18,7 @@ public class ToolLanternFPower extends TemplateCustomPower {
     @Override
     public void atStartOfTurn() {
         super.atStartOfTurn();
-        addToBot(new ToolLanternFAction(owner, amount));
+        addToBot(new DrawCardsByLanternAction(owner, amount));
     }
 
     @Override

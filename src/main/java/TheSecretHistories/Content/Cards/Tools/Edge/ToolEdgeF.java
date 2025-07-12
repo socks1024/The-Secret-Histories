@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.Tools.Edge;
 
+import TheSecretHistories.Content.Actions.UniqueCards.ToolEdgeFAction;
 import TheSecretHistories.Content.Cards.Tools.AbstractTool;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolEdgeDPower;
 import TheSecretHistories.Utils.StringUtils;
@@ -24,6 +25,8 @@ public class ToolEdgeF extends AbstractTool {
     public ToolEdgeF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
+        this.exhaust = true;
+
         this.damage = this.baseDamage = 12;
         this.magicNumber = this.baseMagicNumber = 1;
     }
@@ -36,5 +39,7 @@ public class ToolEdgeF extends AbstractTool {
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
+
+        addToBot(new ToolEdgeFAction(abstractPlayer, damage, magicNumber));
     }
 }

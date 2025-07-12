@@ -20,8 +20,7 @@ public class ToolWinterDPower extends TemplateCustomPower {
     }
 
     @Override
-    public void atEndOfRound() {
-        super.atEndOfRound();
+    public void atEndOfTurn(boolean isPlayer) {
 
         addToBot(new GainPrincipleAction(owner, WINTER, amount));
     }

@@ -16,5 +16,7 @@ public class DecreaseMaxHpAction extends AbstractGameAction {
     @Override
     public void update() {
         target.decreaseMaxHealth(amount);
+
+        isDone = true;
     }
 }

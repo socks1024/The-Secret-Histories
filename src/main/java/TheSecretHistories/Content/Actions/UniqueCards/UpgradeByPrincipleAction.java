@@ -7,15 +7,17 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
+import java.util.ArrayList;
+
 public class UpgradeByPrincipleAction extends AbstractGameAction {
 
-    private AbstractCard.CardTags principleTag;
+    private final AbstractCard.CardTags principleTag;
 
     private final AbstractPlayer p = AbstractDungeon.player;
 
     private boolean multiple = true;
 
-    private CardGroup cardGroup = p.hand;
+    private ArrayList<AbstractCard> cards = p.hand.group;
 
     private AbstractCard card;
 
@@ -25,9 +27,9 @@ public class UpgradeByPrincipleAction extends AbstractGameAction {
         this.card = card;
     }
 
-    public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags, CardGroup cardGroup) {
+    public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags, ArrayList<AbstractCard> cards) {
         this(source, tags);
-        this.cardGroup = cardGroup;
+        this.cards = cards;
     }
 
     public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags) {
@@ -40,10 +42,10 @@ public class UpgradeByPrincipleAction extends AbstractGameAction {
 
         if (multiple) {
 
-            for (AbstractCard c : cardGroup.group) {
+            for (AbstractCard c : cards) {
                 boolean b = TryUpgradeThis(c);
 
-                if (b && cardGroup.type == CardGroup.CardGroupType.HAND) c.superFlash();
+                if (b && AbstractDungeon.player.hand.group.contains(c)) c.superFlash();
             }
 
         } else {

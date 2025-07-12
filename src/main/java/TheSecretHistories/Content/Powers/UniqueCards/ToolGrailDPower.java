@@ -19,9 +19,7 @@ public class ToolGrailDPower extends TemplateCustomPower {
     }
 
     @Override
-    public void onGainedBlock(float blockAmount) {
-        super.onGainedBlock(blockAmount);
-
-        owner.loseBlock((int) blockAmount);
+    public float modifyBlockLast(float blockAmount) {
+        return 0.0F;
     }
 }

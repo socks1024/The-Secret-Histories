@@ -1,38 +1,40 @@
-package TheSecretHistories.Content.Cards.Tools.Edge;
+package TheSecretHistories.Content.Cards.Tools.Moth;
 
-import TheSecretHistories.Content.Actions.UniqueCards.ToolEdgeBAction;
+import TheSecretHistories.Content.Actions.ConsumePrinciple.ToolGrailFAction;
 import TheSecretHistories.Content.Cards.Tools.AbstractTool;
-import TheSecretHistories.Content.Powers.UniqueCards.ToolEdgeDPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.FlightPower;
 
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.EDGE;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAIL;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.MOTH;
 
-public class ToolEdgeD extends AbstractTool {
+public class ToolMothB extends AbstractTool {
 
-    public static final String ID = StringUtils.MakeID(ToolEdgeD.class.getSimpleName());
+    public static final String ID = StringUtils.MakeID(ToolMothB.class.getSimpleName());
 
-    private static final CardTags PRINCIPLE_TAG = EDGE;
+    private static final CardTags PRINCIPLE_TAG = MOTH;
 
-    private static final String IMG_NAME = "tooledged";
+    private static final String IMG_NAME = "toolmothb";
     private static final int COST = 1;
     private static final CardType TYPE = CardType.ATTACK;
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
-    public ToolEdgeD() {
+    public ToolMothB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.damage = this.baseDamage = 13;
+        this.damage = this.baseDamage = 16;
+        this.magicNumber = this.baseMagicNumber = 3;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(4);
+        upgradeDamage(5);
     }
 
     @Override
@@ -40,6 +42,6 @@ public class ToolEdgeD extends AbstractTool {
         super.use(abstractPlayer, abstractMonster);
 
         addToBot(new DamageAction(abstractMonster, new DamageInfo(abstractPlayer, damage)));
-        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new ToolEdgeDPower(abstractPlayer)));
+        addToBot(new ApplyPowerAction(abstractMonster, abstractPlayer, new FlightPower(abstractMonster, magicNumber)));
     }
 }

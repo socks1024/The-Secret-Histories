@@ -27,7 +27,7 @@ public class GainBlockBasedOnEnemyWinterAction extends AbstractGameAction {
             }
         }
 
-        addToBot(new GainBlockAction(source, totalWinter));
+        addToTop(new GainBlockAction(source, totalWinter));
 
         this.isDone = true;
     }

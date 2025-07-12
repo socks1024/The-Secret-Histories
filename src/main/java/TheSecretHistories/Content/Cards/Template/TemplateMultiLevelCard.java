@@ -4,32 +4,38 @@ import TheSecretHistories.Data.MultiLevelCardStrings;
 
 public abstract class TemplateMultiLevelCard extends TemplateCustomCard{
 
-    private MultiLevelCardStrings multiLevelCardStrings;
+    private final MultiLevelCardStrings multiLevelCardStrings;
 
-    protected int upgradeTimesLimit = 0;
+    protected final int upgradeTimesLimit;
 
-    public TemplateMultiLevelCard(String id, int cost, CardType type, CardColor color, CardRarity rarity, CardTarget target,int upgradeTimesLimit) {
-        super(id, MultiLevelCardStrings.GetMultiLevelCardString(id).NAMES[0], MultiLevelCardStrings.GetMultiLevelCardString(id).IMG_PATHS[0], cost, MultiLevelCardStrings.GetMultiLevelCardString(id).DESCRIPTIONS[0],type, color, rarity, target);
+    public TemplateMultiLevelCard(String id, MultiLevelCardStrings cardStrings, int cost, CardType type, CardColor color, CardRarity rarity, CardTarget target,int upgradeTimesLimit) {
+        super(id, cardStrings.NAMES[0], cardStrings.IMG_PATHS[0], cost, cardStrings.DESCRIPTION[0], type, color, rarity, target);
 
-        multiLevelCardStrings = MultiLevelCardStrings.GetMultiLevelCardString(id);
+        multiLevelCardStrings = cardStrings;
 
         this.upgradeTimesLimit = upgradeTimesLimit;
+    }
+
+    public TemplateMultiLevelCard(String id, int cost, CardType type, CardColor color, CardRarity rarity, CardTarget target,int upgradeTimesLimit) {
+        this(id, MultiLevelCardStrings.GetMultiLevelCardString(id), cost, type, color, rarity, target, upgradeTimesLimit);
     }
 
     @Override
     public void upgrade() {
 
-        if (timesUpgraded < upgradeTimesLimit){
+        if (!upgraded) {
+            if (timesUpgraded < upgradeTimesLimit){
 
-            OnUpgrade(timesUpgraded);
+                OnUpgrade(timesUpgraded);
 
-            this.timesUpgraded ++;
+                this.timesUpgraded ++;
 
-            RefreshUI();
+                RefreshUI();
 
-        } else {
-
-            upgraded = true;
+                if (timesUpgraded == upgradeTimesLimit) {
+                    upgraded = true;
+                }
+            }
         }
     }
 
@@ -45,8 +51,8 @@ public abstract class TemplateMultiLevelCard extends TemplateCustomCard{
             this.assetUrl = multiLevelCardStrings.IMG_PATHS[timesUpgraded];
         }
 
-        if (timesUpgraded < multiLevelCardStrings.DESCRIPTIONS.length) {
-            this.assetUrl = multiLevelCardStrings.DESCRIPTIONS[timesUpgraded];
+        if (timesUpgraded < multiLevelCardStrings.DESCRIPTION.length) {
+            this.rawDescription = multiLevelCardStrings.DESCRIPTION[timesUpgraded];
         }
 
         initializeTitle();

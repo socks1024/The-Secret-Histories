@@ -19,7 +19,7 @@
       "fragmentlanterng"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:灯 之 tsh:准则 - !P! "
+      " tsh:密传 NL tsh:灯 之 tsh:准则 !P! "
     ]
   },
 
@@ -43,7 +43,7 @@
       "fragmentforgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:铸 之 tsh:准则 - !P! "
+      " tsh:密传 NL tsh:铸 之 tsh:准则 !P! "
     ]
   },
 
@@ -67,7 +67,7 @@
       "fragmentedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:刃 之 tsh:准则 - !P! "
+      " tsh:密传 NL tsh:刃 之 tsh:准则 !P! "
     ]
   },
 
@@ -91,7 +91,7 @@
       "fragmentwinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:冬 之 tsh:准则 - !P! "
+      " tsh:密传 NL tsh:冬 之 tsh:准则 !P! "
     ]
   },
 
@@ -115,7 +115,7 @@
       "fragmentheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:心 之 tsh:准则 - !P! "
+      " tsh:密传 NL tsh:心 之 tsh:准则 !P! "
     ]
   },
 
@@ -139,7 +139,7 @@
       "fragmentgrailg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:杯 之 tsh:准则 - !P! "
+      " tsh:密传 NL tsh:杯 之 tsh:准则 !P! "
     ]
   },
 
@@ -163,7 +163,7 @@
       "fragmentmothg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:蛾 之 tsh:准则 - !P! "
+      " tsh:密传 NL tsh:蛾 之 tsh:准则 !P! "
     ]
   },
 
@@ -187,7 +187,7 @@
       "fragmentknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:启 之 tsh:准则 - !P! "
+      " tsh:密传 NL tsh:启 之 tsh:准则 !P! "
     ]
   },
 
@@ -211,7 +211,7 @@
       "fragmentsecrethistoriesg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:秘史 之 tsh:准则 - !P! NL 消耗 。"
+      " tsh:密传 NL tsh:秘史 之 tsh:准则 !P! NL 消耗 。"
     ]
   },
 
@@ -229,7 +229,7 @@
       "influencelanterng"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:灯 之 tsh:准则 - !P! NL 虚无 。 消耗 。"
+      " tsh:影响 NL tsh:灯 之 tsh:准则 !P! NL 虚无 。 消耗 。"
     ]
   },
 
@@ -247,7 +247,7 @@
       "influenceforged"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:铸 之 tsh:准则 - !P! NL 虚无 。 消耗 。"
+      " tsh:影响 NL tsh:铸 之 tsh:准则 !P! NL 虚无 。 消耗 。"
     ]
   },
 
@@ -265,7 +265,7 @@
       "influenceedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:刃 之 tsh:准则 - !P! NL 虚无 。 消耗 。"
+      " tsh:影响 NL tsh:刃 之 tsh:准则 !P! NL 虚无 。 消耗 。"
     ]
   },
 
@@ -283,7 +283,7 @@
       "influencewinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:冬 之 tsh:准则 - !P! NL 虚无 。 消耗 。"
+      " tsh:影响 NL tsh:冬 之 tsh:准则 !P! NL 虚无 。 消耗 。"
     ]
   },
 
@@ -301,7 +301,7 @@
       "influenceheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:心 之 tsh:准则 - !P! NL 虚无 。 消耗 。"
+      " tsh:影响 NL tsh:心 之 tsh:准则 !P! NL 虚无 。 消耗 。"
     ]
   },
 
@@ -319,7 +319,7 @@
       "influencegrailg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:杯 之 tsh:准则 - !P! NL 虚无 。 消耗 。"
+      " tsh:影响 NL tsh:杯 之 tsh:准则 !P! NL 虚无 。 消耗 。"
     ]
   },
 
@@ -337,7 +337,7 @@
       "influencemothg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:蛾 之 tsh:准则 - !P! NL 虚无 。 消耗 。"
+      " tsh:影响 NL tsh:蛾 之 tsh:准则 !P! NL 虚无 。 消耗 。"
     ]
   },
 
@@ -355,7 +355,7 @@
       "influenceknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:启 之 tsh:准则 - !P! NL 虚无 。 消耗 。"
+      " tsh:影响 NL tsh:启 之 tsh:准则 !P! NL 虚无 。 消耗 。"
     ]
   },
 
@@ -374,7 +374,7 @@
       "wayspider",
       "waypeacock"
     ],
-    "DESCRIPTIONS": [
+    "DESCRIPTION": [
       " tsh:漫宿 - tsh:林地 NL 消耗2 tsh:灯 / tsh:蛾 / tsh:启 , NL 并选择1张牌加入手牌。",
       " tsh:漫宿 - tsh:纯白之门 NL 消耗4 tsh:灯 / tsh:冬 / tsh:心 / tsh:启 , NL 并选择1张牌加入手牌。",
       " tsh:漫宿 - tsh:牡鹿之门 NL 消耗6 tsh:灯 / tsh:启 , NL 并选择1张牌加入手牌。",

@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.Tools.ToolGrail;
 
+import TheSecretHistories.Content.Actions.ConsumePrinciple.ToolGrailFAction;
 import TheSecretHistories.Content.Cards.Tools.AbstractTool;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolGrailDPower;
 import TheSecretHistories.Utils.StringUtils;
@@ -8,40 +9,35 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import java.util.ArrayList;
-
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAIL;
 
-public class ToolGrailD extends AbstractTool {
+public class ToolGrailF extends AbstractTool {
 
-    public static final String ID = StringUtils.MakeID(ToolGrailD.class.getSimpleName());
+    public static final String ID = StringUtils.MakeID(ToolGrailF.class.getSimpleName());
 
     private static final CardTags PRINCIPLE_TAG = GRAIL;
 
-    private static final String IMG_NAME = "toolgraild";
+    private static final String IMG_NAME = "toolgrailf";
     private static final int COST = 2;
-    private static final CardType TYPE = CardType.POWER;
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
-    private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
+    private static final CardType TYPE = CardType.SKILL;
+    private static final CardRarity RARITY = CardRarity.RARE;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
 
-    public ToolGrailD() {
+    public ToolGrailF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+
+        this.magicNumber = this.baseMagicNumber = 4;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeBaseCost(1);
+        upgradeMagicNumber(-1);
     }
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        ArrayList<AbstractMonster> temp = (AbstractDungeon.getCurrRoom()).monsters.monsters;
-        for (AbstractMonster m : temp) {
-            if (!m.isDeadOrEscaped()) {
-                addToBot(new ApplyPowerAction(m, abstractPlayer, new ToolGrailDPower(m)));
-            }
-        }
+        addToBot(new ToolGrailFAction(abstractMonster, abstractPlayer, PRINCIPLE_TAG, magicNumber));
     }
 }

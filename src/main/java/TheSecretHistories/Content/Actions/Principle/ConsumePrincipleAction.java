@@ -16,26 +16,26 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
 
     private boolean consumeAll = false;
 
-    public ConsumePrincipleAction(AbstractCreature target, AbstractCard.CardTags principleTag, int amount) {
-        this.target = target;
+    public ConsumePrincipleAction(AbstractCreature source, AbstractCard.CardTags principleTag, int amount) {
+        this.source = source;
         this.principleTag = principleTag;
         this.amount = amount;
         this.principleID = PrincipleUtils.GetPrincipleIDByTag(principleTag);
     }
 
-    public ConsumePrincipleAction(AbstractCreature target, AbstractCard.CardTags principleTag) {
-        this(target, principleTag, 0);
+    public ConsumePrincipleAction(AbstractCreature source, AbstractCard.CardTags principleTag) {
+        this(source, principleTag, 0);
         this.consumeAll = true;
     }
 
     @Override
     public void update() {
 
-        boolean hasEnoughPrinciple = target.hasPower(principleID) || (target.getPower(principleID).amount >= this.amount);
+        boolean hasEnoughPrinciple = source.hasPower(principleID) || (source.getPower(principleID).amount >= this.amount);
 
         if (hasEnoughPrinciple) {
 
-            AbstractPrinciple p = (AbstractPrinciple) target.getPower(principleID);
+            AbstractPrinciple p = (AbstractPrinciple) source.getPower(principleID);
 
             if (consumeAll) this.amount = p.amount;
 

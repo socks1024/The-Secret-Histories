@@ -29,7 +29,7 @@ public class ToolWinterF extends AbstractTool {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeBaseCost(1);
+        upgradeBaseCost(2);
     }
 
     @Override

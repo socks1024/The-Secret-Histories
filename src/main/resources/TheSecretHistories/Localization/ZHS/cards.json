@@ -23,157 +23,157 @@
     "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolForgeB": {
+  "TheSecretHistories:ToolForgeB": {
     "NAME": "朱砂护身符",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:铸 。 NL 若有 !M! secrethistories:铸 ，可以打出并消耗原本不能打出的状态牌。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:铸 。 NL 若有 !M! secrethistories:铸 ，可以打出并消耗原本不能打出的状态牌。"
+    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 若有 !M! tsh:铸 ，可以打出并消耗原本不能打出的状态牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolForgeD": {
+  "TheSecretHistories:ToolForgeD": {
     "NAME": "蛮横锤骨",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:铸 。 NL 造成 !D! 伤害，升级手牌中所有的 secrethistories:工具 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:铸 。 NL 造成 !D! 伤害，升级卡组中所有的 secrethistories:工具 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 造成 !D! 伤害，升级手牌中所有的 tsh:工具 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolForgeF": {
+  "TheSecretHistories:ToolForgeF": {
     "NAME": "尸骸火花",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:铸 。 NL 卡组中所有 secrethistories:密传 升 !M! 级。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:铸 。 NL 卡组中所有 secrethistories:密传 升 !M! 级。 NL 消耗 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 卡组中所有 tsh:密传 升 !M! 级。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolEdgeB": {
+  "TheSecretHistories:ToolEdgeB": {
     "NAME": "陨铁子弹",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:刃 。 NL 对敌人造成 !D! 伤害 !M! 次， 斩杀 时获得1 力量 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:刃 。 NL 对敌人造成 !D! 伤害 !M! 次， 斩杀 时获得1 力量 。 NL 消耗 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:刃 之 tsh:准则 !P! NL 对敌人造成 !D! 伤害 !M! 次， 斩杀 时获得1 力量 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolEdgeD": {
+  "TheSecretHistories:ToolEdgeD": {
     "NAME": "比得之刃",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:刃 。 NL 造成 !D! 点伤害，本回合结束时失去 secrethistories:刃 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:刃 。 NL 造成 !D! 点伤害，本回合结束时失去 secrethistories:刃 点 格挡 。"
+    "DESCRIPTION": " tsh:工具 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害，本回合结束时失去 tsh:刃 点 格挡 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolEdgeF": {
+  "TheSecretHistories:ToolEdgeF": {
     "NAME": "狂怒银片",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:刃 。 NL 对所有敌人造成 !D! 点伤害，每有一个敌人获得 !M! 力量 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:刃 。 NL 对所有敌人造成 !D! 点伤害，每有一个敌人获得 !M! 力量 。 NL 消耗 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:刃 之 tsh:准则 !P! NL 对所有敌人造成 !D! 点伤害，每有一个敌人获得 !M! 力量 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolWinterB": {
+  "TheSecretHistories:ToolWinterB": {
     "NAME": "骨笛",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:冬 。 NL 给予所有敌人 !M! secrethistories:冻伤 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:冬 。 NL 给予所有敌人 !M! secrethistories:冻伤 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 给予所有敌人 !M! tsh:冬 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolWinterD": {
+  "TheSecretHistories:ToolWinterD": {
     "NAME": "埃拉加巴路斯的镣铐",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:冬 。 NL 使敌人每回合获得 !M! secrethistories:冻伤 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:冬 。 NL 使敌人每回合获得 !M! secrethistories:冻伤 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 使敌人每回合获得 !M! tsh:冬 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolWinterF": {
+  "TheSecretHistories:ToolWinterF": {
     "NAME": "分裂之铃",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:冬 。 NL 回合结束时获得对手的 secrethistories:冻伤 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:冬 。 NL 回合结束时获得对手的 secrethistories:冻伤 + !B! 点 格挡 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 回合结束时获得对手的 tsh:冬 点 格挡 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolHeartB": {
+  "TheSecretHistories:ToolHeartB": {
     "NAME": "马尔鲁维姆人偶",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:心 。 NL 获得 !B! 点 格挡 !M! 次。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:心 。 NL 获得 !B! 点 格挡 !M! 次。"
+    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 获得 !B! 点 格挡 !M! 次。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolHeartD": {
+  "TheSecretHistories:ToolHeartD": {
     "NAME": "醒觉鼓膜",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:心 。 NL 你的下 !M! 回合开始时 格挡 不会消失。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:心 。 NL 你的下 !M! 回合开始时 格挡 不会消失。"
+    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 你的下 !M! 回合开始时 格挡 不会消失。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolHeartF": {
+  "TheSecretHistories:ToolHeartF": {
     "NAME": "王皮框鼓",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:心 。 NL 回复10生命。失去 !M! 生命上限。 NL 虚无 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:心 。 NL 回复10生命。失去 !M! 生命上限。 NL 虚无 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 恢复10生命。失去 !M! 生命上限。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolGrailB": {
+  "TheSecretHistories:ToolGrailB": {
     "NAME": "污迹手套",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:杯 。 NL 造成 !D! 伤害，获得 !M! 易伤 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:杯 。 NL 造成 !D! 伤害，获得 !M! 易伤 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 造成 !D! 伤害，获得 !M! 易伤 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolGrailD": {
+  "TheSecretHistories:ToolGrailD": {
     "NAME": "封圣高冠",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:杯 。 NL 敌人不能获得格挡。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:杯 。 NL 敌人不能获得格挡。"
+    "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 敌人不能获得格挡。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolGrailF": {
+  "TheSecretHistories:ToolGrailF": {
     "NAME": "低语之斛",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:杯 。 NL 每有 !M! secrethistories:杯 ，给予所有敌人1 易伤 ，1 虚弱 ，减少1 力量 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:杯 。 NL 每有 !M! secrethistories:杯 ，给予所有敌人1 易伤 ，1 虚弱 ，减少1 力量 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 每有 !M! tsh:杯 ，给予所有敌人1 易伤 ，1 虚弱 ，减少1 力量 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolMothB": {
+  "TheSecretHistories:ToolMothB": {
     "NAME": "有翼人偶",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:蛾 。 NL 造成 !D! 伤害，给予 !M! 层飞行。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:蛾 。 NL 造成 !D! 伤害，给予 !M! 层飞行。"
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成 !D! 伤害，给予 !M! 层飞行。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolMothD": {
+  "TheSecretHistories:ToolMothD": {
     "NAME": "斑驳面具",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:蛾 。 NL 获得 secrethistories:蛾 时多获得 !M! 层。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:蛾 。 NL 获得 secrethistories:蛾 时多获得 !M! 层。"
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 获得 tsh:蛾 时多获得 !M! 层。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolMothF": {
+  "TheSecretHistories:ToolMothF": {
     "NAME": "阿拉卡城的剪刀",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:蛾 。 NL 造成现有的 secrethistories:蛾 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:杯 。 NL 造成现有的 secrethistories:蛾 + !D! 点伤害。"
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 + !D! 点伤害。"
   },
 
-  "SecretHistories:ToolKnockB": {
+  "TheSecretHistories:ToolKnockB": {
     "NAME": "圣亚割妮徽记",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:启 。 NL 获得 secrethistories:漫宿 等级点 格挡 !M! 次。 保留 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:启 。 NL 获得 secrethistories:漫宿 等级点 格挡 !M! 次。 保留 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 获得 tsh:漫宿 等级点 格挡 !M! 次。 NL 保留 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolKnockD": {
+  "TheSecretHistories:ToolKnockD": {
     "NAME": "祝圣门楣",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:启 。 NL 所有 secrethistories:仪式 获得 保留 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:启 。 NL 所有 secrethistories:仪式 获得 保留 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 所有 tsh:仪式 被 保留 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "SecretHistories:ToolKnockF": {
+  "TheSecretHistories:ToolKnockF": {
     "NAME": "碎门之钥",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:启 。 NL 打出 secrethistories:漫宿 不需要性相。 NL 虚无 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得12 secrethistories:启 。 NL 打出 secrethistories:漫宿 不需要性相。"
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 打出 tsh:漫宿 不消耗准则。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 打出 tsh:漫宿 不消耗准则。"
   },
 
-  "SecretHistories:ToolSecretHistoryB": {
+  "TheSecretHistories:ToolSecretHistoriesB": {
     "NAME": "矛盾的古董",
     "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:秘史 。 NL 本场战斗多掉落 !M! 次卡牌奖励，回合开始时减少 !M! [E] 。",
     "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:秘史 。 NL 本场战斗多掉落 !M! 次卡牌奖励，回合开始时减少 !M! [E] 。"
   },
 
-  "SecretHistories:ToolSecretHistoryD": {
+  "TheSecretHistories:ToolSecretHistoriesD": {
     "NAME": "梦境地图集",
     "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:秘史 。 NL 从 secrethistories:漫宿 中获得的 secrethistories:秘史 牌升 !M! 级。",
     "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:秘史 。 NL 固有 。 NL 从 secrethistories:漫宿 中获得的 secrethistories:秘史 牌升 !M! 级。"
   },
 
-  "SecretHistories:IngredientLanternB": {
+  "TheSecretHistories:IngredientLanternB": {
     "NAME": "耀素",
     "DESCRIPTION": " secrethistories:原料 。 NL 获得4 secrethistories:灯 。 NL 抽 !M! 张牌，丢弃1张牌。",
     "UPGRADE_DESCRIPTION": " secrethistories:原料 。 NL 获得4 secrethistories:灯 。 NL 抽 !M! 张牌，丢弃1张牌。"
   },
 
-  "SecretHistories:IngredientLanternD": {
+  "TheSecretHistories:IngredientLanternD": {
     "NAME": "透指毒素",
     "DESCRIPTION": " secrethistories:原料 。 NL 获得8 secrethistories:灯 。 NL 造成 !D! 点伤害，本回合每打出攻击牌时抽 !M! 张牌。",
     "UPGRADE_DESCRIPTION": " secrethistories:原料 。 NL 获得8 secrethistories:灯 。 NL 造成 !D! 点伤害，本回合每打出攻击牌时抽 !M! 张牌。"
   },
 
-  "SecretHistories:IngredientLanternF": {
+  "TheSecretHistories:IngredientLanternF": {
     "NAME": "玻璃灵液",
     "DESCRIPTION": " secrethistories:原料 。 NL 获得12 secrethistories:灯 。 NL 手牌数量没有上限。",
     "UPGRADE_DESCRIPTION": " secrethistories:原料 。 NL 获得12 secrethistories:灯 。 NL 固有 。 NL 手牌数量没有上限。"

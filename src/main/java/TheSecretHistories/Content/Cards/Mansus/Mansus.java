@@ -1,6 +1,8 @@
 package TheSecretHistories.Content.Cards.Mansus;
 
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelCard;
+import TheSecretHistories.Content.Powers.UniqueCards.ToolKnockFPower;
+import TheSecretHistories.Content.Powers.UniqueCards.ToolSecretHistoriesDPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
@@ -45,6 +47,14 @@ public class Mansus extends TemplateMultiLevelCard {
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
+
+        if (AbstractDungeon.player.hasPower(ToolKnockFPower.POWER_ID)) {
+
+        }
+
+        if (AbstractDungeon.player.hasPower(ToolSecretHistoriesDPower.POWER_ID)) {
+
+        }
 
     }
 
