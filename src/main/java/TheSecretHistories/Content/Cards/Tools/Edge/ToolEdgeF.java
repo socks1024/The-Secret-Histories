@@ -17,7 +17,7 @@ public class ToolEdgeF extends AbstractTool {
     private static final CardTags PRINCIPLE_TAG = EDGE;
 
     private static final String IMG_NAME = "tooledgef";
-    private static final int COST = 1;
+    private static final int COST = 2;
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;

@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Powers.Principles;
 
 import TheSecretHistories.Content.Powers.UniqueCards.ToolMothDPower;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 
 public class Moth extends AbstractPrinciple{
@@ -28,6 +29,6 @@ public class Moth extends AbstractPrinciple{
     public void atEndOfTurn(boolean isPlayer) {
         super.atEndOfTurn(isPlayer);
 
-        amount = 0;
+        addToTop(new RemoveSpecificPowerAction(owner, owner, POWER_ID));
     }
 }

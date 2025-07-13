@@ -5,7 +5,7 @@ import TheSecretHistories.Utils.StringUtils;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.WINTER;
 
-public class InfluenceWinter extends AbstractFragment {
+public class InfluenceWinter extends AbstractInfluences {
 
     public static String ID = StringUtils.MakeID(InfluenceWinter.class.getSimpleName());
 

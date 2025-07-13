@@ -80,7 +80,8 @@ public abstract class TemplateCustomCard extends CustomCard {
     public boolean upgradedPrincipleCount = false;
 
     public void upgradePrincipleCount(int amount) {
-        this.principleCount += amount;
+        this.basePrincipleCount += amount;
+        this.principleCount = basePrincipleCount;
         this.upgradedPrincipleCount = true;
     }
 }

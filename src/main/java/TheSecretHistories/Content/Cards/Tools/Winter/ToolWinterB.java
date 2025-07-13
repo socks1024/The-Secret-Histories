@@ -1,5 +1,7 @@
 package TheSecretHistories.Content.Cards.Tools.Winter;
 
+import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
+import TheSecretHistories.Content.Actions.UniqueCards.GiveWinterToAllEnemyAction;
 import TheSecretHistories.Content.Cards.Tools.AbstractTool;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -34,6 +36,6 @@ public class ToolWinterB extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-
+        addToBot(new GiveWinterToAllEnemyAction(abstractPlayer, magicNumber));
     }
 }

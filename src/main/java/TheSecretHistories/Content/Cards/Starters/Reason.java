@@ -3,43 +3,51 @@ package TheSecretHistories.Content.Cards.Starters;
 import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.LANTERN;
 
-public class Strike extends TemplateCustomCard {
+public class Reason extends TemplateCustomCard {
 
-    public static final String ID = StringUtils.MakeID(Strike.class.getSimpleName());
+    public static final String ID = StringUtils.MakeID(Reason.class.getSimpleName());
 
-    private static final int COST = 1;
-    private static final CardType TYPE = CardType.ATTACK;
+    private static final int COST = 0;
+    private static final CardType TYPE = CardType.SKILL;
     private static final CardColor COLOR = CULT_BLUE;
     private static final CardRarity RARITY = CardRarity.BASIC;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardTarget TARGET = CardTarget.NONE;
 
-    private static final String IMG_NAME = "affliction";
+    private static final String IMG_NAME = "reason";
 
-    public Strike() {
+    public Reason() {
         super(ID, IMG_NAME, COST, TYPE, COLOR, RARITY, TARGET);
-        this.damage = this.baseDamage = 6;
-        this.tags.add(CardTags.STARTER_STRIKE);
-        this.tags.add(CardTags.STRIKE);
+
+        this.exhaust = true;
+
+        this.principleTag = LANTERN;
+
+        this.tags.add(principleTag);
 
         this.principleCount = this.basePrincipleCount = 2;
+
+        this.magicNumber = this.baseMagicNumber = 2;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.upgradeDamage(3);
+        this.isInnate = true;
 
     }
 
     @Override
     public void use(AbstractPlayer player, AbstractMonster monster) {
-        AbstractDungeon.actionManager.addToBottom(
-                new DamageAction(monster, new DamageInfo(player, damage, DamageInfo.DamageType.NORMAL))
-        );
+        PlayerGainPrinciple();
+
+        addToBot(new DrawCardAction(magicNumber));
     }
 }

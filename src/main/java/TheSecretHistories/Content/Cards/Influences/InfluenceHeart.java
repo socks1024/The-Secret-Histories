@@ -5,7 +5,7 @@ import TheSecretHistories.Utils.StringUtils;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
 
-public class InfluenceHeart extends AbstractFragment {
+public class InfluenceHeart extends AbstractInfluences {
 
     public static String ID = StringUtils.MakeID(InfluenceHeart.class.getSimpleName());
 

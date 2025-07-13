@@ -1,7 +1,11 @@
 package TheSecretHistories.Content.Characters;
 
 import TheSecretHistories.Content.Cards.Fragments.*;
-import TheSecretHistories.Content.Cards.Starters.Strike;
+import TheSecretHistories.Content.Cards.Mansus.Mansus;
+import TheSecretHistories.Content.Cards.Starters.Generics.*;
+import TheSecretHistories.Content.Cards.Starters.Health;
+import TheSecretHistories.Content.Cards.Starters.Passion;
+import TheSecretHistories.Content.Cards.Starters.Reason;
 import TheSecretHistories.ModCore.TheSecretHistories;
 import TheSecretHistories.Content.Relics.TemporaryHeadquarters;
 import TheSecretHistories.Utils.StringUtils;
@@ -73,15 +77,18 @@ public class TheSeeker extends CustomPlayer {
     public ArrayList<String> getStartingDeck(){
         ArrayList<String> retVal = new ArrayList<>();
 
-        retVal.add(FragmentLantern.ID);
-        retVal.add(FragmentForge.ID);
-        retVal.add(FragmentEdge.ID);
-        retVal.add(FragmentWinter.ID);
-        retVal.add(FragmentHeart.ID);
-        retVal.add(FragmentGrail.ID);
-        retVal.add(FragmentMoth.ID);
-        retVal.add(FragmentKnock.ID);
-        retVal.add(FragmentSecretHistories.ID);
+        retVal.add(GenericLantern.ID);
+        retVal.add(GenericForge.ID);
+        retVal.add(GenericEdge.ID);
+        retVal.add(GenericWinter.ID);
+        retVal.add(GenericHeart.ID);
+        retVal.add(GenericGrail.ID);
+        retVal.add(GenericMoth.ID);
+        retVal.add(GenericKnock.ID);
+        retVal.add(Health.ID);
+        retVal.add(Reason.ID);
+        retVal.add(Passion.ID);
+        retVal.add(Mansus.ID);
 
         return retVal;
     }

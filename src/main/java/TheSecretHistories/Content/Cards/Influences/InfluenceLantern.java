@@ -5,7 +5,7 @@ import TheSecretHistories.Utils.StringUtils;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.LANTERN;
 
-public class InfluenceLantern extends AbstractFragment {
+public class InfluenceLantern extends AbstractInfluences {
 
     public static String ID = StringUtils.MakeID(InfluenceLantern.class.getSimpleName());
 

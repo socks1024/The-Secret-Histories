@@ -5,7 +5,7 @@ import TheSecretHistories.Utils.StringUtils;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAIL;
 
-public class InfluenceGrail extends AbstractFragment {
+public class InfluenceGrail extends AbstractInfluences {
 
     public static String ID = StringUtils.MakeID(InfluenceGrail.class.getSimpleName());
 

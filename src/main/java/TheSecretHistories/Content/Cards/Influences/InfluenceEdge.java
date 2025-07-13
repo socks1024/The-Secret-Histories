@@ -9,7 +9,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.EDGE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.SECRET_HISTORIES;
 
-public class InfluenceEdge extends AbstractFragment {
+public class InfluenceEdge extends AbstractInfluences {
 
     public static String ID = StringUtils.MakeID(InfluenceEdge.class.getSimpleName());
 

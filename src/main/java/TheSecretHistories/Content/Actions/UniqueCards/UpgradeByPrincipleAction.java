@@ -2,12 +2,12 @@ package TheSecretHistories.Content.Actions.UniqueCards;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class UpgradeByPrincipleAction extends AbstractGameAction {
 
@@ -15,17 +15,9 @@ public class UpgradeByPrincipleAction extends AbstractGameAction {
 
     private final AbstractPlayer p = AbstractDungeon.player;
 
-    private boolean multiple = true;
-
     private ArrayList<AbstractCard> cards = p.hand.group;
 
-    private AbstractCard card;
-
-    public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags, AbstractCard card) {
-        this(source, tags);
-        this.multiple = false;
-        this.card = card;
-    }
+    private String notUpgradeCardID;
 
     public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags, ArrayList<AbstractCard> cards) {
         this(source, tags);
@@ -37,21 +29,20 @@ public class UpgradeByPrincipleAction extends AbstractGameAction {
         this.principleTag = tags;
     }
 
+    public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags, String notUpgradeCardID) {
+        this(source, tags);
+        this.notUpgradeCardID = notUpgradeCardID;
+    }
+
     @Override
     public void update() {
 
-        if (multiple) {
+        for (AbstractCard c : cards) {
+            boolean b = false;
 
-            for (AbstractCard c : cards) {
-                boolean b = TryUpgradeThis(c);
+            if (!Objects.equals(c.cardID, notUpgradeCardID)) b = TryUpgradeThis(c);
 
-                if (b && AbstractDungeon.player.hand.group.contains(c)) c.superFlash();
-            }
-
-        } else {
-
-            TryUpgradeThis(card);
-
+            if (b && AbstractDungeon.player.hand.group.contains(c)) c.superFlash();
         }
 
         this.isDone = true;

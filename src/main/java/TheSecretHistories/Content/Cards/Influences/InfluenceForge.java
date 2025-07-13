@@ -5,7 +5,7 @@ import TheSecretHistories.Utils.StringUtils;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FORGE;
 
-public class InfluenceForge extends AbstractFragment {
+public class InfluenceForge extends AbstractInfluences {
 
     public static String ID = StringUtils.MakeID(InfluenceForge.class.getSimpleName());
 

@@ -5,7 +5,7 @@ import TheSecretHistories.Utils.StringUtils;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.KNOCK;
 
-public class InfluenceKnock extends AbstractFragment {
+public class InfluenceKnock extends AbstractInfluences {
 
     public static String ID = StringUtils.MakeID(InfluenceKnock.class.getSimpleName());
 

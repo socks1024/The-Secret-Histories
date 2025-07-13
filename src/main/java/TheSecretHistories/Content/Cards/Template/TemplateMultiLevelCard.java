@@ -48,7 +48,7 @@ public abstract class TemplateMultiLevelCard extends TemplateCustomCard{
         }
 
         if (timesUpgraded < multiLevelCardStrings.IMG_PATHS.length) {
-            this.assetUrl = multiLevelCardStrings.IMG_PATHS[timesUpgraded];
+            this.assetUrl = MakeCardImgPath(type, multiLevelCardStrings.IMG_PATHS[timesUpgraded]);
         }
 
         if (timesUpgraded < multiLevelCardStrings.DESCRIPTION.length) {

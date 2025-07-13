@@ -40,7 +40,7 @@ public class ToolForgeD extends AbstractTool {
         super.use(abstractPlayer, abstractMonster);
 
         addToBot(new DamageAction(abstractMonster, new DamageInfo(abstractPlayer, damage)));
-        if(upgraded) addToBot(new UpgradeByPrincipleAction(abstractPlayer, TOOL));
+        if(upgraded) addToBot(new UpgradeByPrincipleAction(abstractPlayer, TOOL, ID));
         else addToBot(new UpgradeByPrincipleAction(abstractPlayer, TOOL, DeckUtils.GetBattleDeck()));
     }
 }
