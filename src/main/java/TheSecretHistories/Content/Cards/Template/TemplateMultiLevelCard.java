@@ -1,6 +1,6 @@
 package TheSecretHistories.Content.Cards.Template;
 
-import TheSecretHistories.Data.MultiLevelCardStrings;
+import TheSecretHistories.Data.CardStrings.MultiLevelCardStrings;
 
 public abstract class TemplateMultiLevelCard extends TemplateCustomCard{
 

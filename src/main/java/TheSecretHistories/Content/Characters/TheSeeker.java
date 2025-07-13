@@ -1,6 +1,5 @@
 package TheSecretHistories.Content.Characters;
 
-import TheSecretHistories.Content.Cards.Fragments.*;
 import TheSecretHistories.Content.Cards.Mansus.Mansus;
 import TheSecretHistories.Content.Cards.Starters.Generics.*;
 import TheSecretHistories.Content.Cards.Starters.Health;

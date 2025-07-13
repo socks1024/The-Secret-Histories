@@ -20,7 +20,7 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
         this.source = source;
         this.principleTag = principleTag;
         this.amount = amount;
-        this.principleID = PrincipleUtils.GetPrincipleIDByTag(principleTag);
+        this.principleID = PrincipleUtils.GetPrincipleID(principleTag);
     }
 
     public ConsumePrincipleAction(AbstractCreature source, AbstractCard.CardTags principleTag) {

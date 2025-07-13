@@ -15,7 +15,7 @@ public class GainPrincipleAction extends AbstractGameAction {
     public GainPrincipleAction(AbstractCreature target, AbstractCard.CardTags principleTag, int amount) {
         this.target = target;
 
-        this.principlePower = PrincipleUtils.GetPrinciplePowerByTag(principleTag, amount);
+        this.principlePower = PrincipleUtils.GetPrinciplePower(principleTag, amount);
     }
 
     @Override

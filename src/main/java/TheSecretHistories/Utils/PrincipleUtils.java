@@ -2,13 +2,17 @@ package TheSecretHistories.Utils;
 
 import TheSecretHistories.Content.Powers.Principles.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
 
 public class PrincipleUtils {
 
-    public static AbstractPrinciple GetPrinciplePowerByTag(AbstractCard.CardTags tags, int amount) {
+    public static AbstractPrinciple GetPrinciplePower(AbstractCard.CardTags tags, int amount) {
 
         if(tags.equals(LANTERN)){return new Lantern(AbstractDungeon.player, amount);}
         if(tags.equals(FORGE)){return new Forge(AbstractDungeon.player, amount);}
@@ -23,7 +27,7 @@ public class PrincipleUtils {
         return null;
     }
 
-    public static String GetPrincipleIDByTag(AbstractCard.CardTags tags) {
+    public static String GetPrincipleID(AbstractCard.CardTags tags) {
 
         if(tags.equals(LANTERN)){return Lantern.POWER_ID;}
         if(tags.equals(FORGE)){return Forge.POWER_ID;}
@@ -32,9 +36,40 @@ public class PrincipleUtils {
         if(tags.equals(HEART)){return Heart.POWER_ID;}
         if(tags.equals(GRAIL)){return Grail.POWER_ID;}
         if(tags.equals(MOTH)){return Moth.POWER_ID;}
-        if(tags.equals(KNOCK)){return Moth.POWER_ID;}
-        if(tags.equals(SECRET_HISTORIES)){return Moth.POWER_ID;}
+        if(tags.equals(KNOCK)){return Knock.POWER_ID;}
+        if(tags.equals(SECRET_HISTORIES)){return SecretHistories.POWER_ID;}
 
         return "";
+    }
+
+    public static int GetPlayerPrincipleAmount(AbstractCard.CardTags tags) {
+
+        return GetPlayerPrincipleAmount(GetPrincipleID(tags));
+    }
+
+    public static int GetPlayerPrincipleAmount(String powerID) {
+
+        return PowerUtils.GetPowerAmount(powerID, AbstractDungeon.player);
+    }
+
+    public static Map<AbstractCard.CardTags, Integer> GetPlayerAllPrincipleAmounts() {
+
+        Map<AbstractCard.CardTags, Integer> map = new HashMap<>();
+
+        ModifyPrinciplesMap(map, LANTERN);
+        ModifyPrinciplesMap(map, FORGE);
+        ModifyPrinciplesMap(map, EDGE);
+        ModifyPrinciplesMap(map, WINTER);
+        ModifyPrinciplesMap(map, HEART);
+        ModifyPrinciplesMap(map, GRAIL);
+        ModifyPrinciplesMap(map, MOTH);
+        ModifyPrinciplesMap(map, KNOCK);
+        ModifyPrinciplesMap(map, SECRET_HISTORIES);
+
+        return map;
+    }
+
+    private static void ModifyPrinciplesMap(Map<AbstractCard.CardTags, Integer> map, AbstractCard.CardTags tag) {
+        map.put(tag, PrincipleUtils.GetPlayerPrincipleAmount(tag));
     }
 }
