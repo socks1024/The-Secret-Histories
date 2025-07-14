@@ -18,7 +18,7 @@ public class ThePaintedRiver extends AbstractMansusLocation {
             // 博闻：学有所成
     };
 
-    public ThePaintedRiver(AbstractCard[] cards) {
+    public ThePaintedRiver() {
         super(ID, IMG_NAME, CARDS);
     }
 }

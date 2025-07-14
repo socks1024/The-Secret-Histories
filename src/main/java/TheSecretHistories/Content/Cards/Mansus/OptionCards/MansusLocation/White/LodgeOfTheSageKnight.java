@@ -21,7 +21,7 @@ public class LodgeOfTheSageKnight extends AbstractMansusLocation {
             // 当局欠下的人情
     };
 
-    public LodgeOfTheSageKnight(AbstractCard[] cards) {
+    public LodgeOfTheSageKnight() {
         super(ID, IMG_NAME, CARDS);
     }
 }

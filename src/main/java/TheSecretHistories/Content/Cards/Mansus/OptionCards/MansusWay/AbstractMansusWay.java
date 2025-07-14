@@ -3,6 +3,7 @@ package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusWay;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusPrinciple.*;
 import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolKnockFPower;
+import TheSecretHistories.Utils.DebugUtils;
 import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.PrincipleUtils;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
@@ -29,6 +30,9 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
 
     @Override
     public void OnChoseThisOption(AbstractPlayer p) {
+
+        DebugUtils.Log("On chose abstract mansus way:" + this.cardID);
+
         ArrayList<AbstractCard> principles = new ArrayList<>();
 
         for (CardTags tag : GetAvailableTags()) {

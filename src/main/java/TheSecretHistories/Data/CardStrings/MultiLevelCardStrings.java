@@ -31,13 +31,7 @@ public class MultiLevelCardStrings {
 
     public static MultiLevelCardStrings GetMultiLevelCardString(String id){
 
-        MultiLevelCardStrings s = GetStringsMap().get(id);
-
-        DebugUtils.LogNull(s, "MLCS " + id);
-
-        DebugUtils.Log(s);
-
-        return s;
+        return GetStringsMap().get(id);
     }
 
     public static Map<String, MultiLevelCardStrings> GetStringsMap() {

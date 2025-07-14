@@ -19,7 +19,7 @@ public class TheStagDoor extends AbstractMansusLocation {
             new InfluenceForge().DoUpgrade(1)
     };
 
-    public TheStagDoor(AbstractCard[] cards) {
+    public TheStagDoor() {
         super(ID, IMG_NAME, CARDS);
     }
 }

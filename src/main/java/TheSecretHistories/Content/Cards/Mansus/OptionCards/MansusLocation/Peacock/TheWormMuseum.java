@@ -18,7 +18,7 @@ public class TheWormMuseum extends AbstractMansusLocation {
             // 恐惧
     };
 
-    public TheWormMuseum(AbstractCard[] cards) {
+    public TheWormMuseum() {
         super(ID, IMG_NAME, CARDS);
     }
 }

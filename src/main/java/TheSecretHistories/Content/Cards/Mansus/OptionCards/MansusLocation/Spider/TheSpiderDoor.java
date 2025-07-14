@@ -21,7 +21,7 @@ public class TheSpiderDoor extends AbstractMansusLocation {
             // 人情
     };
 
-    public TheSpiderDoor(AbstractCard[] cards) {
+    public TheSpiderDoor() {
         super(ID, IMG_NAME, CARDS);
     }
 }

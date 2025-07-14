@@ -9,7 +9,7 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 
 public abstract class TemplateCustomPower extends AbstractPower{
 
-    private PowerStrings powerStrings;
+    private final PowerStrings powerStrings;
 
     public TemplateCustomPower(String id, String img, AbstractCreature owner, int amount)
     {

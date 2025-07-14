@@ -21,7 +21,7 @@ public class TheAscentOfTheKnives extends AbstractMansusLocation {
             // 博闻：学有所成
     };
 
-    public TheAscentOfTheKnives(AbstractCard[] cards) {
+    public TheAscentOfTheKnives() {
         super(ID, IMG_NAME, CARDS);
     }
 }

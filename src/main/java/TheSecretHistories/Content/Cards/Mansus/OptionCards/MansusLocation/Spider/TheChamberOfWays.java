@@ -20,7 +20,7 @@ public class TheChamberOfWays extends AbstractMansusLocation {
             // 入迷
     };
 
-    public TheChamberOfWays(AbstractCard[] cards) {
+    public TheChamberOfWays() {
         super(ID, IMG_NAME, CARDS);
     }
 }

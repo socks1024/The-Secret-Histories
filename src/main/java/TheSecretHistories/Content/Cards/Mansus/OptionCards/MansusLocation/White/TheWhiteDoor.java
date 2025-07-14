@@ -18,7 +18,7 @@ public class TheWhiteDoor extends AbstractMansusLocation {
             // 躁动
     };
 
-    public TheWhiteDoor(AbstractCard[] cards) {
+    public TheWhiteDoor() {
         super(ID, IMG_NAME, CARDS);
     }
 }

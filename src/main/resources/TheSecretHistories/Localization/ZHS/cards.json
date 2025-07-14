@@ -463,67 +463,157 @@
 
   "TheSecretHistories:Health": {
     "NAME": "健康",
-    "DESCRIPTION": " 消耗 。 NL 恢复 !M! 点生命。",
-    "UPGRADE_DESCRIPTION": " 固有 。 消耗 。 NL 恢复 !M! 点生命。"
+    "DESCRIPTION": " 消耗 。 NL tsh:心 之 tsh:准则 !P! NL 恢复 !M! 点生命。",
+    "UPGRADE_DESCRIPTION": " 固有 。 消耗 。 NL tsh:心 之 tsh:准则 !P! NL 恢复 !M! 点生命。"
   },
 
   "TheSecretHistories:Reason": {
     "NAME": "理性",
-    "DESCRIPTION": " 消耗 。 NL 抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": "固有 。 消耗 。 NL 抽 !M! 张牌。"
+    "DESCRIPTION": " 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "固有 。 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。"
   },
 
   "TheSecretHistories:Passion": {
     "NAME": "激情",
-    "DESCRIPTION": " 消耗 。 NL 获得 !M! 点 [E] 。",
-    "UPGRADE_DESCRIPTION": " 固有 。 消耗 。 NL 获得 !M! 点 [E] 。"
+    "DESCRIPTION": " 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 !M! 点 [E] 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 [E] 。"
   },
 
   "TheSecretHistories:GenericLantern": {
     "NAME": "小卒",
     "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:灯 之 tsh:准则 !P!"
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:灯 之 tsh:准则 !P! "
   },
 
   "TheSecretHistories:GenericForge": {
     "NAME": "小卒",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! secrethistories:铸 。"
+    "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:铸 之 tsh:准则 !P! "
   },
 
   "TheSecretHistories:GenericEdge": {
     "NAME": "小卒",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。 NL 获得 !M! secrethistories:刃 。"
+    "DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。 NL tsh:刃 之 tsh:准则 !P! "
   },
 
   "TheSecretHistories:GenericWinter": {
     "NAME": "小卒",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。 NL 获得 !M! secrethistories:冬 。"
+    "DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。 NL tsh:冬 之 tsh:准则 !P! "
   },
 
   "TheSecretHistories:GenericHeart": {
     "NAME": "小卒",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! secrethistories:心 。"
+    "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:心 之 tsh:准则 !P! "
   },
 
   "TheSecretHistories:GenericGrail": {
     "NAME": "小卒",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。 NL 获得 !M! secrethistories:杯 。"
+    "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:杯 之 tsh:准则 !P! "
   },
 
   "TheSecretHistories:GenericMoth": {
     "NAME": "小卒",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! secrethistories:蛾 。"
+    "DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。 NL tsh:蛾 之 tsh:准则 !P! "
   },
 
   "TheSecretHistories:GenericKnock": {
     "NAME": "小卒",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。 NL 获得 !M! secrethistories:启 。"
+    "DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。 NL tsh:启 之 tsh:准则 !P! "
+  },
+
+  "TheSecretHistories:TheWood": {
+    "NAME": "林地",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheWell": {
+    "NAME": "井",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheTempleOfTheWheel": {
+    "NAME": "转轮之寺",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheWhiteDoor": {
+    "NAME": "纯白之门",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheOrchardOfLight": {
+    "NAME": "光之果园",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:LodgeOfTheSageKnight": {
+    "NAME": "睿智骑士小屋",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheStagDoor": {
+    "NAME": "牡鹿之门",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:ThePaintedRiver": {
+    "NAME": "画中之河",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheAscentOfTheKnives": {
+    "NAME": "利刃阶梯",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheSpiderDoor": {
+    "NAME": "蜘蛛之门",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheMalleary": {
+    "NAME": "熔炼厂",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheChamberOfWays": {
+    "NAME": "聚点",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:ThePeacockDoor": {
+    "NAME": "孔雀之门",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheRedChurch": {
+    "NAME": "赤红教堂",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:TheWormMuseum": {
+    "NAME": "蠕虫展馆",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
   }
 }

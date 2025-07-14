@@ -19,7 +19,7 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
     private final AbstractCard[] cards;
 
     public AbstractMansusLocation(String id, String imgName, AbstractCard[] cards) {
-        super(id, imgName, CULT_BLUE);
+        super(id, imgName, COLOR);
         this.cards = cards;
     }
 

@@ -21,7 +21,7 @@ public class GainPrincipleAction extends AbstractGameAction {
     @Override
     public void update() {
 
-        AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(target, source, principlePower));
+        if (principlePower.amount != 0) AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(target, source, principlePower));
 
         isDone = true;
     }

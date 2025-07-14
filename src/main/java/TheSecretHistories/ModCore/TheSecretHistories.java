@@ -11,10 +11,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.localization.CardStrings;
-import com.megacrit.cardcrawl.localization.CharacterStrings;
-import com.megacrit.cardcrawl.localization.Keyword;
-import com.megacrit.cardcrawl.localization.RelicStrings;
+import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
 import java.nio.charset.StandardCharsets;
@@ -75,6 +72,7 @@ public class TheSecretHistories implements EditCardsSubscriber, EditStringsSubsc
         BaseMod.loadCustomStringsFile(CardStrings.class, "TheSecretHistories/Localization/" + lang + "/cards.json");
         BaseMod.loadCustomStringsFile(CharacterStrings.class, "TheSecretHistories/Localization/" + lang + "/characters.json");
         BaseMod.loadCustomStringsFile(RelicStrings.class, "TheSecretHistories/Localization/" + lang + "/relics.json");
+        BaseMod.loadCustomStringsFile(PowerStrings.class, "TheSecretHistories/Localization/" + lang + "/powers.json");
     }
 
     @Override

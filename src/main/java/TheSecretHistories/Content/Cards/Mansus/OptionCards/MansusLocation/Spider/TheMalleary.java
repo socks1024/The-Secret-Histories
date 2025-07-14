@@ -22,7 +22,7 @@ public class TheMalleary extends AbstractMansusLocation {
             // 人情
     };
 
-    public TheMalleary(AbstractCard[] cards) {
+    public TheMalleary() {
         super(ID, IMG_NAME, CARDS);
     }
 }

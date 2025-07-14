@@ -14,13 +14,13 @@ public class ThePeacockDoor extends AbstractMansusLocation {
 
     private static final String IMG_NAME = "waywhite";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
-            // 法克语
+            // 伐诃语
             new InfluenceLantern().DoUpgrade(3),
             new FragmentSecretHistories().DoUpgrade(4),
             // 入迷
     };
 
-    public ThePeacockDoor(AbstractCard[] cards) {
+    public ThePeacockDoor() {
         super(ID, IMG_NAME, CARDS);
     }
 }

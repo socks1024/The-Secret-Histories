@@ -20,7 +20,7 @@ public class TheTempleOfTheWheel extends AbstractMansusLocation {
             // 古怪传闻
     };
 
-    public TheTempleOfTheWheel(AbstractCard[] cards) {
+    public TheTempleOfTheWheel() {
         super(ID, IMG_NAME, CARDS);
     }
 }

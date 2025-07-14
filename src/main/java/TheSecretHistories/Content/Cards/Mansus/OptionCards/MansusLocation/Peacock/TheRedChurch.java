@@ -20,7 +20,7 @@ public class TheRedChurch extends AbstractMansusLocation {
             // 入迷
     };
 
-    public TheRedChurch(AbstractCard[] cards) {
+    public TheRedChurch() {
         super(ID, IMG_NAME, CARDS);
     }
 }

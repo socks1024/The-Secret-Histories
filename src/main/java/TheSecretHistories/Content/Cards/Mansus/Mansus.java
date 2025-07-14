@@ -37,6 +37,18 @@ public class Mansus extends TemplateMultiLevelCard {
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
 
+        addToBot(new ChooseOneAction(GetAvailableWays()));
+    }
+
+    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
+        boolean canUse = super.canUse(p, m);
+        if (!canUse) return false;
+
+        return !GetAvailableWays().isEmpty();
+    }
+
+    private ArrayList<AbstractCard> GetAvailableWays() {
+
         ArrayList<AbstractCard> ways = new ArrayList<>();
 
         TryAddWay(new WayWood(), ways);
@@ -45,7 +57,8 @@ public class Mansus extends TemplateMultiLevelCard {
         TryAddWay(new WaySpider(), ways);
         TryAddWay(new WayPeacock(), ways);
 
-        addToBot(new ChooseOneAction(ways));
+        return ways;
+
     }
 
     private void TryAddWay(AbstractMansusWay way, ArrayList<AbstractCard> ways) {

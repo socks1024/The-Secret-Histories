@@ -19,7 +19,7 @@ public class TheWood extends AbstractMansusLocation {
             // 古怪传闻
     };
 
-    public TheWood(AbstractCard[] cards) {
+    public TheWood() {
         super(ID, IMG_NAME, CARDS);
     }
 }

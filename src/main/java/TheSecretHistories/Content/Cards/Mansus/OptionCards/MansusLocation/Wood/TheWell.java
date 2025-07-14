@@ -19,7 +19,7 @@ public class TheWell extends AbstractMansusLocation {
             // 古怪传闻
     };
 
-    public TheWell(AbstractCard[] cards) {
+    public TheWell() {
         super(ID, IMG_NAME, CARDS);
     }
 }

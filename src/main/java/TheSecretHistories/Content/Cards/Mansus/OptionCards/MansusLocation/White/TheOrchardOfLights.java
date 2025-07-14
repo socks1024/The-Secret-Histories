@@ -20,7 +20,7 @@ public class TheOrchardOfLights extends AbstractMansusLocation {
             // 灵感
     };
 
-    public TheOrchardOfLights(AbstractCard[] cards) {
+    public TheOrchardOfLights() {
         super(ID, IMG_NAME, CARDS);
     }
 }
