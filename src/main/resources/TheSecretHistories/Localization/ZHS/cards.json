@@ -151,14 +151,14 @@
 
   "TheSecretHistories:ToolSecretHistoriesB": {
     "NAME": "矛盾的古董",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:秘史 。 NL 本场战斗多掉落 !M! 次卡牌奖励，回合开始时减少 !M! [E] 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得4 secrethistories:秘史 。 NL 本场战斗多掉落 !M! 次卡牌奖励，回合开始时减少 !M! [E] 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:秘史 之 tsh:准则 !P! NL 本场战斗额外掉落 !M! 次卡牌奖励，回合开始时减少 !M! [E] 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolSecretHistoriesD": {
     "NAME": "梦境地图集",
-    "DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:秘史 。 NL 从 secrethistories:漫宿 中获得的 secrethistories:秘史 牌升 !M! 级。",
-    "UPGRADE_DESCRIPTION": " secrethistories:工具 。 NL 获得8 secrethistories:秘史 。 NL 固有 。 NL 从 secrethistories:漫宿 中获得的 secrethistories:秘史 牌升 !M! 级。"
+    "DESCRIPTION": " tsh:工具 NL tsh:秘史 之 tsh:准则 !P! NL 从 tsh:漫宿 中获得的 tsh:秘史 牌升 !M! 级。",
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:秘史 之 tsh:准则 !P! NL 固有 。 NL 从 tsh:漫宿 中获得的 tsh:秘史 牌升 !M! 级。"
   },
 
   "TheSecretHistories:IngredientLanternB": {
@@ -429,5 +429,35 @@
     "NAME": "伊妮德",
     "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:启 。 NL 造成 !D! 点伤害，将1张随机 secrethistories:仪式 置入手牌。",
     "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:启 。 NL 造成 !D! 点伤害，将1张随机 secrethistories:仪式 置入手牌。"
+  },
+
+  "TheSecretHistories:WayWood": {
+    "NAME": "道路：林地",
+    "DESCRIPTION": " tsh:林地 NL 消耗 !P! tsh:灯 / tsh:蛾 / tsh:启 ，并选择一张牌加入手牌。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:WayWhite": {
+    "NAME": "道路：纯白之门",
+    "DESCRIPTION": " tsh:纯白之门 NL 消耗 !P! tsh:灯 / tsh:冬 / tsh:心 / tsh:启 ，并选择一张牌加入手牌。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:WayStag": {
+    "NAME": "道路：通过牡鹿之门",
+    "DESCRIPTION": " tsh:牡鹿之门 NL 消耗 !P! tsh:灯 / tsh:启 ，并选择一张牌加入手牌。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:WaySpider": {
+    "NAME": "道路：蜘蛛之门",
+    "DESCRIPTION": " tsh:蜘蛛之门 NL 消耗 !P! tsh:灯 / tsh:杯 / tsh:启 ，并选择一张牌加入手牌。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:WayPeacock": {
+    "NAME": "道路：孔雀之门",
+    "DESCRIPTION": " tsh:孔雀之门 NL 消耗 !P! tsh:灯 / tsh:刃 / tsh:铸 / tsh:启 ，并选择一张牌加入手牌。",
+    "UPGRADE_DESCRIPTION": ""
   }
 }

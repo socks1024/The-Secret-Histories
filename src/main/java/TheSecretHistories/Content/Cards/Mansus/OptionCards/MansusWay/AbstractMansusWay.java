@@ -2,7 +2,6 @@ package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusWay;
 
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusPrinciple.*;
 import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
-import TheSecretHistories.Content.Powers.Principles.*;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolKnockFPower;
 import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.PrincipleUtils;
@@ -22,12 +21,10 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
 
     protected final CardTags[] relatedPrincipleTags;
 
-    protected final int relatedPrincipleLevel;
-
     public AbstractMansusWay(String id, String imgName, CardTags[] relatedPrincipleTags, int relatedPrincipleLevel) {
         super(id, imgName, COLOR);
         this.relatedPrincipleTags = relatedPrincipleTags;
-        this.relatedPrincipleLevel = relatedPrincipleLevel;
+        this.principleCount = relatedPrincipleLevel;
     }
 
     @Override
@@ -48,16 +45,16 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
     private AbstractMansusPrinciple GetMansusPrinciple(CardTags tag) {
         AbstractMansusPrinciple principle = null;
 
-        if(tag.equals(LANTERN)){principle = new MansusPrincipleLantern();}
-        if(tag.equals(FORGE)){principle = new MansusPrincipleForge();}
-        if(tag.equals(EDGE)){principle = new MansusPrincipleEdge();}
-        if(tag.equals(WINTER)){principle = new MansusPrincipleWinter();}
-        if(tag.equals(HEART)){principle = new MansusPrincipleHeart();}
-        if(tag.equals(GRAIL)){principle = new MansusPrincipleGrail();}
-        if(tag.equals(MOTH)){principle = new MansusPrincipleMoth();}
-        if(tag.equals(KNOCK)){principle = new MansusPrincipleKnock();}
+        if(tag.equals(LANTERN)){principle = new MansusLantern();}
+        if(tag.equals(FORGE)){principle = new MansusForge();}
+        if(tag.equals(EDGE)){principle = new MansusEdge();}
+        if(tag.equals(WINTER)){principle = new MansusWinter();}
+        if(tag.equals(HEART)){principle = new MansusHeart();}
+        if(tag.equals(GRAIL)){principle = new MansusGrail();}
+        if(tag.equals(MOTH)){principle = new MansusMoth();}
+        if(tag.equals(KNOCK)){principle = new MansusKnock();}
 
-        for (int i = 0; i < (relatedPrincipleLevel / 2 - 1); i++) {
+        for (int i = 0; i < (principleCount / 2 - 1); i++) {
             if (principle != null) {
                 principle.upgrade();
             }
@@ -72,7 +69,7 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
     }
 
     public boolean GetAvailable() {
-        if (DeckUtils.GetMansusLevel() * 2 < relatedPrincipleLevel) return false;
+        if (DeckUtils.GetMansusLevel() * 2 < principleCount) return false;
 
         if (AbstractDungeon.player.hasPower(ToolKnockFPower.POWER_ID)) return true;
 
@@ -83,7 +80,7 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
         ArrayList<CardTags> tags = new ArrayList<>();
 
         for (CardTags tag : relatedPrincipleTags) {
-            if (PrincipleUtils.GetPlayerPrincipleAmount(tag) >= relatedPrincipleLevel) {
+            if (PrincipleUtils.GetPlayerPrincipleAmount(tag) >= principleCount) {
                 tags.add(tag);
             }
         }

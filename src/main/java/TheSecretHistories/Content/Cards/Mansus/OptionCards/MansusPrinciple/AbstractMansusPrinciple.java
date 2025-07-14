@@ -1,19 +1,19 @@
 package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusPrinciple;
 
 import TheSecretHistories.Content.Actions.ConsumePrinciple.SimpleConsumePrincipleAction;
-import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
+import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelOptionCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
 
-public abstract class AbstractMansusPrinciple extends TemplateOptionCard {
+public abstract class AbstractMansusPrinciple extends TemplateMultiLevelOptionCard {
 
     private static final CardColor COLOR = CULT_BLUE;
 
     private final CardTags principleTag;
 
     public AbstractMansusPrinciple(String id, String imgName, CardTags principleTag) {
-        super(id, imgName, COLOR);
+        super(id, COLOR, 4);
 
         this.principleTag = principleTag;
 

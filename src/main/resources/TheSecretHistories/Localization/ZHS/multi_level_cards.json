@@ -375,11 +375,167 @@
       "waypeacock"
     ],
     "DESCRIPTION": [
-      " tsh:漫宿 - tsh:林地 NL 消耗2 tsh:灯 / tsh:蛾 / tsh:启 , NL 并选择1张牌加入手牌。",
-      " tsh:漫宿 - tsh:纯白之门 NL 消耗4 tsh:灯 / tsh:冬 / tsh:心 / tsh:启 , NL 并选择1张牌加入手牌。",
-      " tsh:漫宿 - tsh:牡鹿之门 NL 消耗6 tsh:灯 / tsh:启 , NL 并选择1张牌加入手牌。",
-      " tsh:漫宿 - tsh:蜘蛛之门 NL 消耗8 tsh:灯 / tsh:杯 / tsh:启 , NL 并选择1张牌加入手牌。",
-      " tsh:漫宿 - tsh:孔雀之门 NL 消耗10 tsh:灯 / tsh:铸 / tsh:刃 / tsh:启 , NL 并选择1张牌加入手牌。"
+      " tsh:漫宿 NL 消耗一定量的性相，从漫宿中抽取卡牌。"
+    ]
+  },
+
+  "TheSecretHistories:MansusLantern": {
+    "NAMES": [
+      "去往林地之道：灯",
+      "去往纯白之门：灯",
+      "去往牡鹿之门：灯",
+      "去往蜘蛛之门：灯",
+      "去往孔雀之门：灯"
+    ],
+    "IMG_PATHS": [
+      "fragmentlantern",
+      "fragmentlanternb",
+      "fragmentlanternc",
+      "fragmentlanternd",
+      "fragmentlanterne"
+    ],
+    "DESCRIPTION": [
+      "消耗 !P! 层 tsh:灯 之 tsh:准则 。"
+    ]
+  },
+
+  "TheSecretHistories:MansusForge": {
+    "NAMES": [
+      "去往林地之道：铸",
+      "去往纯白之门：铸",
+      "去往牡鹿之门：铸",
+      "去往蜘蛛之门：铸",
+      "去往孔雀之门：铸"
+    ],
+    "IMG_PATHS": [
+      "fragmentforge",
+      "fragmentforgeb",
+      "fragmentforgec",
+      "fragmentforged",
+      "fragmentforgee"
+    ],
+    "DESCRIPTION": [
+      "消耗 !P! 层 tsh:铸 之 tsh:准则 。"
+    ]
+  },
+
+  "TheSecretHistories:MansusEdge": {
+    "NAMES": [
+      "去往林地之道：刃",
+      "去往纯白之门：刃",
+      "去往牡鹿之门：刃",
+      "去往蜘蛛之门：刃",
+      "去往孔雀之门：刃"
+    ],
+    "IMG_PATHS": [
+      "fragmentedge",
+      "fragmentedgeb",
+      "fragmentedgec",
+      "fragmentedged",
+      "fragmentedgee"
+    ],
+    "DESCRIPTION": [
+      "消耗 !P! 层 tsh:刃 之 tsh:准则 。"
+    ]
+  },
+
+  "TheSecretHistories:MansusWinter": {
+    "NAMES": [
+      "去往林地之道：冬",
+      "去往纯白之门：冬",
+      "去往牡鹿之门：冬",
+      "去往蜘蛛之门：冬",
+      "去往孔雀之门：冬"
+    ],
+    "IMG_PATHS": [
+      "fragmentwinter",
+      "fragmentwinterb",
+      "fragmentwinterc",
+      "fragmentwinterd",
+      "fragmentwintere"
+    ],
+    "DESCRIPTION": [
+      "消耗 !P! 层 tsh:冬 之 tsh:准则 。"
+    ]
+  },
+
+  "TheSecretHistories:MansusHeart": {
+    "NAMES": [
+      "去往林地之道：心",
+      "去往纯白之门：心",
+      "去往牡鹿之门：心",
+      "去往蜘蛛之门：心",
+      "去往孔雀之门：心"
+    ],
+    "IMG_PATHS": [
+      "fragmentheart",
+      "fragmentheartb",
+      "fragmentheartc",
+      "fragmentheartd",
+      "fragmenthearte"
+    ],
+    "DESCRIPTION": [
+      "消耗 !P! 层 tsh:心 之 tsh:准则 。"
+    ]
+  },
+
+  "TheSecretHistories:MansusGrail": {
+    "NAMES": [
+      "去往林地之道：杯",
+      "去往纯白之门：杯",
+      "去往牡鹿之门：杯",
+      "去往蜘蛛之门：杯",
+      "去往孔雀之门：杯"
+    ],
+    "IMG_PATHS": [
+      "fragmentgrail",
+      "fragmentgrailb",
+      "fragmentgrailc",
+      "fragmentgraild",
+      "fragmentgraile"
+    ],
+    "DESCRIPTION": [
+      "消耗 !P! 层 tsh:杯 之 tsh:准则 。"
+    ]
+  },
+
+  "TheSecretHistories:MansusMoth": {
+    "NAMES": [
+      "去往林地之道：蛾",
+      "去往纯白之门：蛾",
+      "去往牡鹿之门：蛾",
+      "去往蜘蛛之门：蛾",
+      "去往孔雀之门：蛾"
+    ],
+    "IMG_PATHS": [
+      "fragmentmoth",
+      "fragmentmothb",
+      "fragmentmothc",
+      "fragmentmothd",
+      "fragmentmothe"
+    ],
+    "DESCRIPTION": [
+      "消耗 !P! 层 tsh:蛾 之 tsh:准则 。"
+    ]
+  },
+
+  "TheSecretHistories:MansusKnock": {
+    "NAMES": [
+      "去往林地之道：启",
+      "去往纯白之门：启",
+      "去往牡鹿之门：启",
+      "去往蜘蛛之门：启",
+      "去往孔雀之门：启"
+    ],
+    "IMG_PATHS": [
+      "fragmentknock",
+      "fragmentknockb",
+      "fragmentknockc",
+      "fragmentknockd",
+      "fragmentknocke"
+    ],
+    "DESCRIPTION": [
+      "消耗 !P! 层 tsh:启 之 tsh:准则 。"
     ]
   }
 }

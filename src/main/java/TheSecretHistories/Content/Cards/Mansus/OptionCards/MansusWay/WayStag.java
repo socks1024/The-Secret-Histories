@@ -8,7 +8,7 @@ public class WayStag extends AbstractMansusWay{
 
     public static final String ID = StringUtils.MakeID(WayStag.class.getSimpleName());
 
-    private static final String IMG_NAME = "waystag";
+    private static final String IMG_NAME = "waystag_after";
     private static final CardTags[] TAGS = new CardTags[]{LANTERN, KNOCK};
     private static final int LEVEL = 6;
 

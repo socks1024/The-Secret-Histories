@@ -4,14 +4,14 @@ import TheSecretHistories.Utils.StringUtils;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
 
-public class MansusPrincipleLantern extends AbstractMansusPrinciple{
+public class MansusLantern extends AbstractMansusPrinciple{
 
-    public static final String ID = StringUtils.MakeID(MansusPrincipleLantern.class.getSimpleName());
+    public static final String ID = StringUtils.MakeID(MansusLantern.class.getSimpleName());
 
     private static final String IMG_NAME = "fragmentlantern";
     private static final CardTags PRINCIPLE_TAG = LANTERN;
 
-    public MansusPrincipleLantern() {
+    public MansusLantern() {
         super(ID, IMG_NAME, PRINCIPLE_TAG);
     }
 }
