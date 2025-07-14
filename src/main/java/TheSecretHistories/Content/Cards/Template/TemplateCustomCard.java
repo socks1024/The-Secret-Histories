@@ -84,4 +84,12 @@ public abstract class TemplateCustomCard extends CustomCard {
         this.principleCount = basePrincipleCount;
         this.upgradedPrincipleCount = true;
     }
+
+    public TemplateCustomCard DoUpgrade(int time) {
+        for (int i = 0; i < time; i++) {
+            upgrade();
+        }
+
+        return this;
+    }
 }

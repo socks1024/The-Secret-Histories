@@ -459,5 +459,71 @@
     "NAME": "道路：孔雀之门",
     "DESCRIPTION": " tsh:孔雀之门 NL 消耗 !P! tsh:灯 / tsh:刃 / tsh:铸 / tsh:启 ，并选择一张牌加入手牌。",
     "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:Health": {
+    "NAME": "健康",
+    "DESCRIPTION": " 消耗 。 NL 恢复 !M! 点生命。",
+    "UPGRADE_DESCRIPTION": " 固有 。 消耗 。 NL 恢复 !M! 点生命。"
+  },
+
+  "TheSecretHistories:Reason": {
+    "NAME": "理性",
+    "DESCRIPTION": " 消耗 。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "固有 。 消耗 。 NL 抽 !M! 张牌。"
+  },
+
+  "TheSecretHistories:Passion": {
+    "NAME": "激情",
+    "DESCRIPTION": " 消耗 。 NL 获得 !M! 点 [E] 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 消耗 。 NL 获得 !M! 点 [E] 。"
+  },
+
+  "TheSecretHistories:GenericLantern": {
+    "NAME": "小卒",
+    "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:灯 之 tsh:准则 !P!"
+  },
+
+  "TheSecretHistories:GenericForge": {
+    "NAME": "小卒",
+    "DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! secrethistories:铸 。"
+  },
+
+  "TheSecretHistories:GenericEdge": {
+    "NAME": "小卒",
+    "DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。 NL 获得 !M! secrethistories:刃 。"
+  },
+
+  "TheSecretHistories:GenericWinter": {
+    "NAME": "小卒",
+    "DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。 NL 获得 !M! secrethistories:冬 。"
+  },
+
+  "TheSecretHistories:GenericHeart": {
+    "NAME": "小卒",
+    "DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! secrethistories:心 。"
+  },
+
+  "TheSecretHistories:GenericGrail": {
+    "NAME": "小卒",
+    "DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。 NL 获得 !M! secrethistories:杯 。"
+  },
+
+  "TheSecretHistories:GenericMoth": {
+    "NAME": "小卒",
+    "DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! secrethistories:蛾 。"
+  },
+
+  "TheSecretHistories:GenericKnock": {
+    "NAME": "小卒",
+    "DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 造成 !D! 点伤害。 NL 获得 !M! secrethistories:启 。"
   }
 }

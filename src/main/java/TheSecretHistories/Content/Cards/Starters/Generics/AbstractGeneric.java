@@ -18,7 +18,7 @@ public abstract class AbstractGeneric extends TemplateCustomCard {
 
         this.principleTag = principleTag;
 
-        this.principleCount = this.basePrincipleCount = 2;
+        this.principleCount = this.basePrincipleCount = 0;
 
         this.tags.add(principleTag);
         this.tags.add(FOLLOWER);
@@ -27,5 +27,10 @@ public abstract class AbstractGeneric extends TemplateCustomCard {
     @Override
     public void use(AbstractPlayer player, AbstractMonster monster) {
         PlayerGainPrinciple();
+    }
+
+    @Override
+    protected void OnUpgrade(int timesUpgraded) {
+        upgradePrincipleCount(2);
     }
 }

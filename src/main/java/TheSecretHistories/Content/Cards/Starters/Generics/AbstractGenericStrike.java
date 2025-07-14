@@ -20,6 +20,8 @@ public abstract class AbstractGenericStrike extends AbstractGeneric{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
+
         upgradeDamage(3);
     }
 

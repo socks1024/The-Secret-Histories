@@ -8,8 +8,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public abstract class AbstractGenericDefend extends AbstractGeneric{
 
-    private static final CardType TYPE = CardType.ATTACK;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardType TYPE = CardType.SKILL;
+    private static final CardTarget TARGET = CardTarget.SELF;
 
     public AbstractGenericDefend(String id, String img, CardTags principleTag) {
         super(id, img, TYPE, TARGET, principleTag);
@@ -21,6 +21,8 @@ public abstract class AbstractGenericDefend extends AbstractGeneric{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
+
         upgradeBlock(3);
     }
 
