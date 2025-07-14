@@ -16,8 +16,9 @@ public abstract class TemplateMultiLevelOptionCard extends TemplateMultiLevelCar
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        OnChoseThisOption(abstractPlayer);
+        onChoseThisOption();
     }
 
-    public abstract void OnChoseThisOption(AbstractPlayer p);
+    @Override
+    public void onChoseThisOption(){}
 }

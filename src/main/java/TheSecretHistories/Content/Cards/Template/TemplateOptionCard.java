@@ -16,8 +16,9 @@ public abstract class TemplateOptionCard extends TemplateCustomCard {
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        OnChoseThisOption(abstractPlayer);
+        onChoseThisOption();
     }
 
-    public abstract void OnChoseThisOption(AbstractPlayer p);
+    @Override
+    public void onChoseThisOption(){}
 }

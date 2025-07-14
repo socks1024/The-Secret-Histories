@@ -5,6 +5,7 @@ import TheSecretHistories.Content.Powers.UniqueCards.ToolSecretHistoriesDPower;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import java.util.Random;
@@ -24,15 +25,10 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
     }
 
     @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        super.use(abstractPlayer, abstractMonster);
-
-        OnChoseThisOption(abstractPlayer);
-    }
-
-    @Override
-    public void OnChoseThisOption(AbstractPlayer p) {
+    public void onChoseThisOption() {
         AbstractCard card = cards[new Random().nextInt(cards.length)];
+
+        AbstractPlayer p = AbstractDungeon.player;
 
         if (p.hasPower(ToolSecretHistoriesDPower.POWER_ID) && card.hasTag(SECRET_HISTORIES)) {
             for (int i = 0; i < p.getPower(ToolSecretHistoriesDPower.POWER_ID).amount; i++) {

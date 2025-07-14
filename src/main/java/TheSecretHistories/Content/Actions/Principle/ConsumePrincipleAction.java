@@ -3,6 +3,7 @@ package TheSecretHistories.Content.Actions.Principle;
 import TheSecretHistories.Content.Powers.Principles.AbstractPrinciple;
 import TheSecretHistories.Utils.PrincipleUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 
@@ -40,6 +41,8 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
             if (consumeAll) this.amount = p.amount;
 
             p.amount -= this.amount;
+
+            if (p.amount <= 0) addToTop(new RemoveSpecificPowerAction(p.owner, source, p));
 
             OnConsumedEnough(this.amount);
         }

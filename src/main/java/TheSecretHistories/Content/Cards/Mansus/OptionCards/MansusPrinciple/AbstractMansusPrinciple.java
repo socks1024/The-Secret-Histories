@@ -3,6 +3,7 @@ package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusPrinciple;
 import TheSecretHistories.Content.Actions.ConsumePrinciple.SimpleConsumePrincipleAction;
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelOptionCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
 
@@ -26,7 +27,7 @@ public abstract class AbstractMansusPrinciple extends TemplateMultiLevelOptionCa
     }
 
     @Override
-    public void OnChoseThisOption(AbstractPlayer p) {
-        addToTop(new SimpleConsumePrincipleAction(p, principleTag, principleCount));
+    public void onChoseThisOption() {
+        addToTop(new SimpleConsumePrincipleAction(AbstractDungeon.player, principleTag, principleCount));
     }
 }

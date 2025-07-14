@@ -1,8 +1,6 @@
 package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.Wood;
 
 import TheSecretHistories.Content.Cards.FITIF.Fragments.FragmentSecretHistories;
-import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
-import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceHeart;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceMoth;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
 import TheSecretHistories.Utils.StringUtils;

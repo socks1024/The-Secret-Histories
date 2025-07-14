@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
@@ -22,14 +23,18 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
 
     protected final CardTags[] relatedPrincipleTags;
 
-    public AbstractMansusWay(String id, String imgName, CardTags[] relatedPrincipleTags, int relatedPrincipleLevel) {
+    protected ArrayList<AbstractCard> relatedLocations = new ArrayList<>();
+
+    public AbstractMansusWay(String id, String imgName, CardTags[] relatedPrincipleTags, AbstractCard[] relatedLocations, int relatedPrincipleLevel) {
         super(id, imgName, COLOR);
         this.relatedPrincipleTags = relatedPrincipleTags;
         this.principleCount = relatedPrincipleLevel;
+
+        this.relatedLocations.addAll(Arrays.asList(relatedLocations));
     }
 
     @Override
-    public void OnChoseThisOption(AbstractPlayer p) {
+    public void onChoseThisOption() {
 
         DebugUtils.Log("On chose abstract mansus way:" + this.cardID);
 
@@ -41,9 +46,7 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
 
         addToBot(new ChooseOneAction(principles));
 
-        ArrayList<AbstractCard> locations = new ArrayList<>();
-
-        // 设置地点三选牌（两暗一明）
+        addToBot(new ChooseOneAction(relatedLocations));
     }
 
     private AbstractMansusPrinciple GetMansusPrinciple(CardTags tag) {
