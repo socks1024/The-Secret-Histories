@@ -62,7 +62,7 @@ public class Mansus extends TemplateMultiLevelCard {
     }
 
     private void TryAddWay(AbstractMansusWay way, ArrayList<AbstractCard> ways) {
-        if (way.GetAvailable()) ways.add(way);
+        if (way.GetAvailable()) ways.add(way.makeCopy());
     }
 
     public void onRemoveFromMasterDeck() {

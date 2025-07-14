@@ -139,14 +139,14 @@
 
   "TheSecretHistories:ToolKnockD": {
     "NAME": "祝圣门楣",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 所有 tsh:仪式 被 保留 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 所有 tsh:仪式 被 保留 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolKnockF": {
     "NAME": "碎门之钥",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 打出 tsh:漫宿 不消耗准则。 NL 虚无 。",
-    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 打出 tsh:漫宿 不消耗准则。"
+    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 打出 tsh:漫宿 不消耗准则。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 打出 tsh:漫宿 不消耗准则。"
   },
 
   "TheSecretHistories:ToolSecretHistoriesB": {
