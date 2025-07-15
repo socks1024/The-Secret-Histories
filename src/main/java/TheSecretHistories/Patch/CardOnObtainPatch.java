@@ -1,5 +1,6 @@
 package TheSecretHistories.Patch;
 
+import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.Soul;
@@ -10,7 +11,7 @@ public class CardOnObtainPatch {
 
     @SpireInsertPatch(locator = MyLocator.class)
     public static void MyPatchMethod(Soul __instance, AbstractCard card) {
-        // 具体的patch逻辑
+        if (card instanceof TemplateCustomCard) ((TemplateCustomCard)card).OnObtain();
     }
 
     public static class MyLocator extends SpireInsertLocator {

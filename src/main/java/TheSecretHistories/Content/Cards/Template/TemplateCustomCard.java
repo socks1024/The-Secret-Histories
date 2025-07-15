@@ -8,6 +8,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public abstract class TemplateCustomCard extends CustomCard {
@@ -91,5 +92,9 @@ public abstract class TemplateCustomCard extends CustomCard {
         }
 
         return this;
+    }
+
+    public void OnObtain() {
+
     }
 }
