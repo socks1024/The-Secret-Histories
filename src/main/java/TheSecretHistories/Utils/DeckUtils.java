@@ -5,12 +5,13 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class DeckUtils {
 
     public static int GetMansusLevel() {
 
-        AbstractCard mansusCard = GetFirstCardInBattleDeck(Mansus.ID);
+        AbstractCard mansusCard = GetFirstCardInMasterDeck(Mansus.ID);
 
         if (mansusCard != null) {
             return mansusCard.timesUpgraded + 1;
@@ -29,14 +30,6 @@ public class DeckUtils {
         return battleDecks;
     }
 
-    public static AbstractCard GetFirstCardInBattleDeck(String ID) {
-
-        AbstractCard retCard = AbstractDungeon.player.masterDeck.findCardById(ID);
-
-        return retCard;
-
-    }
-
     public static ArrayList<AbstractCard> GetCardsInBattleDeck(AbstractCard.CardTags tag) {
 
         ArrayList<AbstractCard> cards = new ArrayList<>();
@@ -49,5 +42,21 @@ public class DeckUtils {
 
         return cards;
 
+    }
+
+    public static AbstractCard GetFirstCardInMasterDeck(String ID) {
+
+        return AbstractDungeon.player.masterDeck.findCardById(ID);
+
+    }
+
+    public static ArrayList<AbstractCard> GetCardsInMasterDeck(String ID) {
+        ArrayList<AbstractCard> cards = new ArrayList<>();
+
+        AbstractDungeon.player.masterDeck.group.forEach((card) -> {
+            if (Objects.equals(card.cardID, ID)) cards.add(card);
+        });
+
+        return cards;
     }
 }

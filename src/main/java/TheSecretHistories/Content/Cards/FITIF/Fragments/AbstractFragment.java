@@ -1,8 +1,13 @@
 package TheSecretHistories.Content.Cards.FITIF.Fragments;
 
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelCard;
+import TheSecretHistories.Utils.DeckUtils;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+
+import java.util.ArrayList;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FRAGMENT;
@@ -36,5 +41,25 @@ public abstract class AbstractFragment extends TemplateMultiLevelCard {
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
         PlayerGainPrinciple();
+    }
+
+    @Override
+    public void OnObtain() {
+        ArrayList<AbstractCard> cards = DeckUtils.GetCardsInMasterDeck(this.cardID);
+
+        cards.remove(this);
+
+        if (cards.isEmpty()) return;
+
+        for (AbstractCard card : cards) {
+            AbstractFragment fragment = (AbstractFragment)card;
+
+            if (!fragment.upgraded) {
+                fragment.DoUpgrade(this.timesUpgraded + 1);
+                break;
+            }
+        }
+
+        AbstractDungeon.player.masterDeck.removeCard(this);
     }
 }
