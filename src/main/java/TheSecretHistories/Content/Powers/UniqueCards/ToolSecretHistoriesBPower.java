@@ -9,7 +9,7 @@ public class ToolSecretHistoriesBPower extends TemplateCustomPower {
 
     public static final String POWER_ID = StringUtils.MakeID(ToolSecretHistoriesBPower.class.getSimpleName());
 
-    private static final String IMG_NAME = "toolsecrethistoriesb";
+    private static final String IMG_NAME = "secrethistories";
 
     public ToolSecretHistoriesBPower(AbstractCreature owner, int amount) {
         super(POWER_ID, IMG_NAME, owner, amount);

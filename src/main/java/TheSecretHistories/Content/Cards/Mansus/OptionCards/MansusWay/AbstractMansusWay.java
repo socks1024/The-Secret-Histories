@@ -36,15 +36,17 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
     @Override
     public void onChoseThisOption() {
 
-        DebugUtils.Log("On chose abstract mansus way:" + this.cardID);
+        if (!AbstractDungeon.player.hasPower(ToolKnockFPower.POWER_ID)) {
 
-        ArrayList<AbstractCard> principles = new ArrayList<>();
+            ArrayList<AbstractCard> principles = new ArrayList<>();
 
-        for (CardTags tag : GetAvailableTags()) {
-            principles.add(GetMansusPrinciple(tag).makeCopy());
+            for (CardTags tag : GetAvailableTags()) {
+                principles.add(GetMansusPrinciple(tag));
+            }
+
+            addToBot(new ChooseOneAction(principles));
+
         }
-
-        addToBot(new ChooseOneAction(principles));
 
         ArrayList<AbstractCard> locations = new ArrayList<>();
 
@@ -67,11 +69,7 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
         if(tag.equals(MOTH)){principle = new MansusMoth();}
         if(tag.equals(KNOCK)){principle = new MansusKnock();}
 
-        for (int i = 0; i < (principleCount / 2 - 1); i++) {
-            if (principle != null) {
-                principle.upgrade();
-            }
-        }
+        if (principle != null) principle.DoUpgrade(principleCount / 2 - 1);
 
         return principle;
     }

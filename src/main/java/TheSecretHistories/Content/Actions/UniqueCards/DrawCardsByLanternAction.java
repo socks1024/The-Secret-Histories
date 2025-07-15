@@ -1,6 +1,8 @@
 package TheSecretHistories.Content.Actions.UniqueCards;
 
+import TheSecretHistories.Content.Powers.Principles.Lantern;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolLanternFPower;
+import TheSecretHistories.Utils.PowerUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -8,7 +10,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class DrawCardsByLanternAction extends AbstractGameAction {
 
-    private int principleNeed;
+    private final int principleNeed;
 
     public DrawCardsByLanternAction(AbstractCreature source, int principleNeed) {
         this.source = source;
@@ -18,10 +20,7 @@ public class DrawCardsByLanternAction extends AbstractGameAction {
     @Override
     public void update() {
 
-        int drawAmount = AbstractDungeon.player.getPower(ToolLanternFPower.POWER_ID).amount / principleNeed;
-        for (int i = 0; i < drawAmount; i++) {
-            addToTop(new DrawCardAction(source, drawAmount));
-        }
+        addToTop(new DrawCardAction(source, PowerUtils.GetPowerAmount(Lantern.POWER_ID, source) / principleNeed));
 
         isDone = true;
     }

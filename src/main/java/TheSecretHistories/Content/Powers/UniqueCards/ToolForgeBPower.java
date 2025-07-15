@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Powers.UniqueCards;
 
 import TheSecretHistories.Content.Powers.Principles.Forge;
 import TheSecretHistories.Content.Powers.Template.TemplateCustomPower;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -19,9 +20,7 @@ public class ToolForgeBPower extends TemplateCustomPower {
 
     @Override
     public void onUseCard(AbstractCard card, UseCardAction action) {
-        super.onUseCard(card, action);
-
-        if(card.type == AbstractCard.CardType.STATUS && this.owner.hasPower(Forge.POWER_ID) && this.owner.getPower(Forge.POWER_ID).amount >= this.amount){
+        if(card.type == AbstractCard.CardType.STATUS && PowerUtils.GetPowerAmount(Forge.POWER_ID, owner) >= this.amount){
             this.flash();
             card.exhaust = true;
             action.exhaustCard = true;

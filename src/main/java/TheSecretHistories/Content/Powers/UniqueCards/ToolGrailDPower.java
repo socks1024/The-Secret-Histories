@@ -22,4 +22,6 @@ public class ToolGrailDPower extends TemplateCustomPower {
     public float modifyBlockLast(float blockAmount) {
         return 0.0F;
     }
+
+    // TODO 封圣高冠无效
 }

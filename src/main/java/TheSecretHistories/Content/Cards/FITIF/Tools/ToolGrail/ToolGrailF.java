@@ -1,6 +1,6 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.ToolGrail;
 
-import TheSecretHistories.Content.Actions.ConsumePrinciple.ToolGrailFAction;
+import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.ToolGrailFAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;

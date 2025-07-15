@@ -23,8 +23,7 @@
   "TheSecretHistories:Winter": {
     "NAME": "冬",
     "DESCRIPTIONS": [
-      "冬是静默、终结和不尽然逝去之物的准则。[回合结束时，受到",
-      "点伤害。]"
+      "冬是静默、终结和不尽然逝去之物的准则。[回合结束时，受到 %d 点伤害。]"
     ]
   },
 
@@ -74,6 +73,69 @@
     "NAME": "朱砂护身符",
     "DESCRIPTIONS": [
       "若有至少 %d 铸，可以打出状态牌，并将其消耗。"
+    ]
+  },
+
+  "TheSecretHistories:ToolEdgeDPower": {
+    "NAME": "比得之刃",
+    "DESCRIPTIONS": [
+      "回合结束时，失去刃相点格挡。"
+    ]
+  },
+
+  "TheSecretHistories:ToolWinterDPower": {
+    "NAME": "埃拉加巴路斯的镣铐",
+    "DESCRIPTIONS": [
+      "回合结束时，获得 %d tsh:冬 。"
+    ]
+  },
+
+  "TheSecretHistories:ToolWinterFPower": {
+    "NAME": "分裂之铃",
+    "DESCRIPTIONS": [
+      "回合结束时，获得所有敌人 tsh:冬 层数之和点格挡。"
+    ]
+  },
+
+  "TheSecretHistories:ToolWinterFEntanglePower": {
+    "NAME": "分裂之铃-缠身",
+    "DESCRIPTIONS": [
+      "回合开始时，获得 %d 层缠身。"
+    ]
+  },
+
+  "TheSecretHistories:ToolGrailDPower": {
+    "NAME": "封圣高冠",
+    "DESCRIPTIONS": [
+      "无法获得格挡。"
+    ]
+  },
+
+  "TheSecretHistories:ToolMothDPower": {
+    "NAME": "斑驳面具",
+    "DESCRIPTIONS": [
+      "获得 tsh:蛾 时，额外获得 %d 层。"
+    ]
+  },
+
+  "TheSecretHistories:ToolKnockFPower": {
+    "NAME": "碎门之钥",
+    "DESCRIPTIONS": [
+      "进入漫宿时不需要消耗性相。"
+    ]
+  },
+
+  "TheSecretHistories:ToolSecretHistoriesBPower": {
+    "NAME": "矛盾的古董",
+    "DESCRIPTIONS": [
+      "额外获得 %d 组选牌奖励。"
+    ]
+  },
+
+  "TheSecretHistories:ToolSecretHistoriesDPower": {
+    "NAME": "梦境地图集",
+    "DESCRIPTIONS": [
+      "从漫宿中获得的 tsh:秘史 额外升 %d 级。"
     ]
   }
 }

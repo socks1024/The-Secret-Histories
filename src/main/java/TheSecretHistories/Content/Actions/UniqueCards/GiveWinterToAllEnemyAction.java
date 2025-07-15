@@ -1,7 +1,9 @@
 package TheSecretHistories.Content.Actions.UniqueCards;
 
 import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
+import TheSecretHistories.Content.Powers.Principles.Winter;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -23,9 +25,9 @@ public class GiveWinterToAllEnemyAction extends AbstractGameAction {
     @Override
     public void update() {
         ArrayList<AbstractMonster> monsters = (AbstractDungeon.getCurrRoom()).monsters.monsters;
-        for (int i = 0; i < monsters.size(); i++) {
-            if (!monsters.get(i).isDeadOrEscaped()) {
-                addToTop(new GainPrincipleAction((monsters.get(i)), WINTER, winterAmount));
+        for (AbstractMonster monster : monsters) {
+            if (!monster.isDeadOrEscaped()) {
+                addToTop(new ApplyPowerAction(monster, source, new Winter(monster, winterAmount)));
             }
         }
 

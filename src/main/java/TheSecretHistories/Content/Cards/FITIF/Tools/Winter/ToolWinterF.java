@@ -1,7 +1,7 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Winter;
 
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
-import TheSecretHistories.Content.Powers.UniqueCards.SuperEntangle;
+import TheSecretHistories.Content.Powers.UniqueCards.ToolWinterFEntanglePower;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolWinterFPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -37,6 +37,6 @@ public class ToolWinterF extends AbstractTool {
 
         addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new ToolWinterFPower(abstractPlayer)));
 
-        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new SuperEntangle(abstractPlayer)));
+        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new ToolWinterFEntanglePower(abstractPlayer)));
     }
 }

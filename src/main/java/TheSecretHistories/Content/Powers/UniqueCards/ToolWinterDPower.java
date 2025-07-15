@@ -1,8 +1,10 @@
 package TheSecretHistories.Content.Powers.UniqueCards;
 
 import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
+import TheSecretHistories.Content.Powers.Principles.Winter;
 import TheSecretHistories.Content.Powers.Template.TemplateCustomPower;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.WINTER;
@@ -22,6 +24,6 @@ public class ToolWinterDPower extends TemplateCustomPower {
     @Override
     public void atEndOfTurn(boolean isPlayer) {
 
-        addToBot(new GainPrincipleAction(owner, WINTER, amount));
+        addToBot(new ApplyPowerAction(owner, owner, new Winter(owner, this.amount)));
     }
 }

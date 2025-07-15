@@ -1,7 +1,8 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Forge;
 
-import TheSecretHistories.Content.Actions.UniqueCards.UpgradeAllByPrincipleAction;
+import TheSecretHistories.Content.Actions.UniqueCards.UpgradeByTagAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
+import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -37,7 +38,7 @@ public class ToolForgeF extends AbstractTool {
 
         for (int i = 0; i < magicNumber; i++) {
 
-            addToBot(new UpgradeAllByPrincipleAction(abstractPlayer, FRAGMENT));
+            addToBot(new UpgradeByTagAction(abstractPlayer, FRAGMENT, DeckUtils.GetBattleDeck()));
 
         }
     }

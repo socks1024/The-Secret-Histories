@@ -1,6 +1,6 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Forge;
 
-import TheSecretHistories.Content.Actions.UniqueCards.UpgradeByPrincipleAction;
+import TheSecretHistories.Content.Actions.UniqueCards.UpgradeByTagAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
 import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
@@ -40,7 +40,7 @@ public class ToolForgeD extends AbstractTool {
         super.use(abstractPlayer, abstractMonster);
 
         addToBot(new DamageAction(abstractMonster, new DamageInfo(abstractPlayer, damage)));
-        if(upgraded) addToBot(new UpgradeByPrincipleAction(abstractPlayer, TOOL, ID));
-        else addToBot(new UpgradeByPrincipleAction(abstractPlayer, TOOL, DeckUtils.GetBattleDeck()));
+        if(upgraded) addToBot(new UpgradeByTagAction(abstractPlayer, TOOL, ID));
+        else addToBot(new UpgradeByTagAction(abstractPlayer, TOOL, DeckUtils.GetBattleDeck()));
     }
 }

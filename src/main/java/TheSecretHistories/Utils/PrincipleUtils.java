@@ -2,7 +2,6 @@ package TheSecretHistories.Utils;
 
 import TheSecretHistories.Content.Powers.Principles.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import java.util.HashMap;
@@ -71,5 +70,30 @@ public class PrincipleUtils {
 
     private static void ModifyPrinciplesMap(Map<AbstractCard.CardTags, Integer> map, AbstractCard.CardTags tag) {
         map.put(tag, PrincipleUtils.GetPlayerPrincipleAmount(tag));
+    }
+
+    public static boolean PlayerHasEnoughPrinciple(AbstractCard.CardTags tag, int amount) {
+        return GetPlayerPrincipleAmount(tag) >= amount;
+    }
+
+    public static boolean PlayerHasEnoughPrinciple(ReducePrincipleInfo[] infos) {
+        for (ReducePrincipleInfo info : infos) {
+            if (!PlayerHasEnoughPrinciple(info.principleTag, info.reduceAmount)) return false;
+        }
+
+        return true;
+    }
+
+    public static class ReducePrincipleInfo {
+
+        public final AbstractCard.CardTags principleTag;
+        public final String principleID;
+        public final int reduceAmount;
+
+        public ReducePrincipleInfo(AbstractCard.CardTags principleTag, int reduceAmount) {
+            this.principleTag = principleTag;
+            this.principleID = PrincipleUtils.GetPrincipleID(principleTag);
+            this.reduceAmount = reduceAmount;
+        }
     }
 }

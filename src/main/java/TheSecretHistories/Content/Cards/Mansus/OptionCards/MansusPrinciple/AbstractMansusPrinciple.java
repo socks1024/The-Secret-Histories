@@ -1,8 +1,7 @@
 package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusPrinciple;
 
-import TheSecretHistories.Content.Actions.ConsumePrinciple.SimpleConsumePrincipleAction;
+import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.SimpleConsumePrincipleAction;
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelOptionCard;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;

@@ -14,9 +14,9 @@ import com.megacrit.cardcrawl.vfx.combat.FlashAtkImgEffect;
 
 public class ToolEdgeBAction extends AbstractGameAction {
 
-    private DamageInfo info;
+    private final DamageInfo info;
 
-    private int str;
+    private final int str;
 
     public ToolEdgeBAction(AbstractCreature target, AbstractCreature source, DamageInfo damageInfo, int str) {
         this.target = target;
@@ -30,8 +30,10 @@ public class ToolEdgeBAction extends AbstractGameAction {
 
         AbstractDungeon.effectList.add(new FlashAtkImgEffect(this.target.hb.cX, this.target.hb.cY, AttackEffect.SMASH));
         this.target.damage(this.info);
-        if ((((AbstractMonster)this.target).isDying || this.target.currentHealth <= 0) && !this.target.halfDead && !this.target.hasPower("Minion")) {
+        if ((this.target.isDying || this.target.currentHealth <= 0) && !this.target.halfDead && !this.target.hasPower("Minion")) {
+
             addToTop(new ApplyPowerAction(source, source, new StrengthPower(source, str)));
+
         }
 
         if ((AbstractDungeon.getCurrRoom()).monsters.areMonstersBasicallyDead()) AbstractDungeon.actionManager.clearPostCombatActions();

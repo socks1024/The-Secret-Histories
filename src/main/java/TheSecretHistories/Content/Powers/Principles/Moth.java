@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Powers.Principles;
 
 import TheSecretHistories.Content.Powers.UniqueCards.ToolMothDPower;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -18,11 +19,9 @@ public class Moth extends AbstractPrinciple{
 
     @Override
     public void stackPower(int stackAmount) {
-        super.stackPower(stackAmount);
+        stackAmount += PowerUtils.GetPowerAmount(ToolMothDPower.POWER_ID, owner);
 
-        if (owner.hasPower(ToolMothDPower.POWER_ID)) {
-            amount += owner.getPower(ToolMothDPower.POWER_ID).amount;
-        }
+        super.stackPower(stackAmount);
     }
 
     @Override

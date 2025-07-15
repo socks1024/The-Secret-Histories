@@ -13,13 +13,4 @@ public abstract class AbstractPrinciple extends TemplateCustomPower {
         super(id, img, owner, amount);
         this.type = PRINCIPLE;
     }
-
-    @Override
-    public void stackPower(int stackAmount) {
-        if (stack) {
-            super.stackPower(stackAmount);
-        } else if (amount < stackAmount) {
-            amount = stackAmount;
-        }
-    }
 }

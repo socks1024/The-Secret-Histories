@@ -20,4 +20,6 @@ public class Winter extends AbstractPrinciple{
 
         addToBot(new DamageAction(owner, new DamageInfo(owner, amount)));
     }
+
+    // TODO 敌人无法受到冬伤害
 }

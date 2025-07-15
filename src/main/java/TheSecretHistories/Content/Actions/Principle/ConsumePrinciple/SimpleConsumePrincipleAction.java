@@ -1,4 +1,4 @@
-package TheSecretHistories.Content.Actions.ConsumePrinciple;
+package TheSecretHistories.Content.Actions.Principle.ConsumePrinciple;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;

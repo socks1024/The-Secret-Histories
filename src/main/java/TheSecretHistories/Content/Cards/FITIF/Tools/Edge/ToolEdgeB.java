@@ -28,6 +28,8 @@ public class ToolEdgeB extends AbstractTool {
 
         this.magicNumber = this.baseMagicNumber = 3;
         this.damage = this.baseDamage = 3;
+
+        this.exhaust = true;
     }
 
     @Override

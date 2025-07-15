@@ -9,9 +9,9 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class UpgradeByPrincipleAction extends AbstractGameAction {
+public class UpgradeByTagAction extends AbstractGameAction {
 
-    private final AbstractCard.CardTags principleTag;
+    private final AbstractCard.CardTags tag;
 
     private final AbstractPlayer p = AbstractDungeon.player;
 
@@ -19,17 +19,17 @@ public class UpgradeByPrincipleAction extends AbstractGameAction {
 
     private String notUpgradeCardID;
 
-    public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags, ArrayList<AbstractCard> cards) {
+    public UpgradeByTagAction(AbstractCreature source, AbstractCard.CardTags tags, ArrayList<AbstractCard> cards) {
         this(source, tags);
         this.cards = cards;
     }
 
-    public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags) {
+    public UpgradeByTagAction(AbstractCreature source, AbstractCard.CardTags tags) {
         this.source = source;
-        this.principleTag = tags;
+        this.tag = tags;
     }
 
-    public UpgradeByPrincipleAction(AbstractCreature source, AbstractCard.CardTags tags, String notUpgradeCardID) {
+    public UpgradeByTagAction(AbstractCreature source, AbstractCard.CardTags tags, String notUpgradeCardID) {
         this(source, tags);
         this.notUpgradeCardID = notUpgradeCardID;
     }
@@ -38,22 +38,19 @@ public class UpgradeByPrincipleAction extends AbstractGameAction {
     public void update() {
 
         for (AbstractCard c : cards) {
-            boolean b = false;
 
-            if (!Objects.equals(c.cardID, notUpgradeCardID)) b = TryUpgradeThis(c);
-
-            if (b && AbstractDungeon.player.hand.group.contains(c)) c.superFlash();
+            if (!Objects.equals(c.cardID, notUpgradeCardID)) TryUpgradeThis(c);
         }
 
         this.isDone = true;
     }
 
-    private boolean TryUpgradeThis(AbstractCard c){
-        if (c.hasTag(principleTag) && c.canUpgrade()) {
+    private void TryUpgradeThis(AbstractCard c){
+        if (c.hasTag(tag) && c.canUpgrade()) {
             c.upgrade();
             c.applyPowers();
-            return true;
+
+            if (AbstractDungeon.player.hand.contains(c)) c.superFlash();
         }
-        return false;
     }
 }
