@@ -39,11 +39,13 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
     }
 
     public ConsumePrincipleAction(AbstractCreature source, AbstractCard.CardTags principleTag) {
-        this(source, principleTag, PrincipleUtils.GetPlayerPrincipleAmount(principleTag));
+        this(source, principleTag, -1);
     }
 
     @Override
     public void update() {
+
+        int consumedAmount = 0;
 
         if (HasEnoughPrinciple()) {
 
@@ -51,12 +53,18 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
 
                 AbstractPrinciple p = (AbstractPrinciple) source.getPower(info.principleID);
 
-                p.reducePower(info.reduceAmount);
+                int a = info.reduceAmount;
+
+                if (a < 0) a = PowerUtils.GetPowerAmount(info.principleID, source);
+
+                p.reducePower(a);
+
+                consumedAmount += a;
 
                 if (p.amount <= 0) addToTop(new RemoveSpecificPowerAction(p.owner, source, p));
             }
 
-            OnConsumedEnough(this.amount);
+            OnConsumedEnough(consumedAmount);
         }
 
         isDone = true;

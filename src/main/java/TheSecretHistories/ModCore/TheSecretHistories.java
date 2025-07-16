@@ -1,6 +1,9 @@
 package TheSecretHistories.ModCore;
 import TheSecretHistories.Content.Characters.TheSeeker;
+import TheSecretHistories.Content.Events.BookShop;
 import TheSecretHistories.Data.DynamicVariable.PrincipleVariant;
+import TheSecretHistories.Utils.DebugUtils;
+import TheSecretHistories.Utils.StringUtils;
 import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.abstracts.CustomRelic;
@@ -21,7 +24,13 @@ import static com.megacrit.cardcrawl.core.Settings.language;
 
 
 @SpireInitializer
-public class TheSecretHistories implements EditCardsSubscriber, EditStringsSubscriber, EditCharactersSubscriber, EditRelicsSubscriber, EditKeywordsSubscriber {
+public class TheSecretHistories implements
+        PostInitializeSubscriber,
+        EditCardsSubscriber,
+        EditStringsSubscriber,
+        EditCharactersSubscriber,
+        EditRelicsSubscriber,
+        EditKeywordsSubscriber {
 
     public static final Color CULT_BLUE = new Color(26.0f/255.0f,74.0f/255.0f,79.0f/255.f,1.0f);
     private static final String THE_SEEKER_BUTTON = "TheSecretHistories/img/character/Character_Button.png";
@@ -41,6 +50,13 @@ public class TheSecretHistories implements EditCardsSubscriber, EditStringsSubsc
         BaseMod.addColor(TheSeeker.PlayerColorEnum.CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,BG_ATTACK_512,BG_SKILL_512,BG_POWER_512,ENERGY_ORB,BG_ATTACK_1024,BG_SKILL_1024,BG_POWER_1024,BIG_ORB,SMALL_ORB);
     }
 
+    // 事件的注册写在这里
+    @Override
+    public void receivePostInitialize() {
+        // AutoAdd
+        BaseMod.addEvent(BookShop.ID, BookShop.class);
+    }
+
     public static void initialize()
     {
         new TheSecretHistories();
@@ -49,6 +65,7 @@ public class TheSecretHistories implements EditCardsSubscriber, EditStringsSubsc
     public String modID = "TheSecretHistories";
     public String packageNameCard = "TheSecretHistories.Content.Cards";
     public String packageNameRelic = "TheSecretHistories.Content.Relics";
+    public String packageNameEvent = "TheSecretHistories.Content.Events";
 
     @Override
     public void receiveEditCards() {
@@ -69,10 +86,13 @@ public class TheSecretHistories implements EditCardsSubscriber, EditStringsSubsc
             lang = "ENG";
         }
 
+        DebugUtils.Log(language.toString());
+
         BaseMod.loadCustomStringsFile(CardStrings.class, "TheSecretHistories/Localization/" + lang + "/cards.json");
         BaseMod.loadCustomStringsFile(CharacterStrings.class, "TheSecretHistories/Localization/" + lang + "/characters.json");
         BaseMod.loadCustomStringsFile(RelicStrings.class, "TheSecretHistories/Localization/" + lang + "/relics.json");
         BaseMod.loadCustomStringsFile(PowerStrings.class, "TheSecretHistories/Localization/" + lang + "/powers.json");
+        BaseMod.loadCustomStringsFile(EventStrings.class, StringUtils.MakeLocalizationPath("events.json"));
     }
 
     @Override
