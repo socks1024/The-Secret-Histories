@@ -137,5 +137,19 @@
     "DESCRIPTIONS": [
       "从漫宿中获得的 tsh:秘史 额外升 %d 级。"
     ]
+  },
+
+  "TheSecretHistories:IngredientLanternDPower": {
+    "NAME": "透指毒素",
+    "DESCRIPTIONS": [
+      "本回合每打出一张攻击牌抽一张牌。"
+    ]
+  },
+
+  "TheSecretHistories:IngredientLanternFPower": {
+    "NAME": "玻璃灵液",
+    "DESCRIPTIONS": [
+      "手牌无上限。"
+    ]
   }
 }
