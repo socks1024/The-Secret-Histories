@@ -9,7 +9,7 @@ public class IngredientWinterBPower extends TemplateCustomPower {
 
     public static final String POWER_ID = StringUtils.MakeID(IngredientWinterBPower.class.getSimpleName());
 
-    private static final String IMG_NAME = "toolwinterb";
+    private static final String IMG_NAME = "ingredientwinterb";
 
     public IngredientWinterBPower(AbstractCreature owner, int amount) {
         super(POWER_ID, IMG_NAME, owner, amount);

@@ -1,4 +1,4 @@
-package TheSecretHistories.Content.Cards.FITIF.Tools.ToolGrail;
+package TheSecretHistories.Content.Cards.FITIF.Tools.Grail;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.ToolGrailFAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
