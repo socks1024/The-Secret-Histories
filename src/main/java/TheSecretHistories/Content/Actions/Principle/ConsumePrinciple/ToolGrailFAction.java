@@ -23,9 +23,9 @@ public class ToolGrailFAction extends ConsumePrincipleAction {
     protected void OnConsumedEnough(int consumedAmount) {
 
         for (int i = 0; i < consumedAmount / principleNeed; i++) {
-            addToTop(new ApplyPowerAction(target, source, new VulnerablePower(target, 1, false)));
-            addToTop(new ApplyPowerAction(target, source, new WeakPower(target, 1, false)));
             addToTop(new ApplyPowerAction(target, source, new StrengthPower(target, -1)));
+            addToTop(new ApplyPowerAction(target, source, new WeakPower(target, 1, false)));
+            addToTop(new ApplyPowerAction(target, source, new VulnerablePower(target, 1, false)));
         }
 
         isDone = true;

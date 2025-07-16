@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Powers.Principles;
 
+import TheSecretHistories.Content.Powers.UniqueCards.ToolWinterBPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -18,7 +19,7 @@ public class Winter extends AbstractPrinciple{
     public void atEndOfTurn(boolean isPlayer) {
         super.atEndOfTurn(isPlayer);
 
-        addToBot(new DamageAction(owner, new DamageInfo(owner, amount)));
+        if (!owner.hasPower(ToolWinterBPower.POWER_ID)) addToBot(new DamageAction(owner, new DamageInfo(owner, amount)));
     }
 
     // TODO 敌人无法受到冬伤害
