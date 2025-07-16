@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Powers.UniqueCards;
 
 import TheSecretHistories.Content.Powers.Principles.Forge;
 import TheSecretHistories.Content.Powers.Template.TemplateCustomPower;
+import TheSecretHistories.Utils.DebugUtils;
 import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;

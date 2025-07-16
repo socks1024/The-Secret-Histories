@@ -20,10 +20,10 @@ public abstract class TemplateCustomPower extends AbstractPower{
         this.powerStrings = CardCrawlGame.languagePack.getPowerStrings(id);
         this.name = powerStrings.NAME;
 
-        this.updateDescription();
-
         this.owner = owner;
         this.amount = amount;
+
+        this.updateDescription();
     }
 
     public void updateDescription(){

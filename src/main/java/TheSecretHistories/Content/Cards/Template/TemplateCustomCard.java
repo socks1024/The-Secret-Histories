@@ -2,11 +2,14 @@ package TheSecretHistories.Content.Cards.Template;
 
 import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
 import TheSecretHistories.Content.Powers.Principles.AbstractPrinciple;
+import TheSecretHistories.Content.Powers.UniqueCards.ToolForgeBPower;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -96,5 +99,14 @@ public abstract class TemplateCustomCard extends CustomCard {
 
     public void OnObtain() {
 
+    }
+
+    @Override
+    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
+        if (this.type == CardType.STATUS && this.costForTurn < -1 && AbstractDungeon.player.hasPower(ToolForgeBPower.POWER_ID)) {
+            return true;
+        }
+
+        return super.canUse(p, m);
     }
 }
