@@ -9,12 +9,13 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.watcher.EnergyDownPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.MOTH;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.SECRET_HISTORIES;
 
 public class ToolSecretHistoriesB extends AbstractTool {
 
     public static final String ID = StringUtils.MakeID(ToolSecretHistoriesB.class.getSimpleName());
 
-    private static final CardTags PRINCIPLE_TAG = MOTH;
+    private static final CardTags PRINCIPLE_TAG = SECRET_HISTORIES;
 
     private static final String IMG_NAME = "toolsecrethistoriesb";
     private static final int COST = 1;

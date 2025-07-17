@@ -36,6 +36,10 @@ public class ToolKnockB extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new GainBlockAction(abstractPlayer, magicNumber * DeckUtils.GetMansusLevel()));
+        for (int i = 0; i < DeckUtils.GetMansusLevel(); i++) {
+
+            addToBot(new GainBlockAction(abstractPlayer, magicNumber));
+
+        }
     }
 }

@@ -5,6 +5,7 @@ import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceForge;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceHeart;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceLantern;
+import TheSecretHistories.Content.Cards.FITIF.Ingredients.Forge.IngredientForgeF;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -17,7 +18,7 @@ public class TheMalleary extends AbstractMansusLocation {
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceForge().DoUpgrade(3),
             new InfluenceLantern().DoUpgrade(2),
-            // new IngredientForgeF(),
+            new IngredientForgeF(),
             new FragmentSecretHistories().DoUpgrade(4),
             // 人情
     };
