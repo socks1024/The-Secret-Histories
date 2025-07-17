@@ -617,6 +617,78 @@
     "UPGRADE_DESCRIPTION": ""
   },
 
+  "TheSecretHistories:RiteConsumeAll": {
+    "NAME": "置闰仪式",
+    "DESCRIPTION": " tsh:召唤仪式 。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:RiteFollowerConsumeInfluence": {
+    "NAME": "日落仪式",
+    "DESCRIPTION": " secrethistories:结尾凄美仪式 。 NL 造成 !D! 点伤害。 ",
+    "UPGRADE_DESCRIPTION": " secrethistories:结尾凄美仪式 。 NL 造成 !D! 点伤害。 "
+  },
+
+  "TheSecretHistories:RiteFollowerConsumeIngredient": {
+    "NAME": "仁母仪式",
+    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:原料 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:原料 。 NL 保留 。"
+  },
+
+  "TheSecretHistories:RiteFollowerConsumeTool": {
+    "NAME": "抗逆仪式",
+    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:工具 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:工具 。 NL 保留 。"
+  },
+
+  "TheSecretHistories:RiteInfluenceConsumeFollower": {
+    "NAME": "裂兽仪式",
+    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:追随者 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:追随者 。 NL 保留 。"
+  },
+
+  "TheSecretHistories:RiteInfluenceConsumeIngredient": {
+    "NAME": "鸦餍仪式",
+    "DESCRIPTION": " secrethistories:理性的辉光仪式 。 NL 接下来 !M! 次获得的 secrethistories:准则 翻倍。",
+    "UPGRADE_DESCRIPTION": " secrethistories:理性的辉光仪式 。 NL 接下来 !M! 次获得的 secrethistories:准则 翻倍。"
+  },
+
+  "TheSecretHistories:RiteToolConsumeFollower": {
+    "NAME": "魂之埚仪式",
+    "DESCRIPTION": " secrethistories:铸炉的赦罪仪式 。 NL 移除自身所有负面效果。",
+    "UPGRADE_DESCRIPTION": " secrethistories:铸炉的赦罪仪式 。 NL 移除自身所有负面效果、状态牌和诅咒牌。"
+  },
+
+  "TheSecretHistories:RiteToolConsumeInfluence": {
+    "NAME": "地图之疆仪式",
+    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:影响 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:影响 。 NL 保留 。"
+  },
+
+  "TheSecretHistories:RiteToolConsumeIngredient": {
+    "NAME": "海飨仪式",
+    "DESCRIPTION": " secrethistories:激情的漩涡仪式 。 NL 接下来 !M! 张消耗 secrethistories:准则 的卡牌不需要消耗 secrethistories:准则 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:激情的漩涡仪式 。 NL 接下来 !M! 张消耗 secrethistories:准则 的卡牌不需要消耗 secrethistories:准则 。"
+  },
+
+  "TheSecretHistories:RiteToolFollowerConsumeLore": {
+    "NAME": "守夜人之怆仪式",
+    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:密传 。",
+    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:密传 。 NL 保留 。"
+  },
+
+  "TheSecretHistories:SpiritGrailEdge": {
+    "NAME": "第二干渴者伊泽姆",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SummonGrailEdge": {
+    "NAME": "召唤：第二干渴者伊泽姆",
+    "DESCRIPTION": "消耗 2 tsh:启 15 tsh:杯 8 tsh:铸",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
   "TheSecretHistories:SpiritForgeMoth": {
     "NAME": "汽灵",
     "DESCRIPTION": " tsh:召唤物 消耗 NL 消耗一张手牌，获得其能耗点 [E] 。",
@@ -632,12 +704,6 @@
   "TheSecretHistories:SpiritGrailMoth": {
     "NAME": "原生先知",
     "DESCRIPTION": " tsh:召唤物 消耗 NL 使敌人的所有负面效果层数翻倍。",
-    "UPGRADE_DESCRIPTION": ""
-  },
-
-  "TheSecretHistories:SpiritGrailEdge": {
-    "NAME": "第二干渴者伊泽姆",
-    "DESCRIPTION": "",
     "UPGRADE_DESCRIPTION": ""
   },
 

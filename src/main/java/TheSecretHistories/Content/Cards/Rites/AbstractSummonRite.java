@@ -1,7 +1,7 @@
-package TheSecretHistories.Content.Cards.Rites.SummonRites;
+package TheSecretHistories.Content.Cards.Rites;
 
-import TheSecretHistories.Content.Cards.Rites.AbstractRite;
-import TheSecretHistories.Content.Cards.Rites.SummonRites.SummonOptions.AbstractSummonOption;
+import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
+import TheSecretHistories.Content.Cards.Spirits.GrailEdge.SummonGrailEdge;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -16,7 +16,7 @@ public abstract class AbstractSummonRite extends AbstractRite {
     private static final CardTarget TARGET = CardTarget.NONE;
 
     private static final AbstractSummonOption[] DEFAULT_SUMMON_OPTIONS = new AbstractSummonOption[]{
-
+        new SummonGrailEdge(),
     };
 
     private final AbstractSummonOption[] summonOptions;
@@ -43,5 +43,10 @@ public abstract class AbstractSummonRite extends AbstractRite {
         }
 
         return options;
+    }
+
+    @Override
+    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
+        return !GetAvailableSummonOptions().isEmpty();
     }
 }

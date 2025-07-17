@@ -1,7 +1,6 @@
-package TheSecretHistories.Content.Cards.Rites.SummonRites.SummonOptions;
+package TheSecretHistories.Content.Cards.Spirits;
 
 import TheSecretHistories.Content.Actions.Principle.Summon.SummonAction;
-import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
