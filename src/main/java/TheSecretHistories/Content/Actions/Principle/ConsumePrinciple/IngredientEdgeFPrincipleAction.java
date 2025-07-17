@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Actions.Principle.ConsumePrinciple;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
+
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;

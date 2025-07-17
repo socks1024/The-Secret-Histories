@@ -3,12 +3,9 @@ package TheSecretHistories.Content.Cards.FITIF.Ingredients.Heart;
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientHeartFPrincipleAction;
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.AbstractIngredient;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FORGE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
 
 public class IngredientHeartD extends AbstractIngredient {

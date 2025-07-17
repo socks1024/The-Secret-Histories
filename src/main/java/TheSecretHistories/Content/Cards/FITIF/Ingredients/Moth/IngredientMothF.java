@@ -22,7 +22,7 @@ public class IngredientMothF extends AbstractIngredient {
     private static final String IMG_NAME = "ingredientmothf";
     private static final int COST = 1;
     private static final CardType TYPE = CardType.ATTACK;
-    private static final CardRarity RARITY = CardRarity.COMMON;
+    private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public IngredientMothF() {
@@ -32,6 +32,7 @@ public class IngredientMothF extends AbstractIngredient {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
         addToBot(new ApplyPowerAction(p, p, new IngredientMothFPower(p, this.magicNumber)));
     }
 

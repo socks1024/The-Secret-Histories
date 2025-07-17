@@ -29,11 +29,12 @@ public class IngredientWinterF extends AbstractIngredient {
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
         addToBot(new ApplyPowerAction(m, p, new Winter(m, this.magicNumber)));
     }
 
     @Override
-    protected void OnUpgrade(int timesUpgraded) {upgradeDamage(3);}
+    protected void OnUpgrade(int timesUpgraded) {upgradeMagicNumber(3);}
 
 }
 

@@ -28,8 +28,6 @@ public class WinterStrikeAction extends AbstractGameAction {
     @Override
     public void update() {
         if (this.duration == Settings.ACTION_DUR_FAST) {
-            int totalDamageDealt = 0;
-
             int[] damageMatrix = DamageInfo.createDamageMatrix(baseDamage, true);
             ArrayList<AbstractMonster> monsters = AbstractDungeon.getCurrRoom().monsters.monsters;
 
@@ -37,14 +35,13 @@ public class WinterStrikeAction extends AbstractGameAction {
                 AbstractMonster m = monsters.get(i);
                 if (!m.isDeadOrEscaped()) {
                     int damage = damageMatrix[i];
-                    m.damage(new DamageInfo(source, damage, damageType));
-                    totalDamageDealt += m.lastDamageTaken;
-                }
-            }
+                    DamageInfo info = new DamageInfo(source, damage, damageType);
+                    m.damage(info);
 
-            for (AbstractMonster m : monsters) {
-                if (!m.isDeadOrEscaped()) {
-                    addToTop(new ApplyPowerAction(m, source, new Winter(m, totalDamageDealt)));
+                    int actualDamage = m.lastDamageTaken;
+                    if (actualDamage > 0) {
+                        addToTop(new ApplyPowerAction(m, source, new Winter(m, actualDamage)));
+                    }
                 }
             }
 
@@ -55,8 +52,11 @@ public class WinterStrikeAction extends AbstractGameAction {
             if (AbstractDungeon.getCurrRoom().monsters.areMonstersBasicallyDead()) {
                 AbstractDungeon.actionManager.clearPostCombatActions();
             }
+
+            this.isDone = true;
         }
 
         tickDuration();
     }
+
 }

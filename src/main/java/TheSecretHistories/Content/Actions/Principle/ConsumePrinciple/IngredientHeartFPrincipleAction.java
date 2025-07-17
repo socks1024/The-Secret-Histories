@@ -9,7 +9,7 @@ public class IngredientHeartFPrincipleAction extends ConsumePrincipleAction {
 
     private final AbstractCreature target;
     private final int principleNeed;
-    private final int blockPerTrigger;
+    //private final int blockPerTrigger;
 
     public IngredientHeartFPrincipleAction(
             AbstractCreature target,
@@ -22,15 +22,13 @@ public class IngredientHeartFPrincipleAction extends ConsumePrincipleAction {
         this.target = target;
         this.source = source;
         this.principleNeed = principleNeed;
-        this.blockPerTrigger = blockPerTrigger;
+        //this.blockPerTrigger = blockPerTrigger;
     }
 
     @Override
     protected void OnConsumedEnough(int consumedAmount) {
         int times = consumedAmount / principleNeed;
-        for (int i = 0; i < times; i++) {
-            addToTop(new GainBlockAction(target, source, blockPerTrigger));
-        }
+        addToTop(new GainBlockAction(target, source, times));
         isDone = true;
     }
 }

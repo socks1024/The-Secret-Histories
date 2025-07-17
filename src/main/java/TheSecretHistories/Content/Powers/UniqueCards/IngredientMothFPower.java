@@ -50,5 +50,11 @@ public class IngredientMothFPower extends TemplateCustomPower {
             }
         }
     }
+
+    @Override
+    public void atEndOfTurn(boolean isPlayer) {
+        super.atEndOfTurn(isPlayer);
+        addToTop(new RemoveSpecificPowerAction(owner, owner, POWER_ID));
+    }
 }
 
