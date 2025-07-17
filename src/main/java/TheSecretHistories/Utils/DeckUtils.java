@@ -20,6 +20,14 @@ public class DeckUtils {
         return 0;
     }
 
+    public static AbstractCard GetMansusCard() {
+        for (AbstractCard card : GetBattleDeck()) {
+            if (Objects.equals(card.cardID, Mansus.ID)) return card;
+        }
+
+        return null;
+    }
+
     public static ArrayList<AbstractCard> GetBattleDeck() {
         ArrayList<AbstractCard> battleDecks = new ArrayList<>();
 

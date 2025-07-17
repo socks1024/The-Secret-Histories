@@ -23,6 +23,7 @@ public class IngredientForgeB extends AbstractIngredient {
     public IngredientForgeB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
         this.block = this.baseBlock = 8;
+        this.magicNumber = this.baseMagicNumber = 1;
     }
 
     @Override
@@ -34,6 +35,6 @@ public class IngredientForgeB extends AbstractIngredient {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
         addToBot(new GainBlockAction(abstractPlayer, abstractPlayer, this.block));
-        addToBot(new ExhaustAction(1, false));
+        addToBot(new ExhaustAction(this.magicNumber, false));
     }
 }
