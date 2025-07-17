@@ -14,7 +14,7 @@ public class IngredientKnockF extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientKnockF.class.getSimpleName());
     private static final CardTags PRINCIPLE_TAG = KNOCK;
     private static final String IMG_NAME = "ingredientknockf";
-    private static final int COST = 2;
+    private static final int COST = 3;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.SELF;

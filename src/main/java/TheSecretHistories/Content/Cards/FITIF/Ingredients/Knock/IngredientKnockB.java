@@ -17,11 +17,11 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.KNOC
 public class IngredientKnockB extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientKnockB.class.getSimpleName());
     private static final CardTags PRINCIPLE_TAG = KNOCK;
-    private static final String IMG_NAME = "ingredientknockf";
-    private static final int COST = 2;
-    private static final CardType TYPE = CardType.SKILL;
-    private static final CardRarity RARITY = CardRarity.RARE;
-    private static final CardTarget TARGET = CardTarget.SELF;
+    private static final String IMG_NAME = "ingredientknockb";
+    private static final int COST = 1;
+    private static final CardType TYPE = CardType.ATTACK;
+    private static final CardRarity RARITY = CardRarity.COMMON;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public IngredientKnockB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);

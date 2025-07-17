@@ -17,14 +17,16 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.RITE
 public class IngredientKnockD extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientKnockD.class.getSimpleName());
     private static final CardTags PRINCIPLE_TAG = KNOCK;
-    private static final String IMG_NAME = "ingredientknockf";
-    private static final int COST = 2;
+    private static final String IMG_NAME = "ingredientknockd";
+    private static final int COST = 1;
     private static final CardType TYPE = CardType.SKILL;
-    private static final CardRarity RARITY = CardRarity.RARE;
-    private static final CardTarget TARGET = CardTarget.SELF;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public IngredientKnockD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+        this.baseMagicNumber = 3;
+        this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;
     }
     @Override
