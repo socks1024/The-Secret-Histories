@@ -10,10 +10,11 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FORGE;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
 
 public class IngredientHeartB extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientHeartB.class.getSimpleName());
-    private static final AbstractCard.CardTags PRINCIPLE_TAG = FORGE;
+    private static final AbstractCard.CardTags PRINCIPLE_TAG = HEART;
     private static final String IMG_NAME = "ingredientheartb";
     private static final int COST = 0;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;

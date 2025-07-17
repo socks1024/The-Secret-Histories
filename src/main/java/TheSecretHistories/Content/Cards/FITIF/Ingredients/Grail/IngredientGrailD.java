@@ -10,11 +10,12 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FORGE;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAIL;
 
 public class IngredientGrailD extends AbstractIngredient {
 
     public static final String ID = StringUtils.MakeID(IngredientGrailD.class.getSimpleName());
-    private static final CardTags PRINCIPLE_TAG = FORGE;
+    private static final CardTags PRINCIPLE_TAG = GRAIL;
     private static final String IMG_NAME = "ingredientgraild";
     private static final int COST = 1;
     private static final CardType TYPE = CardType.POWER;

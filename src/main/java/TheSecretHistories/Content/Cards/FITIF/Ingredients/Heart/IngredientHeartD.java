@@ -13,7 +13,7 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEAR
 
 public class IngredientHeartD extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientHeartD.class.getSimpleName());
-    private static final AbstractCard.CardTags PRINCIPLE_TAG = FORGE;
+    private static final AbstractCard.CardTags PRINCIPLE_TAG = HEART;
     private static final String IMG_NAME = "ingredientheartd";
     private static final int COST = 1;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;

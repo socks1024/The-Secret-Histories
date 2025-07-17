@@ -7,7 +7,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 
 public class IngredientGrailDPower extends TemplateCustomPower {
     public static final String POWER_ID = StringUtils.MakeID(IngredientGrailDPower.class.getSimpleName());
-    private static final String IMG_NAME = "ingredientgrailb";
+    private static final String IMG_NAME = "ingredientgraild";
 
     private static final float REDUCTION_PER_STACK = 0.20f;
 

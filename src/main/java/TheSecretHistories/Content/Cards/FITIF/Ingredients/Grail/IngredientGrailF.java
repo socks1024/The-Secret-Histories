@@ -13,11 +13,12 @@ import com.megacrit.cardcrawl.powers.GainStrengthPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FORGE;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAIL;
 
 public class IngredientGrailF extends AbstractIngredient {
 
     public static final String ID = StringUtils.MakeID(IngredientGrailF.class.getSimpleName());
-    private static final CardTags PRINCIPLE_TAG = FORGE;
+    private static final CardTags PRINCIPLE_TAG = GRAIL;
     private static final String IMG_NAME = "ingredientgrailf";
     private static final int COST = 2;
     private static final CardType TYPE = CardType.SKILL;
