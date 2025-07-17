@@ -10,7 +10,7 @@ import javassist.CtBehavior;
 public class CardOnObtainPatch {
 
     @SpireInsertPatch(locator = MyLocator.class)
-    public static void MyPatchMethod(Soul __instance, AbstractCard card) {
+    public static void ObtainPatchMethod(Soul __instance, AbstractCard card) {
         if (card instanceof TemplateCustomCard) ((TemplateCustomCard)card).OnObtain();
     }
 

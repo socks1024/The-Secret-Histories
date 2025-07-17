@@ -30,7 +30,7 @@ public class TheSecretHistories implements
         EditStringsSubscriber,
         EditCharactersSubscriber,
         EditRelicsSubscriber,
-        EditKeywordsSubscriber {
+        EditKeywordsSubscriber{
 
     public static final Color CULT_BLUE = new Color(26.0f/255.0f,74.0f/255.0f,79.0f/255.f,1.0f);
     private static final String THE_SEEKER_BUTTON = "TheSecretHistories/img/character/Character_Button.png";
