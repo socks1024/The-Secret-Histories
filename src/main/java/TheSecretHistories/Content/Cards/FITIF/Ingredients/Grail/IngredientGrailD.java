@@ -16,7 +16,7 @@ public class IngredientGrailD extends AbstractIngredient {
 
     public static final String ID = StringUtils.MakeID(IngredientGrailD.class.getSimpleName());
     private static final CardTags PRINCIPLE_TAG = GRAIL;
-    private static final String IMG_NAME = "ingredientgraild";
+    private static final String IMG_NAME = "ingredientgrailb";
     private static final int COST = 1;
     private static final CardType TYPE = CardType.POWER;
     private static final CardRarity RARITY = CardRarity.SPECIAL;
