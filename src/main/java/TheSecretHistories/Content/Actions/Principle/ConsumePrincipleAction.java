@@ -61,7 +61,7 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
 
                 consumedAmount += a;
 
-                if (p.amount <= 0) addToTop(new RemoveSpecificPowerAction(p.owner, source, p));
+                if (p.amount <= 0) addToTop(new RemoveSpecificPowerAction(source, source, p));
             }
 
             OnConsumedEnough(consumedAmount);
