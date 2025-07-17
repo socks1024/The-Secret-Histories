@@ -24,6 +24,8 @@ public class ToolGrailF extends AbstractTool {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
         this.magicNumber = this.baseMagicNumber = 4;
+
+        this.exhaust = true;
     }
 
     @Override

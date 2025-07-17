@@ -30,6 +30,6 @@ public abstract class AbstractGenericDefend extends AbstractGeneric{
     public void use(AbstractPlayer player, AbstractMonster monster) {
         super.use(player, monster);
 
-        addToBot(new GainBlockAction(player, baseBlock));
+        addToBot(new GainBlockAction(player, block));
     }
 }
