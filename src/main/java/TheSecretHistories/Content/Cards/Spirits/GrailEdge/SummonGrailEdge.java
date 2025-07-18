@@ -14,9 +14,4 @@ public class SummonGrailEdge extends AbstractSummonOption {
     public SummonGrailEdge() {
         super(ID, IMG_NAME, SPIRIT);
     }
-
-    @Override
-    protected void OnUpgrade(int timesUpgraded) {
-
-    }
 }

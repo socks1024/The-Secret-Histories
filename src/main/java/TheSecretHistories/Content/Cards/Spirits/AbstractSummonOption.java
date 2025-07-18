@@ -23,6 +23,11 @@ public abstract class AbstractSummonOption extends TemplateOptionCard {
         addToBot(new SummonAction(spirit));
     }
 
+    @Override
+    protected void OnUpgrade(int timesUpgraded) {
+
+    }
+
     public boolean GetAvailable() {
         return spirit.GetAvailable();
     }
