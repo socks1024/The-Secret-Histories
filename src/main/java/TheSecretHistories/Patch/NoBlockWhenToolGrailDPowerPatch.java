@@ -9,12 +9,12 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
         method = "addBlock",
         paramtypez = { int.class }
 )
-    public class NoBlockWhenToolGrailDPowerPatch {
-        @SpirePrefixPatch
-        public static SpireReturn<Void> prefix(AbstractCreature __instance, int blockAmount) {
-            if (__instance.hasPower(ToolGrailDPower.POWER_ID)) {
-                return SpireReturn.Return();
-            }
-            return SpireReturn.Continue();
+public class NoBlockWhenToolGrailDPowerPatch {
+    @SpirePrefixPatch
+    public static SpireReturn<Void> prefix(AbstractCreature __instance, int blockAmount) {
+        if (__instance.hasPower(ToolGrailDPower.POWER_ID)) {
+            return SpireReturn.Return();
         }
+        return SpireReturn.Continue();
+    }
 }

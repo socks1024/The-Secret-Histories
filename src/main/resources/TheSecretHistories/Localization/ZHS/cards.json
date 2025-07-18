@@ -617,123 +617,171 @@
     "UPGRADE_DESCRIPTION": ""
   },
 
-  "TheSecretHistories:RiteConsumeAll": {
-    "NAME": "置闰仪式",
-    "DESCRIPTION": " tsh:召唤仪式 。",
-    "UPGRADE_DESCRIPTION": ""
-  },
-
   "TheSecretHistories:RiteFollowerConsumeInfluence": {
     "NAME": "日落仪式",
-    "DESCRIPTION": " secrethistories:结尾凄美仪式 。 NL 造成 !D! 点伤害。 ",
-    "UPGRADE_DESCRIPTION": " secrethistories:结尾凄美仪式 。 NL 造成 !D! 点伤害。 "
+    "DESCRIPTION": "消耗 12 tsh:冬 8 tsh:灯 NL 对随机敌人造成 !D! 点伤害。有 !M! %%的概率命中自己。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteFollowerConsumeIngredient": {
     "NAME": "仁母仪式",
-    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:原料 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:原料 。 NL 保留 。"
+    "DESCRIPTION": " tsh:召唤仪式 ",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteFollowerConsumeTool": {
     "NAME": "抗逆仪式",
-    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:工具 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:工具 。 NL 保留 。"
+    "DESCRIPTION": " tsh:召唤仪式 ",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteInfluenceConsumeFollower": {
     "NAME": "裂兽仪式",
-    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:追随者 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:追随者 。 NL 保留 。"
+    "DESCRIPTION": " tsh:召唤仪式 ",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteInfluenceConsumeIngredient": {
     "NAME": "鸦餍仪式",
-    "DESCRIPTION": " secrethistories:理性的辉光仪式 。 NL 接下来 !M! 次获得的 secrethistories:准则 翻倍。",
-    "UPGRADE_DESCRIPTION": " secrethistories:理性的辉光仪式 。 NL 接下来 !M! 次获得的 secrethistories:准则 翻倍。"
+    "DESCRIPTION": "消耗 12 tsh:灯 8 tsh:刃 NL 丢弃任意张手牌并抽满手牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteToolConsumeFollower": {
     "NAME": "魂之埚仪式",
-    "DESCRIPTION": " secrethistories:铸炉的赦罪仪式 。 NL 移除自身所有负面效果。",
-    "UPGRADE_DESCRIPTION": " secrethistories:铸炉的赦罪仪式 。 NL 移除自身所有负面效果、状态牌和诅咒牌。"
+    "DESCRIPTION": "消耗 12 tsh:铸 8 tsh:杯 NL 移除自身的所有负面效果。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteToolConsumeInfluence": {
     "NAME": "地图之疆仪式",
-    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:影响 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:影响 。 NL 保留 。"
+    "DESCRIPTION": " tsh:召唤仪式 ",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteToolConsumeIngredient": {
     "NAME": "海飨仪式",
-    "DESCRIPTION": " secrethistories:激情的漩涡仪式 。 NL 接下来 !M! 张消耗 secrethistories:准则 的卡牌不需要消耗 secrethistories:准则 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:激情的漩涡仪式 。 NL 接下来 !M! 张消耗 secrethistories:准则 的卡牌不需要消耗 secrethistories:准则 。"
+    "DESCRIPTION": "消耗 12 tsh:蛾 8 tsh:刃 NL 接下来 !M! 次消耗 tsh:准则 的行动不需要消耗 tsh:准则 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteToolFollowerConsumeLore": {
     "NAME": "守夜人之怆仪式",
-    "DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:密传 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤仪式 。 NL secrethistories:献祭 secrethistories:密传 。 NL 保留 。"
-  },
-
-  "TheSecretHistories:SpiritGrailEdge": {
-    "NAME": "第二干渴者伊泽姆",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:召唤仪式 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
-  "TheSecretHistories:SummonGrailEdge": {
-    "NAME": "召唤：第二干渴者伊泽姆",
-    "DESCRIPTION": "消耗 2 tsh:启 15 tsh:杯 8 tsh:铸",
+  "TheSecretHistories:RiteConsumeAll": {
+    "NAME": "置闰仪式",
+    "DESCRIPTION": " tsh:召唤仪式 ",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SpiritWinterMoth": {
+    "NAME": "无声亡者",
+    "DESCRIPTION": " 消耗 NL 给予自身的 tsh:蛾 等量的 tsh:冬 。",
+    "UPGRADE_DESCRIPTION": " 消耗 NL 给予自身的 tsh:蛾 !M! 倍的 tsh:冬 。"
+  },
+
+  "TheSecretHistories:SummonWinterMoth": {
+    "NAME": "召唤无声亡者",
+    "DESCRIPTION": "2 tsh:启 8 tsh:冬 2 tsh:心 ",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SpiritLanternEdge": {
+    "NAME": "迹形",
+    "DESCRIPTION": " 消耗 NL 抽满手牌，每抽一张牌对所有敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SummonLanternEdge": {
+    "NAME": "召唤迹形",
+    "DESCRIPTION": "2 tsh:启 12 tsh:灯 4 tsh:刃 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritForgeMoth": {
     "NAME": "汽灵",
-    "DESCRIPTION": " tsh:召唤物 消耗 NL 消耗一张手牌，获得其能耗点 [E] 。",
-    "UPGRADE_DESCRIPTION": " tsh:召唤物 消耗 NL 消耗一张手牌，获得其能耗+ !M! 点 [E] 。"
+    "DESCRIPTION": " 消耗 NL 造成 !D! 点伤害。 消耗 卡牌时，从消耗牌堆回到手牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "TheSecretHistories:SpiritForgeEdge": {
-    "NAME": "坩埚王",
-    "DESCRIPTION": " tsh:召唤物 NL 所有获得 tsh:准则 的牌费用降为 !M! ，且在打出时被 消耗 。",
+  "TheSecretHistories:SummonForgeMoth": {
+    "NAME": "召唤汽灵",
+    "DESCRIPTION": "2 tsh:启 12 tsh:铸 4 tsh:冬 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritGrailMoth": {
     "NAME": "原生先知",
-    "DESCRIPTION": " tsh:召唤物 消耗 NL 使敌人的所有负面效果层数翻倍。",
+    "DESCRIPTION": " 消耗 NL 本场战斗中每打出一张牌，对目标造成 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SummonGrailMoth": {
+    "NAME": "召唤原生先知",
+    "DESCRIPTION": "2 tsh:启 12 tsh:杯 4 tsh:蛾 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritHeartEdge": {
     "NAME": "擂击者",
-    "DESCRIPTION": " tsh:召唤物 ： secrethistories:擂击者 NL 获得8 secrethistories:心 和8 secrethistories:刃 。 NL 造成 格挡 点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:召唤物 ： secrethistories:擂击者 NL 获得8 secrethistories:心 和8 secrethistories:刃 。 NL 获得造成 格挡 点伤害。"
+    "DESCRIPTION": " 消耗 NL 造成 !D! 点伤害，获得等量 力量 和 敏捷 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
-  "TheSecretHistories:SpiritLanternEdge": {
-    "NAME": "迹形",
-    "DESCRIPTION": " secrethistories:召唤物 ： secrethistories:迹形 NL 获得8 secrethistories:灯 和8 secrethistories:刃 。 NL 若手牌中没有其他攻击牌且敌人的意图不是攻击，造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤物 ： secrethistories:迹形 NL 获得8 secrethistories:灯 和8 secrethistories:刃 。 NL 若手牌中没有其他攻击牌且敌人的意图不是攻击，造成 !D! 点伤害。"
-  },
-
-  "TheSecretHistories:SpiritLanternSecret": {
-    "NAME": "特蕾莎",
-    "DESCRIPTION": " secrethistories:召唤物 ： secrethistories:特蕾莎 NL 获得12 secrethistories:灯 和12 secrethistories:秘史 。 NL 抽5张牌，获得 !M! [E] 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤物 ： secrethistories:特蕾莎 NL 获得12 secrethistories:灯 和12 secrethistories:秘史 。 NL 抽5张牌，获得 !M! [E] 。 NL 消耗 。"
-  },
-
-  "TheSecretHistories:SpiritWinterMoth": {
-    "NAME": "无声亡者",
-    "DESCRIPTION": " secrethistories:召唤物 ： secrethistories:无声亡者 NL 获得6 secrethistories:冬 和6 secrethistories:蛾 。 NL 获得 !M! 力量 和 敏捷 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤物 ： secrethistories:无声亡者 NL 获得6 secrethistories:冬 和6 secrethistories:蛾 。 NL 获得 !M! 力量 和 敏捷 。"
+  "TheSecretHistories:SummonHeartEdge": {
+    "NAME": "召唤擂击者",
+    "DESCRIPTION": "2 tsh:启 12 tsh:心 4 tsh:刃 ",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritWinterEdge": {
     "NAME": "镜中少女",
-    "DESCRIPTION": " secrethistories:召唤物 ： secrethistories:镜中少女 NL 获得10 secrethistories:冬 和10 secrethistories:刃 。 NL 造成损失的生命点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤物 ： secrethistories:镜中少女 NL 获得10 secrethistories:冬 和10 secrethistories:刃 。 NL 造成损失的生命点伤害。"
+    "DESCRIPTION": " 消耗 NL 造成目标攻击意图等量的伤害。 NL 保留 。",
+    "UPGRADE_DESCRIPTION": " 消耗 NL 造成目标攻击意图双倍的伤害。 NL 保留 。"
+  },
+
+  "TheSecretHistories:SummonWinterEdge": {
+    "NAME": "召唤镜中少女",
+    "DESCRIPTION": "2 tsh:启 14 tsh:冬 4 tsh:刃 ",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SpiritGrailEdge": {
+    "NAME": "第二干渴者伊泽姆",
+    "DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%%的X倍的伤害。",
+    "UPGRADE_DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%%的X+ !M! 倍的伤害。"
+  },
+
+  "TheSecretHistories:SummonGrailEdge": {
+    "NAME": "召唤第二干渴者伊泽姆",
+    "DESCRIPTION": " 2 tsh:启 15 tsh:杯 8 tsh:铸 ",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SpiritForgeEdge": {
+    "NAME": "坩埚王",
+    "DESCRIPTION": " 消耗 NL 对所有敌人造成 !D! 点伤害，每有一个敌人获得 [E] 。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SummonForgeEdge": {
+    "NAME": "召唤坩埚王",
+    "DESCRIPTION": " 2 tsh:启 15 tsh:铸 8 tsh:灯 ",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SpiritLanternSecret": {
+    "NAME": "特蕾莎",
+    "DESCRIPTION": " 消耗 NL tsh:秘史 之 tsh:准则 !P! NL 结束回合。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:SummonLanternSecret": {
+    "NAME": "召唤特蕾莎",
+    "DESCRIPTION": " 2 tsh:启 15 tsh:灯 8 tsh:秘史 ",
+    "UPGRADE_DESCRIPTION": ""
   }
 }
