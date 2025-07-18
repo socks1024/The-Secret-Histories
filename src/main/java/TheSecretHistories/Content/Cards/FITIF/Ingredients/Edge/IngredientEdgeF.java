@@ -26,13 +26,13 @@ public class IngredientEdgeF extends AbstractIngredient {
 
     public IngredientEdgeF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.damage = this.baseDamage = 10;
+        this.damage = this.baseDamage = 4;
         this.baseMagicNumber = 3;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(4);
+        upgradeDamage(2);
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {

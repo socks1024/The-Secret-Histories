@@ -154,7 +154,7 @@
   },
 
   "TheSecretHistories:IngredientGrailDPower": {
-    "NAME": "不凋花蜜",
+    "NAME": "不凋",
     "DESCRIPTIONS": [
       "每层减伤20%%，上限100%%"
     ]
@@ -163,7 +163,7 @@
   "TheSecretHistories:IngredientMothFPower": {
     "NAME": "复用",
     "DESCRIPTIONS": [
-      "。"
+      "使 tsh:工具 / tsh:原料 额外打出1次"
     ]
   }
 }

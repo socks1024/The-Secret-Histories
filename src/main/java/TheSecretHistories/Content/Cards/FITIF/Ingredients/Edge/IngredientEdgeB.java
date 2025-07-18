@@ -34,7 +34,7 @@ public class IngredientEdgeB extends AbstractIngredient {
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot((AbstractGameAction)new ApplyPowerAction(p, p, new StrengthPower(p, this.magicNumber), this.magicNumber));
-        addToBot((AbstractGameAction)new ApplyPowerAction(p, p, new LoseStrengthPower(p, this.magicNumber), this.magicNumber));
+        addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, this.magicNumber), this.magicNumber));
+        addToBot(new ApplyPowerAction(p, p, new LoseStrengthPower(p, this.magicNumber), this.magicNumber));
     }
 }
