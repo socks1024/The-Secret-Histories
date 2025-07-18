@@ -709,8 +709,8 @@
 
   "TheSecretHistories:SpiritHeartEdge": {
     "NAME": "擂击者",
-    "DESCRIPTION": " secrethistories:召唤物 ： secrethistories:擂击者 NL 获得8 secrethistories:心 和8 secrethistories:刃 。 NL 造成 格挡 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:召唤物 ： secrethistories:擂击者 NL 获得8 secrethistories:心 和8 secrethistories:刃 。 NL 获得造成 格挡 点伤害。"
+    "DESCRIPTION": " tsh:召唤物 ： secrethistories:擂击者 NL 获得8 secrethistories:心 和8 secrethistories:刃 。 NL 造成 格挡 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:召唤物 ： secrethistories:擂击者 NL 获得8 secrethistories:心 和8 secrethistories:刃 。 NL 获得造成 格挡 点伤害。"
   },
 
   "TheSecretHistories:SpiritLanternEdge": {

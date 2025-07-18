@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Cards.Rites;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
 import TheSecretHistories.Content.Cards.Spirits.GrailEdge.SummonGrailEdge;
+import TheSecretHistories.Content.Cards.Spirits.GrailEdge.SummonLanternEdge;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -17,6 +18,7 @@ public abstract class AbstractSummonRite extends AbstractRite {
 
     private static final AbstractSummonOption[] DEFAULT_SUMMON_OPTIONS = new AbstractSummonOption[]{
         new SummonGrailEdge(),
+        new SummonLanternEdge(),
     };
 
     private final AbstractSummonOption[] summonOptions;
