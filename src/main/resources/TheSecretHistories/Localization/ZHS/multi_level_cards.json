@@ -67,7 +67,7 @@
       "fragmentedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:刃 之 tsh:准则 !P! NL 获得 !M! 点 力量 。"
+      " tsh:密传 NL tsh:刃 之 tsh:准则 !P! NL 本回合获得 !M! 点 力量 。"
     ]
   },
 
@@ -115,7 +115,7 @@
       "fragmentheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 点 敏捷 。"
+      " tsh:密传 NL tsh:心 之 tsh:准则 !P! NL 本回合获得 !M! 点 敏捷 。"
     ]
   },
 
@@ -265,7 +265,7 @@
       "influenceedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:刃 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 获得 !M! 点 力量。"
+      " tsh:影响 NL tsh:刃 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 本回合获得 !M! 点 力量。"
     ]
   },
 
@@ -301,7 +301,7 @@
       "influenceheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:心 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 获得 !M! 点 敏捷 。"
+      " tsh:影响 NL tsh:心 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 本回合获得 !M! 点 敏捷 。"
     ]
   },
 

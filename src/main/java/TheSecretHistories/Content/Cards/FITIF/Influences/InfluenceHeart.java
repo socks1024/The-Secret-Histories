@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
+import com.megacrit.cardcrawl.powers.LoseDexterityPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
 
@@ -25,5 +26,6 @@ public class InfluenceHeart extends AbstractInfluences {
         super.use(abstractPlayer, abstractMonster);
 
         addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new DexterityPower(abstractPlayer, magicNumber)));
+        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new LoseDexterityPower(abstractPlayer, magicNumber)));
     }
 }

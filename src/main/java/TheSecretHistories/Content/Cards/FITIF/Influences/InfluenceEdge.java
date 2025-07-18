@@ -4,6 +4,7 @@ import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.LoseStrengthPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.EDGE;
@@ -20,9 +21,10 @@ public class InfluenceEdge extends AbstractInfluences {
     }
 
     @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        super.use(abstractPlayer, abstractMonster);
+    public void use(AbstractPlayer p, AbstractMonster abstractMonster) {
+        super.use(p, abstractMonster);
 
-        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new StrengthPower(abstractPlayer, magicNumber)));
+        addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, this.magicNumber), this.magicNumber));
+        addToBot(new ApplyPowerAction(p, p, new LoseStrengthPower(p, this.magicNumber), this.magicNumber));
     }
 }
