@@ -100,13 +100,4 @@ public abstract class TemplateCustomCard extends CustomCard {
     public void OnObtain() {
 
     }
-
-    @Override
-    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        if (this.type == CardType.STATUS && this.costForTurn < -1 && AbstractDungeon.player.hasPower(ToolForgeBPower.POWER_ID)) {
-            return true;
-        }
-
-        return super.canUse(p, m);
-    }
 }

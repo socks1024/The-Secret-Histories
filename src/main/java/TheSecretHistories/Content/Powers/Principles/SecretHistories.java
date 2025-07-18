@@ -20,7 +20,7 @@ public class SecretHistories extends AbstractPrinciple{
 
         if (amount >= 6) newDescription += String.format(powerStrings.DESCRIPTIONS[2], amount / 6);
 
-        if (amount >= 14) newDescription += String.format(powerStrings.DESCRIPTIONS[3], 1);
+        if (amount >= 14) newDescription += String.format(powerStrings.DESCRIPTIONS[3], amount / 14);
 
         this.description = newDescription;
     }
@@ -38,6 +38,8 @@ public class SecretHistories extends AbstractPrinciple{
             AbstractDungeon.getCurrRoom().addCardToRewards();
         }
 
-        if (amount >= 14) AbstractDungeon.getCurrRoom().addRelicToRewards(AbstractRelic.RelicTier.COMMON);
+        for (int i = 0; i < amount / 14; i++) {
+            AbstractDungeon.getCurrRoom().addRelicToRewards(AbstractRelic.RelicTier.COMMON);
+        }
     }
 }
