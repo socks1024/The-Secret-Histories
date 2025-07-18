@@ -1,9 +1,12 @@
 package TheSecretHistories.Content.Powers.UniqueCards;
 
-import TheSecretHistories.Content.Actions.UniqueCards.DrawCardsByLanternAction;
 import TheSecretHistories.Content.Powers.Template.TemplateCustomPower;
+import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
+
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.LANTERN;
 
 public class ToolLanternFPower extends TemplateCustomPower {
 
@@ -18,7 +21,7 @@ public class ToolLanternFPower extends TemplateCustomPower {
     @Override
     public void atStartOfTurn() {
         super.atStartOfTurn();
-        addToBot(new DrawCardsByLanternAction(owner, amount));
+        addToBot(new DrawCardAction(owner, PrincipleUtils.GetPlayerPrincipleAmount(LANTERN) / amount));
     }
 
     @Override

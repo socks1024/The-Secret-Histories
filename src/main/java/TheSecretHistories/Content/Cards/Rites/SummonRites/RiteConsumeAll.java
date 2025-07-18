@@ -12,9 +12,4 @@ public class RiteConsumeAll extends AbstractSummonRite {
     public RiteConsumeAll() {
         super(ID, IMG_NAME);
     }
-
-    @Override
-    protected void OnUpgrade(int timesUpgraded) {
-
-    }
 }

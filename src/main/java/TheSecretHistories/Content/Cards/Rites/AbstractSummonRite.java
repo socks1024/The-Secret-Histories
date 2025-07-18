@@ -51,4 +51,9 @@ public abstract class AbstractSummonRite extends AbstractRite {
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
         return !GetAvailableSummonOptions().isEmpty();
     }
+
+    @Override
+    protected void OnUpgrade(int timesUpgraded) {
+        this.retain = true;
+    }
 }

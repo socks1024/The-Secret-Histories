@@ -2,7 +2,6 @@ package TheSecretHistories.Content.Actions.Principle;
 
 import TheSecretHistories.Content.Powers.Principles.AbstractPrinciple;
 import TheSecretHistories.Utils.PowerUtils;
-import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.PrincipleUtils.ReducePrincipleInfo;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;

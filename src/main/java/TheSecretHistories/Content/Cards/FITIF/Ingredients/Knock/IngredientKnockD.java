@@ -1,18 +1,14 @@
 package TheSecretHistories.Content.Cards.FITIF.Ingredients.Knock;
 
-import TheSecretHistories.Content.Actions.UniqueCards.ReduceHandCostAction;
-import TheSecretHistories.Content.Actions.UniqueCards.RetainAllTaggedCardsAction;
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.AbstractIngredient;
 import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.KNOCK;
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.RITE;
 
 public class IngredientKnockD extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientKnockD.class.getSimpleName());

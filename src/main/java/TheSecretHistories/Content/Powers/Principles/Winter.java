@@ -16,7 +16,7 @@ public class Winter extends AbstractPrinciple{
     }
 
     @Override
-    public void atStartOfTurn() {
+    public void atEndOfTurn(boolean isPlayer) {
         if (!owner.hasPower(IngredientWinterBPower.POWER_ID)) addToBot(new DamageAction(owner, new DamageInfo(owner, amount)));
     }
 }

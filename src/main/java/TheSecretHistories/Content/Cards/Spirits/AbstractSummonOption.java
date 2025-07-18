@@ -16,8 +16,6 @@ public abstract class AbstractSummonOption extends TemplateOptionCard {
         this.spirit = spirit;
     }
 
-
-
     @Override
     public void onChoseThisOption() {
         super.onChoseThisOption();

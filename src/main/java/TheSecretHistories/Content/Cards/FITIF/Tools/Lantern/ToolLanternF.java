@@ -26,7 +26,7 @@ public class ToolLanternF extends AbstractTool {
 
         this.isEthereal = true;
 
-        this.magicNumber = this.baseMagicNumber = 3;
+        this.magicNumber = this.baseMagicNumber = 4;
     }
 
     @Override

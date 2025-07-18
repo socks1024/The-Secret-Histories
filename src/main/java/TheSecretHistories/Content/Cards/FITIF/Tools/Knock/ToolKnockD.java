@@ -1,7 +1,8 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Knock;
 
-import TheSecretHistories.Content.Actions.UniqueCards.RetainAllTaggedCardsAction;
+import TheSecretHistories.Content.Actions.UniqueCards.UpgradeByTagAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
+import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -34,6 +35,6 @@ public class ToolKnockD extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new RetainAllTaggedCardsAction(abstractPlayer, RITE));
+        addToBot(new UpgradeByTagAction(abstractPlayer, RITE, DeckUtils.GetBattleDeck()));
     }
 }

@@ -619,26 +619,26 @@
 
   "TheSecretHistories:RiteFollowerConsumeInfluence": {
     "NAME": "日落仪式",
-    "DESCRIPTION": "消耗 12 tsh:冬 8 tsh:灯 NL 对随机敌人造成 !D! 点伤害。有 !M! %%的概率命中自己。",
+    "DESCRIPTION": "消耗 12 tsh:冬 8 tsh:灯 NL 对随机敌人造成 !D! 点伤害。有 !M! %的概率命中自己。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteFollowerConsumeIngredient": {
     "NAME": "仁母仪式",
     "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
   },
 
   "TheSecretHistories:RiteFollowerConsumeTool": {
     "NAME": "抗逆仪式",
     "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
   },
 
   "TheSecretHistories:RiteInfluenceConsumeFollower": {
     "NAME": "裂兽仪式",
     "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
   },
 
   "TheSecretHistories:RiteInfluenceConsumeIngredient": {
@@ -656,7 +656,7 @@
   "TheSecretHistories:RiteToolConsumeInfluence": {
     "NAME": "地图之疆仪式",
     "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
   },
 
   "TheSecretHistories:RiteToolConsumeIngredient": {
@@ -668,13 +668,13 @@
   "TheSecretHistories:RiteToolFollowerConsumeLore": {
     "NAME": "守夜人之怆仪式",
     "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
   },
 
   "TheSecretHistories:RiteConsumeAll": {
     "NAME": "置闰仪式",
     "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
   },
 
   "TheSecretHistories:SpiritWinterMoth": {
