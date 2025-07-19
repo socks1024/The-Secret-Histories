@@ -193,8 +193,8 @@
 
   "TheSecretHistories:IngredientForgeF": {
     "NAME": "赤化精华",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:铸 。 NL 在本场战斗中升级手牌中的一张牌， 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:铸 。 NL 在本场战斗中升级手牌中的所有牌， 消耗 。"
+    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:铸 。 NL 获得 !B! 点 格挡 ， NL 在本场战斗中升级手牌中的一张牌， 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:铸 。 NL 获得 !B! 点 格挡 ， NL 在本场战斗中升级手牌中的所有牌， 消耗 。"
   },
 
   "TheSecretHistories:IngredientEdgeB": {
@@ -205,8 +205,8 @@
 
   "TheSecretHistories:IngredientEdgeD": {
     "NAME": "狻猊颗粒",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:刃 。 NL 本回合每打出1张攻击牌，增加 !M! 刃 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:刃 。 NL 本回合每打出1张攻击牌，增加 !M! 刃 。"
+    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:刃 。 NL 造成 !D! 点伤害。 NL 本回合每打出1张攻击牌，增加 !M! 刃 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:刃 。 NL 造成 !D! 点伤害。 NL 本回合每打出1张攻击牌，增加 !M! 刃 。"
   },
 
   "TheSecretHistories:IngredientEdgeF": {
@@ -247,14 +247,14 @@
 
   "TheSecretHistories:IngredientHeartF": {
     "NAME": "圣亚纳略的真血",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:心 。 NL 下 !M! 张 tsh:追随者 / tsh:赞助人 打出2次。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:心 。 NL 下 !M! 张 tsh:追随者 / tsh:赞助人 打出2次。"
+    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:心 。 NL 获得2层 灵体 ，1张 *躁动 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:心 。 NL 获得3层 灵体 ，1张 *躁动 。"
   },
 
   "TheSecretHistories:IngredientGrailB": {
     "NAME": "活力颜料",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:杯 。 NL 获得 弃牌堆 卡牌数量的护盾。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:杯 。 NL 获得 弃牌堆 卡牌数量+4的护盾 。"
+    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:杯 。 NL 造成 !D! 点伤害。 NL 给予2层 *易伤",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:杯 。 NL 造成 !D! 点伤害。 NL 给予3层 *易伤"
   },
 
   "TheSecretHistories:IngredientGrailD": {
@@ -278,7 +278,7 @@
   "TheSecretHistories:IngredientMothD": {
     "NAME": "遗忘之水",
     "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:蛾 。 NL 将持有的 tsh:蛾 翻倍。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:蛾 。 NL 将持有的 tsh:蛾 翻倍。 NL 消耗 。"
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:蛾 。 NL 将持有的 tsh:蛾 翻倍。"
   },
 
   "TheSecretHistories:IngredientMothF": {
@@ -289,8 +289,8 @@
 
   "TheSecretHistories:IngredientKnockB": {
     "NAME": "拜占庭染剂",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:启 。 NL 抽 !M! 张牌。 NL 造成 !D!点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:启 。 NL 抽 !M! 张牌。 NL 造成 !D!点伤害。"
+    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:启 。 NL 造成12- tsh:启 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:启 。 NL 造成15- tsh:启 点伤害。"
   },
 
   "TheSecretHistories:IngredientKnockD": {

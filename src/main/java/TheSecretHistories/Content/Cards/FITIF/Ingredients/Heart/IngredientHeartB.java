@@ -12,14 +12,14 @@ public class IngredientHeartB extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientHeartB.class.getSimpleName());
     private static final AbstractCard.CardTags PRINCIPLE_TAG = HEART;
     private static final String IMG_NAME = "ingredientheartb";
-    private static final int COST = 0;
+    private static final int COST = 1;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.SKILL;
     private static final AbstractCard.CardRarity RARITY = CardRarity.COMMON;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.SELF;
 
     public IngredientHeartB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.block = this.baseBlock = 9;
+        this.block = this.baseBlock = 10;
         this.isInnate = true;
     }
     @Override

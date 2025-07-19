@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Cards.FITIF.Ingredients.Knock;
 
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.AbstractIngredient;
+import TheSecretHistories.Content.Powers.Principles.Knock;
 import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -22,18 +23,21 @@ public class IngredientKnockB extends AbstractIngredient {
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
-
+    private static final int BASE_DAMAGE = 12;
+    private static final int UPGRADE_PLUS_DMG = 3;
     public IngredientKnockB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseDamage = 9;
-        this.baseMagicNumber = 1;
-        this.magicNumber = this.baseMagicNumber;
+        this.baseDamage = BASE_DAMAGE;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        super.use(p, m);
-        addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-        addToBot(new DrawCardAction(p, this.magicNumber));
+        int enlightenment = m.hasPower(Knock.POWER_ID) ?
+                m.getPower(Knock.POWER_ID).amount : 0;
+
+        int actualDamage = this.baseDamage - enlightenment;
+        if (actualDamage < 0) actualDamage = 0;
+
+        addToBot(new DamageAction(m, new DamageInfo(p, actualDamage, this.damageTypeForTurn)));
     }
 
     public void  OnUpgrade(int timesUpgraded){

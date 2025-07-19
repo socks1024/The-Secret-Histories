@@ -3,12 +3,16 @@ package TheSecretHistories.Content.Cards.FITIF.Ingredients.Grail;
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.AbstractIngredient;
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.Forge.IngredientForgeB;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.ExhaustAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.VulnerablePower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FORGE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAIL;
@@ -25,27 +29,21 @@ public class IngredientGrailB  extends AbstractIngredient {
 
     public IngredientGrailB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseBlock = 0;
-        this.block = this.baseBlock;
+        this.damage = this.baseDamage = 6;
+        this.baseMagicNumber = this.magicNumber = 1;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot(new GainBlockAction(p, p, this.block));
+        addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
+        addToBot(new ApplyPowerAction(m, p, new VulnerablePower(m, this.magicNumber, false), this.magicNumber));
     }
 
-    @Override
-    public void applyPowers() {
-        this.baseBlock = AbstractDungeon.player.discardPile.size();
-        if (this.upgraded) {
-            this.baseBlock += 4;
-        }
-        super.applyPowers();
-    }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeName();
+        this.upgradeDamage(2);
+        this.upgradeMagicNumber(1);
     }
 }

@@ -17,13 +17,15 @@ public class IngredientMothD extends AbstractIngredient {
     private static final CardTags PRINCIPLE_TAG = MOTH;
 
     private static final String IMG_NAME = "ingredientmothd";
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public IngredientMothD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+
+        this.exhaust = true;
     }
 
     @Override
@@ -39,6 +41,6 @@ public class IngredientMothD extends AbstractIngredient {
 
     @Override
     public void OnUpgrade(int timesUpgraded) {
-            upgradeBaseCost(1);
+        this.exhaust = false;
     }
 }
