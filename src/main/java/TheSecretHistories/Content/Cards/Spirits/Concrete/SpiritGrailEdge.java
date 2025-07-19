@@ -1,11 +1,10 @@
-package TheSecretHistories.Content.Cards.Spirits.GrailEdge;
+package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Content.Powers.UniqueCards.Spirit_GrailE_EdgePower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;

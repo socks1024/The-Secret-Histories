@@ -7,8 +7,7 @@ import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.KNOCK;
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.RITE;
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
 
 public class ToolKnockD extends AbstractTool {
 
@@ -35,6 +34,6 @@ public class ToolKnockD extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new UpgradeByTagAction(abstractPlayer, RITE, DeckUtils.GetBattleDeck()));
+        addToBot(new UpgradeByTagAction(abstractPlayer, FOLLOWER, DeckUtils.GetBattleDeck()));
     }
 }

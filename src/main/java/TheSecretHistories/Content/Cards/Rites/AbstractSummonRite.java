@@ -1,7 +1,7 @@
 package TheSecretHistories.Content.Cards.Rites;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
-import TheSecretHistories.Content.Cards.Spirits.GrailEdge.*;
+import TheSecretHistories.Content.Cards.Spirits.Concrete.*;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;

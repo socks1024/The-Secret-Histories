@@ -7,8 +7,8 @@
 
   "TheSecretHistories:ToolLanternB": {
     "NAME": "午之石",
-    "DESCRIPTION": " tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 每打出一张能力牌，抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": " 固有 tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 每打出一张能力牌，抽 !M! 张牌。"
+    "DESCRIPTION": " tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 获得 !D! 点 格挡 ，抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolLanternD": {
@@ -37,7 +37,7 @@
 
   "TheSecretHistories:ToolForgeF": {
     "NAME": "尸骸火花",
-    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 卡组中所有 tsh:密传 升 !M! 级。 NL 消耗 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 获得 !D! 点 格挡 ，卡组中所有 tsh:密传 升 !M! 级。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -73,7 +73,7 @@
 
   "TheSecretHistories:ToolWinterF": {
     "NAME": "分裂之铃",
-    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 回合结束时获得对手的 tsh:冬 点 格挡 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 给予 !M! 层 tsh:冬 ，每回合获得对手的 tsh:冬 点 格挡 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -85,7 +85,7 @@
 
   "TheSecretHistories:ToolHeartD": {
     "NAME": "醒觉鼓膜",
-    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 你的下 !M! 回合开始时 格挡 不会消失。",
+    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 获得 !D! 点 格挡 ，下 !M! 回合结束时 格挡 不会消失。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -115,31 +115,31 @@
 
   "TheSecretHistories:ToolMothB": {
     "NAME": "有翼人偶",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成 !D! 伤害，给予 !M! 层飞行。",
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成 !D! 伤害，获得 !M! 张躁动",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolMothD": {
     "NAME": "斑驳面具",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 获得 tsh:蛾 时多获得 !M! 层。",
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 本回合获得 tsh:蛾 时额外获得 !M! 层。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolMothF": {
     "NAME": "阿拉卡城的剪刀",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 + !D! 点伤害。"
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害（!D!）。",
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害（!D!）。 NL 保留 。"
   },
 
   "TheSecretHistories:ToolKnockB": {
     "NAME": "圣亚割妮徽记",
-    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 获得 tsh:漫宿 等级点 格挡 !M! 次。 NL 保留 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 获得 tsh:漫宿 等级点 格挡 !M! 次。 NL 虚无 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolKnockD": {
     "NAME": "祝圣门楣",
-    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 所有 tsh:仪式 被 保留 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 升级卡组中所有的 tsh:追随者 。",
     "UPGRADE_DESCRIPTION": ""
   },
 

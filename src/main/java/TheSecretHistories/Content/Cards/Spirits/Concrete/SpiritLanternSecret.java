@@ -1,19 +1,12 @@
-package TheSecretHistories.Content.Cards.Spirits.GrailEdge;
+package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
 import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
-import TheSecretHistories.Content.Powers.Principles.SecretHistories;
-import TheSecretHistories.Content.Powers.Principles.Winter;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.EndTurnAction;
-import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;

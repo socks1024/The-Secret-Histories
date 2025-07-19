@@ -1,9 +1,11 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Moth;
 
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
+import TheSecretHistories.Content.Cards.Others.Mental.Restlessness;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -26,8 +28,8 @@ public class ToolMothB extends AbstractTool {
     public ToolMothB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.damage = this.baseDamage = 16;
-        this.magicNumber = this.baseMagicNumber = 3;
+        this.damage = this.baseDamage = 14;
+        this.magicNumber = this.baseMagicNumber = 1;
     }
 
     @Override
@@ -40,6 +42,6 @@ public class ToolMothB extends AbstractTool {
         super.use(abstractPlayer, abstractMonster);
 
         addToBot(new DamageAction(abstractMonster, new DamageInfo(abstractPlayer, damage)));
-        addToBot(new ApplyPowerAction(abstractMonster, abstractPlayer, new FlightPower(abstractMonster, magicNumber)));
+        addToBot(new MakeTempCardInHandAction(new Restlessness()));
     }
 }

@@ -1,18 +1,15 @@
-package TheSecretHistories.Content.Cards.Spirits.GrailEdge;
+package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
 import TheSecretHistories.Content.Actions.UniqueCards.GainBuffOnHitAction;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
-import TheSecretHistories.Content.Powers.UniqueCards.Spirit_ForgeC_WinterPower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
-import static java.awt.SystemColor.info;
 
 public class SpiritHeartEdge extends AbstractSpirit {
 

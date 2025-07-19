@@ -1,13 +1,10 @@
-package TheSecretHistories.Content.Cards.Spirits.GrailEdge;
+package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
-import TheSecretHistories.Content.Powers.UniqueCards.Spirit_ForgeC_WinterPower;
-import TheSecretHistories.Content.Powers.UniqueCards.Spirit_GrailC_MothPower;
+import TheSecretHistories.Content.Powers.UniqueCards.SpiritGrailCMothPower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -34,7 +31,7 @@ public class SpiritGrailMoth extends AbstractSpirit {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
 
-        addToBot(new ApplyPowerAction(m, p, new Spirit_GrailC_MothPower(m, magicNumber)));
+        addToBot(new ApplyPowerAction(m, p, new SpiritGrailCMothPower(m, magicNumber)));
     }
 
     @Override

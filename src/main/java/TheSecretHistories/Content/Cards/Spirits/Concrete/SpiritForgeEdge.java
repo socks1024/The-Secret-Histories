@@ -1,6 +1,5 @@
-package TheSecretHistories.Content.Cards.Spirits.GrailEdge;
+package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
-import TheSecretHistories.Content.Actions.UniqueCards.MirrorStrikeAction;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;

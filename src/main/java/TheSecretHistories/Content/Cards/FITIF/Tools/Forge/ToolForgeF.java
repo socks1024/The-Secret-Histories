@@ -4,6 +4,7 @@ import TheSecretHistories.Content.Actions.UniqueCards.UpgradeByTagAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
 import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -24,6 +25,7 @@ public class ToolForgeF extends AbstractTool {
     public ToolForgeF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
+        this.block = this.baseBlock = 10;
         this.magicNumber = this.baseMagicNumber = 2;
     }
 
@@ -35,6 +37,8 @@ public class ToolForgeF extends AbstractTool {
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
+
+        addToBot(new GainBlockAction(abstractPlayer, block));
 
         for (int i = 0; i < magicNumber; i++) {
 

@@ -3,6 +3,7 @@ package TheSecretHistories.Content.Cards.FITIF.Tools.Heart;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.BlurPower;
@@ -24,6 +25,7 @@ public class ToolHeartD extends AbstractTool {
     public ToolHeartD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
+        this.block = this.baseBlock = 5;
         this.magicNumber = this.baseMagicNumber = 1;
     }
 
@@ -36,6 +38,7 @@ public class ToolHeartD extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
+        addToBot(new GainBlockAction(abstractPlayer, block));
         addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new BlurPower(abstractPlayer, magicNumber)));
     }
 }
