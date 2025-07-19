@@ -1,13 +1,12 @@
 package TheSecretHistories.Content.Powers.UniqueCards;
 
-import TheSecretHistories.Content.Cards.Spirits.GrailEdge.SpiritForgeMoth;
+import TheSecretHistories.Content.Cards.Spirits.Concrete.SpiritForgeMoth;
 import TheSecretHistories.Content.Powers.Template.TemplateCustomPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class Spirit_ForgeC_WinterPower extends TemplateCustomPower {
 
