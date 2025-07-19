@@ -15,6 +15,7 @@ public class GainDexterityPower extends TemplateCustomPower {
 
     public GainDexterityPower(AbstractCreature owner, int amount) {
         super(ID, IMG_NAME, owner, amount);
+        loadRegion("shackle");
     }
 
     public void stackPower(int stackAmount) {

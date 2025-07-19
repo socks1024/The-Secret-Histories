@@ -14,7 +14,7 @@ public class FascinationPower extends TemplateCustomPower {
 
     public static final String ID = StringUtils.MakeID(FascinationPower.class.getSimpleName());
 
-    private static final String IMG_NAME = "moth";
+    private static final String IMG_NAME = "fascination";
 
     public FascinationPower(AbstractCreature owner, int amount) {
         super(ID, IMG_NAME, owner, amount);

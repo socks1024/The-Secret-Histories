@@ -13,7 +13,7 @@ public class DreadPower extends TemplateCustomPower {
 
     public static final String ID = StringUtils.MakeID(DreadPower.class.getSimpleName());
 
-    private static final String IMG_NAME = "edge";
+    private static final String IMG_NAME = "dread";
 
     public DreadPower(AbstractCreature owner, int amount) {
         super(ID, IMG_NAME, owner, amount);
