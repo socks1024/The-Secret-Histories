@@ -11,7 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class Spirit_ForgeC_WinterPower extends TemplateCustomPower {
 
-    public static final String POWER_ID = StringUtils.MakeID(IngredientWinterBPower.class.getSimpleName());
+    public static final String POWER_ID = StringUtils.MakeID(Spirit_ForgeC_WinterPower.class.getSimpleName());
 
     private static final String IMG_NAME = "spirit_forgee_edge";
     private int timesUpgraded;
