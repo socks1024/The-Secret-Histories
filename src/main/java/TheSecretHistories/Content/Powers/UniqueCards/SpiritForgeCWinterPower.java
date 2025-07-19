@@ -8,13 +8,13 @@ import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 
-public class Spirit_ForgeC_WinterPower extends TemplateCustomPower {
+public class SpiritForgeCWinterPower extends TemplateCustomPower {
 
-    public static final String POWER_ID = StringUtils.MakeID(Spirit_ForgeC_WinterPower.class.getSimpleName());
+    public static final String POWER_ID = StringUtils.MakeID(SpiritForgeCWinterPower.class.getSimpleName());
 
-    private static final String IMG_NAME = "spirit_forgee_edge";
+    private static final String IMG_NAME = "spirit_forgec_winter";
     private int timesUpgraded;
-    public Spirit_ForgeC_WinterPower(AbstractCreature owner, int amount,int timesUpgraded) {
+    public SpiritForgeCWinterPower(AbstractCreature owner, int amount, int timesUpgraded) {
         super(POWER_ID, IMG_NAME, owner, amount);
         this.amount = amount;
         this.timesUpgraded = timesUpgraded;

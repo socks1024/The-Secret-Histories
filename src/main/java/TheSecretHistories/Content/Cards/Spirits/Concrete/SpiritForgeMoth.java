@@ -1,7 +1,7 @@
 package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
-import TheSecretHistories.Content.Powers.UniqueCards.Spirit_ForgeC_WinterPower;
+import TheSecretHistories.Content.Powers.UniqueCards.SpiritForgeCWinterPower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -34,7 +34,7 @@ public class SpiritForgeMoth extends AbstractSpirit {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, damage)));
-        addToBot(new ApplyPowerAction(p, p, new Spirit_ForgeC_WinterPower(p, 1,timesUpgraded), 1));
+        addToBot(new ApplyPowerAction(p, p, new SpiritForgeCWinterPower(p, 1,timesUpgraded), 1));
 
     }
 
