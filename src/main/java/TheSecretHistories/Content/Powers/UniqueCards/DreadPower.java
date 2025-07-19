@@ -18,6 +18,8 @@ public class DreadPower extends TemplateCustomPower {
     public DreadPower(AbstractCreature owner, int amount) {
         super(ID, IMG_NAME, owner, amount);
 
+        this.type = PowerType.DEBUFF;
+
         if (owner.hasPower(FascinationPower.ID)) {
             addToTop(new RemoveSpecificPowerAction(owner, owner, this));
             addToTop(new RemoveSpecificPowerAction(owner, owner, FascinationPower.ID));

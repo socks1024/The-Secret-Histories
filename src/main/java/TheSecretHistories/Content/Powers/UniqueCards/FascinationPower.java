@@ -19,6 +19,8 @@ public class FascinationPower extends TemplateCustomPower {
     public FascinationPower(AbstractCreature owner, int amount) {
         super(ID, IMG_NAME, owner, amount);
 
+        this.type = PowerType.DEBUFF;
+
         if (owner.hasPower(DreadPower.ID)) {
             addToTop(new RemoveSpecificPowerAction(owner, owner, this));
             addToTop(new RemoveSpecificPowerAction(owner, owner, DreadPower.ID));
