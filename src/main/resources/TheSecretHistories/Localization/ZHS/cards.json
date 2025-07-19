@@ -775,7 +775,7 @@
 
   "TheSecretHistories:SpiritLanternSecret": {
     "NAME": "特蕾莎",
-    "DESCRIPTION": " 消耗 NL tsh:秘史 之 tsh:准则 !P! NL 结束回合。",
+    "DESCRIPTION": " 消耗 NL tsh:秘史 之 tsh:准则 !M! NL 结束回合。",
     "UPGRADE_DESCRIPTION": ""
   },
 

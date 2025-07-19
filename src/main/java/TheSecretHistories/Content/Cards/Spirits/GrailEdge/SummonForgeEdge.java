@@ -4,14 +4,14 @@ import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
 import TheSecretHistories.Utils.StringUtils;
 
-public class SummonForgeMoth extends AbstractSummonOption {
+public class SummonForgeEdge extends AbstractSummonOption {
 
-    public static final String ID = StringUtils.MakeID(SummonForgeMoth.class.getSimpleName());
+    public static final String ID = StringUtils.MakeID(SummonForgeEdge.class.getSimpleName());
 
     private static final String IMG_NAME = "spirit_forgec_winter";
-    private static final AbstractSpirit SPIRIT = new SpiritForgeMoth();
+    private static final AbstractSpirit SPIRIT = new SpiritForgeEdge();
 
-    public SummonForgeMoth() {
+    public SummonForgeEdge() {
         super(ID, IMG_NAME, SPIRIT);
     }
 }
