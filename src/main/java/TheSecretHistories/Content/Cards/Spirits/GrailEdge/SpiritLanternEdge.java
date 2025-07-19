@@ -19,9 +19,9 @@ public class SpiritLanternEdge extends AbstractSpirit {
     public static final String ID = StringUtils.MakeID(SpiritLanternEdge.class.getSimpleName());
 
     private static final String IMG_NAME = "spirit_lanternc_edge";
-    private static final int COST = 3;
-    private static final CardType TYPE = CardType.POWER;
-    private static final CardTarget TARGET = CardTarget.NONE;
+    private static final int COST = 0;
+    private static final CardType TYPE = CardType.ATTACK;
+    private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
             new PrincipleUtils.ReducePrincipleInfo(LANTERN, 12),
