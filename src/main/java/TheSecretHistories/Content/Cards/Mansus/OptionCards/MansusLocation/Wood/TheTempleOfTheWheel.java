@@ -5,6 +5,7 @@ import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceHeart;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceKnock;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceMoth;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Rumour;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -16,8 +17,8 @@ public class TheTempleOfTheWheel extends AbstractMansusLocation {
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceKnock(),
             new InfluenceHeart(),
-            new FragmentSecretHistories().DoUpgrade(1)
-            // 古怪传闻
+            new FragmentSecretHistories().DoUpgrade(1),
+            new Rumour(),
     };
 
     public TheTempleOfTheWheel() {

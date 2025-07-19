@@ -50,6 +50,10 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
 
             for (ReducePrincipleInfo info : infos) {
 
+                if (!source.hasPower(info.principleID)) {
+                    continue;
+                }
+
                 AbstractPrinciple p = (AbstractPrinciple) source.getPower(info.principleID);
 
                 int a = info.reduceAmount;

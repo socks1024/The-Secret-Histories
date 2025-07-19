@@ -5,6 +5,7 @@ import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceHeart;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceLantern;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Mental.Fascination;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -14,10 +15,10 @@ public class ThePeacockDoor extends AbstractMansusLocation {
 
     private static final String IMG_NAME = "waywhite";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
-            // 伐诃语
+            // TODO 伐诃语
             new InfluenceLantern().DoUpgrade(3),
             new FragmentSecretHistories().DoUpgrade(4),
-            // 入迷
+            new Fascination(),
     };
 
     public ThePeacockDoor() {

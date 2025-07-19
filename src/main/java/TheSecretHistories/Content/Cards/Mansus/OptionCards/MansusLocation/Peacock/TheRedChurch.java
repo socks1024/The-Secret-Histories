@@ -5,6 +5,8 @@ import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceLantern;
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.Grail.IngredientGrailD;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Favour;
+import TheSecretHistories.Content.Cards.Others.Mental.Fascination;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -17,8 +19,8 @@ public class TheRedChurch extends AbstractMansusLocation {
             new InfluenceGrail().DoUpgrade(3),
             new IngredientGrailD(),
             new FragmentSecretHistories().DoUpgrade(5),
-            // 人情
-            // 入迷
+            new Favour(),
+            new Fascination(),
     };
 
     public TheRedChurch() {

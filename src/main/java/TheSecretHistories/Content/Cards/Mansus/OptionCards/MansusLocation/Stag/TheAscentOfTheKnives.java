@@ -5,6 +5,8 @@ import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceEdge;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceWinter;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Mental.Fascination;
+import TheSecretHistories.Content.Cards.Starters.Reason;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -17,8 +19,8 @@ public class TheAscentOfTheKnives extends AbstractMansusLocation {
             new InfluenceWinter().DoUpgrade(2),
             new InfluenceEdge().DoUpgrade(2),
             new InfluenceGrail().DoUpgrade(1),
-            // 入迷
-            // 博闻：学有所成
+            new Fascination(),
+            new Reason().DoUpgrade(1),
     };
 
     public TheAscentOfTheKnives() {

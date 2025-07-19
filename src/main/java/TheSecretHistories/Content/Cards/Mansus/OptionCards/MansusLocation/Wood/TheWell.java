@@ -4,6 +4,8 @@ import TheSecretHistories.Content.Cards.FITIF.Fragments.FragmentSecretHistories;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceMoth;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Rumour;
+import TheSecretHistories.Content.Cards.Starters.Health;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -14,9 +16,9 @@ public class TheWell extends AbstractMansusLocation {
     private static final String IMG_NAME = "waywood";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceGrail(),
-            // 活力
-            new FragmentSecretHistories().DoUpgrade(1)
-            // 古怪传闻
+            new Health(),
+            new FragmentSecretHistories().DoUpgrade(1),
+            new Rumour(),
     };
 
     public TheWell() {

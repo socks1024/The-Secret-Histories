@@ -52,11 +52,15 @@ public abstract class TemplateCustomCard extends CustomCard {
         String s1 = "TheSecretHistories/img/cards/";
         String s2 = "";
         switch (type){
-            case ATTACK:s2 = "Attacks/";
+            case ATTACK:
+                s2 = "Attacks/";
                 break;
-            case SKILL:s2 = "Skills/";
+            case POWER:
+                s2 = "Powers/";
                 break;
-            case POWER:s2 = "Powers/";
+            case SKILL:
+            default:
+                s2 = "Skills/";
                 break;
         }
         String s3 = img + ".png";

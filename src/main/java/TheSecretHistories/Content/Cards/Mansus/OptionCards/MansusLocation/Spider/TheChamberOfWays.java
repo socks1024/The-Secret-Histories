@@ -3,6 +3,7 @@ package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.Spide
 import TheSecretHistories.Content.Cards.FITIF.Fragments.FragmentSecretHistories;
 import TheSecretHistories.Content.Cards.FITIF.Influences.*;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Mental.Fascination;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -17,7 +18,7 @@ public class TheChamberOfWays extends AbstractMansusLocation {
             new InfluenceWinter().DoUpgrade(2),
             new InfluenceMoth().DoUpgrade(2),
             new FragmentSecretHistories().DoUpgrade(2),
-            // 入迷
+            new Fascination(),
     };
 
     public TheChamberOfWays() {

@@ -783,5 +783,47 @@
     "NAME": "召唤特蕾莎",
     "DESCRIPTION": " 2 tsh:启 15 tsh:灯 8 tsh:秘史 ",
     "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:Affliction": {
+    "NAME": "病痛",
+    "DESCRIPTION": "回合结束时，受到 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:Hunger": {
+    "NAME": "饥饿",
+    "DESCRIPTION": "回合结束时，失去 !M! 金币。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:Restlessness": {
+    "NAME": "躁动",
+    "DESCRIPTION": "消耗 。 NL 回合结束时，将 !M! 张恐惧加入弃牌堆。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:Dread": {
+    "NAME": "恐惧",
+    "DESCRIPTION": " 每回合失去 !M! 点临时 力量 。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:Fascination": {
+    "NAME": "入迷",
+    "DESCRIPTION": " 每回合失去 !M! 点临时 敏捷 。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "TheSecretHistories:Favour": {
+    "NAME": "当局欠下的人情",
+    "DESCRIPTION": " 虚无 NL 逃离战斗。",
+    "UPGRADE_DESCRIPTION": " 保留 NL 逃离战斗。"
+  },
+
+  "TheSecretHistories:Rumour": {
+    "NAME": "古怪的传闻",
+    "DESCRIPTION": "将一张随机 tsh:追随者 加入手牌。 NL 这张牌在本回合耗能变为0。",
+    "UPGRADE_DESCRIPTION": "保留 NL 将一张随机 tsh:追随者 加入手牌。 NL 这张牌在本回合耗能变为0。"
   }
 }

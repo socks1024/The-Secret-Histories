@@ -6,6 +6,7 @@ import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceHeart;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceKnock;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Favour;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -18,7 +19,7 @@ public class TheSpiderDoor extends AbstractMansusLocation {
             new InfluenceGrail().DoUpgrade(2),
             new InfluenceHeart().DoUpgrade(2),
             new FragmentSecretHistories().DoUpgrade(3),
-            // 人情
+            new Favour(),
     };
 
     public TheSpiderDoor() {

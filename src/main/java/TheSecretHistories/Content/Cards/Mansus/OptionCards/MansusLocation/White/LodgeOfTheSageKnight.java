@@ -4,6 +4,10 @@ import TheSecretHistories.Content.Cards.FITIF.Fragments.FragmentSecretHistories;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceKnock;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceWinter;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Favour;
+import TheSecretHistories.Content.Cards.Others.Mental.Fascination;
+import TheSecretHistories.Content.Cards.Starters.Passion;
+import TheSecretHistories.Content.Cards.Starters.Reason;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -14,11 +18,11 @@ public class LodgeOfTheSageKnight extends AbstractMansusLocation {
     private static final String IMG_NAME = "waywhite";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceKnock().DoUpgrade(1),
-            new FragmentSecretHistories().DoUpgrade(2)
-            // 灵感
-            // 博闻
-            // 入迷
-            // 当局欠下的人情
+            new FragmentSecretHistories().DoUpgrade(2),
+            new Passion(),
+            new Reason(),
+            new Fascination(),
+            new Favour(),
     };
 
     public LodgeOfTheSageKnight() {

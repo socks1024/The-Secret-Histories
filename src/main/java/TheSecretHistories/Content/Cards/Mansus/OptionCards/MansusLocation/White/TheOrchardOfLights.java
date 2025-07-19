@@ -5,6 +5,7 @@ import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceHeart;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceKnock;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceLantern;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Starters.Passion;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -16,8 +17,8 @@ public class TheOrchardOfLights extends AbstractMansusLocation {
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceLantern().DoUpgrade(1),
             new InfluenceHeart().DoUpgrade(1),
-            new FragmentSecretHistories().DoUpgrade(2)
-            // 灵感
+            new FragmentSecretHistories().DoUpgrade(2),
+            new Passion(),
     };
 
     public TheOrchardOfLights() {

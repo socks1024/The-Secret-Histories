@@ -4,6 +4,7 @@ import TheSecretHistories.Content.Cards.FITIF.Fragments.FragmentSecretHistories;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceWinter;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
+import TheSecretHistories.Content.Cards.Others.Mental.Dread;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
@@ -15,7 +16,7 @@ public class TheWormMuseum extends AbstractMansusLocation {
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceWinter().DoUpgrade(3),
             new FragmentSecretHistories().DoUpgrade(5),
-            // 恐惧
+            new Dread(),
     };
 
     public TheWormMuseum() {
