@@ -54,7 +54,7 @@ public class TheSecretHistories implements
     @Override
     public void receivePostInitialize() {
         // AutoAdd
-        BaseMod.addEvent(BookShop.ID, BookShop.class);
+        // BaseMod.addEvent(BookShop.ID, BookShop.class);
     }
 
     public static void initialize()

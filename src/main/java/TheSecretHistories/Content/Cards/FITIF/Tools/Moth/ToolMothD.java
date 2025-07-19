@@ -17,19 +17,19 @@ public class ToolMothD extends AbstractTool {
 
     private static final String IMG_NAME = "toolmothd";
     private static final int COST = 1;
-    private static final CardType TYPE = CardType.POWER;
+    private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
     public ToolMothD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.magicNumber = this.baseMagicNumber = 4;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeBaseCost(0);
+        upgradeMagicNumber(2);
     }
 
     @Override

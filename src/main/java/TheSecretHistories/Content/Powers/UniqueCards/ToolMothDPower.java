@@ -17,4 +17,11 @@ public class ToolMothDPower extends TemplateCustomPower {
 
         this.type = PowerType.BUFF;
     }
+
+    @Override
+    public void atEndOfTurn(boolean isPlayer) {
+        super.atEndOfTurn(isPlayer);
+
+        addToBot(new RemoveSpecificPowerAction(owner, owner, this));
+    }
 }

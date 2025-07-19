@@ -1,9 +1,14 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Moth;
 
-import TheSecretHistories.Content.Actions.UniqueCards.DamageByMothAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
+import TheSecretHistories.Content.Powers.Principles.Moth;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.MOTH;
@@ -22,8 +27,6 @@ public class ToolMothF extends AbstractTool {
 
     public ToolMothF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-
-        this.damage = this.baseDamage = 0;
     }
 
     @Override
@@ -32,9 +35,27 @@ public class ToolMothF extends AbstractTool {
     }
 
     @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
-        super.use(abstractPlayer, abstractMonster);
+    public void use(AbstractPlayer p, AbstractMonster m){
+        super.use(p, m);
 
-        addToBot(new DamageByMothAction(abstractMonster, abstractPlayer, damage));
+        this.baseDamage = PowerUtils.GetPowerAmount(Moth.POWER_ID, p);
+        calculateCardDamage(m);
+        addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
+        initializeDescription();
+    }
+
+    public void applyPowers() {
+        this.baseDamage = PowerUtils.GetPowerAmount(Moth.POWER_ID, AbstractDungeon.player);
+        super.applyPowers();
+        initializeDescription();
+    }
+
+    public void onMoveToDiscard() {
+        initializeDescription();
+    }
+
+    public void calculateCardDamage(AbstractMonster mo) {
+        super.calculateCardDamage(mo);
+        initializeDescription();
     }
 }
