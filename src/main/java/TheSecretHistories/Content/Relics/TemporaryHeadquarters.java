@@ -18,21 +18,21 @@ public class TemporaryHeadquarters extends TemplateCustomRelic {
         super(ID, IMG_NAME, RELIC_TIER, LANDING_SOUND);
     }
 
-    private boolean firstTurn = true;
+    private int turns = 3;
 
     public void onPlayerEndTurn() {
-        if(this.firstTurn){
+        if(this.turns > 0){
             if (!AbstractDungeon.player.hand.isEmpty()){
                 flash();
                 addToTop(new RetainCardsAction(AbstractDungeon.player, 1));
             }
 
-            firstTurn = false;
+            turns -= 1;
         }
 
     }
 
     public void atPreBattle(){
-        this.firstTurn = true;
+        this.turns = 3;
     }
 }
