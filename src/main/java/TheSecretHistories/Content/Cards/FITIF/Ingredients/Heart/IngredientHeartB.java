@@ -29,6 +29,6 @@ public class IngredientHeartB extends AbstractIngredient {
     }
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(4);
+        upgradeBlock(4);
     }
 }

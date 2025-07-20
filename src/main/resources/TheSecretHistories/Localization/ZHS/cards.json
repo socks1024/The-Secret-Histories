@@ -289,8 +289,8 @@
 
   "TheSecretHistories:IngredientKnockB": {
     "NAME": "拜占庭染剂",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:启 。 NL 造成12- tsh:启 点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:启 。 NL 造成15- tsh:启 点伤害。"
+    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:启 。 NL 对所有敌人造成12- tsh:启 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:启 。 NL 对所有敌人造成15- tsh:启 点伤害。"
   },
 
   "TheSecretHistories:IngredientKnockD": {
