@@ -15,7 +15,7 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEAR
 public class FollowerHeartClovette extends AbstractFollower{
 
     public static final String ID = StringUtils.MakeID(FollowerHeartClovette.class.getSimpleName());
-    private static final String IMG_NAME = "";
+    private static final String IMG_NAME = "clovette_a";
     private static final int COST = 1;
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = HEART;
@@ -23,18 +23,18 @@ public class FollowerHeartClovette extends AbstractFollower{
     private static final CardTarget TARGET = CardTarget.SELF;
     public FollowerHeartClovette() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-
+        this.baseMagicNumber = this.magicNumber = 4;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot(new HeartPrincipleAction(m, p, PRINCIPLE_TAG, 5, 1));
+        addToBot(new HeartPrincipleAction(m, p, PRINCIPLE_TAG, magicNumber, 1));
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(4);
+        upgradeMagicNumber(-1);
     }
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;

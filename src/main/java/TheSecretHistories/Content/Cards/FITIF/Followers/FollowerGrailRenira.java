@@ -15,7 +15,7 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAI
 public class FollowerGrailRenira extends AbstractFollower{
 
     public static final String ID = StringUtils.MakeID(FollowerGrailRenira.class.getSimpleName());
-    private static final String IMG_NAME = "";
+    private static final String IMG_NAME = "renira_a";
     private static final int COST = 1;
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = GRAIL;
@@ -23,15 +23,17 @@ public class FollowerGrailRenira extends AbstractFollower{
     private static final CardTarget TARGET = CardTarget.ENEMY;
     public FollowerGrailRenira() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+        this.baseMagicNumber = this.magicNumber = 4;
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        super.use(p, m);addToBot(new GrailFAction2(m, p, PRINCIPLE_TAG, magicNumber));
+        super.use(p, m);
+        addToBot(new GrailFAction2(m, p, PRINCIPLE_TAG, magicNumber));
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(6);
+        upgradeMagicNumber(-1);
     }
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;

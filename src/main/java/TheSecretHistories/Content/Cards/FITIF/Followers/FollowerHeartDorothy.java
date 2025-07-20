@@ -11,7 +11,7 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEAR
 public class FollowerHeartDorothy extends AbstractFollower{
 
     public static final String ID = StringUtils.MakeID(FollowerHeartDorothy.class.getSimpleName());
-    private static final String IMG_NAME = "";
+    private static final String IMG_NAME = "dorothy_a";
     private static final int COST = 2;
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = HEART;

@@ -17,7 +17,7 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAI
 public class FollowerGrailSaliba extends AbstractFollower{
 
     public static final String ID = StringUtils.MakeID(FollowerGrailSaliba.class.getSimpleName());
-    private static final String IMG_NAME = "";
+    private static final String IMG_NAME = "saliba_a";
     private static final int COST = 2;
     private static final CardType TYPE = CardType.ATTACK;
     public static CardTags PRINCIPLE_TAG = GRAIL;
