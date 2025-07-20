@@ -34,6 +34,7 @@ public class IngredientGrailF extends AbstractIngredient {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
         if (!this.upgraded) {
             applyLoseStrength(p, m);
         } else {

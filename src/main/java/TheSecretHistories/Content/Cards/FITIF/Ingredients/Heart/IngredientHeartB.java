@@ -19,7 +19,7 @@ public class IngredientHeartB extends AbstractIngredient {
 
     public IngredientHeartB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.block = this.baseBlock = 7;
+        this.block = this.baseBlock = 9;
         this.isInnate = true;
     }
     @Override

@@ -57,10 +57,8 @@ public class MirrorStrikeAction extends AbstractGameAction {
             this.isDone = true;
             return;
         }
-
-        int totalDamage = baseDmg * multiAmt;
         if (upgraded > 0) {
-            totalDamage *= 2;
+            baseDmg *= 2;
         }
 
         AbstractPlayer player = AbstractDungeon.player;
@@ -68,7 +66,7 @@ public class MirrorStrikeAction extends AbstractGameAction {
         for (int i = 0; i < multiAmt; i++) {
             DamageInfo info = new DamageInfo(player, baseDmg, DamageInfo.DamageType.NORMAL);
             info.applyPowers(player, target);
-            System.out.println("[MirrorStrike] Dealing " + info.output + " damage to " + (target != null ? target.name : "null"));
+            //System.out.println("[MirrorStrike] Dealing " + info.output + " damage to " + (target != null ? target.name : "null"));
             addToTop(new DamageAction(target, info, AttackEffect.SLASH_DIAGONAL));
         }
 

@@ -1,20 +1,14 @@
 package TheSecretHistories.Content.Cards.FITIF.Ingredients.Grail;
 
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.AbstractIngredient;
-import TheSecretHistories.Content.Cards.FITIF.Ingredients.Forge.IngredientForgeB;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.ExhaustAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
-
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FORGE;
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.GRAIL;
 
 public class IngredientGrailB  extends AbstractIngredient {
@@ -25,7 +19,7 @@ public class IngredientGrailB  extends AbstractIngredient {
     private static final int COST = 1;
     private static final AbstractCard.CardType TYPE = CardType.ATTACK;
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.COMMON;
-    private static final AbstractCard.CardTarget TARGET = CardTarget.ENEMY;
+    private static final AbstractCard.CardTarget TARGET = CardTarget.SELF;
 
     public IngredientGrailB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);

@@ -20,7 +20,7 @@ public class IngredientForgeD extends AbstractIngredient {
 
     public IngredientForgeD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseMagicNumber = this.magicNumber = 7;
+        this.block = this.baseBlock = 7;
     }
 
     @Override
@@ -29,8 +29,9 @@ public class IngredientForgeD extends AbstractIngredient {
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ExhaustByTagGainBlockAction(p, INGREDIENT, this.magicNumber));
-        addToBot(new ExhaustByTagGainBlockAction(p, TOOL, this.magicNumber));
+        super.use(p, m);
+        addToBot(new ExhaustByTagGainBlockAction(p, INGREDIENT, this.block));
+        addToBot(new ExhaustByTagGainBlockAction(p, TOOL, this.block));
     }
 
 }

@@ -2,11 +2,13 @@ package TheSecretHistories.Content.Cards.FITIF.Ingredients.Knock;
 
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.AbstractIngredient;
 import TheSecretHistories.Utils.DeckUtils;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.StrengthPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.KNOCK;
 
@@ -24,6 +26,7 @@ public class IngredientKnockD extends AbstractIngredient {
         this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;
+        this.baseDamage=this.damage=0;
     }
     @Override
     protected void OnUpgrade(int timesUpgraded) {
@@ -33,6 +36,10 @@ public class IngredientKnockD extends AbstractIngredient {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m){
         super.use(p, m);
-        addToBot(new DamageAction(m, new DamageInfo(p, magicNumber * DeckUtils.GetMansusLevel())));
+        //applyPowers();
+        this.baseDamage+=magicNumber * DeckUtils.GetMansusLevel();
+        this.calculateCardDamage(m);
+
+        addToBot(new DamageAction(m, new DamageInfo(p,this.damage)));
     }
 }

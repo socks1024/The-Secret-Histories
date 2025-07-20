@@ -25,16 +25,17 @@ public class SpiritLanternEdge extends AbstractSpirit {
 
     public SpiritLanternEdge() {
         super(ID, IMG_NAME, COST, TYPE, TARGET, INFOS);
-        this.baseMagicNumber = this.magicNumber = 2;
+        this.damage = this.baseDamage = 2;
+        this.exhaust = true;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(1);
+        upgradeDamage(1);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-            addToBot(new DrawFullAndDamageAction(p, this.magicNumber));
+            addToBot(new DrawFullAndDamageAction(p, this.damage));
     }
 }

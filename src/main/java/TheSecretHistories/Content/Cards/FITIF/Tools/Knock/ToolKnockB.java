@@ -1,11 +1,14 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Knock;
 
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
+import TheSecretHistories.Content.Powers.Principles.Winter;
 import TheSecretHistories.Utils.DeckUtils;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.DexterityPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.KNOCK;
 
@@ -24,7 +27,7 @@ public class ToolKnockB extends AbstractTool {
     public ToolKnockB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 4;
+        this.baseMagicNumber = magicNumber = 4;
 
         this.isEthereal = true;
     }
@@ -35,13 +38,14 @@ public class ToolKnockB extends AbstractTool {
     }
 
     @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
-        super.use(abstractPlayer, abstractMonster);
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
 
-        for (int i = 0; i < DeckUtils.GetMansusLevel(); i++) {
+        int rawBlock = magicNumber * DeckUtils.GetMansusLevel() + PowerUtils.GetPowerAmount(DexterityPower.POWER_ID, p);
 
-            addToBot(new GainBlockAction(abstractPlayer, magicNumber));
-
+        if (p.hasPower("Frail")) {
+            rawBlock = (int)(rawBlock * 0.75f);
         }
+        addToBot(new GainBlockAction(p, p, rawBlock));
     }
 }

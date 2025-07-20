@@ -2,10 +2,14 @@ package TheSecretHistories.Content.Cards.FITIF.Ingredients.Heart;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientHeartFPrincipleAction;
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.AbstractIngredient;
+import TheSecretHistories.Utils.DeckUtils;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.DexterityPower;
+
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
 
 public class IngredientHeartD extends AbstractIngredient {
@@ -25,6 +29,7 @@ public class IngredientHeartD extends AbstractIngredient {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m){
         super.use(p, m);
+
         addToBot(new IngredientHeartFPrincipleAction(p, p, HEART, 1, this.magicNumber));
     }
     @Override

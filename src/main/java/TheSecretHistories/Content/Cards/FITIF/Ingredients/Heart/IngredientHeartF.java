@@ -34,6 +34,7 @@ public class IngredientHeartF extends AbstractIngredient {
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m){
+        super.use(p, m);
         addToBot(new ApplyPowerAction(p, p, new IntangiblePower(p, this.magicNumber), this.magicNumber));
         addToBot(new MakeTempCardInHandAction(new Restlessness(), 1));
 
