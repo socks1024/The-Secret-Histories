@@ -40,6 +40,9 @@ public class Rumour extends TemplateCustomCard {
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
+
+        if (FOLLOWERS.length == 0) return;
+
         AbstractCard c = FOLLOWERS[new Random().nextInt(FOLLOWERS.length)];
         c.setCostForTurn(0);
         addToBot(new MakeTempCardInHandAction(c));

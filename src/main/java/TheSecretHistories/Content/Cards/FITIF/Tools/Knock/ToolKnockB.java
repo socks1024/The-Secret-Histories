@@ -24,7 +24,7 @@ public class ToolKnockB extends AbstractTool {
     public ToolKnockB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 3;
+        this.magicNumber = this.baseMagicNumber = 4;
 
         this.isEthereal = true;
     }

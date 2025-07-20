@@ -168,5 +168,19 @@
     "DESCRIPTIONS": [
       "使工具/原料额外打出1次"
     ]
+  },
+
+  "TheSecretHistories:DreadPower": {
+    "NAME": "恐惧",
+    "DESCRIPTIONS": [
+      "每回合临时失去1点力量"
+    ]
+  },
+
+  "TheSecretHistories:FascinationPower": {
+    "NAME": "入迷",
+    "DESCRIPTIONS": [
+      "每回合临时失去1点敏捷"
+    ]
   }
 }

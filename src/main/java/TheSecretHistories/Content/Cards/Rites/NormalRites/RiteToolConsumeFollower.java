@@ -38,7 +38,7 @@ public class RiteToolConsumeFollower extends AbstractNormalRite {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        updateCost(0);
+        upgradeBaseCost(0);
     }
 
     @Override

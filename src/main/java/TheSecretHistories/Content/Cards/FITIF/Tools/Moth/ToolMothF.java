@@ -27,6 +27,8 @@ public class ToolMothF extends AbstractTool {
 
     public ToolMothF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+
+        this.damage = this.baseDamage = 0;
     }
 
     @Override

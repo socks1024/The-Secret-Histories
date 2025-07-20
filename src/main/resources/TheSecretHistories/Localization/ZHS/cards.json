@@ -7,7 +7,7 @@
 
   "TheSecretHistories:ToolLanternB": {
     "NAME": "午之石",
-    "DESCRIPTION": " tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 获得 !D! 点 格挡 ，抽 !M! 张牌。",
+    "DESCRIPTION": " tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ，抽 !M! 张牌。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -37,7 +37,7 @@
 
   "TheSecretHistories:ToolForgeF": {
     "NAME": "尸骸火花",
-    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 获得 !D! 点 格挡 ，卡组中所有 tsh:密传 升 !M! 级。 NL 消耗 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ，卡组中所有 tsh:密传 升 !M! 级。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -85,7 +85,7 @@
 
   "TheSecretHistories:ToolHeartD": {
     "NAME": "醒觉鼓膜",
-    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 获得 !D! 点 格挡 ，下 !M! 回合结束时 格挡 不会消失。",
+    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ，下 !M! 回合结束时 格挡 不会消失。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -140,7 +140,7 @@
   "TheSecretHistories:ToolKnockD": {
     "NAME": "祝圣门楣",
     "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 升级卡组中所有的 tsh:追随者 。",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 固有 NL 升级卡组中所有的 tsh:追随者 。"
   },
 
   "TheSecretHistories:ToolKnockF": {
@@ -253,8 +253,8 @@
 
   "TheSecretHistories:IngredientGrailB": {
     "NAME": "活力颜料",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:杯 。 NL 造成 !D! 点伤害。 NL 给予2层 *易伤",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:杯 。 NL 造成 !D! 点伤害。 NL 给予3层 *易伤"
+    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:杯 。 NL 造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailD": {

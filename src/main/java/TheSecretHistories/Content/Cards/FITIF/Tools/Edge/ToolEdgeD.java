@@ -26,12 +26,12 @@ public class ToolEdgeD extends AbstractTool {
     public ToolEdgeD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.damage = this.baseDamage = 13;
+        this.damage = this.baseDamage = 14;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(4);
+        upgradeDamage(5);
     }
 
     @Override
