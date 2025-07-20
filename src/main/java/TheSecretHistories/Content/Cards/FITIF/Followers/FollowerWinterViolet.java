@@ -12,6 +12,7 @@ public class FollowerWinterViolet extends AbstractFollower{
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = WINTER;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
+
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;
 

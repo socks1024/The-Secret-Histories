@@ -18,7 +18,11 @@ public class FollowerEdgeVictor extends AbstractFollower{
     private static final CardRarity RARITY = CardRarity.COMMON;
 
     private static final CardTarget TARGET = CardTarget.ENEMY;
+    public FollowerEdgeVictor() {
+        super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
+        this.damage = this.baseDamage = 13;
+    }
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;
 

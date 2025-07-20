@@ -16,8 +16,13 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
     private static final CardType TYPE = CardType.SKILL;
 
 
-
+    private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    public FollowerForgeLaidlaw() {
+        super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+
+        this.damage = this.baseDamage = 13;
+    }
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;
 

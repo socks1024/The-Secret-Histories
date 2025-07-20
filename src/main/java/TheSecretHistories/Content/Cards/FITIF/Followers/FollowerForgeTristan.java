@@ -12,6 +12,12 @@ public class FollowerForgeTristan extends AbstractFollower{
     private static final CardType TYPE = CardType.ATTACK;
     public static CardTags PRINCIPLE_TAG = FORGE;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
+    public FollowerForgeTristan() {
+        super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+
+        this.damage = this.baseDamage = 13;
+    }
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;
 

@@ -12,6 +12,12 @@ public class FollowerForgeValciane extends AbstractFollower{
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = FORGE;
     private static final CardRarity RARITY = CardRarity.COMMON;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
+    public FollowerForgeValciane() {
+        super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+
+        this.damage = this.baseDamage = 13;
+    }
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;
 
