@@ -3,6 +3,7 @@ package TheSecretHistories.Content.Cards.FITIF.Followers;
 import TheSecretHistories.Content.Powers.Principles.Winter;
 import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -22,21 +23,27 @@ public class FollowerWinterViolet extends AbstractFollower{
     private static final CardTarget TARGET = CardTarget.ENEMY;
     public FollowerWinterViolet() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-
+        this.exhaust = true;
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        int winterAmount = PowerUtils.GetPowerAmount(Winter.POWER_ID, p); // 假设你有这个 power ID
-        if (winterAmount > 0) {
-            addToBot(new RemoveSpecificPowerAction(p, p, Winter.POWER_ID));
+        addToBot(new AbstractGameAction() {
+            @Override
+            public void update() {
+                int winterAmount = PowerUtils.GetPowerAmount(Winter.POWER_ID, p); // 假设你有这个 power ID
+                if (winterAmount > 0) {
+                    addToBot(new RemoveSpecificPowerAction(p, p, Winter.POWER_ID));
 
-            addToBot(new ApplyPowerAction(m, p, new Winter(m, winterAmount), winterAmount));
-        }
+                    addToBot(new ApplyPowerAction(m, p, new Winter(m, winterAmount), winterAmount));
+                }
+                isDone=true;
+            }
+        });
     }
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-
+        this.exhaust = false;
     }
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;

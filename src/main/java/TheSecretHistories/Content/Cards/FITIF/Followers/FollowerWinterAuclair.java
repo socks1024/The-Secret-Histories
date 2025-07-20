@@ -1,28 +1,53 @@
-//package TheSecretHistories.Content.Cards.FITIF.Followers;
-//
-//import TheSecretHistories.Utils.StringUtils;
-//
-//import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.WINTER;
-//
-//public class FollowerWinterAuclair extends AbstractFollower{
-//
-//    public static final String ID = StringUtils.MakeID(FollowerWinterAuclair.class.getSimpleName());
-//    private static final String IMG_NAME = "";
-//    private static final int COST = 1;
-//    private static final CardType TYPE = CardType.ATTACK;
-//    public static CardTags PRINCIPLE_TAG = WINTER;
-//    private static final CardRarity RARITY = CardRarity.UNCOMMON;
-//}
-///*private static final CardTags PRINCIPLE_TAG = EDGE;
-//
-//    public static final String ID = StringUtils.MakeID(FollowerEdgeElridge.class.getSimpleName());
-//
-//    private static final String IMG_NAME = "elridge";
-//
-//    private static final int COST = 1;
-//
-//    private static final CardType TYPE = CardType.ATTACK;
-//
-//    private static final CardRarity RARITY = CardRarity.COMMON;
-//
-//    private static final CardTarget TARGET = CardTarget.ENEMY;*/
+package TheSecretHistories.Content.Cards.FITIF.Followers;
+
+import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientEdgeFPrincipleAction;
+import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientWinterPrincipleAction;
+import TheSecretHistories.Content.Powers.Principles.Winter;
+import TheSecretHistories.Utils.PowerUtils;
+import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+
+import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.WINTER;
+
+public class FollowerWinterAuclair extends AbstractFollower{
+
+    public static final String ID = StringUtils.MakeID(FollowerWinterAuclair.class.getSimpleName());
+    private static final String IMG_NAME = "auclair_a";
+    private static final int COST = 1;
+    private static final CardType TYPE = CardType.ATTACK;
+    public static CardTags PRINCIPLE_TAG = WINTER;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
+    public FollowerWinterAuclair() {
+        super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+        this.damage = this.baseDamage = 12;
+    }
+
+    @Override
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
+        addToBot(new IngredientWinterPrincipleAction(m, p, PRINCIPLE_TAG, 5, damage));
+    }
+
+    @Override
+    protected void OnUpgrade(int timesUpgraded) {
+        upgradeDamage(4);
+    }
+}
+/*private static final CardTags PRINCIPLE_TAG = EDGE;
+
+    public static final String ID = StringUtils.MakeID(FollowerEdgeElridge.class.getSimpleName());
+
+    private static final String IMG_NAME = "elridge";
+
+    private static final int COST = 1;
+
+    private static final CardType TYPE = CardType.ATTACK;
+
+    private static final CardRarity RARITY = CardRarity.COMMON;
+
+    private static final CardTarget TARGET = CardTarget.ENEMY;*/
