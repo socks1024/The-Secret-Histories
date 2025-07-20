@@ -36,8 +36,9 @@ public class IngredientKnockB extends AbstractIngredient {
 
         int actualDamage = this.baseDamage - enlightenment;
         if (actualDamage < 0) actualDamage = 0;
-
-        addToBot(new DamageAction(m, new DamageInfo(p, actualDamage, this.damageTypeForTurn)));
+        addToBot(new DamageAction(m,
+                new DamageInfo(p, actualDamage, this.damageTypeForTurn),
+                AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
     }
 
     public void  OnUpgrade(int timesUpgraded){
