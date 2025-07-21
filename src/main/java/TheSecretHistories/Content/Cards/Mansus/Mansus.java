@@ -74,4 +74,5 @@ public class Mansus extends TemplateMultiLevelCard {
     }
 
     // TODO 中间门的预览
+    // TODO 睡觉敲漫宿牌
 }

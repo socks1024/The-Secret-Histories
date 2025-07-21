@@ -53,4 +53,6 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
     protected void OnUpgrade(int timesUpgraded) {
 
     }
+
+    // TODO 可能出现的卡牌的闪烁
 }

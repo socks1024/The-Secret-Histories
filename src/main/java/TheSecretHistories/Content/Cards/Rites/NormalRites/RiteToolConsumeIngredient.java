@@ -43,6 +43,8 @@ public class RiteToolConsumeIngredient extends AbstractNormalRite {
             protected void OnConsumedEnough(int consumedAmount) {
                 addToTop(new GainEnergyAction(magicNumber));
             }
+
+            // TODO 小天人
         });
     }
 }
