@@ -21,7 +21,7 @@ public class RiteInfluenceConsumeIngredient extends AbstractNormalRite {
     public static final String ID = StringUtils.MakeID(RiteInfluenceConsumeIngredient.class.getSimpleName());
 
     private static final String IMG_NAME = "riteinfluenceconsumeingredient";
-    private static final int COST = 1;
+    private static final int COST = 0;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardTarget TARGET = CardTarget.NONE;
 
@@ -36,7 +36,7 @@ public class RiteInfluenceConsumeIngredient extends AbstractNormalRite {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeBaseCost(0);
+        this.retain = true;
     }
 
     @Override

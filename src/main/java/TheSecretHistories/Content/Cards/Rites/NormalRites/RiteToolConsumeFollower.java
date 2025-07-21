@@ -23,7 +23,7 @@ public class RiteToolConsumeFollower extends AbstractNormalRite {
     public static final String ID = StringUtils.MakeID(RiteToolConsumeFollower.class.getSimpleName());
 
     private static final String IMG_NAME = "ritetoolconsumefollower";
-    private static final int COST = 1;
+    private static final int COST = 0;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardTarget TARGET = CardTarget.NONE;
 
@@ -38,7 +38,7 @@ public class RiteToolConsumeFollower extends AbstractNormalRite {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeBaseCost(0);
+        this.retain = true;
     }
 
     @Override

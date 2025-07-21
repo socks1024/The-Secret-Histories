@@ -4,8 +4,10 @@ import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -28,31 +30,24 @@ public class SpiritForgeEdge extends AbstractSpirit {
     public SpiritForgeEdge() {
         super(ID, IMG_NAME, COST, TYPE, TARGET, INFOS);
         this.exhaust = true;
-        this.baseDamage = 15;
-        this.isMultiDamage = true;
+
+        this.magicNumber = this.baseMagicNumber = 4;
+        this.damage = this.baseDamage = 0;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int enemyCount = 0;
+        int energy = AbstractDungeon.actionManager.cardQueue.get(0).energyOnUse;
 
-        for (AbstractMonster mo : AbstractDungeon.getMonsters().monsters) {
-            if (!mo.isDeadOrEscaped()) {
-                enemyCount++;
-            }
-        }
+        baseDamage = (int)Math.pow(magicNumber, energy);
 
-        addToBot(new DamageAllEnemiesAction(p, this.multiDamage,
-                this.damageTypeForTurn, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
-        if (enemyCount > 0) {
-            addToBot(new GainEnergyAction(enemyCount));
-        }
+        calculateDamageDisplay(m);
+
+        addToBot(new DamageAllEnemiesAction(p, damage, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
     }
-
-
 
     @Override
     public void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(10);
+        upgradeMagicNumber(1);
     }
 
 }
