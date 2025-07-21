@@ -2,7 +2,6 @@ package TheSecretHistories.Content.Cards.FITIF.Followers;
 
 import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.utility.DiscardToHandAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -28,7 +27,7 @@ public class FollowerKnockEnid extends AbstractFollower{
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
         addToBot(new DamageAction(m, new DamageInfo(p, damage)));
-        addToBot(new DiscardToHandAction(DeckUtils.GetMansusCard()));
+        //addToBot(new DiscardToHandAction(DeckUtils.GetMansusCard()));
     }
 
     @Override
@@ -36,7 +35,7 @@ public class FollowerKnockEnid extends AbstractFollower{
         upgradeDamage(6);
     }
 }
-
+//TODO 怎么实现把仪式抽手里？
 /*private static final CardTags PRINCIPLE_TAG = EDGE;
 
     public static final String ID = StringUtils.MakeID(FollowerEdgeElridge.class.getSimpleName());

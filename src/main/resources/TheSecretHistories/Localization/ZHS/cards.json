@@ -305,130 +305,130 @@
     "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:启 。 NL 所有手牌本局费用减少1。 NL 保留 。 消耗 。"
   },
 
-  "SecretHistories:FollowerLanternClifton": {
+  "TheSecretHistories:FollowerLanternClifton": {
     "NAME": "克利夫顿",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:灯 。 NL 每有 !M! secrethistories:灯 抽1张牌。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:灯 。 NL 每有 !M! secrethistories:灯 抽1张牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:灯 。 NL 每有 !M! tsh:灯 抽1张牌。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:灯 。 NL 每有 !M! tsh:灯 抽1张牌。"
   },
 
-  "SecretHistories:FollowerLanternCat": {
+  "TheSecretHistories:FollowerLanternCat": {
     "NAME": "卡特·卡罗",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:灯 。 NL 选择下次 secrethistories:漫宿 中 secrethistories:影响 的 secrethistories:准则 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:灯 。 NL 选择下次 secrethistories:漫宿 中 secrethistories:影响 的 secrethistories:准则 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:灯 。 NL 丢弃任意张手牌，提升等量自身的 tsh:灯  tsh:准则 等级。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:灯 。 NL 丢弃任意张手牌，提升等量自身的 tsh:灯  tsh:准则 等级。"
   },
 
-  "SecretHistories:FollowerLanternSlee": {
+  "TheSecretHistories:FollowerLanternSlee": {
     "NAME": "思雷",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:灯 。 NL 造成 !D! 点伤害，抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:灯 。 NL 造成 !D! 点伤害，抽 !M! 张牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:灯  NL 消耗 !M! tsh:灯 。 NL 抽2张牌。在本场战斗中，本卡牌的 tsh:灯 tsh:准则 消耗加1。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:灯  NL 消耗 !M! tsh:灯 。 NL 抽2张牌。在本场战斗中，本卡牌的 tsh:灯 tsh:准则 消耗加1。"
   },
 
-  "SecretHistories:FollowerForgeTristan": {
+  "TheSecretHistories:FollowerForgeTristan": {
     "NAME": "崔斯坦",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:铸 。 NL 造成 !D! 点伤害， 消耗 所有手牌。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:铸 。 NL 造成 !D! 点伤害， 消耗 所有手牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:铸 。 NL 失去 !M!  金币 对所有敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:铸 。 NL 失去 !M!  金币 对所有敌人造成 !D! 点伤害。 NL 固有 "
   },
 
-  "SecretHistories:FollowerForgeLaidlaw": {
+  "TheSecretHistories:FollowerForgeLaidlaw": {
     "NAME": "莱德劳",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:铸 。 NL 升级卡组中所有 secrethistories:工具 和 secrethistories:原料 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:铸 。 NL 升级卡组中所有 secrethistories:工具 、 secrethistories:原料 和 secrethistories:密传 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 所有在战斗中临时增加的牌将被*升级。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:铸 。NL 所有在战斗中临时增加的牌将被*升级。"
   },
 
-  "SecretHistories:FollowerForgeValciane": {
+  "TheSecretHistories:FollowerForgeValciane": {
     "NAME": "万查妮",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:铸 。 NL 每有 !M! secrethistories:铸 消耗1张手牌。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:铸 。 NL 每有 !M! secrethistories:铸 消耗1张手牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:铸 。 NL 消耗所有 tsh:铸 ，每 !M! tsh:铸 获得1点能量。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:铸 。 NL 消耗所有铸，每 !M! tsh:铸 获得1点能量。"
   },
 
-  "SecretHistories:FollowerEdgeElridge": {
+  "TheSecretHistories:FollowerEdgeElridge": {
     "NAME": "埃尔里奇",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:刃 。 NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:刃 。 NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:刃 。 NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:刃 。 NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。"
   },
 
-  "SecretHistories:FollowerEdgeRose": {
+  "TheSecretHistories:FollowerEdgeRose": {
     "NAME": "萝丝",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:刃 。 NL 每有 !M! secrethistories:刃 获得1点 力量 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:刃 。 NL 每有 !M! secrethistories:刃 获得1点 力量 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:刃 。 NL 消耗所有 tsh:刃  每有 !M! tsh:刃 获得1点 力量 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:刃 。 NL 消耗所有 tsh:刃  每有 !M! tsh:刃 获得1点 力量 。"
   },
 
-  "SecretHistories:FollowerEdgeVictor": {
+  "TheSecretHistories:FollowerEdgeVictor": {
     "NAME": "维克多",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:刃 。 NL 造成 !D! 点伤害，失去 !M! 点 力量 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:刃 。 NL 造成 !D! 点伤害，失去 !M! 点 力量 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:刃 。 NL 造成 !D! 点伤害，失去 !M! 点 力量 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:刃 。 NL 造成 !D! 点伤害，失去 !M! 点 力量 。"
   },
 
-  "SecretHistories:FollowerWinterAuclair": {
+  "TheSecretHistories:FollowerWinterAuclair": {
     "NAME": "奥克莱尔",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:冬 。 NL 每有 !M! secrethistories:冬 造成1次 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:冬 。 NL 每有 !M! secrethistories:冬 造成1次 !D! 点伤害。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:冬 。 NL 消耗所有 tsh:冬 每有 !M! tsh:冬 造成1次 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:冬 。 NL 消耗所有 tsh:冬 每有 !M! tsh:冬 造成1次 !D! 点伤害。"
   },
 
-  "SecretHistories:FollowerWinterViolet": {
+  "TheSecretHistories:FollowerWinterViolet": {
     "NAME": "维奥莱特",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:冬 。 NL 失去所有 secrethistories:冬 ，给予等量 secrethistories:冻伤 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:冬 。 NL 失去所有 secrethistories:冬 ，给予等量 secrethistories:冻伤 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:冬 。 NL 失去所有 tsh:冬 ，给予目标敌人等量 tsh:冬 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:冬 。 NL 失去所有 tsh:冬 ，给予目标敌人等量 tsh:冬 。"
   },
 
-  "SecretHistories:FollowerHeartLeo": {
+  "TheSecretHistories:FollowerHeartLeo": {
     "NAME": "里奥",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:心 。 NL 每回合结束时，获得 !M! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:心 。 NL 每回合结束时，获得 !M! 点 格挡 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:心 。 NL 造成你当前格 挡值 的伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:心 。 NL 造成你当前 格挡 值的伤害。 NL 保留 。"
   },
 
-  "SecretHistories:FollowerHeartClovette": {
+  "TheSecretHistories:FollowerHeartClovette": {
     "NAME": "克罗薇特",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:心 。 NL 每有 !M! secrethistories:心 获得1点 敏捷 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:心 。 NL 每有 !M! secrethistories:心 获得1点 敏捷 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:心 。 NL 消耗所有 tsh:心  每有 !M! tsh:心 获得1点 敏捷 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:心 。 NL 消耗所有 tsh:心  每有 !M! tsh:心 获得1点 敏捷 。"
   },
 
-  "SecretHistories:FollowerHeartDorothy": {
+  "TheSecretHistories:FollowerHeartDorothy": {
     "NAME": "多萝西",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:心 。 NL 下回合开始时，获得当前 格挡 点 格挡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:心 。 NL 下回合开始时，获得当前 格挡 + !B! 点 格挡 。 NL 消耗 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:心 。 NL 下回合开始时，获得当前 格挡 点 格挡 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:心 。 NL 下回合开始时，获得当前 格挡 + !B! 点 格挡 。 NL 消耗 。"
   },
 
-  "SecretHistories:FollowerGrailRenira": {
+  "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "芮妮拉",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:杯 。 NL 每有 !M! secrethistories:杯 给予1层随机负面效果 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:杯 。 NL 每有 !M! secrethistories:杯 给予1层随机负面效果。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:杯 。 NL 消耗所有 tsh:杯 ， 每有 !M! tsh:杯 给予1层 tsh:随机负面效果 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:杯 。 NL 消耗所有 tsh:杯 ， 每有 !M! tsh:杯 给予1层 tsh:随机负面效果 。"
   },
 
-  "SecretHistories:FollowerGrailSaliba": {
+  "TheSecretHistories:FollowerGrailSaliba": {
     "NAME": "萨利巴",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:杯 。 NL 将敌人的攻击意图和防御意图互换。[目前有bug！！！]",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:杯 。 NL 将敌人的攻击意图和防御意图互换。[目前有bug！！！] NL 固有 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:杯 。 NL 造成 !D! 点伤害，恢复造成伤害等量 生命 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:杯 。 NL 造成 !D! 点伤害，恢复造成伤害等量 生命 。"
   },
 
-  "SecretHistories:FollowerMothPorter": {
+  "TheSecretHistories:FollowerMothPorter": {
     "NAME": "波特",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:蛾 。 NL 每有 !M! secrethistories:蛾 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:蛾 。 NL 每有 !M! secrethistories:蛾 获得 !B! 点 格挡 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:蛾 。 NL 每有 !M! tsh:蛾 获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:蛾 。 NL 每有 !M! tsh:蛾 获得 !B! 点 格挡 。"
   },
 
-  "SecretHistories:FollowerMothSylvia": {
+  "TheSecretHistories:FollowerMothSylvia": {
     "NAME": "西尔维娅",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:蛾 。 NL 失去层数最低的 secrethistories:准则 ，获得等量 secrethistories:蛾 。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:蛾 。 NL 失去层数最低的 secrethistories:准则 ，获得等量 secrethistories:蛾 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:蛾 。 NL 失去层数最低的 tsh:准则 ，获得等量 tsh:蛾 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:蛾 。 NL 失去层数最低的 tsh:准则 ，获得等量 tsh:蛾 。"
   },
 
-  "SecretHistories:FollowerMothYsabet": {
+  "TheSecretHistories:FollowerMothYsabet": {
     "NAME": "伊莎贝特",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:蛾 。 NL 每次获得 secrethistories:蛾 时，对随机敌人造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:蛾 。 NL 每次获得 secrethistories:蛾 时，对随机敌人造成 !D! 点伤害。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:蛾 。 NL 每次获得 tsh:蛾 时，对随机敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:蛾 。 NL 每次获得 tsh:蛾 时，对随机敌人造成 !D! 点伤害。"
   },
 
-  "SecretHistories:FollowerKnockNeville": {
+  "TheSecretHistories:FollowerKnockNeville": {
     "NAME": "内维尔",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:启 。 NL 选择下次 secrethistories:漫宿 中卡牌的种类。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:启 。 NL 选择下次 secrethistories:漫宿 中卡牌的种类。 NL 保留 。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:启 。 NL 本回合每从漫宿掏出一张牌，对敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:启 。 NL 本回合每从漫宿掏出一张牌，对敌人造成 !D! 点伤害。"
   },
 
-  "SecretHistories:FollowerKnockEnid": {
+  "TheSecretHistories:FollowerKnockEnid": {
     "NAME": "伊妮德",
-    "DESCRIPTION": " secrethistories:追随者 。 NL 获得5 secrethistories:启 。 NL 造成 !D! 点伤害，将1张随机 secrethistories:仪式 置入手牌。",
-    "UPGRADE_DESCRIPTION": " secrethistories:追随者 。 NL 获得10 secrethistories:启 。 NL 造成 !D! 点伤害，将1张随机 secrethistories:仪式 置入手牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:启 。 NL 造成 !D! 点伤害，将1张随机 tsh:仪式 置入手牌。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:启 。 NL 造成 !D! 点伤害，将1张随机 tsh:仪式 置入手牌。"
   },
 
   "TheSecretHistories:WayWood": {

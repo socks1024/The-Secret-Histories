@@ -1,12 +1,7 @@
 package TheSecretHistories.Content.Cards.FITIF.Followers;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.GrailFAction2;
-import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.ToolGrailFAction;
-import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.utility.DiscardToHandAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
