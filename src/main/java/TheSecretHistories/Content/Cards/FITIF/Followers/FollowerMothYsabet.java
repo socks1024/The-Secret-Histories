@@ -15,29 +15,19 @@ public class FollowerMothYsabet extends AbstractFollower{
     public static CardTags PRINCIPLE_TAG = MOTH;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
+
     public FollowerMothYsabet() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-
+        this.baseMagicNumber = this.magicNumber = 3;
     }
+
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
     }
+
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        upgradeMagicNumber(2);
     }
 }
-//TODO 暂未实现
-/*private static final CardTags PRINCIPLE_TAG = EDGE;
-
-    public static final String ID = StringUtils.MakeID(FollowerEdgeElridge.class.getSimpleName());
-
-    private static final String IMG_NAME = "elridge";
-
-    private static final int COST = 1;
-
-    private static final CardType TYPE = CardType.ATTACK;
-
-    private static final CardRarity RARITY = CardRarity.COMMON;
-
-    private static final CardTarget TARGET = CardTarget.ENEMY;*/

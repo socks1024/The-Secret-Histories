@@ -41,6 +41,7 @@ public class IngredientKnockB extends AbstractIngredient {
             public void update() {
                 damage -= PowerUtils.GetPowerAmount(Knock.POWER_ID, p);
                 addToTop(new DamageAllEnemiesAction(p, damage, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+                isDone = true;
             }
         });
     }

@@ -123,4 +123,14 @@ public abstract class TemplateCustomCard extends CustomCard {
     protected void PostApplyPowers() {
 
     }
+
+    @Override
+    public AbstractCard makeCopy() {
+        return super.makeCopy();
+    }
+
+    @Override
+    public AbstractCard makeStatEquivalentCopy() {
+        return super.makeStatEquivalentCopy();
+    }
 }
