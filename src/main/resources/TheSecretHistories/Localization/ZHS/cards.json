@@ -127,13 +127,13 @@
 
   "TheSecretHistories:ToolMothF": {
     "NAME": "阿拉卡城的剪刀",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害（!D!）。",
-    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害（!D!）。 NL 保留 。"
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害。 NL 保留 。"
   },
 
   "TheSecretHistories:ToolKnockB": {
     "NAME": "圣亚割妮徽记",
-    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 获得 tsh:漫宿 等级( !B! )点 格挡  !M! 次。 NL 虚无 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 获得 tsh:漫宿 等级点 格挡  !M! 次。 NL 虚无 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -241,8 +241,8 @@
 
   "TheSecretHistories:IngredientHeartD": {
     "NAME": "巫吻之油",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 将所有 tsh:心 转化为等量 格挡 ( !B! )。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 将所有 tsh:心 转化为等量 格挡 ( !B! )。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 将所有 tsh:心 转化为等量 格挡 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 将所有 tsh:心 转化为等量 格挡 。"
   },
 
   "TheSecretHistories:IngredientHeartF": {
@@ -289,13 +289,13 @@
 
   "TheSecretHistories:IngredientKnockB": {
     "NAME": "拜占庭染剂",
-    "DESCRIPTION": " tsh:原料 。 NL 对所有敌人造成 !M! - tsh:启 点伤害( !D! )。 NL tsh:启 之 tsh:准则 !P! ",
+    "DESCRIPTION": " tsh:原料 。 NL 对所有敌人造成 !M! - tsh:启 点伤害。 NL tsh:启 之 tsh:准则 !P! ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockD": {
     "NAME": "生猛毒液",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 造成 tsh:漫宿 等级点伤害( !D! ) !M! 次。 NL 消耗 。",
+    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 造成 tsh:漫宿 等级点伤害 !M! 次。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -373,13 +373,13 @@
 
   "TheSecretHistories:FollowerHeartLeo": {
     "NAME": "里奥",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 造成你当前格挡值的伤害( !D! )。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 保留 。 NL 造成你当前格挡值的伤害( !D! )。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 造成你当前格挡值的伤害。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 保留 。 NL 造成你当前格挡值的伤害。"
   },
 
   "TheSecretHistories:FollowerHeartClovette": {
     "NAME": "克罗薇特",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 消耗所有 tsh:心 ，每有 !M! secrethistories:心 获得1点 敏捷 。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 消耗所有 tsh:心 ，每有 !M! tsh:心 获得1点 敏捷 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -433,31 +433,31 @@
 
   "TheSecretHistories:WayWood": {
     "NAME": "道路：林地",
-    "DESCRIPTION": " tsh:林地 NL 消耗 !P! tsh:灯 / tsh:蛾 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:林地 NL 消耗2 tsh:灯 / tsh:蛾 / tsh:启 ，并选择一张牌加入手牌。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayWhite": {
     "NAME": "道路：纯白之门",
-    "DESCRIPTION": " tsh:纯白之门 NL 消耗 !P! tsh:灯 / tsh:冬 / tsh:心 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:纯白之门 NL 消耗4 tsh:灯 / tsh:冬 / tsh:心 / tsh:启 ，并选择一张牌加入手牌。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayStag": {
     "NAME": "道路：通过牡鹿之门",
-    "DESCRIPTION": " tsh:牡鹿之门 NL 消耗 !P! tsh:灯 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:牡鹿之门 NL 消耗6 tsh:灯 / tsh:启 ，并选择一张牌加入手牌。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WaySpider": {
     "NAME": "道路：蜘蛛之门",
-    "DESCRIPTION": " tsh:蜘蛛之门 NL 消耗 !P! tsh:灯 / tsh:杯 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:蜘蛛之门 NL 消耗8 tsh:灯 / tsh:杯 / tsh:启 ，并选择一张牌加入手牌。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayPeacock": {
     "NAME": "道路：孔雀之门",
-    "DESCRIPTION": " tsh:孔雀之门 NL 消耗 !P! tsh:灯 / tsh:刃 / tsh:铸 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:孔雀之门 NL 消耗10 tsh:灯 / tsh:刃 / tsh:铸 / tsh:启 ，并选择一张牌加入手牌。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -661,8 +661,8 @@
 
   "TheSecretHistories:RiteToolConsumeIngredient": {
     "NAME": "海飨仪式",
-    "DESCRIPTION": "消耗 12 tsh:蛾 8 tsh:刃 NL 接下来 !M! 次消耗 tsh:准则 的行动不需要消耗 tsh:准则 。",
-    "UPGRADE_DESCRIPTION": ""
+    "DESCRIPTION": "消耗 12 tsh:蛾 8 tsh:刃 NL 每回合额外获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "消耗 12 tsh:蛾 8 tsh:刃 NL 每回合额外获得 [E] [E] 。"
   },
 
   "TheSecretHistories:RiteToolFollowerConsumeLore": {

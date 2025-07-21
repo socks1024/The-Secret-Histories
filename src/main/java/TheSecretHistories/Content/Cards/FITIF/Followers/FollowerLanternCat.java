@@ -62,6 +62,7 @@ public class FollowerLanternCat extends AbstractFollower{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
         upgradeBaseCost(0);
     }
 }

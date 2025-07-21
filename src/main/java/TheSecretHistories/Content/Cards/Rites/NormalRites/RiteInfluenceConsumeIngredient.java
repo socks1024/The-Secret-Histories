@@ -48,7 +48,5 @@ public class RiteInfluenceConsumeIngredient extends AbstractNormalRite {
                 addToBot(new DiscardAnyAndDrawFullAction(abstractPlayer));
             }
         });
-
-        // TODO not functional
     }
 }

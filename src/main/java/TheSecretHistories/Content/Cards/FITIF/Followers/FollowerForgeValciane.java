@@ -28,6 +28,7 @@ public class FollowerForgeValciane extends AbstractFollower{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
         upgradeMagicNumber(-1);
     }
 }

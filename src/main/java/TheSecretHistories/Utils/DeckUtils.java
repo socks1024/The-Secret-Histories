@@ -9,6 +9,10 @@ import java.util.Objects;
 
 public class DeckUtils {
 
+    public static boolean HasMansus() {
+        return (GetFirstCardInMasterDeck(Mansus.ID) != null);
+    }
+
     public static int GetMansusLevel() {
 
         AbstractCard mansusCard = GetFirstCardInMasterDeck(Mansus.ID);

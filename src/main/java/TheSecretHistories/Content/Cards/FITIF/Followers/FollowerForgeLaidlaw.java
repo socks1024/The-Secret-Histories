@@ -24,7 +24,8 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
 
 
     private static final CardTarget TARGET = CardTarget.SELF;
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardRarity RARITY = CardRarity.RARE;
+
     public FollowerForgeLaidlaw() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
@@ -38,6 +39,7 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
         isInnate = true;
     }
 }

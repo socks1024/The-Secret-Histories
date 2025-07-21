@@ -39,6 +39,7 @@ public class FollowerEdgeVictor extends AbstractFollower{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
             upgradeDamage(8);
     }
 }

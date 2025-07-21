@@ -86,6 +86,4 @@ public abstract class AbstractSummonRite extends AbstractRite {
     protected void OnUpgrade(int timesUpgraded) {
         this.retain = true;
     }
-
-    // TODO 说明具体的召唤性相需求的滚动描述
 }

@@ -15,7 +15,12 @@ public class PrincipleVariant extends DynamicVariable {
     @Override
     public boolean isModified(AbstractCard abstractCard) {
         TemplateCustomCard tCard = (TemplateCustomCard)abstractCard;
-        return tCard.principleCount != tCard.basePrincipleCount;
+        return tCard.isPrincipleCountModified;
+    }
+
+    @Override
+    public void setIsModified(AbstractCard card, boolean v) {
+        super.setIsModified(card, v);
     }
 
     @Override

@@ -56,6 +56,7 @@ public class FollowerKnockEnid extends AbstractFollower{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
         upgradeDamage(6);
     }
 }

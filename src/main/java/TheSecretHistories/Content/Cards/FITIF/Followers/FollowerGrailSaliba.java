@@ -35,6 +35,7 @@ public class FollowerGrailSaliba extends AbstractFollower{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
         upgradeDamage(3);
     }
 }

@@ -19,7 +19,7 @@ public class IngredientGrailB  extends AbstractIngredient {
     private static final int COST = 1;
     private static final AbstractCard.CardType TYPE = CardType.ATTACK;
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.COMMON;
-    private static final AbstractCard.CardTarget TARGET = CardTarget.SELF;
+    private static final AbstractCard.CardTarget TARGET = CardTarget.ENEMY;
 
     public IngredientGrailB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);

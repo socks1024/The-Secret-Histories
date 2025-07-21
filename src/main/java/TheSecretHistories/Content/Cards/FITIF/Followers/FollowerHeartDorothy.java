@@ -40,20 +40,8 @@ public class FollowerHeartDorothy extends AbstractFollower{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
             upgradeBaseCost(0);
     }
 
 }
-/*private static final CardTags PRINCIPLE_TAG = EDGE;
-
-    public static final String ID = StringUtils.MakeID(FollowerEdgeElridge.class.getSimpleName());
-
-    private static final String IMG_NAME = "elridge";
-
-    private static final int COST = 1;
-
-    private static final CardType TYPE = CardType.ATTACK;
-
-    private static final CardRarity RARITY = CardRarity.COMMON;
-
-    private static final CardTarget TARGET = CardTarget.ENEMY;*/

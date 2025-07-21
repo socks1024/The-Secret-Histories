@@ -2,8 +2,10 @@ package TheSecretHistories.Content.Cards.Rites.NormalRites;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
 import TheSecretHistories.Content.Cards.Rites.AbstractNormalRite;
+import TheSecretHistories.Content.Powers.UniqueCards.GainEnergyAtStartOfTurnPower;
 import TheSecretHistories.Utils.PrincipleUtils.ReducePrincipleInfo;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -32,7 +34,7 @@ public class RiteToolConsumeIngredient extends AbstractNormalRite {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        updateCost(1);
+        upgradeMagicNumber(1);
     }
 
     @Override
@@ -41,10 +43,8 @@ public class RiteToolConsumeIngredient extends AbstractNormalRite {
         addToBot(new ConsumePrincipleAction(abstractPlayer, INFOS) {
             @Override
             protected void OnConsumedEnough(int consumedAmount) {
-                addToTop(new GainEnergyAction(magicNumber));
+                addToTop(new ApplyPowerAction(abstractPlayer, abstractPlayer, new GainEnergyAtStartOfTurnPower(abstractPlayer, magicNumber)));
             }
-
-            // TODO 小天人
         });
     }
 }

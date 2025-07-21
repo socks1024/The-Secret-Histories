@@ -41,8 +41,8 @@ public class FollowerKnockNeville extends AbstractFollower{
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
         upgradeDamage(3);
         upgradeMagicNumber(1);
     }
 }
-//TODO 1

@@ -28,6 +28,7 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.THE_SEEKER;
 
@@ -125,13 +126,21 @@ public class TheSeeker extends CustomPlayer {
     }
 
     @Override
-    public AbstractCard getStartCardForEvent(){
-        return null;//这里return初始牌
+    public Color getCardTrailColor(){
+        return TheSecretHistories.CULT_BLUE;
     }
 
     @Override
-    public Color getCardTrailColor(){
-        return TheSecretHistories.CULT_BLUE;
+    public AbstractCard getStartCardForEvent() {
+        int i = new Random().nextInt(3);
+        switch (i) {
+            case 0:
+                return new Health();
+            case 1:
+                return new Reason();
+            default:
+                return new Passion();
+        }
     }
 
     @Override
