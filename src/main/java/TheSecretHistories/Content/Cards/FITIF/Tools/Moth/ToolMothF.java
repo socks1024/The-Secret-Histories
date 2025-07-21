@@ -41,23 +41,16 @@ public class ToolMothF extends AbstractTool {
         super.use(p, m);
 
         this.baseDamage = PowerUtils.GetPowerAmount(Moth.POWER_ID, p);
-        calculateCardDamage(m);
+
+        calculateDamageDisplay(m);
+
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
-        initializeDescription();
     }
 
-    public void applyPowers() {
+    @Override
+    protected void PreApplyPowers() {
+        super.PreApplyPowers();
+
         this.baseDamage = PowerUtils.GetPowerAmount(Moth.POWER_ID, AbstractDungeon.player);
-        super.applyPowers();
-        initializeDescription();
-    }
-
-    public void onMoveToDiscard() {
-        initializeDescription();
-    }
-
-    public void calculateCardDamage(AbstractMonster mo) {
-        super.calculateCardDamage(mo);
-        initializeDescription();
     }
 }

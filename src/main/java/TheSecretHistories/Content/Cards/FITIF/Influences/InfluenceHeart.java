@@ -18,7 +18,7 @@ public class InfluenceHeart extends AbstractInfluences {
     public InfluenceHeart() {
         super(ID, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 1;
+        this.magicNumber = this.baseMagicNumber = 2;
     }
 
     @Override

@@ -3,6 +3,7 @@ package TheSecretHistories.Content.Cards.FITIF.Followers;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.NextTurnBlockPower;
 
@@ -19,11 +20,22 @@ public class FollowerHeartDorothy extends AbstractFollower{
     private static final CardTarget TARGET = CardTarget.SELF;
     public FollowerHeartDorothy() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+
+        this.baseBlock = this.block = 0;
+        this.exhaust = true;
     }
+
+
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int blockAmount = p.currentBlock;
-        addToBot(new ApplyPowerAction(p, p, new NextTurnBlockPower(p, blockAmount), blockAmount));
+        baseBlock = p.currentBlock;
+        calculateDamageDisplay(m);
+        addToBot(new ApplyPowerAction(p, p, new NextTurnBlockPower(p, block), block));
+    }
+
+    @Override
+    protected void PreApplyPowers() {
+        baseBlock = AbstractDungeon.player.currentBlock;
     }
 
     @Override

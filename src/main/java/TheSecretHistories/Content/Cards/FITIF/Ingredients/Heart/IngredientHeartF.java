@@ -30,15 +30,13 @@ public class IngredientHeartF extends AbstractIngredient {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
         this.baseMagicNumber = this.magicNumber = 2;
         this.exhaust = true;
-        this .cardsToPreview = new Restlessness();
+        this.cardsToPreview = new Restlessness();
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m){
         super.use(p, m);
         addToBot(new ApplyPowerAction(p, p, new IntangiblePower(p, this.magicNumber), this.magicNumber));
         addToBot(new MakeTempCardInHandAction(new Restlessness(), 1));
-
-
     }
     @Override
     protected void OnUpgrade(int timesUpgraded) {

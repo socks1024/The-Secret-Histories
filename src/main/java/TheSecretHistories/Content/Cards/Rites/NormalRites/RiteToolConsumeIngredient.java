@@ -45,6 +45,4 @@ public class RiteToolConsumeIngredient extends AbstractNormalRite {
             }
         });
     }
-
-    // TODO 回合开始时额外获得一费
 }

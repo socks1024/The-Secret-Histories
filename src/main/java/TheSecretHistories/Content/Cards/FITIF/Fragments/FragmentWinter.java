@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Cards.FITIF.Fragments;
 
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -26,6 +27,6 @@ public class FragmentWinter extends AbstractFragment{
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new DamageRandomEnemyAction(new DamageInfo(AbstractDungeon.player, damage), AbstractGameAction.AttackEffect.SMASH));
+        addToBot(new DamageAllEnemiesAction(abstractPlayer, damage, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
     }
 }

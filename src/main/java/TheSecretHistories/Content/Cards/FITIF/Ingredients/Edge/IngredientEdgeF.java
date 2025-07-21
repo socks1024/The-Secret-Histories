@@ -27,7 +27,7 @@ public class IngredientEdgeF extends AbstractIngredient {
     public IngredientEdgeF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
         this.damage = this.baseDamage = 4;
-        this.baseMagicNumber = 3;
+        this.magicNumber = this.baseMagicNumber = 3;
     }
 
     @Override
@@ -37,7 +37,7 @@ public class IngredientEdgeF extends AbstractIngredient {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot(new IngredientEdgeFPrincipleAction(m, p, PRINCIPLE_TAG, 3, damage));
+        addToBot(new IngredientEdgeFPrincipleAction(m, p, PRINCIPLE_TAG, magicNumber, damage));
     }
 
 }

@@ -133,7 +133,7 @@
 
   "TheSecretHistories:ToolKnockB": {
     "NAME": "圣亚割妮徽记",
-    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 获得 tsh:漫宿 等级点 格挡 !M! 次。 NL 虚无 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 获得 tsh:漫宿 等级( !B! )点 格挡  !M! 次。 NL 虚无 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -163,272 +163,272 @@
 
   "TheSecretHistories:IngredientLanternB": {
     "NAME": "耀素",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:灯 。 NL 抽 !M! 张牌，丢弃1张牌。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:灯 。 NL 抽 !M! 张牌，丢弃1张牌。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌，丢弃1张牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientLanternD": {
     "NAME": "透指毒素",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:灯 。 NL 造成 !D! 点伤害，本回合每打出攻击牌时抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:灯 。 NL 造成 !D! 点伤害，本回合每打出攻击牌时抽 !M! 张牌。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:灯 之 tsh:准则 !P! NL 造成 !D! 点伤害，本回合每打出攻击牌时抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientLanternF": {
     "NAME": "玻璃灵液",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:灯 。 NL 手牌数量没有上限。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:灯 。 NL 固有 。 NL 手牌数量没有上限。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:灯 之 tsh:准则 !P! NL 手牌数量没有上限。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:灯 之 tsh:准则 !P! NL 固有 。 NL 手牌数量没有上限。"
   },
 
   "TheSecretHistories:IngredientForgeB": {
     "NAME": "苦黑盐",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:铸 。 NL 获得 !B! 点 格挡 ， 消耗 1张手牌。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:铸 。 NL 获得 !B! 点 格挡 ， 消耗 1张手牌。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ， 消耗 !M! 张手牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientForgeD": {
     "NAME": "黄化精华",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:铸 。 NL 消耗 手牌中所有 tsh:工具 和 tsh:原料 ，每 消耗 1张牌获得 !M! 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:铸 。 NL 消耗 手牌中所有 tsh:工具 和 tsh:原料 ，每 消耗 1张牌获得 !M! 格挡 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:铸 之 tsh:准则 !P! NL 消耗 手牌中所有 tsh:工具 和 tsh:原料 ，每 消耗 一张牌获得 !B! 格挡 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientForgeF": {
     "NAME": "赤化精华",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:铸 。 NL 获得 !B! 点 格挡 ， NL 在本场战斗中升级手牌中的一张牌， 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:铸 。 NL 获得 !B! 点 格挡 ， NL 在本场战斗中升级手牌中的所有牌， 消耗 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ， NL 在本场战斗中升级手牌中的一张牌， 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ， NL 在本场战斗中升级手牌中的所有牌， 消耗 。"
   },
 
   "TheSecretHistories:IngredientEdgeB": {
     "NAME": "马氏膏",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:刃 。 NL 获得 !M! 力量 ，回合结束时失去 !M! 力量 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:刃 。 NL 获得 !M! 力量 ，回合结束时失去 !M! 力量 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 获得 !M! 力量 ，回合结束时失去 !M! 力量 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientEdgeD": {
     "NAME": "狻猊颗粒",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:刃 。 NL 造成 !D! 点伤害。 NL 本回合每打出1张攻击牌，增加 !M! 刃 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:刃 。 NL 造成 !D! 点伤害。 NL 本回合每打出1张攻击牌，增加 !M! 刃 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害。 NL 本回合每打出攻击牌，增加 !M! 刃 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害。 NL 本回合每打出攻击牌，增加 !M! 刃 。"
   },
 
   "TheSecretHistories:IngredientEdgeF": {
     "NAME": "剑齿兽的獠牙",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:刃 。 NL 消耗所有 tsh:刃 ，每有 !M! 层 ，造成1次 !D! 点伤害。",
+    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 消耗所有 tsh:刃 ，每有 !M! 层 ，造成 !D! 点伤害。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterB": {
     "NAME": "灰晓之油",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:冬 。 NL 本回合结束时不因为 tsh:冬 受到伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:冬 。 NL 本回合结束时不因为 tsh:冬 受到伤害。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:冬 之 tsh:准则 !P! NL 本回合结束时不因为 tsh:冬 受到伤害。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterD": {
     "NAME": "狼雪",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:冬 。 NL 对所有敌人造成 !D! 伤害，给予等量 tsh:冬 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:冬 。 NL 对所有敌人造成 !D! 伤害，给予等量 tsh:冬 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:冬 之 tsh:准则 !P! NL 对所有敌人造成 !D! 伤害，给予等量 tsh:冬 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterF": {
     "NAME": "守夜虫",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:冬 。 NL 给予 !M! tsh:冬 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:冬 。 NL 给予 !M! tsh:冬 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:冬 之 tsh:准则 !P! NL 给予 !M! tsh:冬 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientHeartB": {
     "NAME": "玫瑰色珍珠粉",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:心 。 NL 固有 。 NL 获得 !B! 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:心 。 NL 固有 。 NL 获得 !B! 格挡 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 固有 。 NL 获得 !B! 格挡 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientHeartD": {
     "NAME": "巫吻之油",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:心 。 NL 将所有 tsh:心 转化为等量 格挡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:心 。 NL 将所有 tsh:心 转化为等量 格挡 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 将所有 tsh:心 转化为等量 格挡 ( !B! )。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 将所有 tsh:心 转化为等量 格挡 ( !B! )。"
   },
 
   "TheSecretHistories:IngredientHeartF": {
     "NAME": "圣亚纳略的真血",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:心 。 NL 获得2层 灵体 ，1张 *躁动 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:心 。 NL 获得3层 灵体 ，1张 *躁动 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，1张 *躁动 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailB": {
     "NAME": "活力颜料",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:杯 。 NL 造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。",
+    "DESCRIPTION": " tsh:原料 。 NL tsh:杯 之 tsh:准则 !P! NL 造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailD": {
     "NAME": "不凋花蜜",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:杯 。 NL 获得 !M! 层 tsh:不凋 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:杯 。 NL 获得 !M! 层 tsh:不凋 。 NL 消耗 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 tsh:不凋 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailF": {
     "NAME": "扭动胎膜",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:杯 。 NL 令敌人本回合临时失去 !M! 力量 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:杯 。 NL 令所有敌人本回合临时失去 !M! 力量 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 令敌人本回合失去 !M! 力量 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 令所有敌人本回合失去 !M! 力量 。"
   },
 
   "TheSecretHistories:IngredientMothB": {
     "NAME": "黑白颜料",
-    "DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:蛾 。 NL 造成 !D! 点伤害，获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得4 tsh:蛾 。 NL 造成 !D! 点伤害，获得 !B! 点 格挡 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:蛾 之 tsh:准则 !P! NL 造成 !D! 点伤害，获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientMothD": {
     "NAME": "遗忘之水",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:蛾 。 NL 将持有的 tsh:蛾 翻倍。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:蛾 。 NL 将持有的 tsh:蛾 翻倍。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:蛾 之 tsh:准则 !P! NL 将持有的 tsh:蛾 翻倍。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:蛾 之 tsh:准则 !P! NL 将持有的 tsh:蛾 翻倍。"
   },
 
   "TheSecretHistories:IngredientMothF": {
     "NAME": "至圣血淋巴",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:蛾 。 NL 在这个回合，你打出的下 !M! 张 tsh:工具 / tsh:原料 额外打出1次。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:蛾 。 NL 下 !M! 张 tsh:工具 / tsh:原料 额外打出1次。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:蛾 之 tsh:准则 !P! NL 本回合打出的下张 tsh:工具 或 tsh:原料 额外打出 !M! 次。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockB": {
     "NAME": "拜占庭染剂",
-    "DESCRIPTION": " tsh:原料 。 NL 对所有敌人造成 !D! - tsh:启 点伤害。 NL 获得4 tsh:启 。 ",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 对所有敌人造成 !D! - tsh:启 点伤害。 NL 获得4 tsh:启 。"
+    "DESCRIPTION": " tsh:原料 。 NL 对所有敌人造成 !M! - tsh:启 点伤害( !D! )。 NL tsh:启 之 tsh:准则 !P! ",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockD": {
     "NAME": "生猛毒液",
-    "DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:启 。 NL 造成 !M! 倍 tsh:漫宿 等级点伤害 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得8 tsh:启 。 NL 造成 !M! 倍 tsh:漫宿 等级点伤害 。 NL 消耗 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 造成 tsh:漫宿 等级点伤害( !D! ) !M! 次。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockF": {
     "NAME": "阿佐特",
-    "DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:启 。 NL 所有手牌本局费用减少1。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL 获得12 tsh:启 。 NL 所有手牌本局费用减少1。 NL 保留 。 消耗 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 所有手牌本局费用减少 !M! 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 所有手牌本局费用减少 !M! 。 NL 保留 。 消耗 。"
   },
 
   "TheSecretHistories:FollowerLanternClifton": {
     "NAME": "克利夫顿",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:灯 。 NL 每有 !M! tsh:灯 抽1张牌。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:灯 。 NL 每有 !M! tsh:灯 抽1张牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 消耗所有 tsh:灯 ，每消耗 !M! tsh:灯 抽1张牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerLanternCat": {
     "NAME": "卡特·卡罗",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:灯 。 NL 丢弃任意张手牌，提升等量自身的 tsh:灯  tsh:准则 等级。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:灯 。 NL 丢弃任意张手牌，提升等量自身的 tsh:灯  tsh:准则 等级。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 丢弃任意张手牌，提升等量自身的 tsh:灯 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerLanternSlee": {
     "NAME": "思雷",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:灯  NL 消耗 !M! tsh:灯 。 NL 抽2张牌。在本场战斗中，本卡牌的 tsh:灯 tsh:准则 消耗加1。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:灯  NL 消耗 !M! tsh:灯 。 NL 抽2张牌。在本场战斗中，本卡牌的 tsh:灯 tsh:准则 消耗加1。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 消耗 !M! tsh:灯 ，抽2张牌。每次打出增加1点 tsh:灯 消耗。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeTristan": {
     "NAME": "崔斯坦",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:铸 。 NL 失去 !M!  金币 对所有敌人造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:铸 。 NL 失去 !M!  金币 对所有敌人造成 !D! 点伤害。 NL 固有 "
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 失去 !M! 金币，对所有敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeLaidlaw": {
     "NAME": "莱德劳",
-    "DESCRIPTION": " tsh:追随者 。 NL 所有在战斗中临时增加的牌将被*升级。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:铸 。NL 所有在战斗中临时增加的牌将被*升级。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 所有在战斗中临时增加的牌将被 *升级 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 固有 NL 所有在战斗中临时增加的牌将被 *升级 。"
   },
 
   "TheSecretHistories:FollowerForgeValciane": {
     "NAME": "万查妮",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:铸 。 NL 消耗所有 tsh:铸 ，每 !M! tsh:铸 获得1点能量。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:铸 。 NL 消耗所有铸，每 !M! tsh:铸 获得1点能量。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 消耗所有 tsh:铸 ，每 !M! 铸获得 [E] 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerEdgeElridge": {
     "NAME": "埃尔里奇",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:刃 。 NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:刃 。 NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerEdgeRose": {
     "NAME": "萝丝",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:刃 。 NL 消耗所有 tsh:刃  每有 !M! tsh:刃 获得1点 力量 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:刃 。 NL 消耗所有 tsh:刃  每有 !M! tsh:刃 获得1点 力量 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 消耗所有 tsh:刃 ，每有 !M! tsh:刃 获得1点 力量 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerEdgeVictor": {
     "NAME": "维克多",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:刃 。 NL 造成 !D! 点伤害，失去 !M! 点 力量 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:刃 。 NL 造成 !D! 点伤害，失去 !M! 点 力量 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害，失去 !M! 点 力量 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerWinterAuclair": {
     "NAME": "奥克莱尔",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:冬 。 NL 消耗所有 tsh:冬 每有 !M! tsh:冬 造成1次 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:冬 。 NL 消耗所有 tsh:冬 每有 !M! tsh:冬 造成1次 !D! 点伤害。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 消耗所有 tsh:冬 ，每有 !M! tsh:冬 ，造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerWinterViolet": {
     "NAME": "维奥莱特",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:冬 。 NL 失去所有 tsh:冬 ，给予目标敌人等量 tsh:冬 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:冬 。 NL 失去所有 tsh:冬 ，给予目标敌人等量 tsh:冬 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 将自身的 tsh:冬 转移给敌人。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 将自身的 tsh:冬 转移给敌人。"
   },
 
   "TheSecretHistories:FollowerHeartLeo": {
     "NAME": "里奥",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:心 。 NL 造成你当前格 挡值 的伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:心 。 NL 造成你当前 格挡 值的伤害。 NL 保留 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 造成你当前格挡值的伤害( !D! )。",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 保留 。 NL 造成你当前格挡值的伤害( !D! )。"
   },
 
   "TheSecretHistories:FollowerHeartClovette": {
     "NAME": "克罗薇特",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:心 。 NL 消耗所有 tsh:心  每有 !M! tsh:心 获得1点 敏捷 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:心 。 NL 消耗所有 tsh:心  每有 !M! tsh:心 获得1点 敏捷 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 消耗所有 tsh:心 ，每有 !M! secrethistories:心 获得1点 敏捷 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerHeartDorothy": {
     "NAME": "多萝西",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:心 。 NL 下回合开始时，获得当前 格挡 点 格挡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:心 。 NL 下回合开始时，获得当前 格挡 + !B! 点 格挡 。 NL 消耗 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 下回合开始时，获得当前 格挡 点 格挡 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "芮妮拉",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:杯 。 NL 消耗所有 tsh:杯 ， 每有 !M! tsh:杯 给予1层 tsh:随机负面效果 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:杯 。 NL 消耗所有 tsh:杯 ， 每有 !M! tsh:杯 给予1层 tsh:随机负面效果 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:杯 之 tsh:准则 !P! NL 消耗所有 tsh:杯 ，每有 !M! tsh:杯 给予1层 易伤 或 虚弱 或负 力量 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailSaliba": {
     "NAME": "萨利巴",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:杯 。 NL 造成 !D! 点伤害，恢复造成伤害等量 生命 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:杯 。 NL 造成 !D! 点伤害，恢复造成伤害等量 生命 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:杯 之 tsh:准则 !P! NL 造成 !D! 点伤害。 NL 恢复与未被格挡的伤害相等的生命。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothPorter": {
     "NAME": "波特",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:蛾 。 NL 每有 !M! tsh:蛾 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:蛾 。 NL 每有 !M! tsh:蛾 获得 !B! 点 格挡 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:蛾 之 tsh:准则 !P! NL 每有 !M! tsh:蛾 获得 !B! 格挡 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothSylvia": {
     "NAME": "西尔维娅",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:蛾 。 NL 失去层数最低的 tsh:准则 ，获得等量 tsh:蛾 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:蛾 。 NL 失去层数最低的 tsh:准则 ，获得等量 tsh:蛾 。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:蛾 之 tsh:准则 !P! NL 造成 !D! 点伤害，将层数最低的其他 tsh:准则 转化为 tsh:蛾 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothYsabet": {
     "NAME": "伊莎贝特",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:蛾 。 NL 每次获得 tsh:蛾 时，对随机敌人造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:蛾 。 NL 每次获得 tsh:蛾 时，对随机敌人造成 !D! 点伤害。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:蛾 之 tsh:准则 !P! NL 每次获得 tsh:蛾 时对所有敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerKnockNeville": {
     "NAME": "内维尔",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:启 。 NL 本回合每从漫宿掏出一张牌，对敌人造成 !D! 点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:启 。 NL 本回合每从漫宿掏出一张牌，对敌人造成 !D! 点伤害。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:启 之 tsh:准则 !P! NL 造成 !D! 点伤害，本回合每从 tsh:漫宿 中获得牌，对随机敌人造成 !M! 伤害。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerKnockEnid": {
     "NAME": "伊妮德",
-    "DESCRIPTION": " tsh:追随者 。 NL 获得5 tsh:启 。 NL 造成 !D! 点伤害，将1张随机 tsh:仪式 置入手牌。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL 获得10 tsh:启 。 NL 造成 !D! 点伤害，将1张随机 tsh:仪式 置入手牌。"
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:启 之 tsh:准则 !P! NL 造成 !D! 点伤害，将随机 tsh:仪式 置入手牌。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayWood": {

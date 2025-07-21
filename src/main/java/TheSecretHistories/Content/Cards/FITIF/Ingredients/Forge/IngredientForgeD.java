@@ -25,7 +25,7 @@ public class IngredientForgeD extends AbstractIngredient {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(2);
+        upgradeBlock(2);
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {

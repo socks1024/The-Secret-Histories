@@ -2,6 +2,9 @@ package TheSecretHistories.Content.Cards.Rites;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
 import TheSecretHistories.Content.Cards.Spirits.Concrete.*;
+import TheSecretHistories.Utils.DebugUtils;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.utils.Timer;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -22,10 +25,14 @@ public abstract class AbstractSummonRite extends AbstractRite {
         new SummonForgeMoth(),
         new SummonGrailMoth(),
         new SummonHeartEdge(),
-        new SummonLanternSecret(),new SummonWinterMoth(),new SummonWinterEdge()
+        new SummonLanternSecret(),
+        new SummonWinterMoth(),
+        new SummonWinterEdge()
     };
 
     private final AbstractSummonOption[] summonOptions;
+
+    private static final long TIME_INTERVAL = 3;
 
     public AbstractSummonRite(String id, String imgName) {
         this(id, imgName, DEFAULT_SUMMON_OPTIONS);
@@ -34,6 +41,25 @@ public abstract class AbstractSummonRite extends AbstractRite {
     public AbstractSummonRite(String id, String imgName, AbstractSummonOption[] summonOptions) {
         super(id, imgName, COST, TYPE, TARGET);
         this.summonOptions = summonOptions;
+    }
+
+    private float rotationTimer = 0F;
+    private int previewIndex = 0;
+
+    public void update() {
+        super.update();
+        if (this.hb.hovered)
+            if (this.rotationTimer <= 0.0F) {
+                this.rotationTimer = 2.0F;
+                this.cardsToPreview = DEFAULT_SUMMON_OPTIONS[previewIndex];
+                if (this.previewIndex == DEFAULT_SUMMON_OPTIONS.length - 1) {
+                    this.previewIndex = 0;
+                } else {
+                    this.previewIndex++;
+                }
+            } else {
+                this.rotationTimer -= Gdx.graphics.getDeltaTime();
+            }
     }
 
     @Override
@@ -60,4 +86,6 @@ public abstract class AbstractSummonRite extends AbstractRite {
     protected void OnUpgrade(int timesUpgraded) {
         this.retain = true;
     }
+
+    // TODO 说明具体的召唤性相需求的滚动描述
 }

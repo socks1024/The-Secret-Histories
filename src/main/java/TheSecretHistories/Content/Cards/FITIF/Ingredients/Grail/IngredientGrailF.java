@@ -45,22 +45,9 @@ public class IngredientGrailF extends AbstractIngredient {
     }
 
     private void applyLoseStrength(AbstractCreature source, AbstractCreature target) {
-        addToBot(new ApplyPowerAction(
-                target, source,
-                new StrengthPower(target, -this.magicNumber),
-                -this.magicNumber,
-                true,
-                AbstractGameAction.AttackEffect.NONE
-        ));
-        if (!target.hasPower("Artifact")) {
-            addToBot(new ApplyPowerAction(
-                    target, source,
-                    new GainStrengthPower(target, this.magicNumber),
-                    this.magicNumber,
-                    true,
-                    AbstractGameAction.AttackEffect.NONE
-            ));
-        }
+        addToBot(new ApplyPowerAction(target, source, new StrengthPower(target, -this.magicNumber)));
+
+        addToBot(new ApplyPowerAction(target, source, new GainStrengthPower(target, this.magicNumber)));
     }
 
     @Override

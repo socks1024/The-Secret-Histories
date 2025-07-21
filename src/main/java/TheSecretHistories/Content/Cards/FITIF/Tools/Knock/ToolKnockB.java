@@ -27,7 +27,9 @@ public class ToolKnockB extends AbstractTool {
     public ToolKnockB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.baseMagicNumber = magicNumber = 4;
+        this.baseBlock = this.block = 0;
+
+        this.baseMagicNumber = this.magicNumber = 3;
 
         this.isEthereal = true;
     }
@@ -41,11 +43,19 @@ public class ToolKnockB extends AbstractTool {
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
 
-        int rawBlock = magicNumber * DeckUtils.GetMansusLevel() + PowerUtils.GetPowerAmount(DexterityPower.POWER_ID, p);
+        baseBlock = DeckUtils.GetMansusLevel();
 
-        if (p.hasPower("Frail")) {
-            rawBlock = (int)(rawBlock * 0.75f);
+        calculateDamageDisplay(m);
+
+        for (int i = 0; i < this.magicNumber; i++) {
+
+            addToBot(new GainBlockAction(p, p, block));
+
         }
-        addToBot(new GainBlockAction(p, p, rawBlock));
+    }
+
+    @Override
+    protected void PreApplyPowers() {
+        baseBlock = DeckUtils.GetMansusLevel();
     }
 }

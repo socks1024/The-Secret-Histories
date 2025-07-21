@@ -31,9 +31,9 @@ public class IngredientForgeF extends AbstractIngredient {
         addToBot(new ArmamentsAction(this.upgraded));
         addToBot(new GainBlockAction(p, m, this.block));
     }
+
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
-        initializeDescription();
+
     }
 }

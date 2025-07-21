@@ -1,9 +1,14 @@
 package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation;
 
 import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
+import TheSecretHistories.Content.Powers.UniqueCards.FollowerKnockNPower;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolSecretHistoriesDPower;
+import TheSecretHistories.Utils.PowerUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -35,6 +40,10 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
                 card.upgrade();
                 card.applyPowers();
             }
+        }
+
+        if (p.hasPower(FollowerKnockNPower.POWER_ID)) {
+            addToTop(new DamageRandomEnemyAction(new DamageInfo(p ,PowerUtils.GetPowerAmount(FollowerKnockNPower.POWER_ID, p)), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
         }
 
         addToTop(new MakeTempCardInHandAction(card));

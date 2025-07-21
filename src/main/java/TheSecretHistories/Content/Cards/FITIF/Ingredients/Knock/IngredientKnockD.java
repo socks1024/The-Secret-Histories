@@ -23,10 +23,10 @@ public class IngredientKnockD extends AbstractIngredient {
 
     public IngredientKnockD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseMagicNumber = 3;
-        this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;
-        this.baseDamage=this.damage=0;
+
+        this.magicNumber = this.baseMagicNumber = 3;
+        this.damage = this.baseDamage = 0;
     }
     @Override
     protected void OnUpgrade(int timesUpgraded) {
@@ -36,10 +36,20 @@ public class IngredientKnockD extends AbstractIngredient {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m){
         super.use(p, m);
-        //applyPowers();
-        this.baseDamage+=magicNumber * DeckUtils.GetMansusLevel();
-        this.calculateCardDamage(m);
 
-        addToBot(new DamageAction(m, new DamageInfo(p,this.damage)));
+        this.baseDamage = DeckUtils.GetMansusLevel();
+
+        this.calculateDamageDisplay(m);
+
+        for (int i = 0; i < magicNumber; i++) {
+            addToBot(new DamageAction(m, new DamageInfo(p,this.damage)));
+        }
+    }
+
+    @Override
+    protected void PreApplyPowers() {
+        super.PreApplyPowers();
+
+        this.baseDamage = DeckUtils.GetMansusLevel();
     }
 }

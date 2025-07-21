@@ -29,20 +29,14 @@ public class FollowerHeartLeo extends AbstractFollower{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         this.baseDamage = p.currentBlock;
-        calculateCardDamage(m);
+        calculateDamageDisplay(m);
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
     }
 
     @Override
-    public void applyPowers() {
+    protected void PreApplyPowers() {
+        super.PreApplyPowers();
         this.baseDamage = AbstractDungeon.player.currentBlock;
-        super.applyPowers();
-    }
-
-    @Override
-    public void calculateCardDamage(AbstractMonster mo) {
-        this.baseDamage = AbstractDungeon.player.currentBlock;
-        super.calculateCardDamage(mo);
     }
 
     @Override

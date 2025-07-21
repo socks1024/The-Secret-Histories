@@ -7,6 +7,7 @@ import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -22,7 +23,8 @@ public class IngredientKnockB extends AbstractIngredient {
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
     public IngredientKnockB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseDamage = this.damage=12;
+        this.baseDamage = this.damage = 0;
+        this.baseMagicNumber = this.magicNumber = 12;
         this.isMultiDamage = true;
     }
 
@@ -30,21 +32,27 @@ public class IngredientKnockB extends AbstractIngredient {
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
 
-        int actualDamage = this.damage - PowerUtils.GetPowerAmount(Knock.POWER_ID, p);
-        if (actualDamage < 0) actualDamage = 0;
+        this.baseDamage = magicNumber;
 
-        for (AbstractMonster mo : AbstractDungeon.getMonsters().monsters) {
-            if (!mo.isDeadOrEscaped()) {
-                addToBot(new DamageAction(mo,
-                        new DamageInfo(p, actualDamage, this.damageTypeForTurn),
-                        AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+        calculateDamageDisplay(m);
+
+        addToBot(new AbstractGameAction() {
+            @Override
+            public void update() {
+                damage -= PowerUtils.GetPowerAmount(Knock.POWER_ID, p);
+                addToTop(new DamageAllEnemiesAction(p, damage, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
             }
-        }
+        });
     }
 
-    public void  OnUpgrade(int timesUpgraded){
-            upgradeDamage(3);
-            //upgradeMagicNumber(1);
+    public void OnUpgrade(int timesUpgraded){
+        upgradeMagicNumber(3);
     }
 
+    @Override
+    protected void PreApplyPowers() {
+        super.PreApplyPowers();
+
+        this.baseDamage = magicNumber - PowerUtils.GetPowerAmount(Knock.POWER_ID, AbstractDungeon.player);
+    }
 }

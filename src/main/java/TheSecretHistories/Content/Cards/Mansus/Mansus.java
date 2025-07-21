@@ -72,4 +72,6 @@ public class Mansus extends TemplateMultiLevelCard {
     public void triggerOnExhaust() {
         addToBot(new MakeTempCardInHandAction(makeCopy()));
     }
+
+    // TODO 中间门的预览
 }

@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Cards.Others;
 
 
+import TheSecretHistories.Content.Cards.FITIF.Followers.*;
 import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
@@ -24,7 +25,27 @@ public class Rumour extends TemplateCustomCard {
     private static final CardTarget TARGET = CardTarget.NONE;
 
     private static final AbstractCard[] FOLLOWERS = new AbstractCard[] {
-        // TODO 添加具体追随者
+        new FollowerLanternCat(),
+        new FollowerLanternClifton(),
+        new FollowerLanternSlee(),
+        new FollowerForgeLaidlaw(),
+        new FollowerForgeTristan(),
+        new FollowerForgeValciane(),
+        new FollowerEdgeElridge(),
+        new FollowerEdgeRose(),
+        new FollowerEdgeVictor(),
+        new FollowerWinterAuclair(),
+        new FollowerWinterViolet(),
+        new FollowerHeartClovette(),
+        new FollowerHeartDorothy(),
+        new FollowerHeartLeo(),
+        new FollowerGrailRenira(),
+        new FollowerGrailSaliba(),
+        new FollowerMothPorter(),
+        new FollowerMothSylvia(),
+        new FollowerMothYsabet(),
+        new FollowerKnockEnid(),
+        new FollowerKnockNeville(),
     };
 
     public Rumour() {

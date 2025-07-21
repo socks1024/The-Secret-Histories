@@ -29,7 +29,7 @@ public class ToolMothD extends AbstractTool {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(2);
+        upgradeBaseCost(0);
     }
 
     @Override

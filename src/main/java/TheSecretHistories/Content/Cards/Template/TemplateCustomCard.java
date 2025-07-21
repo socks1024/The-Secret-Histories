@@ -3,9 +3,11 @@ package TheSecretHistories.Content.Cards.Template;
 import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import java.util.Objects;
 
@@ -97,6 +99,28 @@ public abstract class TemplateCustomCard extends CustomCard {
     }
 
     public void OnObtain() {
+
+    }
+
+    @Override
+    public void calculateDamageDisplay(AbstractMonster mo) {
+        super.calculateDamageDisplay(mo);
+        initializeDescription();
+    }
+
+    @Override
+    public void applyPowers() {
+        PreApplyPowers();
+        super.applyPowers();
+        PostApplyPowers();
+        initializeDescription();
+    }
+
+    protected void PreApplyPowers() {
+
+    }
+
+    protected void PostApplyPowers() {
 
     }
 }

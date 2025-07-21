@@ -170,6 +170,13 @@
     ]
   },
 
+  "TheSecretHistories:FollowerKnockNPower": {
+    "NAME": "内维尔",
+    "DESCRIPTIONS": [
+      "从漫宿中获得牌时，造成 %d 点伤害。"
+    ]
+  },
+
   "TheSecretHistories:DreadPower": {
     "NAME": "恐惧",
     "DESCRIPTIONS": [
