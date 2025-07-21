@@ -84,6 +84,6 @@ public abstract class AbstractSummonRite extends AbstractRite {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.retain = true;
+        this.selfRetain = true;
     }
 }

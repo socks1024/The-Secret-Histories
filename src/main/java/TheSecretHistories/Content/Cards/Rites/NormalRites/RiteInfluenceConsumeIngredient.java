@@ -36,7 +36,7 @@ public class RiteInfluenceConsumeIngredient extends AbstractNormalRite {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.retain = true;
+        this.selfRetain = true;
     }
 
     @Override

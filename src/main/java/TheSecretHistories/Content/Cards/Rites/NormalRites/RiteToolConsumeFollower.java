@@ -38,7 +38,7 @@ public class RiteToolConsumeFollower extends AbstractNormalRite {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.retain = true;
+        this.selfRetain = true;
     }
 
     @Override
