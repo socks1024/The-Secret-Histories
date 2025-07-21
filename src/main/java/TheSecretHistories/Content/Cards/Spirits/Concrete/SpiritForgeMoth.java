@@ -21,7 +21,7 @@ public class SpiritForgeMoth extends AbstractSpirit {
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
-            new PrincipleUtils.ReducePrincipleInfo(FORGE, 12),
+            new PrincipleUtils.ReducePrincipleInfo(FORGE, 10),
             new PrincipleUtils.ReducePrincipleInfo(WINTER, 4),
     };
 

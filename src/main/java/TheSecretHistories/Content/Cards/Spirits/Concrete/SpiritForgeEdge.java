@@ -23,8 +23,8 @@ public class SpiritForgeEdge extends AbstractSpirit {
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
-            new PrincipleUtils.ReducePrincipleInfo(FORGE, 15),
-            new PrincipleUtils.ReducePrincipleInfo(LANTERN, 8),
+            new PrincipleUtils.ReducePrincipleInfo(FORGE, 14),
+            new PrincipleUtils.ReducePrincipleInfo(LANTERN, 6),
     };
 
     public SpiritForgeEdge() {

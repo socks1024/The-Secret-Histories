@@ -19,7 +19,7 @@ public class SpiritGrailMoth extends AbstractSpirit {
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
-            new PrincipleUtils.ReducePrincipleInfo(GRAIL, 12),
+            new PrincipleUtils.ReducePrincipleInfo(GRAIL, 10),
             new PrincipleUtils.ReducePrincipleInfo(MOTH, 4),
     };
 

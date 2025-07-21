@@ -21,8 +21,8 @@ public class SpiritGrailEdge extends AbstractSpirit {
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
-            new PrincipleUtils.ReducePrincipleInfo(GRAIL, 15),
-            new PrincipleUtils.ReducePrincipleInfo(FORGE, 8),
+            new PrincipleUtils.ReducePrincipleInfo(GRAIL, 14),
+            new PrincipleUtils.ReducePrincipleInfo(FORGE, 6),
     };
 
     public SpiritGrailEdge() {

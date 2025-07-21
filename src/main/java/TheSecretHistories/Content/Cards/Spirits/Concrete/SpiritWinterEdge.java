@@ -18,8 +18,8 @@ public class SpiritWinterEdge extends AbstractSpirit {
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
-            new PrincipleUtils.ReducePrincipleInfo(EDGE, 6),
-            new PrincipleUtils.ReducePrincipleInfo(WINTER, 14),
+            new PrincipleUtils.ReducePrincipleInfo(EDGE, 5),
+            new PrincipleUtils.ReducePrincipleInfo(WINTER, 12),
     };
 
     public SpiritWinterEdge() {

@@ -27,7 +27,7 @@ public class FollowerMothPorter extends AbstractFollower {
     public FollowerMothPorter() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
         this.baseBlock = 6;
-        this.magicNumber=4;
+        this.baseMagicNumber=this.magicNumber=4;
     }
 
     @Override

@@ -346,7 +346,6 @@
     "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。",
     "UPGRADE_DESCRIPTION": ""
   },
-
   "TheSecretHistories:FollowerEdgeRose": {
     "NAME": "萝丝",
     "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 消耗所有 tsh:刃 ，每有 !M! tsh:刃 获得1点 力量 。",

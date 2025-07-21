@@ -20,7 +20,7 @@ public class SpiritHeartEdge extends AbstractSpirit {
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
-            new PrincipleUtils.ReducePrincipleInfo(HEART, 12),
+            new PrincipleUtils.ReducePrincipleInfo(HEART, 10),
             new PrincipleUtils.ReducePrincipleInfo(EDGE, 4),
     };
 
