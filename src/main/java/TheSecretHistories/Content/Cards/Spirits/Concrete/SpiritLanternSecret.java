@@ -22,7 +22,7 @@ public class SpiritLanternSecret extends AbstractSpirit {
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
             new PrincipleUtils.ReducePrincipleInfo(LANTERN, 15),
-            new PrincipleUtils.ReducePrincipleInfo(SECRET_HISTORIES, 8),
+            new PrincipleUtils.ReducePrincipleInfo(SECRET_HISTORIES, 6),
     };
 
     public SpiritLanternSecret() {

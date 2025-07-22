@@ -7,6 +7,7 @@ import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceMoth;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
 import TheSecretHistories.Content.Cards.Others.Rumour;
 import TheSecretHistories.Utils.StringUtils;
+import com.badlogic.gdx.Gdx;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
 public class TheTempleOfTheWheel extends AbstractMansusLocation {
@@ -24,4 +25,22 @@ public class TheTempleOfTheWheel extends AbstractMansusLocation {
     public TheTempleOfTheWheel() {
         super(ID, IMG_NAME, CARDS);
     }
+
+    private float rotationTimer = 0f;
+    private int previewIndex = 0;
+
+    @Override
+    public void update() {
+        super.update();
+        if (this.hb.hovered) {
+            if (this.rotationTimer <= 0f) {
+                this.rotationTimer = 1f;
+                this.cardsToPreview = CARDS[previewIndex].makeCopy();
+                previewIndex = (previewIndex + 1) % CARDS.length;
+            } else {
+                this.rotationTimer -= Gdx.graphics.getDeltaTime();
+            }
+        }
+    }
 }
+

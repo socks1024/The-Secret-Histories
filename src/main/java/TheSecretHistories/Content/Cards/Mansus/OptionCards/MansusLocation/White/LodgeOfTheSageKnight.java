@@ -9,6 +9,7 @@ import TheSecretHistories.Content.Cards.Others.Mental.Fascination;
 import TheSecretHistories.Content.Cards.Starters.Passion;
 import TheSecretHistories.Content.Cards.Starters.Reason;
 import TheSecretHistories.Utils.StringUtils;
+import com.badlogic.gdx.Gdx;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
 public class LodgeOfTheSageKnight extends AbstractMansusLocation {
@@ -27,5 +28,22 @@ public class LodgeOfTheSageKnight extends AbstractMansusLocation {
 
     public LodgeOfTheSageKnight() {
         super(ID, IMG_NAME, CARDS);
+    }
+
+    private float rotationTimer = 0f;
+    private int previewIndex = 0;
+
+    @Override
+    public void update() {
+        super.update();
+        if (this.hb.hovered) {
+            if (this.rotationTimer <= 0f) {
+                this.rotationTimer = 1f;
+                this.cardsToPreview = CARDS[previewIndex].makeCopy();
+                previewIndex = (previewIndex + 1) % CARDS.length;
+            } else {
+                this.rotationTimer -= Gdx.graphics.getDeltaTime();
+            }
+        }
     }
 }

@@ -8,6 +8,7 @@ import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.Abstra
 import TheSecretHistories.Content.Cards.Others.Favour;
 import TheSecretHistories.Content.Cards.Others.Mental.Fascination;
 import TheSecretHistories.Utils.StringUtils;
+import com.badlogic.gdx.Gdx;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
 public class TheRedChurch extends AbstractMansusLocation {
@@ -25,5 +26,22 @@ public class TheRedChurch extends AbstractMansusLocation {
 
     public TheRedChurch() {
         super(ID, IMG_NAME, CARDS);
+    }
+
+    private float rotationTimer = 0f;
+    private int previewIndex = 0;
+
+    @Override
+    public void update() {
+        super.update();
+        if (this.hb.hovered) {
+            if (this.rotationTimer <= 0f) {
+                this.rotationTimer = 1f;
+                this.cardsToPreview = CARDS[previewIndex].makeCopy();
+                previewIndex = (previewIndex + 1) % CARDS.length;
+            } else {
+                this.rotationTimer -= Gdx.graphics.getDeltaTime();
+            }
+        }
     }
 }

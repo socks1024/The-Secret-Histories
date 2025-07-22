@@ -56,7 +56,7 @@ public class Rumour extends TemplateCustomCard {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.retain = true;
+        this.selfRetain = true;
     }
 
     @Override

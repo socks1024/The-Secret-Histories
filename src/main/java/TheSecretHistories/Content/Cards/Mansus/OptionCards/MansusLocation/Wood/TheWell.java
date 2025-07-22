@@ -7,13 +7,18 @@ import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.Abstra
 import TheSecretHistories.Content.Cards.Others.Rumour;
 import TheSecretHistories.Content.Cards.Starters.Health;
 import TheSecretHistories.Utils.StringUtils;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.MathUtils;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class TheWell extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(TheWell.class.getSimpleName());
 
     private static final String IMG_NAME = "waywood";
+
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceGrail(),
             new Health(),
@@ -23,5 +28,22 @@ public class TheWell extends AbstractMansusLocation {
 
     public TheWell() {
         super(ID, IMG_NAME, CARDS);
+    }
+
+    private float rotationTimer = 0f;
+    private int previewIndex = 0;
+
+    @Override
+    public void update() {
+        super.update();
+        if (this.hb.hovered) {
+            if (this.rotationTimer <= 0f) {
+                this.rotationTimer = 1f;
+                this.cardsToPreview = CARDS[previewIndex].makeCopy();
+                previewIndex = (previewIndex + 1) % CARDS.length;
+            } else {
+                this.rotationTimer -= Gdx.graphics.getDeltaTime();
+            }
+        }
     }
 }

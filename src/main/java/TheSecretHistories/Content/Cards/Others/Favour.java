@@ -30,7 +30,7 @@ public class Favour extends TemplateCustomCard {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.isEthereal = false;
-        this.retain = true;
+        this.selfRetain = true;
     }
 
     @Override

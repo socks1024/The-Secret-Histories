@@ -684,7 +684,7 @@
 
   "TheSecretHistories:SummonWinterMoth": {
     "NAME": "召唤无声亡者",
-    "DESCRIPTION": "2 tsh:启 8 tsh:冬 2 tsh:心 ",
+    "DESCRIPTION": "2 tsh:启 6 tsh:冬 2 tsh:心 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -696,7 +696,7 @@
 
   "TheSecretHistories:SummonLanternEdge": {
     "NAME": "召唤迹形",
-    "DESCRIPTION": "2 tsh:启 12 tsh:灯 4 tsh:刃 ",
+    "DESCRIPTION": "2 tsh:启 10 tsh:灯 4 tsh:刃 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -708,7 +708,7 @@
 
   "TheSecretHistories:SummonForgeMoth": {
     "NAME": "召唤汽灵",
-    "DESCRIPTION": "2 tsh:启 12 tsh:铸 4 tsh:冬 ",
+    "DESCRIPTION": "2 tsh:启 10 tsh:铸 4 tsh:冬 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -720,7 +720,7 @@
 
   "TheSecretHistories:SummonGrailMoth": {
     "NAME": "召唤原生先知",
-    "DESCRIPTION": "2 tsh:启 12 tsh:杯 4 tsh:蛾 ",
+    "DESCRIPTION": "2 tsh:启 10 tsh:杯 4 tsh:蛾 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -732,7 +732,7 @@
 
   "TheSecretHistories:SummonHeartEdge": {
     "NAME": "召唤擂击者",
-    "DESCRIPTION": "2 tsh:启 12 tsh:心 4 tsh:刃 ",
+    "DESCRIPTION": "2 tsh:启 10 tsh:心 4 tsh:刃 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -744,7 +744,7 @@
 
   "TheSecretHistories:SummonWinterEdge": {
     "NAME": "召唤镜中少女",
-    "DESCRIPTION": "2 tsh:启 14 tsh:冬 4 tsh:刃 ",
+    "DESCRIPTION": "2 tsh:启 12 tsh:冬 5 tsh:刃 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -756,19 +756,19 @@
 
   "TheSecretHistories:SummonGrailEdge": {
     "NAME": "召唤第二干渴者伊泽姆",
-    "DESCRIPTION": " 2 tsh:启 15 tsh:杯 8 tsh:铸 ",
+    "DESCRIPTION": " 2 tsh:启 14 tsh:杯 8 tsh:铸 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritForgeEdge": {
     "NAME": "坩埚王",
-    "DESCRIPTION": " 消耗 NL 对所有敌人造成 !D! 点伤害，每有一个敌人获得1点 [E] 。",
+    "DESCRIPTION": " 消耗 NL 对所有敌人造成 !D! 点伤害 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SummonForgeEdge": {
     "NAME": "召唤坩埚王",
-    "DESCRIPTION": " 2 tsh:启 15 tsh:铸 8 tsh:灯 ",
+    "DESCRIPTION": " 2 tsh:启 14 tsh:铸 8 tsh:灯 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -780,7 +780,7 @@
 
   "TheSecretHistories:SummonLanternSecret": {
     "NAME": "召唤特蕾莎",
-    "DESCRIPTION": " 2 tsh:启 15 tsh:灯 8 tsh:秘史 ",
+    "DESCRIPTION": " 2 tsh:启 15 tsh:灯 6 tsh:秘史 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
