@@ -23,7 +23,7 @@ public class IngredientWinterF extends AbstractIngredient {
     private static final CardTarget TARGET = CardTarget.ENEMY;
     public IngredientWinterF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseMagicNumber = 10;
+        this.baseMagicNumber = 12;
         this.magicNumber = this.baseMagicNumber;
         this.exhaust = true;
     }
@@ -34,7 +34,7 @@ public class IngredientWinterF extends AbstractIngredient {
     }
 
     @Override
-    protected void OnUpgrade(int timesUpgraded) {upgradeMagicNumber(3);}
+    protected void OnUpgrade(int timesUpgraded) {upgradeMagicNumber(4);}
 
 }
 

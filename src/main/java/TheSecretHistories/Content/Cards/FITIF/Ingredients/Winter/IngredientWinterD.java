@@ -23,7 +23,7 @@ public class IngredientWinterD extends AbstractIngredient {
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
     public IngredientWinterD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.damage = this.baseDamage = 4;
+        this.damage = this.baseDamage = 5;
     }
 
     @Override

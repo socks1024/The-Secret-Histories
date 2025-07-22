@@ -13,6 +13,7 @@ import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.IntangiblePlayerPower;
 import com.megacrit.cardcrawl.powers.IntangiblePower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
@@ -35,8 +36,9 @@ public class IngredientHeartF extends AbstractIngredient {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m){
         super.use(p, m);
-        addToBot(new ApplyPowerAction(p, p, new IntangiblePower(p, this.magicNumber), this.magicNumber));
-        addToBot(new MakeTempCardInHandAction(new Restlessness(), 1));
+        addToBot(new ApplyPowerAction(p, p, new IntangiblePlayerPower(p, this.magicNumber), this.magicNumber));
+
+        addToBot(new MakeTempCardInHandAction(new Restlessness(), 2));
     }
     @Override
     protected void OnUpgrade(int timesUpgraded) {

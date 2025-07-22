@@ -247,8 +247,8 @@
 
   "TheSecretHistories:IngredientHeartF": {
     "NAME": "圣亚纳略的真血",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，1张 *躁动 。",
-    "UPGRADE_DESCRIPTION": ""
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，2张 *躁动 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，2张 *躁动 。"
   },
 
   "TheSecretHistories:IngredientGrailB": {
@@ -360,7 +360,7 @@
 
   "TheSecretHistories:FollowerWinterAuclair": {
     "NAME": "奥克莱尔",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 消耗所有 tsh:冬 ，每有5 tsh:冬 ，造成 !D! 点伤害。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 消耗所有 tsh:冬 ，每有 !M! tsh:冬 ，造成 !D! 点伤害。",
     "UPGRADE_DESCRIPTION": ""
   },
 

@@ -23,12 +23,12 @@ public class ToolWinterB extends AbstractTool {
     public ToolWinterB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 2;
+        this.magicNumber = this.baseMagicNumber = 4;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(1);
+        upgradeMagicNumber(2);
     }
 
     @Override

@@ -32,7 +32,7 @@ public class SpiritHeartEdge extends AbstractSpirit {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new DamageAction(m, new DamageInfo(p, damage)));
+        // addToBot(new DamageAction(m, new DamageInfo(p, damage)));
         addToBot(new GainBuffOnHitAction(m, p, new DamageInfo(p, this.damage, this.damageTypeForTurn)));
     }
 

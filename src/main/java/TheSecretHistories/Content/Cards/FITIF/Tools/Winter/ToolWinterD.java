@@ -29,7 +29,7 @@ public class ToolWinterD extends AbstractTool {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(1);
+        upgradeMagicNumber(2);
     }
 
     @Override

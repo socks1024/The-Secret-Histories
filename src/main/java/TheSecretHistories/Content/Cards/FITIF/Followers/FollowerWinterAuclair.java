@@ -24,18 +24,19 @@ public class FollowerWinterAuclair extends AbstractFollower{
     private static final CardTarget TARGET = CardTarget.ENEMY;
     public FollowerWinterAuclair() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.damage = this.baseDamage = 10;
+        this.damage = this.baseDamage = 8;
+        this.magicNumber = this.baseMagicNumber = 5;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot(new IngredientWinterPrincipleAction(m, p, PRINCIPLE_TAG, 5, damage));
+        addToBot(new IngredientWinterPrincipleAction(m, p, PRINCIPLE_TAG, magicNumber, damage));
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-        upgradeDamage(3);
+        upgradeMagicNumber(-1);
     }
 }

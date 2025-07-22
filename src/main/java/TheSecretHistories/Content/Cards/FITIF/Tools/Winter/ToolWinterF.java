@@ -26,7 +26,7 @@ public class ToolWinterF extends AbstractTool {
     public ToolWinterF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 8;
+        this.magicNumber = this.baseMagicNumber = 9;
     }
 
     @Override
