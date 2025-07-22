@@ -4,10 +4,13 @@ import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
 import TheSecretHistories.Content.Cards.Spirits.Concrete.*;
 import TheSecretHistories.Utils.DebugUtils;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Timer;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import java.util.ArrayList;
@@ -51,7 +54,10 @@ public abstract class AbstractSummonRite extends AbstractRite {
         if (this.hb.hovered)
             if (this.rotationTimer <= 0.0F) {
                 this.rotationTimer = 2.0F;
-                this.cardsToPreview = DEFAULT_SUMMON_OPTIONS[previewIndex];
+
+                this.lowerCardToPreview = DEFAULT_SUMMON_OPTIONS[previewIndex].makeStatEquivalentCopy();
+                this.higherCardToPreview = DEFAULT_SUMMON_OPTIONS[previewIndex].spirit.makeStatEquivalentCopy();
+
                 if (this.previewIndex == DEFAULT_SUMMON_OPTIONS.length - 1) {
                     this.previewIndex = 0;
                 } else {
@@ -85,5 +91,51 @@ public abstract class AbstractSummonRite extends AbstractRite {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.selfRetain = true;
+    }
+
+    public void renderCardTip(SpriteBatch sb) {
+        super.renderCardTip(sb);
+        if (this.isLocked || (AbstractDungeon.player != null && (AbstractDungeon.player.isDraggingCard || AbstractDungeon.player.inSingleTargetMode)))
+            return;
+        float drawScale = 0.5F;
+        float yPosition1 = this.current_y + this.hb.height * 0.75F;
+        float yPosition2 = this.current_y + this.hb.height * 0.25F;
+        float yPosition3 = this.current_y - this.hb.height * 0.25F;
+        if (AbstractDungeon.screen == AbstractDungeon.CurrentScreen.SHOP) {
+            yPosition1 = this.current_y - this.hb.height * 0.75F;
+            yPosition2 = this.current_y - this.hb.height * 0.25F;
+            yPosition3 = this.current_y + this.hb.height * 0.25F;
+        }
+        float xOffset1 = -this.hb.width * 0.75F;
+        float xOffset2 = -this.hb.width * 0.25F;
+        float xOffset3 = this.hb.width * 0.25F;
+        if (this.current_x > Settings.WIDTH * 0.75F) {
+            xOffset1 = -xOffset1;
+            xOffset2 = -xOffset2;
+            xOffset3 = -xOffset3;
+        }
+        float xPosition1 = this.current_x + xOffset1;
+        float xPosition2 = this.current_x + xOffset2;
+        float xPosition3 = this.current_x + xOffset3;
+
+        if (this.lowerCardToPreview != null) {
+            AbstractCard card = this.lowerCardToPreview.makeStatEquivalentCopy();
+            if (card != null) {
+                card.drawScale = drawScale;
+                card.current_x = xPosition1;
+                card.current_y = yPosition3;
+                card.render(sb);
+            }
+        }
+
+        if (this.higherCardToPreview != null) {
+            AbstractCard card = this.higherCardToPreview.makeStatEquivalentCopy();
+            if (card != null) {
+                card.drawScale = drawScale;
+                card.current_x = xPosition1;
+                card.current_y = yPosition2;
+                card.render(sb);
+            }
+        }
     }
 }

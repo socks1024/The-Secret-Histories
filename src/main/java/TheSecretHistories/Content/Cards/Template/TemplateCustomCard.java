@@ -144,4 +144,8 @@ public abstract class TemplateCustomCard extends CustomCard {
     public AbstractCard makeStatEquivalentCopy() {
         return super.makeStatEquivalentCopy();
     }
+
+    public AbstractCard lowerCardToPreview;
+
+    public AbstractCard higherCardToPreview;
 }
