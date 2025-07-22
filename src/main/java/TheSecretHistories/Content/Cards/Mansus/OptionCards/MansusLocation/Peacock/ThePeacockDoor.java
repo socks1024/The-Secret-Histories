@@ -17,7 +17,7 @@ public class ThePeacockDoor extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(ThePeacockDoor.class.getSimpleName());
 
-    private static final String IMG_NAME = "waywhite";
+    private static final String IMG_NAME = "waypeacock";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             // TODO 伐诃语
             new InfluenceLantern().DoUpgrade(3),

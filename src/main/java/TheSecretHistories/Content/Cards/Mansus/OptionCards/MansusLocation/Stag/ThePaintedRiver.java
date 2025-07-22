@@ -14,7 +14,7 @@ public class ThePaintedRiver extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(ThePaintedRiver.class.getSimpleName());
 
-    private static final String IMG_NAME = "waywhite";
+    private static final String IMG_NAME = "waystag_after";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new FragmentSecretHistories().DoUpgrade(3),
             new Fascination(),

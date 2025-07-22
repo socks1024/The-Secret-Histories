@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Cards.FITIF.Followers;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientEdgeFPrincipleAction;
+import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
 import TheSecretHistories.Content.Powers.Principles.Lantern;
 import TheSecretHistories.Content.Powers.Principles.Winter;
 import TheSecretHistories.Utils.PowerUtils;
@@ -32,18 +33,15 @@ public class FollowerLanternSlee extends AbstractFollower{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        int currentLantern = PowerUtils.GetPowerAmount(Lantern.POWER_ID, p);
-        addToBot(new AbstractGameAction() {
+
+        addToBot(new ConsumePrincipleAction(p, LANTERN, magicNumber) {
             @Override
-            public void update() {
-                if (currentLantern >= magicNumber) {
-                    addToBot(new ReducePowerAction(p, p, Lantern.POWER_ID, magicNumber));
-                    addToBot(new DrawCardAction(p, 2));
-                    magicNumber++;
-                }
-                isDone=true;
+            protected void OnConsumedEnough(int consumedAmount) {
+                addToTop(new DrawCardAction(2));
             }
         });
+
+        baseMagicNumber++;
 
     }
 

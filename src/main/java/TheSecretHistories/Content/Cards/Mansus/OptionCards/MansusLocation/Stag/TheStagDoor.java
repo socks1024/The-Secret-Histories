@@ -16,7 +16,7 @@ public class TheStagDoor extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(TheStagDoor.class.getSimpleName());
 
-    private static final String IMG_NAME = "waywhite";
+    private static final String IMG_NAME = "waystag_after";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceKnock().DoUpgrade(2),
             new FragmentSecretHistories().DoUpgrade(2),

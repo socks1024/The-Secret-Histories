@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Actions.Principle;
 
 import TheSecretHistories.Content.Powers.Principles.AbstractPrinciple;
 import TheSecretHistories.Utils.PowerUtils;
+import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.PrincipleUtils.ReducePrincipleInfo;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
@@ -50,7 +51,7 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
 
             for (ReducePrincipleInfo info : infos) {
 
-                if (!source.hasPower(info.principleID)) {
+                if (!PrincipleUtils.PlayerHasEnoughPrinciple(info.principleTag, info.reduceAmount)) {
                     continue;
                 }
 
@@ -58,7 +59,9 @@ public abstract class ConsumePrincipleAction extends AbstractGameAction {
 
                 int a = info.reduceAmount;
 
-                if (a < 0) a = PowerUtils.GetPowerAmount(info.principleID, source);
+                int pAmount = p.amount;
+
+                if (a < 0) a = pAmount;
 
                 p.reducePower(a);
 

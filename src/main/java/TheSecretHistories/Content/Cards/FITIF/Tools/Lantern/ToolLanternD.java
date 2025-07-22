@@ -36,6 +36,6 @@ public class ToolLanternD extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new GamblingChipAction(AbstractDungeon.player));
+        addToBot(new GamblingChipAction(AbstractDungeon.player, true));
     }
 }

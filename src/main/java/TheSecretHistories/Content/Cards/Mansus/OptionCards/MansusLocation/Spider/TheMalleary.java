@@ -16,7 +16,7 @@ public class TheMalleary extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(TheMalleary.class.getSimpleName());
 
-    private static final String IMG_NAME = "waywhite";
+    private static final String IMG_NAME = "wayspider";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceForge().DoUpgrade(3),
             new InfluenceLantern().DoUpgrade(2),

@@ -13,8 +13,8 @@
 
   "TheSecretHistories:ToolLanternD": {
     "NAME": "迷途之镜",
-    "DESCRIPTION": " tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 丢弃任意张手牌并抽取等量牌。",
-    "UPGRADE_DESCRIPTION": " 固有 NL tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 丢弃任意张手牌并抽取等量牌。"
+    "DESCRIPTION": " tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 消耗 。丢弃任意张手牌并抽取等量牌。",
+    "UPGRADE_DESCRIPTION": " 固有 NL tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 消耗 。丢弃任意张手牌并抽取等量牌。"
   },
 
   "TheSecretHistories:ToolLanternF": {
@@ -528,91 +528,91 @@
 
   "TheSecretHistories:TheWood": {
     "NAME": "林地",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:明牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheWell": {
     "NAME": "井",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheTempleOfTheWheel": {
     "NAME": "转轮之寺",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheWhiteDoor": {
     "NAME": "纯白之门",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:明牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheOrchardOfLights": {
     "NAME": "光之果园",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:LodgeOfTheSageKnight": {
     "NAME": "睿智骑士小屋",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheStagDoor": {
     "NAME": "牡鹿之门",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:明牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ThePaintedRiver": {
     "NAME": "画中之河",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheAscentOfTheKnives": {
     "NAME": "利刃阶梯",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheSpiderDoor": {
     "NAME": "蜘蛛之门",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:明牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheMalleary": {
     "NAME": "熔炼厂",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheChamberOfWays": {
     "NAME": "聚点",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ThePeacockDoor": {
     "NAME": "孔雀之门",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:明牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheRedChurch": {
     "NAME": "赤红教堂",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheWormMuseum": {
     "NAME": "蠕虫展馆",
-    "DESCRIPTION": "",
+    "DESCRIPTION": " tsh:暗牌 NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 

@@ -15,7 +15,7 @@ public class TheRedChurch extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(TheRedChurch.class.getSimpleName());
 
-    private static final String IMG_NAME = "waywhite";
+    private static final String IMG_NAME = "waypeacock";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceGrail().DoUpgrade(3),
             new IngredientGrailD(),

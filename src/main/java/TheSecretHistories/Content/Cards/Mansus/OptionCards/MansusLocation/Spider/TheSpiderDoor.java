@@ -18,7 +18,7 @@ public class TheSpiderDoor extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(TheSpiderDoor.class.getSimpleName());
 
-    private static final String IMG_NAME = "waywhite";
+    private static final String IMG_NAME = "wayspider";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceGrail().DoUpgrade(2),
             new InfluenceHeart().DoUpgrade(2),

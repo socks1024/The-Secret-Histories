@@ -13,7 +13,7 @@ public class TheWormMuseum extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(TheWormMuseum.class.getSimpleName());
 
-    private static final String IMG_NAME = "waywhite";
+    private static final String IMG_NAME = "waypeacock";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceWinter().DoUpgrade(3),
             new FragmentSecretHistories().DoUpgrade(5),

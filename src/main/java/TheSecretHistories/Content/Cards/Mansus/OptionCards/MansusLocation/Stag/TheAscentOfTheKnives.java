@@ -15,7 +15,7 @@ public class TheAscentOfTheKnives extends AbstractMansusLocation {
 
     public static final String ID = StringUtils.MakeID(TheAscentOfTheKnives.class.getSimpleName());
 
-    private static final String IMG_NAME = "waywhite";
+    private static final String IMG_NAME = "waystag_after";
     private static final AbstractCard[] CARDS = new AbstractCard[]{
             new InfluenceWinter().DoUpgrade(2),
             new InfluenceEdge().DoUpgrade(2),

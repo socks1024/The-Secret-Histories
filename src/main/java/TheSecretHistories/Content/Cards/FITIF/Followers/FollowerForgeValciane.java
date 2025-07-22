@@ -1,7 +1,9 @@
 package TheSecretHistories.Content.Cards.FITIF.Followers;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.GrailFAction2;
+import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -23,7 +25,12 @@ public class FollowerForgeValciane extends AbstractFollower{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot(new GrailFAction2(m, p, PRINCIPLE_TAG, magicNumber));
+        addToBot(new ConsumePrincipleAction(p, FORGE) {
+            @Override
+            protected void OnConsumedEnough(int consumedAmount) {
+                addToTop(new GainEnergyAction(consumedAmount / magicNumber));
+            }
+        });
     }
 
     @Override
