@@ -18,7 +18,7 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
 
     private static final String IMG_NAME = "laidlaw_a";
 
-    private static final int COST = 1;
+    private static final int COST = 2;
 
     private static final CardType TYPE = CardType.POWER;
 
