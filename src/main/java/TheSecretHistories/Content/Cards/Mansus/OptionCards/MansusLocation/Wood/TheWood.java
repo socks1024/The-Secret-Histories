@@ -28,7 +28,7 @@ public class TheWood extends AbstractMansusLocation {
         super(ID, IMG_NAME, CARDS);
 
         int idx = MathUtils.random(CARDS.length - 1);
-        this.chosenCard = CARDS[idx].makeCopy();
+        this.chosenCard = CARDS[idx].makeStatEquivalentCopy();
     }
 
     @Override

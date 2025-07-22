@@ -762,7 +762,7 @@
 
   "TheSecretHistories:SpiritForgeEdge": {
     "NAME": "坩埚王",
-    "DESCRIPTION": " 消耗 NL 对所有敌人造成 !D! 点伤害 。",
+    "DESCRIPTION": " 消耗 NL 造成 !M! 的X次幂点伤害。",
     "UPGRADE_DESCRIPTION": ""
   },
 

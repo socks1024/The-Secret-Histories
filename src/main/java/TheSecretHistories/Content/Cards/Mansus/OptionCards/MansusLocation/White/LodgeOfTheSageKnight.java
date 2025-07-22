@@ -39,7 +39,7 @@ public class LodgeOfTheSageKnight extends AbstractMansusLocation {
         if (this.hb.hovered) {
             if (this.rotationTimer <= 0f) {
                 this.rotationTimer = 1f;
-                this.cardsToPreview = CARDS[previewIndex].makeCopy();
+                this.cardsToPreview = CARDS[previewIndex].makeStatEquivalentCopy();
                 previewIndex = (previewIndex + 1) % CARDS.length;
             } else {
                 this.rotationTimer -= Gdx.graphics.getDeltaTime();
