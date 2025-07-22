@@ -774,13 +774,13 @@
 
   "TheSecretHistories:SpiritLanternSecret": {
     "NAME": "特蕾莎",
-    "DESCRIPTION": " 消耗 NL tsh:秘史 之 tsh:准则 !M! NL 结束你的回合。",
+    "DESCRIPTION": " 消耗 NL 虚无 NL 本回合所有 tsh:准则 临时增加 !M! 层。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SummonLanternSecret": {
     "NAME": "召唤特蕾莎",
-    "DESCRIPTION": " 2 tsh:启 15 tsh:灯 6 tsh:秘史 ",
+    "DESCRIPTION": " 2 tsh:启 14 tsh:灯 6 tsh:秘史 ",
     "UPGRADE_DESCRIPTION": ""
   },
 

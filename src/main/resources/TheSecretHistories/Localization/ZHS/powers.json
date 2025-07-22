@@ -189,5 +189,12 @@
     "DESCRIPTIONS": [
       "每回合临时失去1点敏捷"
     ]
+  },
+
+  "TheSecretHistories:LoseAllAlignmentNextTurnPower": {
+    "NAME": "失去",
+    "DESCRIPTIONS": [
+      "回合结束时所有准则失去 %d 层"
+    ]
   }
 }
