@@ -12,9 +12,4 @@ public class RiteToolConsumeInfluence extends AbstractSummonRite {
     public RiteToolConsumeInfluence() {
         super(ID, IMG_NAME);
     }
-
-    @Override
-    protected void OnUpgrade(int timesUpgraded) {
-
-    }
 }

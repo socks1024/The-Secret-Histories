@@ -12,9 +12,4 @@ public class RiteFollowerConsumeIngredient extends AbstractSummonRite {
     public RiteFollowerConsumeIngredient() {
         super(ID, IMG_NAME);
     }
-
-    @Override
-    protected void OnUpgrade(int timesUpgraded) {
-
-    }
 }

@@ -12,9 +12,4 @@ public class RiteFollowerConsumeTool extends AbstractSummonRite {
     public RiteFollowerConsumeTool() {
         super(ID, IMG_NAME);
     }
-
-    @Override
-    protected void OnUpgrade(int timesUpgraded) {
-
-    }
 }

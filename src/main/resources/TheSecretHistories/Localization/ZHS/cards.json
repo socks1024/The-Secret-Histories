@@ -643,13 +643,13 @@
   "TheSecretHistories:RiteInfluenceConsumeIngredient": {
     "NAME": "鸦餍仪式",
     "DESCRIPTION": "消耗 12 tsh:灯 8 tsh:刃 NL 丢弃任意张手牌并抽满手牌。",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " 保留 NL 消耗 12 tsh:灯 8 tsh:刃 NL 丢弃任意张手牌并抽满手牌。"
   },
 
   "TheSecretHistories:RiteToolConsumeFollower": {
     "NAME": "魂之埚仪式",
     "DESCRIPTION": "消耗 12 tsh:铸 8 tsh:杯 NL 移除自身的所有负面效果。",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " 保留 NL 消耗 12 tsh:铸 8 tsh:杯 NL 移除自身的所有负面效果。"
   },
 
   "TheSecretHistories:RiteToolConsumeInfluence": {
