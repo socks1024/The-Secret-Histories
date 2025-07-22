@@ -49,14 +49,17 @@ public abstract class AbstractSummonRite extends AbstractRite {
     private float rotationTimer = 0F;
     private int previewIndex = 0;
 
+    private AbstractCard option;
+    private AbstractCard spirit;
+
     public void update() {
         super.update();
         if (this.hb.hovered)
             if (this.rotationTimer <= 0.0F) {
                 this.rotationTimer = 2.0F;
 
-                this.lowerCardToPreview = DEFAULT_SUMMON_OPTIONS[previewIndex].makeStatEquivalentCopy();
-                this.higherCardToPreview = DEFAULT_SUMMON_OPTIONS[previewIndex].spirit.makeStatEquivalentCopy();
+                this.option = DEFAULT_SUMMON_OPTIONS[previewIndex].makeStatEquivalentCopy();
+                this.spirit = DEFAULT_SUMMON_OPTIONS[previewIndex].spirit.makeStatEquivalentCopy();
 
                 if (this.previewIndex == DEFAULT_SUMMON_OPTIONS.length - 1) {
                     this.previewIndex = 0;
@@ -98,25 +101,17 @@ public abstract class AbstractSummonRite extends AbstractRite {
         if (this.isLocked || (AbstractDungeon.player != null && (AbstractDungeon.player.isDraggingCard || AbstractDungeon.player.inSingleTargetMode)))
             return;
         float drawScale = 0.5F;
-        float yPosition1 = this.current_y + this.hb.height * 0.75F;
         float yPosition2 = this.current_y + this.hb.height * 0.25F;
         float yPosition3 = this.current_y - this.hb.height * 0.25F;
         if (AbstractDungeon.screen == AbstractDungeon.CurrentScreen.SHOP) {
-            yPosition1 = this.current_y - this.hb.height * 0.75F;
             yPosition2 = this.current_y - this.hb.height * 0.25F;
             yPosition3 = this.current_y + this.hb.height * 0.25F;
         }
         float xOffset1 = -this.hb.width * 0.75F;
-        float xOffset2 = -this.hb.width * 0.25F;
-        float xOffset3 = this.hb.width * 0.25F;
         if (this.current_x > Settings.WIDTH * 0.75F) {
             xOffset1 = -xOffset1;
-            xOffset2 = -xOffset2;
-            xOffset3 = -xOffset3;
         }
         float xPosition1 = this.current_x + xOffset1;
-        float xPosition2 = this.current_x + xOffset2;
-        float xPosition3 = this.current_x + xOffset3;
 
         if (this.lowerCardToPreview != null) {
             AbstractCard card = this.lowerCardToPreview.makeStatEquivalentCopy();
@@ -137,5 +132,21 @@ public abstract class AbstractSummonRite extends AbstractRite {
                 card.render(sb);
             }
         }
+    }
+
+    public void hover() {
+        try {
+            this.lowerCardToPreview = this.option;
+            this.higherCardToPreview = this.spirit;
+        } catch (Throwable e) {
+            System.out.println(e.toString());
+        }
+        super.hover();
+    }
+
+    public void unhover() {
+        super.unhover();
+        this.lowerCardToPreview = null;
+        this.higherCardToPreview = null;
     }
 }
