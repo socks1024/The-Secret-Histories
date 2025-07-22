@@ -196,5 +196,12 @@
     "DESCRIPTIONS": [
       "回合结束时所有准则失去 %d 层"
     ]
+  },
+
+  "TheSecretHistories:IngredientEdgeDPower": {
+    "NAME": "狻猊颗粒",
+    "DESCRIPTIONS": [
+      "本回合每打出攻击牌获得 %d 层刃"
+    ]
   }
 }
