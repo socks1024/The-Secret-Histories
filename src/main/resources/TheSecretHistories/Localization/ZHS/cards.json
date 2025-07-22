@@ -332,7 +332,7 @@
   "TheSecretHistories:FollowerForgeLaidlaw": {
     "NAME": "莱德劳",
     "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 所有在战斗中临时增加的牌将被 *升级 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 固有 NL 所有在战斗中临时增加的牌将被 *升级 。"
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeValciane": {

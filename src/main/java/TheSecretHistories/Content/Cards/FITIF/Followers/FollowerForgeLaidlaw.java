@@ -41,7 +41,7 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-        isInnate = true;
+        upgradeBaseCost(1);
     }
 }
 /*private static final CardTags PRINCIPLE_TAG = EDGE;
