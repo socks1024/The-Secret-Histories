@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
 
@@ -18,7 +19,7 @@ public class SpiritForgeEdge extends AbstractSpirit {
 
     public static final String ID = StringUtils.MakeID(SpiritForgeEdge.class.getSimpleName());
     private static final String IMG_NAME = "spirit_forgee_edge";
-    private static final int COST = 0;
+    private static final int COST = -1;
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
@@ -37,9 +38,12 @@ public class SpiritForgeEdge extends AbstractSpirit {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         int energy = AbstractDungeon.actionManager.cardQueue.get(0).energyOnUse;
-
+        if (p.hasRelic("Chemical X")) {
+            energy += 2;
+            p.getRelic("Chemical X").flash();
+        }
         baseDamage = (int)Math.pow(magicNumber, energy);
-
+        p.energy.use(EnergyPanel.totalCount);
         calculateDamageDisplay(m);
 
         addToBot(new DamageAllEnemiesAction(p, damage, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));

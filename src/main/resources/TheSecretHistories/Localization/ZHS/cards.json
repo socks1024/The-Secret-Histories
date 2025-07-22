@@ -259,14 +259,14 @@
 
   "TheSecretHistories:IngredientGrailD": {
     "NAME": "不凋花蜜",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 tsh:不凋 。 NL 消耗 。",
+    "DESCRIPTION": " tsh:原料 。 NL tsh:杯 之 tsh:准则 !P! NL 获得 !M! 层 tsh:不凋 。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailF": {
     "NAME": "扭动胎膜",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 令敌人本回合失去 !M! 力量 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 令所有敌人本回合失去 !M! 力量 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:杯 之 tsh:准则 !P! NL 令敌人本回合失去 !M! 力量 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 令所有敌人本回合失去 !M! 力量 。 NL 消耗 。"
   },
 
   "TheSecretHistories:IngredientMothB": {
@@ -360,7 +360,7 @@
 
   "TheSecretHistories:FollowerWinterAuclair": {
     "NAME": "奥克莱尔",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 消耗所有 tsh:冬 ，每有 !M! tsh:冬 ，造成 !D! 点伤害。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 消耗所有 tsh:冬 ，每有5 tsh:冬 ，造成 !D! 点伤害。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -414,7 +414,7 @@
 
   "TheSecretHistories:FollowerMothYsabet": {
     "NAME": "伊莎贝特",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:蛾 之 tsh:准则 !P! NL 每次获得 tsh:蛾 时对所有敌人造成 !D! 点伤害。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:蛾 之 tsh:准则 !P! NL 每次获得 tsh:蛾 时对所有敌人造成 !M! 点伤害。",
     "UPGRADE_DESCRIPTION": ""
   },
 

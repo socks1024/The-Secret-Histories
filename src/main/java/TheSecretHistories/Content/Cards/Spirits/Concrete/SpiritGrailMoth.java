@@ -25,7 +25,7 @@ public class SpiritGrailMoth extends AbstractSpirit {
 
     public SpiritGrailMoth() {
         super(ID, IMG_NAME, COST, TYPE, TARGET, INFOS);
-        this.baseMagicNumber = this.magicNumber=5;
+        this.baseMagicNumber = this.magicNumber=8;
     }
 
     @Override
@@ -36,7 +36,7 @@ public class SpiritGrailMoth extends AbstractSpirit {
 
     @Override
     public void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(3);
+        upgradeMagicNumber(4);
     }
 
 }
