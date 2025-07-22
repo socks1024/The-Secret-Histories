@@ -22,8 +22,8 @@ public class FollowerForgeTristan extends AbstractFollower{
     public FollowerForgeTristan() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.damage = this.baseDamage = 17;
-        this.magicNumber=this.baseMagicNumber=7;
+        this.damage = this.baseDamage = 14;
+        this.magicNumber=this.baseMagicNumber=6;
     }
 
     @Override

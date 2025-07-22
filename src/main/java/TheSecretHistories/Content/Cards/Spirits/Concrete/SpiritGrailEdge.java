@@ -45,9 +45,9 @@ public class SpiritGrailEdge extends AbstractSpirit {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
 
-        addToBot(new SuicideAction(m, false));
-
         addToBot(new SpawnMonsterAction(GetRandomMonster(m), false));
+
+        addToBot(new SuicideAction(m, false));
     }
 
     private AbstractMonster GetRandomMonster(AbstractMonster lastMonster) {
