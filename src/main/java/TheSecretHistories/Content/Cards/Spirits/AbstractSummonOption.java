@@ -9,11 +9,13 @@ public abstract class AbstractSummonOption extends TemplateOptionCard {
 
     private static final CardColor COLOR = CULT_BLUE;
 
-    private final AbstractSpirit spirit;
+    public final AbstractSpirit spirit;
 
     public AbstractSummonOption(String id, String imgName, AbstractSpirit spirit) {
         super(id, imgName, COLOR);
         this.spirit = spirit;
+
+        this.cardsToPreview = spirit.makeStatEquivalentCopy();
     }
 
     @Override

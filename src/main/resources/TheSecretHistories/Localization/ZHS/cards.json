@@ -301,8 +301,8 @@
 
   "TheSecretHistories:IngredientKnockF": {
     "NAME": "阿佐特",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 所有手牌本局费用减少 !M! 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 所有手牌本局费用减少 !M! 。 NL 保留 。 消耗 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 所有手牌本局费用减少1。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 所有手牌本局费用减少1。 NL 保留 。 消耗 。"
   },
 
   "TheSecretHistories:FollowerLanternClifton": {
@@ -762,7 +762,7 @@
 
   "TheSecretHistories:SpiritForgeEdge": {
     "NAME": "坩埚王",
-    "DESCRIPTION": " 消耗 NL 造成 !M! 的X次幂点伤害。",
+    "DESCRIPTION": " 消耗 NL 对所有敌人造成 !M! 的X次幂点伤害。",
     "UPGRADE_DESCRIPTION": ""
   },
 
