@@ -30,11 +30,12 @@ public class Restlessness extends TemplateCustomStatusCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (this.dontTriggerOnUseCard) addToBot(new MakeTempCardInDiscardAction(new Dread(), magicNumber));
+
     }
 
-    public void triggerOnEndOfTurnForPlayingCard() {
-        this.dontTriggerOnUseCard = true;
-        AbstractDungeon.actionManager.cardQueue.add(new CardQueueItem(this, true));
+    @Override
+    public void onMoveToDiscard() {
+        super.onMoveToDiscard();
+        addToBot(new MakeTempCardInDiscardAction(new Dread(), magicNumber));
     }
 }
