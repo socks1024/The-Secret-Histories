@@ -28,6 +28,7 @@ public class FollowerHeartDorothy extends AbstractFollower{
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
         baseBlock = p.currentBlock;
         calculateDamageDisplay(m);
         addToBot(new ApplyPowerAction(p, p, new NextTurnBlockPower(p, block), block));

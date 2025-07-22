@@ -7,7 +7,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 
 public class Spirit_GrailE_EdgePower extends TemplateCustomPower {
     public static final String POWER_ID = StringUtils.MakeID(Spirit_GrailE_EdgePower.class.getSimpleName());
-    private static final String IMG_NAME = "spirit_graile_edge";
+    private static final String IMG_NAME = "spirit_grailc_moth";
 
     private static final float REDUCTION_PER_STACK = 0.20f;
 

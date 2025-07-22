@@ -57,8 +57,11 @@ public class MirrorStrikeAction extends AbstractGameAction {
             this.isDone = true;
             return;
         }
-        if (upgraded > 0) {
+        if (upgraded == 0) {
             baseDmg *= 2;
+        }
+        else if(upgraded > 0){
+            baseDmg*=3;
         }
 
         AbstractPlayer player = AbstractDungeon.player;

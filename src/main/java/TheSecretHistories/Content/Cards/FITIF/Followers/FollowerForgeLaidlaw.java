@@ -34,6 +34,7 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
         addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new MasterRealityPower((AbstractCreature)p)));
     }
 

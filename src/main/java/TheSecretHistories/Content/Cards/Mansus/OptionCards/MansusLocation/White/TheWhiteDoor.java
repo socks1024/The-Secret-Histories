@@ -11,6 +11,7 @@ import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.powers.watcher.MasterRealityPower;
 
 public class TheWhiteDoor extends AbstractMansusLocation {
 
@@ -41,9 +42,25 @@ public class TheWhiteDoor extends AbstractMansusLocation {
 
     @Override
     public void onChoseThisOption() {
+
+        MasterRealityPower mrPower = null;
+        if (AbstractDungeon.player.hasPower(MasterRealityPower.POWER_ID)) {
+            mrPower = (MasterRealityPower) AbstractDungeon.player.getPower(MasterRealityPower.POWER_ID);
+            AbstractDungeon.player.powers.remove(mrPower);
+            chosenCard.upgrade();
+        }
+
         AbstractDungeon.actionManager.addToBottom(
-                new MakeTempCardInHandAction(chosenCard.makeStatEquivalentCopy())
+                new MakeTempCardInHandAction(chosenCard.makeStatEquivalentCopy(), 1)
         );
+
+        if (mrPower != null) {
+            AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(
+                    AbstractDungeon.player,
+                    AbstractDungeon.player,
+                    new MasterRealityPower(AbstractDungeon.player)
+            ));
+        }
     }
 
 }

@@ -33,6 +33,7 @@ public class FollowerEdgeVictor extends AbstractFollower{
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
         addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, -magicNumber), -magicNumber));
     }

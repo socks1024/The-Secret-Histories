@@ -28,6 +28,7 @@ public class FollowerHeartLeo extends AbstractFollower{
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
         this.baseDamage = p.currentBlock;
         calculateDamageDisplay(m);
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.BLUNT_HEAVY));

@@ -37,6 +37,7 @@ public class FollowerEdgeElridge extends AbstractFollower{
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
         addToBot(new DamageAction(m, new DamageInfo(p, damage)));
         addToBot(new BetterDrawPileToHandAction(this.magicNumber));
     }

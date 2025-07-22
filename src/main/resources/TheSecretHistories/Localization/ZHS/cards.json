@@ -714,8 +714,8 @@
 
   "TheSecretHistories:SpiritGrailMoth": {
     "NAME": "原生先知",
-    "DESCRIPTION": " 消耗 NL 本场战斗中每打出一张牌，对目标造成 !M! 点伤害。",
-    "UPGRADE_DESCRIPTION": ""
+    "DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%×X倍的伤害。",
+    "UPGRADE_DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%×(X+1)倍的伤害。"
   },
 
   "TheSecretHistories:SummonGrailMoth": {
@@ -738,8 +738,8 @@
 
   "TheSecretHistories:SpiritWinterEdge": {
     "NAME": "镜中少女",
-    "DESCRIPTION": " 消耗 NL 造成目标攻击意图等量的伤害。 NL 保留 。",
-    "UPGRADE_DESCRIPTION": " 消耗 NL 造成目标攻击意图双倍的伤害。 NL 保留 。"
+    "DESCRIPTION": " 消耗 NL 造成目标攻击意图双倍的伤害（根据怪物伤害基础值计算）。 NL 保留 。",
+    "UPGRADE_DESCRIPTION": " 消耗 NL 造成目标攻击意图三倍的伤害（根据怪物伤害基础值计算）。 NL 保留 。"
   },
 
   "TheSecretHistories:SummonWinterEdge": {
@@ -751,7 +751,7 @@
   "TheSecretHistories:SpiritGrailEdge": {
     "NAME": "第二干渴者伊泽姆",
     "DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%×X倍的伤害。",
-    "UPGRADE_DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%×(X+ !M! )倍的伤害。"
+    "UPGRADE_DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%×(X+1)倍的伤害。"
   },
 
   "TheSecretHistories:SummonGrailEdge": {

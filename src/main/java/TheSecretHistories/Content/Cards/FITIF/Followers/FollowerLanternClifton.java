@@ -16,11 +16,11 @@ public class FollowerLanternClifton extends AbstractFollower{
 
     public static final String ID = StringUtils.MakeID(FollowerLanternClifton.class.getSimpleName());
     private static final String IMG_NAME = "clifton_a";
-    private static final int COST = 1;
+    private static final int COST = 0;
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = LANTERN;
-    private static final CardRarity RARITY = CardRarity.COMMON;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardTarget TARGET = CardTarget.SELF;
     public FollowerLanternClifton() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
         this.baseMagicNumber = this.magicNumber = 4;
@@ -40,3 +40,4 @@ public class FollowerLanternClifton extends AbstractFollower{
     }
 
 }
+//降费，稀有度拉高
