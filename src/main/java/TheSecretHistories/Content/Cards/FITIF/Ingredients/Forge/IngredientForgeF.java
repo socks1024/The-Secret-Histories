@@ -15,7 +15,7 @@ public class IngredientForgeF extends AbstractIngredient {
     private static final AbstractCard.CardTags PRINCIPLE_TAG = FORGE;
     private static final String IMG_NAME = "ingredientforgef";
     private static final int COST = 0;
-    private static final AbstractCard.CardType TYPE = CardType.ATTACK;
+    private static final AbstractCard.CardType TYPE = CardType.SKILL;
     private static final AbstractCard.CardRarity RARITY = CardRarity.SPECIAL;
     private static final AbstractCard.CardTarget TARGET = CardTarget.SELF;
 

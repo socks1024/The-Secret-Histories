@@ -19,7 +19,7 @@ public class ToolGrailD extends AbstractTool {
     private static final CardTags PRINCIPLE_TAG = GRAIL;
 
     private static final String IMG_NAME = "toolgraild";
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final CardType TYPE = CardType.POWER;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
@@ -30,7 +30,7 @@ public class ToolGrailD extends AbstractTool {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeBaseCost(1);
+        this.isInnate = true;
     }
 
     @Override

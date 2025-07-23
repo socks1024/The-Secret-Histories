@@ -104,7 +104,7 @@
   "TheSecretHistories:ToolGrailD": {
     "NAME": "封圣高冠",
     "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 敌人不能获得格挡。",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 固有 NL 敌人不能获得格挡。"
   },
 
   "TheSecretHistories:ToolGrailF": {
