@@ -22,10 +22,12 @@ public class FollowerMothSylvia extends AbstractFollower{
     public static CardTags PRINCIPLE_TAG = MOTH;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
+
     public FollowerMothSylvia() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.damage = this.baseDamage = 9;
+        this.damage = this.baseDamage = 10;
     }
+
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
