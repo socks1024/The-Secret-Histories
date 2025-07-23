@@ -29,11 +29,12 @@ public class Dread extends TemplateCustomStatusCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (this.dontTriggerOnUseCard) addToBot(new ApplyPowerAction(p, p, new DreadPower(p, magicNumber)));
+
     }
 
-    public void triggerOnEndOfTurnForPlayingCard() {
-        this.dontTriggerOnUseCard = true;
-        AbstractDungeon.actionManager.cardQueue.add(new CardQueueItem(this, true));
+    @Override
+    public void onMoveToDiscard() {
+        super.onMoveToDiscard();
+        addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new DreadPower(AbstractDungeon.player, magicNumber)));
     }
 }

@@ -22,7 +22,7 @@ public class FollowerMothPorter extends AbstractFollower {
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = MOTH;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardTarget TARGET = CardTarget.SELF;
 
     public FollowerMothPorter() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
