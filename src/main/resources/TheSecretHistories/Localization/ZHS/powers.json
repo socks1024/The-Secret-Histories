@@ -203,5 +203,19 @@
     "DESCRIPTIONS": [
       "本回合每打出攻击牌获得 %d 层刃"
     ]
+  },
+
+  "TheSecretHistories:Spirit_GrailE_EdgePower": {
+    "NAME": "原生先知",
+    "DESCRIPTIONS": [
+      "受到50%%乘 %d 倍伤害"
+    ]
+  },
+
+  "TheSecretHistories:IngredientWinterBPower": {
+    "NAME": "灰晓之油",
+    "DESCRIPTIONS": [
+      " %d 回合不受到冬的伤害"
+    ]
   }
 }
