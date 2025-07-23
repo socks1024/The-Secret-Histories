@@ -79,11 +79,12 @@ public class SpiritGrailEdge extends AbstractSpirit {
             monster = new CorruptHeart();
         } else if (f < 0.2f) {
             AbstractMonster[] ms = new AbstractMonster[] {
+
                     new Spiker(x,y),
                     new Repulsor(x,y),
                     new Exploder(x,y),
                     new OrbWalker(x,y),
-                    new Maw(x,y),//
+                    new Maw(x,y),
                     new Darkling(x,y),
                     new WrithingMass(),
                     new SpireGrowth(),
@@ -91,7 +92,7 @@ public class SpiritGrailEdge extends AbstractSpirit {
                     new Repulsor(x,y),
                     new Exploder(x,y),
                     new OrbWalker(x,y),
-                    new Maw(x,y),//
+                    new Maw(x,y),
                     new Darkling(x,y),
                     new WrithingMass(),
                     new SpireGrowth(),
@@ -99,18 +100,11 @@ public class SpiritGrailEdge extends AbstractSpirit {
                     new Repulsor(x,y),
                     new Exploder(x,y),
                     new OrbWalker(x,y),
-                    new Maw(x,y),//
+                    new Maw(x,y),
                     new Darkling(x,y),
                     new WrithingMass(),
                     new SpireGrowth(),
-                    new Spiker(x,y),
-                    new Repulsor(x,y),
-                    new Exploder(x,y),
-                    new OrbWalker(x,y),
-                    new Maw(x,y),//
-                    new Darkling(x,y),
-                    new WrithingMass(),
-                    new SpireGrowth(),
+
 
 
 //                    new SpireShield(),//
