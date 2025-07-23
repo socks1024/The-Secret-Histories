@@ -1,13 +1,15 @@
 package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
+import TheSecretHistories.Content.Actions.UniqueCards.killMonsterVisuallySilentAction;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Content.Powers.UniqueCards.Spirit_GrailE_EdgePower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.badlogic.gdx.Gdx;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.SpawnMonsterAction;
-import com.megacrit.cardcrawl.actions.common.SuicideAction;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.*;
+import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -15,6 +17,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.monsters.beyond.*;
 import com.megacrit.cardcrawl.monsters.city.*;
 import com.megacrit.cardcrawl.monsters.ending.CorruptHeart;
+import com.megacrit.cardcrawl.monsters.ending.SpireShield;
+import com.megacrit.cardcrawl.monsters.ending.SpireSpear;
 import com.megacrit.cardcrawl.monsters.exordium.*;
 import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
@@ -45,9 +49,19 @@ public class SpiritGrailEdge extends AbstractSpirit {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
 
-        addToBot(new SpawnMonsterAction(GetRandomMonster(m), false));
-
-        addToBot(new SuicideAction(m, false));
+        if (Objects.equals(m.id, "AwakenedOne")) {
+            if (m.hasPower("Unawakened")) {
+                addToBot(new killMonsterVisuallySilentAction(m));
+            } else {
+                addToBot(new SpawnMonsterAction(GetRandomMonster(m), false));
+                addToBot(new killMonsterVisuallySilentAction(m));
+            }
+        } else {
+            addToBot(new SpawnMonsterAction(GetRandomMonster(m), false));
+            addToBot(new SuicideAction(m, false));
+        }
+        //addToTop(new InstantKillAction(m));
+        //addToBot(new SuicideAction(m, false));
     }
 
     private AbstractMonster GetRandomMonster(AbstractMonster lastMonster) {
@@ -61,7 +75,7 @@ public class SpiritGrailEdge extends AbstractSpirit {
 
         float f = new Random().nextFloat();
 
-        if (f < 0.005f) {
+        if (f < 0.001f) {
             monster = new CorruptHeart();
         } else if (f < 0.2f) {
             AbstractMonster[] ms = new AbstractMonster[] {
@@ -69,26 +83,97 @@ public class SpiritGrailEdge extends AbstractSpirit {
                     new Repulsor(x,y),
                     new Exploder(x,y),
                     new OrbWalker(x,y),
-                    new Transient(),
+                    new Maw(x,y),//
+                    new Darkling(x,y),
+                    new WrithingMass(),
+                    new SpireGrowth(),
+                    new Spiker(x,y),
+                    new Repulsor(x,y),
+                    new Exploder(x,y),
+                    new OrbWalker(x,y),
+                    new Maw(x,y),//
+                    new Darkling(x,y),
+                    new WrithingMass(),
+                    new SpireGrowth(),
+                    new Spiker(x,y),
+                    new Repulsor(x,y),
+                    new Exploder(x,y),
+                    new OrbWalker(x,y),
+                    new Maw(x,y),//
+                    new Darkling(x,y),
+                    new WrithingMass(),
+                    new SpireGrowth(),
+                    new Spiker(x,y),
+                    new Repulsor(x,y),
+                    new Exploder(x,y),
+                    new OrbWalker(x,y),
+                    new Maw(x,y),//
+                    new Darkling(x,y),
+                    new WrithingMass(),
+                    new SpireGrowth(),
+
+
+//                    new SpireShield(),//
+//                    new SpireSpear(),//
+//                    new Transient(),
+                    new GiantHead(),
+                    new Reptomancer(),
                     new Nemesis(),
+                    new GiantHead(),
+                    new Reptomancer(),
+                    new Nemesis(),
+
                     new Deca(),
                     new Donu(),
+                    new AwakenedOne(x,y),
+                    new TimeEater(),
+
             };
 
             monster = ms[r.nextInt(ms.length)];
         } else if (f < 0.5f) {
             AbstractMonster[] ms = new AbstractMonster[] {
+                    new Chosen(x,y),
                     new SphericGuardian(x,y),
+                    new Centurion(x,y),
+                    new Healer(x,y),
+                    new ShelledParasite(x,y),
+                    new Snecko(x,y),
                     new Looter(x,y),
                     new Mugger(x,y),
                     new Byrd(x,y),
-                    new Byrd(x,y),
+                    new SnakePlant(x,y),
+                    new Chosen(x,y),
+                    new SphericGuardian(x,y),
+                    new Centurion(x,y),
+                    new Healer(x,y),
+                    new ShelledParasite(x,y),
+                    new Snecko(x,y),
+                    new Looter(x,y),
+                    new Mugger(x,y),
                     new Byrd(x,y),
                     new SnakePlant(x,y),
+                    new Chosen(x,y),
+                    new SphericGuardian(x,y),
+                    new Centurion(x,y),
+                    new Healer(x,y),
+                    new ShelledParasite(x,y),
+                    new Snecko(x,y),
+                    new Looter(x,y),
+                    new Mugger(x,y),
+                    new Byrd(x,y),
+                    new SnakePlant(x,y),
+
                     new Taskmaster(x,y),
-                    new SlaverRed(x,y),
-                    new SlaverBlue(x,y),
+                    new GremlinLeader(),
+                    new BookOfStabbing(),
+                    new Taskmaster(x,y),
+                    new GremlinLeader(),
+                    new BookOfStabbing(),
+
                     new BronzeAutomaton(),
+                    new TheCollector(),
+                    new Champ(),
             };
 
             monster = ms[r.nextInt(ms.length)];
@@ -96,13 +181,69 @@ public class SpiritGrailEdge extends AbstractSpirit {
             AbstractMonster[] ms = new AbstractMonster[] {
                     new Cultist(x,y),
                     new JawWorm(x,y),
+                    new AcidSlime_L(x,y),
+                    new AcidSlime_M(x,y),
+                    new AcidSlime_S(x,y,0),
+                    new SpikeSlime_L(x,y),
+                    new SpikeSlime_M(x,y),
+                    new SpikeSlime_S(x,y,0),
                     new GremlinFat(x,y),
                     new GremlinWizard(x,y),
-                    new GremlinNob(x,y),
                     new GremlinWarrior(x,y),
                     new GremlinThief(x,y),
                     new GremlinTsundere(x,y),
+                    new LouseNormal(x,y),
+                    new LouseDefensive(x,y),
+                    new SlaverRed(x,y),
+                    new SlaverBlue(x,y),
+                    new FungiBeast(x,y),
+                    new Cultist(x,y),
+                    new JawWorm(x,y),
+                    new AcidSlime_L(x,y),
+                    new AcidSlime_M(x,y),
+                    new AcidSlime_S(x,y,0),
+                    new SpikeSlime_L(x,y),
+                    new SpikeSlime_M(x,y),
+                    new SpikeSlime_S(x,y,0),
+                    new GremlinFat(x,y),
+                    new GremlinWizard(x,y),
+                    new GremlinWarrior(x,y),
+                    new GremlinThief(x,y),
+                    new GremlinTsundere(x,y),
+                    new LouseNormal(x,y),
+                    new LouseDefensive(x,y),
+                    new SlaverRed(x,y),
+                    new SlaverBlue(x,y),
+                    new FungiBeast(x,y),
+                    new Cultist(x,y),
+                    new JawWorm(x,y),
+                    new AcidSlime_L(x,y),
+                    new AcidSlime_M(x,y),
+                    new AcidSlime_S(x,y,0),
+                    new SpikeSlime_L(x,y),
+                    new SpikeSlime_M(x,y),
+                    new SpikeSlime_S(x,y,0),
+                    new GremlinFat(x,y),
+                    new GremlinWizard(x,y),
+                    new GremlinWarrior(x,y),
+                    new GremlinThief(x,y),
+                    new GremlinTsundere(x,y),
+                    new LouseNormal(x,y),
+                    new LouseDefensive(x,y),
+                    new SlaverRed(x,y),
+                    new SlaverBlue(x,y),
+                    new FungiBeast(x,y),
+
+                    new GremlinNob(x,y),
+                    new Lagavulin(false),
+                    new Sentry(x,y),
+                    new GremlinNob(x,y),
+                    new Lagavulin(false),
+                    new Sentry(x,y),
+
                     new TheGuardian(),
+                    new Hexaghost(),
+                    new SlimeBoss(),
             };
 
             monster = ms[r.nextInt(ms.length)];
@@ -124,4 +265,5 @@ public class SpiritGrailEdge extends AbstractSpirit {
     public void OnUpgrade(int timesUpgraded) {
 
     }
+
 }

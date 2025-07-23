@@ -750,8 +750,8 @@
 
   "TheSecretHistories:SpiritGrailEdge": {
     "NAME": "第二干渴者伊泽姆",
-    "DESCRIPTION": " 消耗 NL 将一名敌人变为 *其他敌人 。",
-    "UPGRADE_DESCRIPTION": " 消耗 NL 将一名敌人变为 *其他敌人 并继承其生命比例。"
+    "DESCRIPTION": " 消耗 NL 将一名敌人变为 tsh:其他敌人 。",
+    "UPGRADE_DESCRIPTION": " 消耗 NL 将一名敌人变为 tsh:其他敌人 并继承其生命比例。"
   },
 
   "TheSecretHistories:SummonGrailEdge": {
