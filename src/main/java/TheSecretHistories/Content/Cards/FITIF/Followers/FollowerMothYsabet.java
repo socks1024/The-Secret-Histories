@@ -1,7 +1,9 @@
 package TheSecretHistories.Content.Cards.FITIF.Followers;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientEdgeFPrincipleAction;
+import TheSecretHistories.Content.Powers.UniqueCards.FollowerMothYPower;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -24,6 +26,7 @@ public class FollowerMothYsabet extends AbstractFollower{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
+        addToBot(new ApplyPowerAction(p, p, new FollowerMothYPower(p, magicNumber)));
     }
 
     @Override
