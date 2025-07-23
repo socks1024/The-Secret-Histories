@@ -39,7 +39,7 @@ public class Passion extends TemplateCustomCard {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.isInnate = true;
+        this.selfRetain = true;
 
     }
 

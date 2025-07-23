@@ -463,19 +463,19 @@
   "TheSecretHistories:Health": {
     "NAME": "健康",
     "DESCRIPTION": " 消耗 。 NL tsh:心 之 tsh:准则 !P! NL 恢复 !M! 点生命。",
-    "UPGRADE_DESCRIPTION": " 固有 。 消耗 。 NL tsh:心 之 tsh:准则 !P! NL 恢复 !M! 点生命。"
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Reason": {
     "NAME": "理性",
     "DESCRIPTION": " 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": "固有 。 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。"
+    "UPGRADE_DESCRIPTION": "保留 。 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。"
   },
 
   "TheSecretHistories:Passion": {
     "NAME": "激情",
     "DESCRIPTION": " 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 !M! 点 [E] 。",
-    "UPGRADE_DESCRIPTION": " 固有 。 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 [E] 。"
+    "UPGRADE_DESCRIPTION": " 保留 。 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 [E] 。"
   },
 
   "TheSecretHistories:GenericLantern": {
