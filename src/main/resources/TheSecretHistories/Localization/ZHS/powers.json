@@ -96,14 +96,7 @@
   "TheSecretHistories:ToolWinterFPower": {
     "NAME": "分裂之铃",
     "DESCRIPTIONS": [
-      "回合结束时，获得所有敌人冬层数之和点格挡。"
-    ]
-  },
-
-  "TheSecretHistories:ToolWinterFEntanglePower": {
-    "NAME": "分裂之铃-缠身",
-    "DESCRIPTIONS": [
-      "回合开始时，获得 %d 层缠身。"
+      "回合结束时，获得敌人冬层数点格挡。"
     ]
   },
 
@@ -138,14 +131,14 @@
   "TheSecretHistories:ToolSecretHistoriesDPower": {
     "NAME": "梦境地图集",
     "DESCRIPTIONS": [
-      "从漫宿中获得的秘史 额外升 %d 级。"
+      "从漫宿中获得的秘史额外升 %d 级。"
     ]
   },
 
   "TheSecretHistories:IngredientLanternDPower": {
     "NAME": "透指毒素",
     "DESCRIPTIONS": [
-      "本回合每打出一张攻击牌抽一张牌。"
+      "本回合每打出一张攻击牌，抽一张牌。"
     ]
   },
 
@@ -191,6 +184,13 @@
     ]
   },
 
+  "TheSecretHistories:GainDexterityPower": {
+    "NAME": "获得敏捷",
+    "DESCRIPTIONS": [
+      "回合结束时，获得 %d 点敏捷。"
+    ]
+  },
+
   "TheSecretHistories:LoseAllAlignmentNextTurnPower": {
     "NAME": "失去",
     "DESCRIPTIONS": [
@@ -205,7 +205,7 @@
     ]
   },
 
-  "TheSecretHistories:Spirit_GrailE_EdgePower": {
+  "TheSecretHistories:SpiritGrailEEdgePower": {
     "NAME": "原生先知",
     "DESCRIPTIONS": [
       "受到50%%乘 %d 倍伤害"
@@ -216,6 +216,20 @@
     "NAME": "灰晓之油",
     "DESCRIPTIONS": [
       " %d 回合不受到冬的伤害"
+    ]
+  },
+
+  "TheSecretHistories:FollowerMothYPower": {
+    "NAME": "伊莎贝特",
+    "DESCRIPTIONS": [
+      "获得蛾时，对所有敌人造成 %d 点伤害。"
+    ]
+  },
+
+  "TheSecretHistories:GainEnergyAtStartOnTurnPower": {
+    "NAME": "额外能量",
+    "DESCRIPTIONS": [
+      "回合开始时，获得 %d 点能量。"
     ]
   }
 }

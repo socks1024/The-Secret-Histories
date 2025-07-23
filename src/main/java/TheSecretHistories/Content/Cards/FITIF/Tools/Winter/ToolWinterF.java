@@ -2,7 +2,6 @@ package TheSecretHistories.Content.Cards.FITIF.Tools.Winter;
 
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
 import TheSecretHistories.Content.Powers.Principles.Winter;
-import TheSecretHistories.Content.Powers.UniqueCards.ToolWinterFEntanglePower;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolWinterFPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;

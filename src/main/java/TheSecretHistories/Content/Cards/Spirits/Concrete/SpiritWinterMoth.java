@@ -25,6 +25,9 @@ public class SpiritWinterMoth extends AbstractSpirit {
 
     public SpiritWinterMoth() {
         super(ID, IMG_NAME, COST, TYPE, TARGET, INFOS);
+
+        this.exhaust = true;
+
         this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
     }

@@ -2,14 +2,9 @@ package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
 import TheSecretHistories.Content.Actions.UniqueCards.killMonsterVisuallySilentAction;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
-import TheSecretHistories.Content.Powers.UniqueCards.Spirit_GrailE_EdgePower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
-import com.badlogic.gdx.Gdx;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.*;
-import com.megacrit.cardcrawl.actions.utility.WaitAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -17,10 +12,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.monsters.beyond.*;
 import com.megacrit.cardcrawl.monsters.city.*;
 import com.megacrit.cardcrawl.monsters.ending.CorruptHeart;
-import com.megacrit.cardcrawl.monsters.ending.SpireShield;
-import com.megacrit.cardcrawl.monsters.ending.SpireSpear;
 import com.megacrit.cardcrawl.monsters.exordium.*;
-import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 
 import java.util.Objects;
 import java.util.Random;

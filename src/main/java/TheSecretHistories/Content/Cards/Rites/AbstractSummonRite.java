@@ -1,11 +1,9 @@
 package TheSecretHistories.Content.Cards.Rites;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
-import TheSecretHistories.Content.Cards.Spirits.Concrete.*;
-import TheSecretHistories.Utils.DebugUtils;
+import TheSecretHistories.Content.Cards.Spirits.Options.*;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.Timer;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;

@@ -1,7 +1,8 @@
-package TheSecretHistories.Content.Cards.Spirits.Concrete;
+package TheSecretHistories.Content.Cards.Spirits.Options;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
+import TheSecretHistories.Content.Cards.Spirits.Concrete.SpiritForgeMoth;
 import TheSecretHistories.Utils.StringUtils;
 
 public class SummonForgeMoth extends AbstractSummonOption {

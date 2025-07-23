@@ -1,4 +1,6 @@
 package TheSecretHistories.ModCore;
+import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelOptionCard;
+import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
 import TheSecretHistories.Content.Characters.TheSeeker;
 import TheSecretHistories.Content.Events.BookShop;
 import TheSecretHistories.Data.DynamicVariable.PrincipleVariant;
@@ -73,6 +75,8 @@ public class TheSecretHistories implements
 
         new AutoAdd(modID)
                 .packageFilter(packageNameCard)
+                .notPackageFilter("TheSecretHistories.Content.Cards.Mansus.OptionCards")
+                .notPackageFilter("TheSecretHistories.Content.Cards.Spirits.Options")
                 .setDefaultSeen(true)
                 .cards();
     }

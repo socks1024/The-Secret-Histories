@@ -13,6 +13,7 @@ public class GainEnergyAtStartOfTurnPower extends TemplateCustomPower {
 
     public GainEnergyAtStartOfTurnPower(AbstractCreature owner, int amount) {
         super(POWER_ID, IMG_NAME, owner, amount);
+        loadRegion("Deva2");
     }
 
     @Override

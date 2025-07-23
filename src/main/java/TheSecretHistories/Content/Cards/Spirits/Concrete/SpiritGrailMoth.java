@@ -1,8 +1,7 @@
 package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
-import TheSecretHistories.Content.Powers.UniqueCards.SpiritGrailCMothPower;
-import TheSecretHistories.Content.Powers.UniqueCards.Spirit_GrailE_EdgePower;
+import TheSecretHistories.Content.Powers.UniqueCards.SpiritGrailEEdgePower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -44,7 +43,7 @@ public class SpiritGrailMoth extends AbstractSpirit {
         }
         if (energy > 0) {
 
-            addToBot(new ApplyPowerAction(m, p, new Spirit_GrailE_EdgePower(m, energy), energy));
+            addToBot(new ApplyPowerAction(m, p, new SpiritGrailEEdgePower(m, energy), energy));
         }
         p.energy.use(EnergyPanel.totalCount);
     }

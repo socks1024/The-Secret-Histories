@@ -17,7 +17,7 @@ public class FollowerHeartLeo extends AbstractFollower{
     public static final String ID = StringUtils.MakeID(FollowerHeartLeo.class.getSimpleName());
     private static final String IMG_NAME = "leo_a";
     private static final int COST = 1;
-    private static final CardType TYPE = CardType.SKILL;
+    private static final CardType TYPE = CardType.ATTACK;
     public static CardTags PRINCIPLE_TAG = HEART;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;

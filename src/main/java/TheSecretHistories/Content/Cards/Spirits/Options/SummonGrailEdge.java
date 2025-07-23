@@ -1,7 +1,8 @@
-package TheSecretHistories.Content.Cards.Spirits.Concrete;
+package TheSecretHistories.Content.Cards.Spirits.Options;
 
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSummonOption;
+import TheSecretHistories.Content.Cards.Spirits.Concrete.SpiritGrailEdge;
 import TheSecretHistories.Utils.StringUtils;
 
 public class SummonGrailEdge extends AbstractSummonOption {
