@@ -231,5 +231,12 @@
     "DESCRIPTIONS": [
       "回合开始时，获得 %d 点能量。"
     ]
+  },
+
+  "TheSecretHistories:SpiritWinterMothPower": {
+    "NAME": "无声亡者",
+    "DESCRIPTIONS": [
+      "获得冬时，将其转化为等量格挡。"
+    ]
   }
 }

@@ -40,11 +40,18 @@ public class ToolMothF extends AbstractTool {
     public void use(AbstractPlayer p, AbstractMonster m){
         super.use(p, m);
 
-        this.baseDamage = PowerUtils.GetPowerAmount(Moth.POWER_ID, p);
+        addToBot(new AbstractGameAction() {
+            @Override
+            public void update() {
+                baseDamage = PowerUtils.GetPowerAmount(Moth.POWER_ID, p);
 
-        calculateDamageDisplay(m);
+                calculateDamageDisplay(m);
 
-        addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
+                addToBot(new DamageAction(m, new DamageInfo(p, damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
+
+                isDone = true;
+            }
+        });
     }
 
     @Override

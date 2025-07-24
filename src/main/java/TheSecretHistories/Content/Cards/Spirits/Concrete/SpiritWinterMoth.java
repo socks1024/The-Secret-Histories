@@ -3,8 +3,10 @@ package TheSecretHistories.Content.Cards.Spirits.Concrete;
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientMothFToWinterAction;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Content.Powers.Principles.Moth;
+import TheSecretHistories.Content.Powers.UniqueCards.SpiritWinterMothPower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -34,12 +36,15 @@ public class SpiritWinterMoth extends AbstractSpirit {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (p.hasPower(Moth.POWER_ID)) {
-            int currentAmount = p.getPower(Moth.POWER_ID).amount;
-            if (currentAmount > 0) {
-                addToBot(new IngredientMothFToWinterAction(m, p, MOTH, 1, this.magicNumber));
-            }
-        }
+
+        addToBot(new ApplyPowerAction(p,p,new SpiritWinterMothPower(p, magicNumber)));
+
+//        if (p.hasPower(Moth.POWER_ID)) {
+//            int currentAmount = p.getPower(Moth.POWER_ID).amount;
+//            if (currentAmount > 0) {
+//                addToBot(new IngredientMothFToWinterAction(m, p, MOTH, 1, this.magicNumber));
+//            }
+//        }
     }
 
     @Override

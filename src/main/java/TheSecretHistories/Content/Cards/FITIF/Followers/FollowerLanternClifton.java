@@ -21,11 +21,13 @@ public class FollowerLanternClifton extends AbstractFollower{
     public static CardTags PRINCIPLE_TAG = LANTERN;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
+
     public FollowerLanternClifton() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
         this.baseMagicNumber = this.magicNumber = 4;
 
     }
+
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);

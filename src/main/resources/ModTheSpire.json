@@ -3,7 +3,7 @@
   "name": "TheSecretHistories",
   "author_list": ["socks","rabbit","idiot_hog"],
   "description": "A STS mod of Cultist Simulator.",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "sts_version": "12-18-2022",
   "mts_version": "3.30.3",
   "dependencies": ["basemod"]
