@@ -1,0 +1,235 @@
+{
+  "TheSecretHistories:Lantern": {
+    "NAME": "灯",
+    "DESCRIPTIONS": [
+      "灯是有太阳之居屋之称的隐秘场所与其上光芒的准则。"
+    ]
+  },
+
+  "TheSecretHistories:Forge": {
+    "NAME": "铸",
+    "DESCRIPTIONS": [
+      "铸是变换与毁灭的准则。"
+    ]
+  },
+
+  "TheSecretHistories:Edge": {
+    "NAME": "刃",
+    "DESCRIPTIONS": [
+      "刃是战斗与抗争的准则。"
+    ]
+  },
+
+  "TheSecretHistories:Winter": {
+    "NAME": "冬",
+    "DESCRIPTIONS": [
+      "冬是静默、终结和不尽然逝去之物的准则。[回合结束时，受到 %d 点伤害。]"
+    ]
+  },
+
+  "TheSecretHistories:Heart": {
+    "NAME": "心",
+    "DESCRIPTIONS": [
+      "心是长存与延续的准则。"
+    ]
+  },
+
+  "TheSecretHistories:Grail": {
+    "NAME": "杯",
+    "DESCRIPTIONS": [
+      "杯是生育与飨宴的准则。"
+    ]
+  },
+
+  "TheSecretHistories:Moth": {
+    "NAME": "蛾",
+    "DESCRIPTIONS": [
+      "蛾，狂野又凶险，是混沌与渴慕的准则。[可以叠加，但回合结束时失去所有蛾。]"
+    ]
+  },
+
+  "TheSecretHistories:Knock": {
+    "NAME": "启",
+    "DESCRIPTIONS": [
+      "启是开启与拆解的准则。"
+    ]
+  },
+
+  "TheSecretHistories:SecretHistories": {
+    "NAME": "秘史",
+    "DESCRIPTIONS": [
+      "秘史描绘了世界不为人知的千头万绪及它的重重过往。",
+      "获得 %d 金币。",
+      "获得 %d 组选牌。",
+      "获得 %d 个遗物。"
+    ]
+  },
+
+  "TheSecretHistories:ToolLanternFPower": {
+    "NAME": "守夜人之镜",
+    "DESCRIPTIONS": [
+      "回合开始时，每有 %d 灯 ,抽1张牌。"
+    ]
+  },
+
+  "TheSecretHistories:ToolForgeBPower": {
+    "NAME": "朱砂护身符",
+    "DESCRIPTIONS": [
+      "若有至少 %d 铸，可以打出状态牌，并将其消耗。"
+    ]
+  },
+
+  "TheSecretHistories:ToolEdgeDPower": {
+    "NAME": "比得之刃",
+    "DESCRIPTIONS": [
+      "回合结束时，失去刃相点格挡。"
+    ]
+  },
+
+  "TheSecretHistories:ToolWinterDPower": {
+    "NAME": "埃拉加巴路斯的镣铐",
+    "DESCRIPTIONS": [
+      "回合结束时，获得 %d 冬 。"
+    ]
+  },
+
+  "TheSecretHistories:ToolWinterFPower": {
+    "NAME": "分裂之铃",
+    "DESCRIPTIONS": [
+      "回合结束时，获得敌人冬层数点格挡。"
+    ]
+  },
+
+  "TheSecretHistories:ToolGrailDPower": {
+    "NAME": "封圣高冠",
+    "DESCRIPTIONS": [
+      "无法获得格挡。"
+    ]
+  },
+
+  "TheSecretHistories:ToolMothDPower": {
+    "NAME": "斑驳面具",
+    "DESCRIPTIONS": [
+      "获得蛾 时，额外获得 %d 层。"
+    ]
+  },
+
+  "TheSecretHistories:ToolKnockFPower": {
+    "NAME": "碎门之钥",
+    "DESCRIPTIONS": [
+      "进入漫宿时不需要消耗性相。"
+    ]
+  },
+
+  "TheSecretHistories:ToolSecretHistoriesBPower": {
+    "NAME": "矛盾的古董",
+    "DESCRIPTIONS": [
+      "额外获得 %d 组选牌奖励。"
+    ]
+  },
+
+  "TheSecretHistories:ToolSecretHistoriesDPower": {
+    "NAME": "梦境地图集",
+    "DESCRIPTIONS": [
+      "从漫宿中获得的秘史额外升 %d 级。"
+    ]
+  },
+
+  "TheSecretHistories:IngredientLanternDPower": {
+    "NAME": "透指毒素",
+    "DESCRIPTIONS": [
+      "本回合每打出一张攻击牌，抽一张牌。"
+    ]
+  },
+
+  "TheSecretHistories:IngredientLanternFPower": {
+    "NAME": "玻璃灵液",
+    "DESCRIPTIONS": [
+      "手牌无上限。"
+    ]
+  },
+
+  "TheSecretHistories:IngredientGrailDPower": {
+    "NAME": "不凋",
+    "DESCRIPTIONS": [
+      "每层减伤20%%，上限100%%"
+    ]
+  },
+
+  "TheSecretHistories:IngredientMothFPower": {
+    "NAME": "复用",
+    "DESCRIPTIONS": [
+      "使工具/原料额外打出1次"
+    ]
+  },
+
+  "TheSecretHistories:FollowerKnockNPower": {
+    "NAME": "内维尔",
+    "DESCRIPTIONS": [
+      "从漫宿中获得牌时，造成 %d 点伤害。"
+    ]
+  },
+
+  "TheSecretHistories:DreadPower": {
+    "NAME": "恐惧",
+    "DESCRIPTIONS": [
+      "每回合临时失去1点力量"
+    ]
+  },
+
+  "TheSecretHistories:FascinationPower": {
+    "NAME": "入迷",
+    "DESCRIPTIONS": [
+      "每回合临时失去1点敏捷"
+    ]
+  },
+
+  "TheSecretHistories:GainDexterityPower": {
+    "NAME": "获得敏捷",
+    "DESCRIPTIONS": [
+      "回合结束时，获得 %d 点敏捷。"
+    ]
+  },
+
+  "TheSecretHistories:LoseAllAlignmentNextTurnPower": {
+    "NAME": "失去",
+    "DESCRIPTIONS": [
+      "回合结束时所有准则失去 %d 层"
+    ]
+  },
+
+  "TheSecretHistories:IngredientEdgeDPower": {
+    "NAME": "狻猊颗粒",
+    "DESCRIPTIONS": [
+      "本回合每打出攻击牌获得 %d 层刃"
+    ]
+  },
+
+  "TheSecretHistories:SpiritGrailEEdgePower": {
+    "NAME": "原生先知",
+    "DESCRIPTIONS": [
+      "受到50%%乘 %d 倍伤害"
+    ]
+  },
+
+  "TheSecretHistories:IngredientWinterBPower": {
+    "NAME": "灰晓之油",
+    "DESCRIPTIONS": [
+      " %d 回合不受到冬的伤害"
+    ]
+  },
+
+  "TheSecretHistories:FollowerMothYPower": {
+    "NAME": "伊莎贝特",
+    "DESCRIPTIONS": [
+      "获得蛾时，对所有敌人造成 %d 点伤害。"
+    ]
+  },
+
+  "TheSecretHistories:GainEnergyAtStartOnTurnPower": {
+    "NAME": "额外能量",
+    "DESCRIPTIONS": [
+      "回合开始时，获得 %d 点能量。"
+    ]
+  }
+}

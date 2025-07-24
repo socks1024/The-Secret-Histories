@@ -36,7 +36,6 @@ public class IngredientForgeD extends AbstractIngredient {
         super.use(p, m);
 
         addToBot(new IngredientForgeDAction(p, upgraded));
-
 //        addToBot(new ExhaustByTagGainBlockAction(p, INGREDIENT, this.block));
 //        addToBot(new ExhaustByTagGainBlockAction(p, TOOL, this.block));
     }

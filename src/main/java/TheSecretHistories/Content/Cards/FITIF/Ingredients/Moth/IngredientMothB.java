@@ -2,7 +2,10 @@ package TheSecretHistories.Content.Cards.FITIF.Ingredients.Moth;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientEdgeFPrincipleAction;
 import TheSecretHistories.Content.Cards.FITIF.Ingredients.AbstractIngredient;
+import TheSecretHistories.Content.Powers.Principles.Moth;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DiscardAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
@@ -29,19 +32,28 @@ public class IngredientMothB extends AbstractIngredient {
 
     public IngredientMothB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.damage = this.baseDamage = 6;
-        this.block = this.baseBlock = 5;
+        this.magicNumber = this.baseMagicNumber = 1;
+    }
+
+    @Override
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p, m);
+        addToBot(new AbstractGameAction() {
+            @Override
+            public void update() {
+                int mothAmount = PowerUtils.GetPowerAmount(Moth.POWER_ID, p);
+                int times = mothAmount / 4;
+                if (times > 0) {
+                    addToBot(new DrawCardAction(p, times * magicNumber));
+                    addToBot(new DiscardAction(p, p, times, false));
+                }
+                isDone = true;
+            }
+        });
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(2);
-        upgradeBlock(2);
-    }
-    @Override
-    public void use(AbstractPlayer p, AbstractMonster m) {
-        super.use(p, m);
-        addToBot(new DamageAction(m, new DamageInfo(p, damage)));
-        addToBot(new GainBlockAction(p, m, this.block));
+        upgradeMagicNumber(1);
     }
 }

@@ -25,7 +25,7 @@ public class IngredientLanternD extends AbstractIngredient {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
         this.damage = this.baseDamage = 10;
-        this.baseMagicNumber = this.magicNumber = 1;
+        this.baseMagicNumber = this.magicNumber = 2;
     }
 
     @Override

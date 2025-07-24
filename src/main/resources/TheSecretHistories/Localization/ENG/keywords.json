@@ -1,0 +1,156 @@
+[
+  {
+    "NAMES": ["Principles"],
+    "DESCRIPTION": "The nine Principles are unique Aspects that embody the archetypal characteristics, ideas, or influences that underpin the entirety of the invisible arts. Power can be drawn from the veneration of a Principle[You may elevate your own Principle to the same intensity as the card’s tier.]"
+  },
+
+  {
+    "NAMES": ["Lantern"],
+    "DESCRIPTION": "Lantern is the principle of the secret place sometimes called the House of the Sun, and the light above it."
+  },
+
+  {
+    "NAMES": ["铸"],
+    "DESCRIPTION": "铸是变换与毁灭的准则。"
+  },
+
+  {
+    "NAMES": ["Edge"],
+    "DESCRIPTION": "Edge is the principle of battle and struggle."
+  },
+
+  {
+    "NAMES": ["Winter"],
+    "DESCRIPTION": "冬是静默、终结和不尽然逝去之物的准则。[回合结束时受到等量伤害。]"
+  },
+
+  {
+    "NAMES": ["Heart"],
+    "DESCRIPTION": "The heart is the principle that continues and preserves."
+  },
+
+  {
+    "NAMES": ["杯"],
+    "DESCRIPTION": "杯是生育与飨宴的准则。"
+  },
+
+  {
+    "NAMES": ["Moth"],
+    "DESCRIPTION": "Moth is the wild and perilous principle of chaos and yearning.[可以叠加，但回合结束时失去所有蛾。]"
+  },
+
+  {
+    "NAMES": ["启"],
+    "DESCRIPTION": "启是开启与拆解的准则。"
+  },
+
+  {
+    "NAMES": ["秘史"],
+    "DESCRIPTION": "秘史描绘了世界不为人知的千头万绪及它的重重过往。[可以叠加，结算时根据层数获取额外奖励。]"
+  },
+
+  {
+    "NAMES": ["漫宿"],
+    "DESCRIPTION": "太阳的居屋、隐于世后的庙宇、世界表皮之下的世界。[无法移除，休息时会被升级。]"
+  },
+
+  {
+    "NAMES": ["密传"],
+    "DESCRIPTION": "有关无形之术的知识。我可以利用它来吸引追随者，举行仪式，开启通往漫宿的道路，或是寻觅飞升之法……[卡组中有两张同一性相的密传时，会自动合成为一张更高级的密传。]"
+  },
+
+  {
+    "NAMES": ["影响"],
+    "DESCRIPTION": "某种反响、共鸣、调和。很快就会消逝。"
+  },
+
+  {
+    "NAMES": ["工具"],
+    "DESCRIPTION": "剑不杀人人杀人。——小塞内卡"
+  },
+
+  {
+    "NAMES": ["原料"],
+    "DESCRIPTION": "燃料、药膏、颜料以及耐心：全都随时间耗减。"
+  },
+
+  {
+    "NAMES": ["追随者"],
+    "DESCRIPTION": "你的学生、合伙人、护卫、拥护者、被你欺骗、被你当作祭品的……伴侣。"
+  },
+
+  {
+    "NAMES": ["赞助人"],
+    "DESCRIPTION": "我参与的社交圈子中的显要之人。"
+  },
+
+  {
+    "NAMES": ["猎人"],
+    "DESCRIPTION": "盼我遭厄之人。"
+  },
+
+  {
+    "NAMES": ["仪式"],
+    "DESCRIPTION": "在仪式中集齐性相以进行召唤。"
+  },
+
+  {
+    "NAMES": ["召唤物"],
+    "DESCRIPTION": "此人本不属于这个世界。"
+  },
+
+  {
+    "NAMES": ["林地"],
+    "DESCRIPTION": "我学到了由何路途可前往林地，那团生长、纠缠在漫宿墙壁周围（尽管漫宿无墙）的黑暗。"
+  },
+
+  {
+    "NAMES": ["纯白之门"],
+    "DESCRIPTION": "我穿过了纯白之门，又称白骨之门、象牙之门。每当我由此踏入居屋，我的声音都会留在其外。"
+  },
+
+  {
+    "NAMES": ["牡鹿之门"],
+    "DESCRIPTION": "我找到了牡鹿之门，时而又名兽角之门、学徒之门。我答出了谜语，已跻身通晓者之列。"
+  },
+
+  {
+    "NAMES": ["蜘蛛之门"],
+    "DESCRIPTION": "我找到了蜘蛛之门，时而又称鲜血之门，或者更通俗地说，错误的门。"
+  },
+
+  {
+    "NAMES": ["孔雀之门"],
+    "DESCRIPTION": "我找到了孔雀之门，时而又名眼瞳之门，或者自满之沮。"
+  },
+
+  {
+    "NAMES": ["召唤仪式"],
+    "DESCRIPTION": "消耗2启和与召唤物相关的2种准则，召唤物越强则消耗越多。"
+  },
+
+  {
+    "NAMES": ["不凋"],
+    "DESCRIPTION": "20%减伤"
+  },
+
+  {
+    "NAMES": ["随机负面效果"],
+    "DESCRIPTION": "给予1层 易伤 或给予1层 虚弱 或-1 力量  。"
+  },
+
+  {
+    "NAMES": ["明牌"],
+    "DESCRIPTION": "从卡池中随机抽取一张牌加入手牌。悬浮时，预览抽取到的卡牌。"
+  },
+
+  {
+    "NAMES": ["暗牌"],
+    "DESCRIPTION": "从卡池中随机抽取一张牌加入手牌。悬浮时，预览卡池。"
+  },
+
+  {
+    "NAMES": ["其他敌人"],
+    "DESCRIPTION": "不包含自己 NL 高塔之心概率： NL 0.1% NL 三层任意boss概率： NL 2.3% NL 二层任意boss概率： NL 2.3% NL 一层任意boss概率： NL 2.3% NL 三层任意精英概率： NL 3.5% NL 二层任意精英概率： NL 4.6% NL 一层任意精英概率： NL 4.8% NL 三层任意普通怪概率： NL 14.1% NL 二层任意普通怪概率： NL 23.1% NL 一层任意普通怪概率： NL 42.9% "
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "TheSecretHistories:BookShop": {
+    "NAME": "莫兰书店",
+    "DESCRIPTIONS": [
+      "一座光线昏暗的经营场所，属莫兰小姐所有； NL 她买卖稀有，且有时会带来危险的书籍。"
+    ],
+    "OPTIONS": [
+      "扩充你的藏书。",
+      "离开。"
+    ]
+  }
+}

@@ -51,7 +51,7 @@ public class SpiritLanternSecret extends AbstractSpirit {
 
     @Override
     public void OnUpgrade(int timesUpgraded) {
-        this.upgradeMagicNumber(6);
+        this.isEthereal=false;
     }
 
 }

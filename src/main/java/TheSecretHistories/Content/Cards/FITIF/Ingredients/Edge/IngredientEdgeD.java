@@ -5,6 +5,8 @@ import TheSecretHistories.Content.Powers.UniqueCards.IngredientEdgeDPower;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.actions.common.LoseHPAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -17,27 +19,24 @@ public class IngredientEdgeD extends AbstractIngredient {
     private static final AbstractCard.CardTags PRINCIPLE_TAG = EDGE;
     private static final String IMG_NAME = "ingredientedged";
     private static final int COST = 1;
-    private static final AbstractCard.CardType TYPE = CardType.ATTACK;
+    private static final AbstractCard.CardType TYPE = CardType.SKILL;
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.UNCOMMON;
-    private static final AbstractCard.CardTarget TARGET = CardTarget.ENEMY;
+    private static final AbstractCard.CardTarget TARGET = CardTarget.SELF;
 
     public IngredientEdgeD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.exhaust = true;
-        this.baseMagicNumber = 1;
-        this.damage = this.baseDamage = 10;
+        this.magicNumber = this.baseMagicNumber = 3;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot(new ApplyPowerAction(p, p, new IngredientEdgeDPower(p, 1)));
-        addToBot(new DamageAction(m, new DamageInfo(p, damage)));
+        this.addToBot(new LoseHPAction(p, p, 3));
+        this.addToBot(new DrawCardAction(p, this.magicNumber));
     }
 
     @Override
-    protected void OnUpgrade(int timesUpgraded) {
-        this.exhaust = false;
+    protected void OnUpgrade(int timesUpgraded){
+        this.upgradeMagicNumber(1);
     }
-
 }
