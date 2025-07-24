@@ -1,6 +1,7 @@
 package TheSecretHistories.Patch;
 
 import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
+import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
 import TheSecretHistories.Content.Characters.TheSeeker;
 import TheSecretHistories.Utils.DebugUtils;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -18,7 +19,7 @@ public class SingleCardViewPopupPatch {
         @SpireInsertPatch(locator = Locator.class, localvars = {"card"})
         public static void AddDoubleCardPreview(SingleCardViewPopup instance, SpriteBatch sb, AbstractCard card) {
 
-            if (!(AbstractDungeon.player instanceof TheSeeker)) return;
+            if (!(card instanceof TemplateCustomCard)) return;
 
             TemplateCustomCard customCard = (TemplateCustomCard) card;
 
