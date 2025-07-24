@@ -14,41 +14,48 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.UIStrings;
 
 public class IngredientForgeDAction extends AbstractGameAction {
-
     private static final UIStrings uiStrings = CardCrawlGame.languagePack.getUIString("GamblingChipAction");
     public static final String[] TEXT = uiStrings.TEXT;
+    private final boolean upgraded;
 
-    private boolean selected = false;
-
-    public IngredientForgeDAction() {
-        this.duration = 0.5F;
+    public IngredientForgeDAction(AbstractCreature source, boolean upgraded) {
+        setValues(AbstractDungeon.player, source, -1);
         this.actionType = ActionType.CARD_MANIPULATION;
+        this.upgraded = upgraded;
     }
 
     @Override
     public void update() {
-
-        if (!selected) {
-            AbstractDungeon.handCardSelectScreen.open(TEXT[0], 99, true, true);
+        if (this.duration == 0.5F) {
+            AbstractDungeon.handCardSelectScreen.open(TEXT[1], 99, true, true);
             this.addToBot(new WaitAction(0.25F));
-            tickDuration();
-            return;
-        }
+            this.tickDuration();
+        } else {
+            if (!AbstractDungeon.handCardSelectScreen.wereCardsRetrieved) {
+                if (!AbstractDungeon.handCardSelectScreen.selectedCards.group.isEmpty()) {
 
-        if (!AbstractDungeon.handCardSelectScreen.wereCardsRetrieved) {
-            int count = AbstractDungeon.handCardSelectScreen.selectedCards.group.size();
-            if (count > 0) {
+                    int count = AbstractDungeon.handCardSelectScreen.selectedCards.group.size();
 
-                for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {
-                    AbstractDungeon.player.hand.moveToExhaustPile(c);
-                    c.triggerOnExhaust();
+                    this.addToTop(new DrawCardAction(count));
+
+                    if (upgraded) {
+                        for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {
+                            AbstractDungeon.player.hand.moveToDiscardPile(c);
+                            GameActionManager.incrementDiscard(false);
+                            c.triggerOnManualDiscard();
+                        }
+                    } else {
+                        for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {
+                            AbstractDungeon.player.hand.moveToExhaustPile(c);
+                        }
+                        CardCrawlGame.dungeon.checkForPactAchievement();
+                    }
                 }
 
-                this.addToTop(new DrawCardAction(AbstractDungeon.player, count));
+                AbstractDungeon.handCardSelectScreen.wereCardsRetrieved = true;
             }
-            AbstractDungeon.handCardSelectScreen.wereCardsRetrieved = true;
-        }
 
-        tickDuration();
+            this.tickDuration();
+        }
     }
 }
