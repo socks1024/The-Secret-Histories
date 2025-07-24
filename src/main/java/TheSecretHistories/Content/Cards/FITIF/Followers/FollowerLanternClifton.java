@@ -24,7 +24,7 @@ public class FollowerLanternClifton extends AbstractFollower{
 
     public FollowerLanternClifton() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseMagicNumber = this.magicNumber = 4;
+        this.baseMagicNumber = this.magicNumber = 5;
 
     }
 
