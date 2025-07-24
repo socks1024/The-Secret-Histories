@@ -21,9 +21,7 @@ public class SpiritWinterMothPower extends TemplateCustomPower {
     }
 
     @Override
-    public void atEndOfTurn(boolean isPlayer) {
-        super.atEndOfTurn(isPlayer);
-
+    public void atEndOfTurnPreEndTurnCards(boolean isPlayer) {
         addToBot(new GainBlockAction(owner, PrincipleUtils.GetPlayerPrincipleAmount(WINTER) * amount));
         addToBot(new RemoveSpecificPowerAction(owner, owner, Winter.POWER_ID));
     }
