@@ -21,7 +21,7 @@ public class AbstractCardPatch {
         @SpirePrefixPatch
         public static SpireReturn<Boolean> CanUsePatchMethod(AbstractCard __instance, AbstractPlayer p, AbstractMonster m) {
 
-            if (__instance.type == AbstractCard.CardType.STATUS && __instance.costForTurn < -1 && PowerUtils.GetPowerAmount(ToolForgeBPower.POWER_ID, AbstractDungeon.player) >= PrincipleUtils.GetPlayerPrincipleAmount(FORGE)) {
+            if (__instance.type == AbstractCard.CardType.STATUS && __instance.costForTurn < -1 && PowerUtils.GetPowerAmount(ToolForgeBPower.POWER_ID, AbstractDungeon.player) <= PrincipleUtils.GetPlayerPrincipleAmount(FORGE) && PowerUtils.GetPowerAmount(ToolForgeBPower.POWER_ID, AbstractDungeon.player) != 0) {
                 return SpireReturn.Return(true);
             }
 
