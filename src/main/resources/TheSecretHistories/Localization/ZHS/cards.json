@@ -678,8 +678,8 @@
 
   "TheSecretHistories:SpiritWinterMoth": {
     "NAME": "无声亡者",
-    "DESCRIPTION": " 消耗 NL 获得 tsh:冬 时，将其转化为一半 格挡 。",
-    "UPGRADE_DESCRIPTION": " 消耗 NL 获得 tsh:冬 时，将其转化为等量 格挡 。"
+    "DESCRIPTION": " 消耗 NL 回合结束时将 tsh:冬 转化为 格挡 。",
+    "UPGRADE_DESCRIPTION": " 消耗 NL 回合结束时将 tsh:冬 转化为双倍 格挡 。"
   },
 
   "TheSecretHistories:SummonWinterMoth": {

@@ -17,11 +17,11 @@ public class Winter extends AbstractPrinciple{
     public Winter(AbstractCreature owner, int amount){
         super(POWER_ID, IMG_NAME, owner, amount);
 
-        if (owner.hasPower(SpiritWinterMothPower.POWER_ID)) {
-            int count = owner.getPower(SpiritWinterMothPower.POWER_ID).amount;
-            addToTop(new GainBlockAction(owner, (int) (this.amount * count * 0.5)));
-            this.amount = 0;
-        }
+//        if (owner.hasPower(SpiritWinterMothPower.POWER_ID)) {
+//            int count = owner.getPower(SpiritWinterMothPower.POWER_ID).amount;
+//            addToTop(new GainBlockAction(owner, (int) (this.amount * count * 0.5)));
+//            this.amount = 0;
+//        }
     }
 
     @Override
