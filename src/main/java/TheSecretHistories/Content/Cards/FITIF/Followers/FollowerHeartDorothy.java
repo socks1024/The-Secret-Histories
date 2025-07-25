@@ -13,11 +13,12 @@ public class FollowerHeartDorothy extends AbstractFollower{
 
     public static final String ID = StringUtils.MakeID(FollowerHeartDorothy.class.getSimpleName());
     private static final String IMG_NAME = "dorothy_a";
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = HEART;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
+
     public FollowerHeartDorothy() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
@@ -42,7 +43,7 @@ public class FollowerHeartDorothy extends AbstractFollower{
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-            upgradeBaseCost(0);
+        upgradeBaseCost(0);
     }
 
 }

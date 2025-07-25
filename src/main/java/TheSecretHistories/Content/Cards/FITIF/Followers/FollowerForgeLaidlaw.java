@@ -22,7 +22,6 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
 
     private static final CardType TYPE = CardType.POWER;
 
-
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardRarity RARITY = CardRarity.RARE;
 

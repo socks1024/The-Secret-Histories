@@ -804,13 +804,13 @@
 
   "TheSecretHistories:Dread": {
     "NAME": "恐惧",
-    "DESCRIPTION": "被抽到手牌时，获得 !M! 层 tsh:恐惧。",
+    "DESCRIPTION": "被抽到手牌时，获得 !M! 层 tsh:恐惧 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Fascination": {
     "NAME": "入迷",
-    "DESCRIPTION": "被抽到手牌时，获得 !M! 层 tsh:入迷。",
+    "DESCRIPTION": "被抽到手牌时，获得 !M! 层 tsh:入迷 。",
     "UPGRADE_DESCRIPTION": ""
   },
 

@@ -22,6 +22,11 @@ public class Moth extends AbstractPrinciple{
         super(POWER_ID, IMG_NAME, owner, amount);
 
         this.stack = true;
+
+        if (owner.hasPower(FollowerMothYPower.POWER_ID)) {
+            owner.getPower(FollowerMothYPower.POWER_ID).flash();
+            addToTop(new DamageAllEnemiesAction(AbstractDungeon.player, PowerUtils.GetPowerAmount(FollowerMothYPower.POWER_ID, owner), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+        }
     }
 
     @Override
@@ -29,11 +34,6 @@ public class Moth extends AbstractPrinciple{
         stackAmount += PowerUtils.GetPowerAmount(ToolMothDPower.POWER_ID, owner);
 
         super.stackPower(stackAmount);
-
-        if (owner.hasPower(FollowerMothYPower.POWER_ID)) {
-            owner.getPower(FollowerMothYPower.POWER_ID).flash();
-            addToTop(new DamageAllEnemiesAction(AbstractDungeon.player, PowerUtils.GetPowerAmount(FollowerMothYPower.POWER_ID, owner), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
-        }
     }
 
     @Override

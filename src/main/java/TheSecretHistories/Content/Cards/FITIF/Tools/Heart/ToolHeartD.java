@@ -26,7 +26,7 @@ public class ToolHeartD extends AbstractTool {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
         this.block = this.baseBlock = 5;
         this.magicNumber = this.baseMagicNumber = 1;
-        this.isInnate = true;
+        // this.isInnate = true;
     }
 
     @Override
