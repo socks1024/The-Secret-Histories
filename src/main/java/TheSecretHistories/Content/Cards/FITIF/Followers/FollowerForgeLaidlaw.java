@@ -35,7 +35,7 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new MasterRealityPower((AbstractCreature)p)));
+        addToBot(new ApplyPowerAction(p, p, new MasterRealityPower(p)));
     }
 
     @Override
@@ -44,16 +44,3 @@ public class FollowerForgeLaidlaw extends AbstractFollower{
         this.isInnate = true;
     }
 }
-/*private static final CardTags PRINCIPLE_TAG = EDGE;
-
-    public static final String ID = StringUtils.MakeID(FollowerEdgeElridge.class.getSimpleName());
-
-    private static final String IMG_NAME = "elridge";
-
-    private static final int COST = 1;
-
-    private static final CardType TYPE = CardType.ATTACK;
-
-    private static final CardRarity RARITY = CardRarity.COMMON;
-
-    private static final CardTarget TARGET = CardTarget.ENEMY;*/

@@ -31,7 +31,7 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
 
     @Override
     public void onChoseThisOption() {
-        AbstractCard card = cards[new Random().nextInt(cards.length)];
+        AbstractCard card = cards[new Random().nextInt(cards.length)].makeStatEquivalentCopy();
 
         AbstractPlayer p = AbstractDungeon.player;
 
