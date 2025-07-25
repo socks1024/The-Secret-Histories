@@ -34,7 +34,7 @@ public class Fascination extends TemplateCustomStatusCard {
     }
 
     @Override
-    public void onMoveToDiscard() {
+    public void triggerWhenDrawn() {
         super.onMoveToDiscard();
         addToBot(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new FascinationPower(AbstractDungeon.player, magicNumber)));
     }

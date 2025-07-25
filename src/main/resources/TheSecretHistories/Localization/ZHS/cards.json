@@ -798,19 +798,19 @@
 
   "TheSecretHistories:Restlessness": {
     "NAME": "躁动",
-    "DESCRIPTION": "消耗 。 NL 进入弃牌堆时，将 !M! 张恐惧加入弃牌堆。",
+    "DESCRIPTION": "消耗 。 NL 被抽到手牌时，将 !M! 张恐惧加入弃牌堆。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Dread": {
     "NAME": "恐惧",
-    "DESCRIPTION": " 进入弃牌堆时，每回合失去 !M! 点临时 力量 。",
+    "DESCRIPTION": "被抽到手牌时，获得 !M! 层 tsh:恐惧。",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Fascination": {
     "NAME": "入迷",
-    "DESCRIPTION": " 进入弃牌堆时，每回合失去 !M! 点临时 敏捷 。",
+    "DESCRIPTION": "被抽到手牌时，获得 !M! 层 tsh:入迷。",
     "UPGRADE_DESCRIPTION": ""
   },
 
