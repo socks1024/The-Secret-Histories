@@ -18,7 +18,7 @@ public class SpiritWinterMoth extends AbstractSpirit {
     private static final String IMG_NAME = "spirit_winterb_heart";
     private static final int COST = 0;
     private static final CardType TYPE = CardType.SKILL;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardTarget TARGET = CardTarget.SELF;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{
             new PrincipleUtils.ReducePrincipleInfo(KNOCK, 2),
             new PrincipleUtils.ReducePrincipleInfo(WINTER, 6),

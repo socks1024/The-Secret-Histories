@@ -2,16 +2,12 @@ package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.Wood;
 
 import TheSecretHistories.Content.Cards.FITIF.Fragments.FragmentSecretHistories;
 import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceGrail;
-import TheSecretHistories.Content.Cards.FITIF.Influences.InfluenceMoth;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
 import TheSecretHistories.Content.Cards.Others.Rumour;
 import TheSecretHistories.Content.Cards.Starters.Health;
 import TheSecretHistories.Utils.StringUtils;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.math.MathUtils;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class TheWell extends AbstractMansusLocation {
 
