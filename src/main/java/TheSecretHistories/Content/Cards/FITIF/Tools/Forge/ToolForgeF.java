@@ -33,7 +33,8 @@ public class ToolForgeF extends AbstractTool {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(2);
+        upgradeMagicNumber(1);
+        upgradeBlock(6);
     }
 
     @Override
