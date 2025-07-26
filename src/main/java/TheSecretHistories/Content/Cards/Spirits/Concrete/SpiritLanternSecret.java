@@ -30,7 +30,7 @@ public class SpiritLanternSecret extends AbstractSpirit {
 
     public SpiritLanternSecret() {
         super(ID, IMG_NAME, COST, TYPE, TARGET, INFOS);
-        this.baseMagicNumber = this.magicNumber = 99;
+        this.baseMagicNumber = this.magicNumber = 49;
         this.exhaust = true;
         this.isEthereal=true;
     }
