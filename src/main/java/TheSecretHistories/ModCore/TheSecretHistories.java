@@ -107,13 +107,13 @@ public class TheSecretHistories implements
     @Override
     public void receiveEditRelics() {
         new AutoAdd(modID)
-                .packageFilter(packageNameRelic)
-                .any(CustomRelic.class, (info, relic) -> {
-                    BaseMod.addRelicToCustomPool(relic, TheSeeker.PlayerColorEnum.CULT_BLUE);
-                    if (info.seen) {
-                        UnlockTracker.markRelicAsSeen(relic.relicId);
-                    }
-                });
+            .packageFilter(packageNameRelic)
+            .any(CustomRelic.class, (info, relic) -> {
+                BaseMod.addRelicToCustomPool(relic, TheSeeker.PlayerColorEnum.CULT_BLUE);
+                if (info.seen) {
+                    UnlockTracker.markRelicAsSeen(relic.relicId);
+                }
+            });
     }
 
     @Override
