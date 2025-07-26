@@ -91,7 +91,7 @@
       "fragmentwinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:冬 之 tsh:准则 !P! NL 对所有敌人造成 !D! 点伤害。"
+      " tsh:密传 NL tsh:冬 之 tsh:准则 !P! NL 给予 !P! 点 tsh:冬 。"
     ]
   },
 
@@ -163,7 +163,7 @@
       "fragmentmothg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:蛾 之 tsh:准则 !P! NL 获得 !B! 点 格挡 。"
+      " tsh:密传 NL tsh:蛾 之 tsh:准则 !P! NL 升级卡组中随机 tsh:密传 !M! 级。"
     ]
   },
 
@@ -283,7 +283,7 @@
       "influencewinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:冬 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 对所有敌人造成 !D! 点伤害。"
+      " tsh:影响 NL tsh:冬 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 给予 !P! 点 tsh:冬 。"
     ]
   },
 
@@ -337,7 +337,7 @@
       "influencemothg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:蛾 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 获得 !B! 点 格挡。"
+      " tsh:影响 NL tsh:蛾 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 升级卡组中随机 tsh:密传 !M! 级。"
     ]
   },
 

@@ -18,7 +18,11 @@ public abstract class AbstractInfluences extends TemplateMultiLevelCard {
     private static final int UPGRADE_TIMES_LIMIT = 3;
 
     public AbstractInfluences(String id, CardTags principleTag) {
-        super(id, COST, TYPE, COLOR, RARITY, TARGET, UPGRADE_TIMES_LIMIT);
+        this(id, principleTag, TARGET);
+    }
+
+    public AbstractInfluences(String id, CardTags principleTag, CardTarget target) {
+        super(id, COST, TYPE, COLOR, RARITY, target, UPGRADE_TIMES_LIMIT);
 
         this.tags.add(INFLUENCE);
         this.tags.add(principleTag);
