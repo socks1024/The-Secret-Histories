@@ -14,18 +14,16 @@ public class ToolLanternFPower extends TemplateCustomPower {
 
     private static final String IMG_NAME = "toollanternf";
 
+    private static int postFix = 0;
+
     public ToolLanternFPower(AbstractCreature owner, int amount) {
-        super(POWER_ID, IMG_NAME, owner, amount);
+        super(POWER_ID + postFix, IMG_NAME, owner, amount);
+        postFix++;
     }
 
     @Override
     public void atStartOfTurn() {
         super.atStartOfTurn();
         addToBot(new DrawCardAction(owner, PrincipleUtils.GetPlayerPrincipleAmount(LANTERN) / amount));
-    }
-
-    @Override
-    public void stackPower(int stackAmount) {
-        if (stackAmount < amount) reducePower(amount - stackAmount);
     }
 }

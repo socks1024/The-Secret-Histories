@@ -163,7 +163,7 @@
       "fragmentmothg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:蛾 之 tsh:准则 !P! NL 升级卡组中随机 tsh:密传 !M! 级。"
+      " tsh:密传 NL tsh:蛾 之 tsh:准则 !P! NL 本场战斗中升级卡组中随机 tsh:密传 !M! 级。"
     ]
   },
 
@@ -337,7 +337,7 @@
       "influencemothg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:蛾 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 升级卡组中随机 tsh:密传 !M! 级。"
+      " tsh:影响 NL tsh:蛾 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 本场战斗中升级卡组中随机 tsh:密传 !M! 级。"
     ]
   },
 

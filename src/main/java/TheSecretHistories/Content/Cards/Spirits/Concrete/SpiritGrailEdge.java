@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
+import TheSecretHistories.Content.Actions.UniqueCards.NewSpawnMonsterAction;
 import TheSecretHistories.Content.Actions.UniqueCards.killMonsterVisuallySilentAction;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
 import TheSecretHistories.Utils.PrincipleUtils;
@@ -45,15 +46,13 @@ public class SpiritGrailEdge extends AbstractSpirit {
             if (m.hasPower("Unawakened")) {
                 addToBot(new killMonsterVisuallySilentAction(m));
             } else {
-                addToBot(new SpawnMonsterAction(GetRandomMonster(m), false));
+                addToBot(new NewSpawnMonsterAction(GetRandomMonster(m), false));
                 addToBot(new killMonsterVisuallySilentAction(m));
             }
         } else {
-            addToBot(new SpawnMonsterAction(GetRandomMonster(m), false));
+            addToBot(new NewSpawnMonsterAction(GetRandomMonster(m), false));
             addToBot(new SuicideAction(m, false));
         }
-        //addToTop(new InstantKillAction(m));
-        //addToBot(new SuicideAction(m, false));
     }
 
     private AbstractMonster GetRandomMonster(AbstractMonster lastMonster) {
