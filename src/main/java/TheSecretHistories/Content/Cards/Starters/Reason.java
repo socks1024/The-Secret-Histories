@@ -40,7 +40,7 @@ public class Reason extends TemplateCustomCard {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.selfRetain = true;
+        upgradeMagicNumber(1);
 
     }
 

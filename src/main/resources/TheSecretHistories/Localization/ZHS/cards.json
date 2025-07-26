@@ -469,13 +469,13 @@
   "TheSecretHistories:Reason": {
     "NAME": "理性",
     "DESCRIPTION": " 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": "保留 。 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。"
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Passion": {
     "NAME": "激情",
     "DESCRIPTION": " 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 !M! 点 [E] 。",
-    "UPGRADE_DESCRIPTION": " 保留 。 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 [E] 。"
+    "UPGRADE_DESCRIPTION": "消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 [E] [E] 。"
   },
 
   "TheSecretHistories:GenericLantern": {
