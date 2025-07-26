@@ -1,9 +1,9 @@
 {
   "TheSecretHistories:TemporaryHeadquarters": {
-    "NAME": "临时总部",
-    "FLAVOR": "我们办的是私人事务。我们可以搬去更隐秘的地方。",
+    "NAME": "Temporary Headquarters",
+    "FLAVOR": "Our business is private. We could use somewhere more secret",
     "DESCRIPTIONS": [
-      "每场战斗的前 #b3 回合，选择 #b1 张手牌保留。"
+      "During the first #b3 turns of a battle, choose #b1 cards to retain."
     ]
   }
 }

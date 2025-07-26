@@ -1,163 +1,163 @@
 {
   "TheSecretHistories:Lantern": {
-    "NAME": "灯",
+    "NAME": "Lantern",
     "DESCRIPTIONS": [
-      "灯是有太阳之居屋之称的隐秘场所与其上光芒的准则。"
+      "Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it."
     ]
   },
 
   "TheSecretHistories:Forge": {
-    "NAME": "铸",
+    "NAME": "Forge",
     "DESCRIPTIONS": [
-      "铸是变换与毁灭的准则。"
+      "The principle of the Forge transforms and destroys."
     ]
   },
 
   "TheSecretHistories:Edge": {
     "NAME": "刃",
     "DESCRIPTIONS": [
-      "刃是战斗与抗争的准则。"
+      "[Edge is the principle of battle and of struggle."
     ]
   },
 
   "TheSecretHistories:Winter": {
-    "NAME": "冬",
+    "NAME": "Winter",
     "DESCRIPTIONS": [
-      "冬是静默、终结和不尽然逝去之物的准则。[回合结束时，受到 %d 点伤害。]"
+      "Winter is the principle of silence, of endings, and of those things that are not quite dead.[at the end of turn,take %d damage.]"
     ]
   },
 
   "TheSecretHistories:Heart": {
-    "NAME": "心",
+    "NAME": "Heart",
     "DESCRIPTIONS": [
-      "心是长存与延续的准则。"
+      "The Heart is the principle that continues and preserves."
     ]
   },
 
   "TheSecretHistories:Grail": {
-    "NAME": "杯",
+    "NAME": "Grail",
     "DESCRIPTIONS": [
-      "杯是生育与飨宴的准则。"
+      "The principle of the Grail honours both the birth and the feast."
     ]
   },
 
   "TheSecretHistories:Moth": {
-    "NAME": "蛾",
+    "NAME": "Moth",
     "DESCRIPTIONS": [
-      "蛾，狂野又凶险，是混沌与渴慕的准则。[可以叠加，但回合结束时失去所有蛾。]"
+      "Moth is the wild and perilous principle of chaos and yearning.[Stackable,but lose all moth at the end of turn.]"
     ]
   },
 
   "TheSecretHistories:Knock": {
-    "NAME": "启",
+    "NAME": "Knock",
     "DESCRIPTIONS": [
-      "启是开启与拆解的准则。"
+      "The Knock is the principle that opens doors and unseams barriers."
     ]
   },
 
   "TheSecretHistories:SecretHistories": {
-    "NAME": "秘史",
+    "NAME": "SecretHistories",
     "DESCRIPTIONS": [
-      "秘史描绘了世界不为人知的千头万绪及它的重重过往。",
-      "获得 %d 金币。",
-      "获得 %d 组选牌。",
-      "获得 %d 个遗物。"
+      "Secret Histories describe the unknown complexities of the world, and its many pasts.",
+      "Loot %d additional Gold.",
+      "Loot %d additional Cards.",
+      "Loot %d additional Relics."
     ]
   },
 
   "TheSecretHistories:ToolLanternFPower": {
-    "NAME": "守夜人之镜",
+    "NAME": "Watchman's Glass",
     "DESCRIPTIONS": [
-      "回合开始时，每有 %d 灯 ,抽1张牌。"
+      "At the start of your turn, for every %d Lantern you have, draw 1 card。"
     ]
   },
 
   "TheSecretHistories:ToolForgeBPower": {
-    "NAME": "朱砂护身符",
+    "NAME": "Cinnabar Amulet",
     "DESCRIPTIONS": [
-      "若有至少 %d 铸，可以打出状态牌，并将其消耗。"
+      "If you have at least %d Forge, you can play status cards and Exhaust them."
     ]
   },
 
   "TheSecretHistories:ToolEdgeDPower": {
-    "NAME": "比得之刃",
+    "NAME": "Biedde's Blade",
     "DESCRIPTIONS": [
-      "回合结束时，失去刃相点格挡。"
+      " at the end of turn, Lose Block equal to your tsh:Edge."
     ]
   },
 
   "TheSecretHistories:ToolWinterDPower": {
-    "NAME": "埃拉加巴路斯的镣铐",
+    "NAME": "Elagabaline Manacle",
     "DESCRIPTIONS": [
-      "回合结束时，获得 %d 冬 。"
+      "Gain %d Winter at the end of turn."
     ]
   },
 
   "TheSecretHistories:ToolWinterFPower": {
-    "NAME": "分裂之铃",
+    "NAME": "Division Bell",
     "DESCRIPTIONS": [
-      "回合结束时，获得敌人冬层数点格挡。"
+      "Evey turn you gain Block equal to Winter of your enemies."
     ]
   },
 
   "TheSecretHistories:ToolGrailDPower": {
-    "NAME": "封圣高冠",
+    "NAME": "Hallowed Polos",
     "DESCRIPTIONS": [
-      "无法获得格挡。"
+      "Unable to gain block."
     ]
   },
 
   "TheSecretHistories:ToolMothDPower": {
-    "NAME": "斑驳面具",
+    "NAME": "Dappled Mask",
     "DESCRIPTIONS": [
-      "获得蛾 时，额外获得 %d 层。"
+      "When you gain Moth,you gain additional %d Moth."
     ]
   },
 
   "TheSecretHistories:ToolKnockFPower": {
-    "NAME": "碎门之钥",
+    "NAME": "Frangiclave",
     "DESCRIPTIONS": [
-      "进入漫宿时不需要消耗性相。"
+      "Entering Mansus no longer Exhausts Principles."
     ]
   },
 
   "TheSecretHistories:ToolSecretHistoriesBPower": {
-    "NAME": "矛盾的古董",
+    "NAME": "Paradoxical Curio",
     "DESCRIPTIONS": [
-      "额外获得 %d 组选牌奖励。"
+      "Gain additional %d card rewards."
     ]
   },
 
   "TheSecretHistories:ToolSecretHistoriesDPower": {
-    "NAME": "梦境地图集",
+    "NAME": "Atlas of Dreams",
     "DESCRIPTIONS": [
-      "从漫宿中获得的秘史额外升 %d 级。"
+      "Secret histories you gain from mansus are upgraded %d times."
     ]
   },
 
   "TheSecretHistories:IngredientLanternDPower": {
-    "NAME": "透指毒素",
+    "NAME": "Glassfinger Toxin",
     "DESCRIPTIONS": [
-      "本回合每打出一张攻击牌，抽一张牌。"
+      " this turn every time you play an attack card you draw !M! cards."
     ]
   },
 
   "TheSecretHistories:IngredientLanternFPower": {
-    "NAME": "玻璃灵液",
+    "NAME": "Ichor Vitreous",
     "DESCRIPTIONS": [
-      "手牌无上限。"
+      "There is no limit to the number of cards in hand."
     ]
   },
 
   "TheSecretHistories:IngredientGrailDPower": {
-    "NAME": "不凋",
+    "NAME": "amaranthine",
     "DESCRIPTIONS": [
-      "每层减伤20%%，上限100%%"
+      "20%% damage reduction,up to 100%%"
     ]
   },
 
   "TheSecretHistories:IngredientMothFPower": {
-    "NAME": "复用",
+    "NAME": "Reusing",
     "DESCRIPTIONS": [
       "使工具/原料额外打出1次"
     ]
@@ -171,21 +171,21 @@
   },
 
   "TheSecretHistories:DreadPower": {
-    "NAME": "恐惧",
+    "NAME": "Dread",
     "DESCRIPTIONS": [
       "每回合临时失去1点力量"
     ]
   },
 
   "TheSecretHistories:FascinationPower": {
-    "NAME": "入迷",
+    "NAME": "Fascination",
     "DESCRIPTIONS": [
       "每回合临时失去1点敏捷"
     ]
   },
 
   "TheSecretHistories:GainDexterityPower": {
-    "NAME": "获得敏捷",
+    "NAME": "Obtain Dexterity",
     "DESCRIPTIONS": [
       "回合结束时，获得 %d 点敏捷。"
     ]
@@ -227,9 +227,9 @@
   },
 
   "TheSecretHistories:GainEnergyAtStartOnTurnPower": {
-    "NAME": "额外能量",
+    "NAME": "Additional energy",
     "DESCRIPTIONS": [
-      "回合开始时，获得 %d 点能量。"
+      "At the start of each turn, gain %d energy."
     ]
   }
 }

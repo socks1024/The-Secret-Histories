@@ -6,151 +6,151 @@
 
   {
     "NAMES": ["Lantern"],
-    "DESCRIPTION": "Lantern is the principle of the secret place sometimes called the House of the Sun, and the light above it."
+    "DESCRIPTION": "Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it."
   },
 
   {
-    "NAMES": ["铸"],
-    "DESCRIPTION": "铸是变换与毁灭的准则。"
+    "NAMES": ["Forge"],
+    "DESCRIPTION": "The principle of the Forge transforms and destroys."
   },
 
   {
     "NAMES": ["Edge"],
-    "DESCRIPTION": "Edge is the principle of battle and struggle."
+    "DESCRIPTION": "Edge is the principle of battle and of struggle."
   },
 
   {
     "NAMES": ["Winter"],
-    "DESCRIPTION": "冬是静默、终结和不尽然逝去之物的准则。[回合结束时受到等量伤害。]"
+    "DESCRIPTION": "Winter is the principle of silence, of endings, and of those things that are not quite dead.[Characters take damage equal to the number of this principle they have at the end of turn.]"
   },
 
   {
     "NAMES": ["Heart"],
-    "DESCRIPTION": "The heart is the principle that continues and preserves."
+    "DESCRIPTION": "The Heart is the principle that continues and preserves."
   },
 
   {
-    "NAMES": ["杯"],
-    "DESCRIPTION": "杯是生育与飨宴的准则。"
+    "NAMES": ["Grail"],
+    "DESCRIPTION": "The principle of the Grail honours both the birth and the feast."
   },
 
   {
     "NAMES": ["Moth"],
-    "DESCRIPTION": "Moth is the wild and perilous principle of chaos and yearning.[可以叠加，但回合结束时失去所有蛾。]"
+    "DESCRIPTION": "Moth is the wild and perilous principle of chaos and yearning.[It stacks instead of taking maximum,but returns to zero at the end of your turn]"
   },
 
   {
-    "NAMES": ["启"],
-    "DESCRIPTION": "启是开启与拆解的准则。"
+    "NAMES": ["Knock"],
+    "DESCRIPTION": "The Knock is the principle that opens doors and unseams barriers."
   },
 
   {
-    "NAMES": ["秘史"],
-    "DESCRIPTION": "秘史描绘了世界不为人知的千头万绪及它的重重过往。[可以叠加，结算时根据层数获取额外奖励。]"
+    "NAMES": ["SecretHistories"],
+    "DESCRIPTION": "Secret Histories describe the unknown complexities of the world, and its many pasts.[It stacks instead of taking maximum,you get additional rewards based on this principle you have at checkout.]"
   },
 
   {
-    "NAMES": ["漫宿"],
-    "DESCRIPTION": "太阳的居屋、隐于世后的庙宇、世界表皮之下的世界。[无法移除，休息时会被升级。]"
+    "NAMES": ["Doors of Mansus"],
+    "DESCRIPTION": "Beneath the skin of the world we find the Mansus, also called the World-Spine, also called the House of the Sun.[Cannot be removed and will be upgraded when resting.]"
   },
 
   {
-    "NAMES": ["密传"],
-    "DESCRIPTION": "有关无形之术的知识。我可以利用它来吸引追随者，举行仪式，开启通往漫宿的道路，或是寻觅飞升之法……[卡组中有两张同一性相的密传时，会自动合成为一张更高级的密传。]"
+    "NAMES": ["Lore"],
+    "DESCRIPTION": "Knowledge of the invisible arts. I can use it to attract followers, to perform rites, to open the way to the Mansus, to seek my ascension...[Having two Lore cards of same level and principle in your deck will automaticaly merge into one upgraded Lore card.]"
   },
 
   {
-    "NAMES": ["影响"],
-    "DESCRIPTION": "某种反响、共鸣、调和。很快就会消逝。"
+    "NAMES": ["Influence"],
+    "DESCRIPTION": "An echo, a resonance, an alignment. Something that will fade soon."
   },
 
   {
-    "NAMES": ["工具"],
-    "DESCRIPTION": "剑不杀人人杀人。——小塞内卡"
+    "NAMES": ["Tool"],
+    "DESCRIPTION": "A sword does not kill; it is an instrument in the hand of the killer."
   },
 
   {
-    "NAMES": ["原料"],
-    "DESCRIPTION": "燃料、药膏、颜料以及耐心：全都随时间耗减。"
+    "NAMES": ["Ingredient"],
+    "DESCRIPTION": "Fuel, ointment, pigment, patience: all are consumed in time."
   },
 
   {
-    "NAMES": ["追随者"],
-    "DESCRIPTION": "你的学生、合伙人、护卫、拥护者、被你欺骗、被你当作祭品的……伴侣。"
+    "NAMES": ["Follower"],
+    "DESCRIPTION": "Student, helpmeet, defender, champion, dupe, sacrifice... companion."
   },
 
   {
-    "NAMES": ["赞助人"],
-    "DESCRIPTION": "我参与的社交圈子中的显要之人。"
+    "NAMES": ["Patron"],
+    "DESCRIPTION": "A figure of note in the circles where I move."
   },
 
   {
-    "NAMES": ["猎人"],
-    "DESCRIPTION": "盼我遭厄之人。"
+    "NAMES": ["Hunter"],
+    "DESCRIPTION": "The laws of civilization are younger than the Laws of the Hours, but they, too, sometimes require a sacrifice."
   },
 
   {
-    "NAMES": ["仪式"],
-    "DESCRIPTION": "在仪式中集齐性相以进行召唤。"
+    "NAMES": ["Rite"],
+    "DESCRIPTION": "'The proper things, in the proper manner, in the proper order. God help us all.'"
   },
 
   {
-    "NAMES": ["召唤物"],
-    "DESCRIPTION": "此人本不属于这个世界。"
+    "NAMES": ["Summoned Spirit"],
+    "DESCRIPTION": "This one is not from here."
   },
 
   {
-    "NAMES": ["林地"],
-    "DESCRIPTION": "我学到了由何路途可前往林地，那团生长、纠缠在漫宿墙壁周围（尽管漫宿无墙）的黑暗。"
+    "NAMES": ["Way: The Wood"],
+    "DESCRIPTION": "I've learned the path to the Wood, tangled darkness that grows around the walls of the Mansus (though the Mansus has no walls). "
   },
 
   {
-    "NAMES": ["纯白之门"],
-    "DESCRIPTION": "我穿过了纯白之门，又称白骨之门、象牙之门。每当我由此踏入居屋，我的声音都会留在其外。"
+    "NAMES": ["Way: The White Door"],
+    "DESCRIPTION": "I've passed the white door, which has been called the Bone Door and the Gate of Ivory. My voice remains outside the House each time I enter."
   },
 
   {
-    "NAMES": ["牡鹿之门"],
-    "DESCRIPTION": "我找到了牡鹿之门，时而又名兽角之门、学徒之门。我答出了谜语，已跻身通晓者之列。"
+    "NAMES": ["Way: Through the Stag Door"],
+    "DESCRIPTION": "I've found the way to the Stag Door, sometimes called the Horn Gate or the Adept's Door. I have answered its riddle, and am counted among the Know."
   },
 
   {
-    "NAMES": ["蜘蛛之门"],
-    "DESCRIPTION": "我找到了蜘蛛之门，时而又称鲜血之门，或者更通俗地说，错误的门。"
+    "NAMES": ["Way: The Spider's Door"],
+    "DESCRIPTION": " I've found the way to the Spider's Door, sometimes called the Bloody Gate or, more informally, the Wrong Door."
   },
 
   {
-    "NAMES": ["孔雀之门"],
-    "DESCRIPTION": "我找到了孔雀之门，时而又名眼瞳之门，或者自满之沮。"
+    "NAMES": ["Way: The Peacock's Door"],
+    "DESCRIPTION": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus."
   },
 
   {
-    "NAMES": ["召唤仪式"],
-    "DESCRIPTION": "消耗2启和与召唤物相关的2种准则，召唤物越强则消耗越多。"
+    "NAMES": ["Rite of summoning"],
+    "DESCRIPTION": "Exhaust 2 knock and two types of principles to summon a spirit: Stronger spirits requires higher level of principle."
   },
 
   {
-    "NAMES": ["不凋"],
-    "DESCRIPTION": "20%减伤"
+    "NAMES": ["amaranthine"],
+    "DESCRIPTION": "20% damage reduction"
   },
 
   {
-    "NAMES": ["随机负面效果"],
-    "DESCRIPTION": "给予1层 易伤 或给予1层 虚弱 或-1 力量  。"
+    "NAMES": ["random debuff"],
+    "DESCRIPTION": "Apply 1 Weak or 1 Vulnerable or -1 Strength  。"
   },
 
   {
-    "NAMES": ["明牌"],
-    "DESCRIPTION": "从卡池中随机抽取一张牌加入手牌。悬浮时，预览抽取到的卡牌。"
+    "NAMES": ["Visible"],
+    "DESCRIPTION": "A card is randomly drawn from the card pool to add to the hand. While levitating, preview the drawn cards."
   },
 
   {
-    "NAMES": ["暗牌"],
-    "DESCRIPTION": "从卡池中随机抽取一张牌加入手牌。悬浮时，预览卡池。"
+    "NAMES": ["Unknown"],
+    "DESCRIPTION": "A card is randomly drawn from the card pool to add to the hand. When hovering, preview the card pool."
   },
 
   {
-    "NAMES": ["其他敌人"],
-    "DESCRIPTION": "不包含自己 NL 高塔之心概率： NL 0.1% NL 三层任意boss概率： NL 2.3% NL 二层任意boss概率： NL 2.3% NL 一层任意boss概率： NL 2.3% NL 三层任意精英概率： NL 3.5% NL 二层任意精英概率： NL 4.6% NL 一层任意精英概率： NL 4.8% NL 三层任意普通怪概率： NL 14.1% NL 二层任意普通怪概率： NL 23.1% NL 一层任意普通怪概率： NL 42.9% "
+    "NAMES": ["Other Enemies"],
+    "DESCRIPTION": "Does not include oneself NL Heart: NL 0.1% NL T3 Boss: NL 2.3% NL T2 Boss: NL 2.3% NL T1 Boss: NL 2.3% NL T3 Elite: NL 3.5% NL T2 Elite: NL 4.6% NL T1 Elite: NL 4.8% NL T3 Normal: NL 14.1% NL T2 Normal: NL 23.1% NL T1 Normal: NL 42.9%"
   }
 ]

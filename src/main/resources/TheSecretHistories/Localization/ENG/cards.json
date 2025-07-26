@@ -1,529 +1,529 @@
 {
   "TheSecretHistories:Strike": {
-    "NAME": "打击",
-    "DESCRIPTION": "Deal Deal !D! damage.",
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage.",
     "UPGRADED_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolLanternB": {
-    "NAME": "午之石",
-    "DESCRIPTION": " tsh:tool NL tsh:灯 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ，抽 !M! 张牌。",
+    "NAME": "Noonstone",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Lantern !P! NL gain !B! block ,draw !M! cards.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolLanternD": {
-    "NAME": "迷途之镜",
-    "DESCRIPTION": " tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 消耗 。丢弃任意张手牌并抽取等量牌。",
-    "UPGRADE_DESCRIPTION": " 固有 NL tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 消耗 。丢弃任意张手牌并抽取等量牌。"
+    "NAME": "Wildering Mirror",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Lantern !P! NL exhaust. discard any number of cards then draw that many.",
+    "UPGRADE_DESCRIPTION": " Retain NL tsh:Tool. NL tsh:Principle of tsh:Lantern !P! NL exhaust. discard any number of cards then draw that many."
   },
 
   "TheSecretHistories:ToolLanternF": {
-    "NAME": "守夜人之镜",
-    "DESCRIPTION": " 虚无 NL tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 回合开始时，每有 !M! tsh:灯 抽1张牌。",
+    "NAME": "Watchman's Glass",
+    "DESCRIPTION": " Ethereal. NL tsh:Tool. NL tsh:Principle of tsh:Lantern !P! NL At the start of your turn,for every !M! tsh:Lantern you have, draw 1 card.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolForgeB": {
-    "NAME": "朱砂护身符",
-    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 若有 !M! tsh:铸 ，可以打出并消耗原本不能打出的状态牌。",
+    "NAME": "Cinnabar Amulet",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Forge !P! NL If you have at least !M! tsh:Forge ,you can play and Exhaust status cards which are orignaly unplayable.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolForgeD": {
-    "NAME": "蛮横锤骨",
-    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 造成 !D! 伤害，升级手牌中所有的 tsh:工具 。",
+    "NAME": "Malleus Imperative",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Forge !P! NL Deal !D! damage. Upgrade all tsh:Tool in your handed cards.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolForgeF": {
-    "NAME": "尸骸火花",
-    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ，卡组中所有 tsh:密传 升 !M! 级。 NL 消耗 。",
+    "NAME": "Carcass Spark",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Forge !P! NL Gain !B! block ,Upgrade your handed tsh:Lore cards !M! times. NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolEdgeB": {
-    "NAME": "陨铁子弹",
-    "DESCRIPTION": " tsh:工具 NL tsh:刃 之 tsh:准则 !P! NL 对敌人造成 !D! 伤害 !M! 次， 斩杀 时获得1 力量 。 NL 消耗 。",
+    "NAME": " Meteoric Bullet",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage !M! Times, if Fatal, gain 1 Strength . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolEdgeD": {
-    "NAME": "比得之刃",
-    "DESCRIPTION": " tsh:工具 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害，本回合结束时失去 tsh:刃 点 格挡 。",
+    "NAME": "Biedde's Blade",
+    "DESCRIPTION": " tsh:Tool. . NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage, at the end of turn, Lose Block equal to your tsh:Edge.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolEdgeF": {
-    "NAME": "狂怒银片",
-    "DESCRIPTION": " tsh:工具 NL tsh:刃 之 tsh:准则 !P! NL 对所有敌人造成 !D! 点伤害，每有一个敌人获得 !M! 力量 。 NL 消耗 。",
+    "NAME": "Furious Sliver",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage to all enemies.for each enemy gain !M! Strength . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolWinterB": {
-    "NAME": "骨笛",
-    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 给予所有敌人 !M! tsh:冬 。",
+    "NAME": "Bone Flute",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Winter !P! NL Apply !M! tsh:Winter to all enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolWinterD": {
-    "NAME": "埃拉加巴路斯的镣铐",
-    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 使敌人每回合获得 !M! tsh:冬 。",
+    "NAME": "Elagabaline Manacle",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Winter !P! NL Let an enemy gain !M! tsh:Winter at the end of each turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolWinterF": {
-    "NAME": "分裂之铃",
-    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 给予 !M! 层 tsh:冬 ，每回合获得对手的 tsh:冬 点 格挡 。",
+    "NAME": "Division Bell",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Winter !P! NL Apply !M! tsh:Winter ,evey turn you gain Block equal to tsh:winter of your enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolHeartB": {
-    "NAME": "马尔鲁维姆人偶",
-    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 获得 !B! 点 格挡 !M! 次。",
+    "NAME": "Marruvine Idol",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Heart !P! NL Gain !B! block !M! Times.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolHeartD": {
-    "NAME": "醒觉鼓膜",
-    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ，下 !M! 回合结束时 格挡 不会消失。",
+    "NAME": "Wakeful Tympanum",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Heart !P! NL Gain !B! block ,in !M! turns Block won't automatically return to zero.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolHeartF": {
-    "NAME": "王皮框鼓",
-    "DESCRIPTION": " tsh:工具 NL tsh:心 之 tsh:准则 !P! NL 恢复10生命。失去 !M! 生命上限。 NL 虚无 。",
+    "NAME": "Kingskin Bodhrán",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Heart !P! NL heal 10 Hp.Lose !M! Max Hp. NL Ethereal. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolGrailB": {
-    "NAME": "污迹手套",
-    "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 造成 !D! 伤害，获得 !M! 易伤 。",
+    "NAME": "Stained Gloves",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Grail !P! NL Deal !D! damage.,gain !M! vulnerable .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolGrailD": {
-    "NAME": "封圣高冠",
-    "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 敌人不能获得格挡。",
-    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 固有 NL 敌人不能获得格挡。"
+    "NAME": "Hallowed Polos",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Grail !P! NL enemies cannot gain Block.",
+    "UPGRADE_DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Grail !P! NL Retain NL enemies cannot gain Block."
   },
 
   "TheSecretHistories:ToolGrailF": {
-    "NAME": "低语之斛",
-    "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 消耗所有 tsh:杯 ，每有 !M! 层，给予所有敌人1 易伤 ，1 虚弱 ，减少1 力量 。 消耗 。",
+    "NAME": "Chalice Murmurous",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Grail !P! NL Exhaust all tsh:Grail ,for each !M! tsh:Grail,Apply to all enemies 1 vulnerable ,1 weak ,decrease 1 Strength . exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolMothB": {
-    "NAME": "有翼人偶",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成 !D! 伤害，获得 !M! 张躁动",
+    "NAME": "Winged Doll",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Moth !P! NL Deal !D! damage.,gain !M! restlessness",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolMothD": {
-    "NAME": "斑驳面具",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 本回合获得 tsh:蛾 时额外获得 !M! 层。",
+    "NAME": "Dappled Mask",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Moth !P! NL this turn everytime you gain tsh:Moth, you gain additional !M! tsh:Moth.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolMothF": {
-    "NAME": "阿拉卡城的剪刀",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 造成现有的 tsh:蛾 点伤害。 NL 保留 。"
+    "NAME": "Alakapurine Shears",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Moth !P! NL Deal current tsh:Moth damage.",
+    "UPGRADE_DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Moth !P! NL Deal current tsh:Moth damage. NL Retain ."
   },
 
   "TheSecretHistories:ToolKnockB": {
-    "NAME": "圣亚割妮徽记",
-    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 获得 tsh:漫宿 等级点 格挡  !M! 次。 NL 虚无 。",
+    "NAME": "Icon of St Agnes",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL gain  tsh:Mansus level of Block  !M! Times. NL Ethereal. .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolKnockD": {
-    "NAME": "祝圣门楣",
-    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 升级卡组中所有的 tsh:追随者 。",
-    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 固有 NL 升级卡组中所有的 tsh:追随者 。"
+    "NAME": "Consecrated Lintel",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL Upgrade all tsh:Follower in your deck.",
+    "UPGRADE_DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL Retain NL Upgrade all tsh:Follower in your deck."
   },
 
   "TheSecretHistories:ToolKnockF": {
-    "NAME": "碎门之钥",
-    "DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 打出 tsh:漫宿 不消耗准则。 NL 虚无 。",
-    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:启 之 tsh:准则 !P! NL 打出 tsh:漫宿 不消耗准则。"
+    "NAME": "Frangiclave",
+    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL to play tsh:Mansus no longer Exhaust Principles. NL Ethereal. .",
+    "UPGRADE_DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL to play tsh:Mansus no longer Exhaust Principles."
   },
 
   "TheSecretHistories:ToolSecretHistoriesB": {
-    "NAME": "矛盾的古董",
-    "DESCRIPTION": " tsh:工具 NL tsh:秘史 之 tsh:准则 !P! NL 本场战斗额外掉落 !M! 次卡牌奖励，回合开始时减少 !M! [E] 。",
+    "NAME": "Paradoxical Curio",
+    "DESCRIPTION": " tsh:Tool. tsh:Principle of tsh:SecretHistories !P! NL this battle additionally drop !M! Times card,lose !M! [E] at the start of each turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolSecretHistoriesD": {
-    "NAME": "梦境地图集",
-    "DESCRIPTION": " tsh:工具 NL tsh:秘史 之 tsh:准则 !P! NL 从 tsh:漫宿 中获得的 tsh:秘史 牌升 !M! 级。",
-    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:秘史 之 tsh:准则 !P! NL 固有 。 NL 从 tsh:漫宿 中获得的 tsh:秘史 牌升 !M! 级。"
+    "NAME": "Atlas of Dreams",
+    "DESCRIPTION": " tsh:Tool. tsh:Principle of tsh:SecretHistories !P! NL Upgrade the tsh:SecretHistories cards you gain from tsh:Mansus !M! times.",
+    "UPGRADE_DESCRIPTION": " tsh:Tool. tsh:Principle of tsh:SecretHistories !P! NL Retain . NL Upgrade the tsh:SecretHistories cards you gain from tsh:Mansus !M! times."
   },
 
   "TheSecretHistories:IngredientLanternB": {
-    "NAME": "耀素",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌，丢弃1张牌。",
+    "NAME": "Refulgin",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Lantern !P! NL draw !M! card , discard 1 card.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientLanternD": {
-    "NAME": "透指毒素",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:灯 之 tsh:准则 !P! NL 造成 !D! 点伤害，本回合每打出攻击牌时抽 !M! 张牌。",
+    "NAME": "Glassfinger Toxin",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Lantern !P! NL Deal !D! damage, this turn every time you play an attack card you draw !M! cards.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientLanternF": {
-    "NAME": "玻璃灵液",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:灯 之 tsh:准则 !P! NL 手牌数量没有上限。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:灯 之 tsh:准则 !P! NL 固有 。 NL 手牌数量没有上限。"
+    "NAME": "Ichor Vitreous",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Lantern !P! NL There is no limit to the number of cards in hand.",
+    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Lantern !P! NL Retain . NL There is no limit to the number of cards in hand."
   },
 
   "TheSecretHistories:IngredientForgeB": {
-    "NAME": "苦黑盐",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ， 消耗 !M! 张手牌。",
+    "NAME": "Bitterblack Salts",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Forge !P! NL Gain !B! block , Exhaust !M! cards in hand.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientForgeD": {
-    "NAME": "黄化精华",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:铸 之 tsh:准则 !P! NL 消耗 手牌中所有 tsh:工具 和 tsh:原料 ，每 消耗 一张牌获得 !B! 格挡 。",
+    "NAME": "Xanthotic Essence",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Forge !P! NL Exhaust all tsh:Tool and tsh:Ingredient ,gain !B! Block for every card you exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientForgeF": {
-    "NAME": "赤化精华",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ， NL 在本场战斗中升级手牌中的一张牌， 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ， NL 在本场战斗中升级手牌中的所有牌， 消耗 。"
+    "NAME": "Iotic Essence",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Forge !P! NL Gain !B! block , NL Upgrade a card at your hand during this battle, exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Forge !P! NL Gain !B! block , NL Upgrade all cards at your hand during this battle, exhaust."
   },
 
   "TheSecretHistories:IngredientEdgeB": {
-    "NAME": "马氏膏",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 获得 !M! 力量 ，回合结束时失去 !M! 力量 。",
+    "NAME": "Martensite Paste",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Edge !P! NL gain  !M! Strength ,at the end of this turn you Lose !M! Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientEdgeD": {
-    "NAME": "狻猊颗粒",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害。 NL 本回合每打出攻击牌，增加 !M! 刃 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害。 NL 本回合每打出攻击牌，增加 !M! 刃 。"
+    "NAME": "Labhitic Grains",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:Edge. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:Edge."
   },
 
   "TheSecretHistories:IngredientEdgeF": {
-    "NAME": "剑齿兽的獠牙",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 消耗所有 tsh:刃 ，每有 !M! 层 ，造成 !D! 点伤害。",
+    "NAME": "Skaptodon Fang",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Edge !P! NL Exhaust all tsh:Edge ,for every !M! tsh:Edge,Deal !D! damage..",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterB": {
-    "NAME": "灰晓之油",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:冬 之 tsh:准则 !P! NL 本回合结束时不因为 tsh:冬 受到伤害。",
+    "NAME": "Greydawn Oil",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Winter !P! NL at the end of this turn you don't take damage from tsh:Winter.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterD": {
-    "NAME": "狼雪",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:冬 之 tsh:准则 !P! NL 对所有敌人造成 !D! 伤害，给予等量 tsh:冬 。",
+    "NAME": "Wolf-Snow",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Winter !P! NL Deal !D! damage to all enemies, Apply the same amount of tsh:Winter .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterF": {
-    "NAME": "守夜虫",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:冬 之 tsh:准则 !P! NL 给予 !M! tsh:冬 。",
+    "NAME": "Watch-Worms",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Winter !P! NL Apply !M! tsh:Winter .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientHeartB": {
     "NAME": "玫瑰色珍珠粉",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 固有 。 NL 获得 !B! 格挡 。",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart !P! NL Retain . NL gain  !B! Block .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientHeartD": {
     "NAME": "巫吻之油",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 将所有 tsh:心 转化为等量 格挡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 将所有 tsh:心 转化为等量 格挡 。"
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart !P! NL 将所有 tsh:Heart 转化为等量 Block . NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart NL 将所有 tsh:Heart 转化为等量 Block ."
   },
 
   "TheSecretHistories:IngredientHeartF": {
     "NAME": "圣亚纳略的真血",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，2张 *躁动 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，2张 *躁动 。"
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart !P! NL gain  !M! 层 灵体 ,2张 *restlessness .",
+    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart !P! NL gain  !M! 层 灵体 ,2张 *restlessness ."
   },
 
   "TheSecretHistories:IngredientGrailB": {
     "NAME": "活力颜料",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:杯 之 tsh:准则 !P! NL 造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Grail !P! NL Deal !D! damage.. NL Apply !M! 层 易伤 .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailD": {
     "NAME": "不凋花蜜",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:杯 之 tsh:准则 !P! NL 获得 !M! 层 tsh:不凋 。 NL 消耗 。",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Grail !P! NL gain  !M! 层 tsh:不凋 . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailF": {
     "NAME": "扭动胎膜",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:杯 之 tsh:准则 !P! NL 令敌人本回合失去 !M! 力量 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 令所有敌人本回合失去 !M! 力量 。 NL 消耗 。"
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Grail !P! NL 令敌人this turnLose !M! Strength . NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart NL 令所有敌人this turnLose !M! Strength . NL exhaust."
   },
 
   "TheSecretHistories:IngredientMothB": {
     "NAME": "黑白颜料",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:蛾 之 tsh:准则 !P! NL 造成 !D! 点伤害，获得 !B! 点 格挡 。",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Moth !P! NL Deal !D! damage.,Gain !B! block .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientMothD": {
     "NAME": "遗忘之水",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:蛾 之 tsh:准则 !P! NL 将持有的 tsh:蛾 翻倍。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:蛾 之 tsh:准则 !P! NL 将持有的 tsh:蛾 翻倍。"
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Moth !P! NL 将持有的 tsh:Moth 翻倍. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Moth !P! NL 将持有的 tsh:Moth 翻倍."
   },
 
   "TheSecretHistories:IngredientMothF": {
     "NAME": "至圣血淋巴",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:蛾 之 tsh:准则 !P! NL 本回合打出的下张 tsh:工具 或 tsh:原料 额外打出 !M! 次。",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Moth !P! NL this turnto play的下张 tsh:Tool. 或 tsh:原料 额外to play !M! Times.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockB": {
     "NAME": "拜占庭染剂",
-    "DESCRIPTION": " tsh:原料 。 NL 对所有敌人造成 !M! - tsh:启 点伤害。 NL tsh:启 之 tsh:准则 !P! ",
+    "DESCRIPTION": " tsh:Ingredient NL 对所有敌人Deal !M! - tsh:Knock damage. NL tsh:Principle of tsh:Knock !P! ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockD": {
     "NAME": "生猛毒液",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 造成 tsh:漫宿 等级点伤害 !M! 次。 NL 消耗 。",
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Knock !P! NL Deal tsh:Mansus 等级damage !M! Times. NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockF": {
     "NAME": "阿佐特",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 所有手牌本局费用减少1。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 所有手牌本局费用减少1。 NL 保留 。 消耗 。"
+    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Knock !P! NL 所有手牌本局费用减少1. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Knock !P! NL 所有手牌本局费用减少1. NL Retain . exhaust."
   },
 
   "TheSecretHistories:FollowerLanternClifton": {
     "NAME": "克利夫顿",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 消耗所有 tsh:灯 ，每消耗 !M! tsh:灯 抽1张牌。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Lantern !P! NL Exhaust all tsh:Lantern ,每Exhaust !M! tsh:Lantern 抽1张牌.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerLanternCat": {
     "NAME": "卡特·卡罗",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 丢弃任意张手牌，提升等量自身的 tsh:灯 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Lantern !P! NL 丢弃任意张手牌,提升等量自身的 tsh:Lantern .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerLanternSlee": {
     "NAME": "思雷",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 消耗 !M! tsh:灯 ，抽2张牌。每次打出增加1点 tsh:灯 消耗。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Lantern !P! NL Exhaust !M! tsh:Lantern ,抽2张牌.每Timesto play增加1点 tsh:Lantern Exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeTristan": {
     "NAME": "崔斯坦",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 失去 !M! 金币，对所有敌人造成 !D! 点伤害。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Forge !P! NL Lose !M! 金币,对所有敌人Deal !D! damage..",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeLaidlaw": {
     "NAME": "莱德劳",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 所有在战斗中临时增加的牌将被 *升级 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Forge !P! NL 所有在战斗中临时增加的牌将被 *Upgrade .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeValciane": {
     "NAME": "万查妮",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 消耗所有 tsh:铸 ，每 !M! 铸获得 [E] 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Forge !P! NL Exhaust all tsh:Forge ,每 !M! 铸gain  [E] .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerEdgeElridge": {
     "NAME": "埃尔里奇",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 伤害，选择抽牌堆中的 !M! 张牌置入手牌。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage.,选择抽牌堆中的 !M! 张牌置入手牌.",
     "UPGRADE_DESCRIPTION": ""
   },
   "TheSecretHistories:FollowerEdgeRose": {
     "NAME": "萝丝",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 消耗所有 tsh:刃 ，每有 !M! tsh:刃 获得1点 力量 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Exhaust all tsh:Edge ,for every !M! tsh:Edge gain 1点 Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerEdgeVictor": {
     "NAME": "维克多",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害，失去 !M! 点 力量 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage.,Lose !M! Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerWinterAuclair": {
     "NAME": "奥克莱尔",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 消耗所有 tsh:冬 ，每有 !M! tsh:冬 ，造成 !D! 点伤害。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Winter !P! NL Exhaust all tsh:Winter ,for every !M! tsh:Winter ,Deal !D! damage..",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerWinterViolet": {
     "NAME": "维奥莱特",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 将自身的 tsh:冬 转移给敌人。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:冬 之 tsh:准则 !P! NL 将自身的 tsh:冬 转移给敌人。"
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Winter !P! NL 将自身的 tsh:Winter 转移给敌人. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Winter !P! NL 将自身的 tsh:Winter 转移给敌人."
   },
 
   "TheSecretHistories:FollowerHeartLeo": {
     "NAME": "里奥",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 造成你当前格挡值的伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 保留 。 NL 造成你当前格挡值的伤害。"
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL Deal你当前Block值的damage.",
+    "UPGRADE_DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL Retain . NL Deal你当前Block值的damage."
   },
 
   "TheSecretHistories:FollowerHeartClovette": {
     "NAME": "克罗薇特",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 消耗所有 tsh:心 ，每有 !M! tsh:心 获得1点 敏捷 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL Exhaust all tsh:Heart ,for every !M! tsh:Heart gain 1 Dexterity .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerHeartDorothy": {
     "NAME": "多萝西",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 下回合开始时，获得当前 格挡 点 格挡 。 NL 消耗 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL 下At the start of your turn,gain 当前 Block Block . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "芮妮拉",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:杯 之 tsh:准则 !P! NL 消耗所有 tsh:杯 ，每有 !M! tsh:杯 给予1层 易伤 或 虚弱 或负 力量 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Grail !P! NL Exhaust all tsh:Grail ,for every !M! tsh:Grail Apply1层 易伤 或 虚弱 或负 Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailSaliba": {
     "NAME": "萨利巴",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:杯 之 tsh:准则 !P! NL 造成 !D! 点伤害。 NL 恢复与未被格挡的伤害相等的生命。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Grail !P! NL Deal !D! damage.. NL heal与未被Block的damage相 等的 Hp.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothPorter": {
     "NAME": "波特",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:蛾 之 tsh:准则 !P! NL 每有 !M! tsh:蛾 获得 !B! 格挡 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL for every !M! tsh:Moth gain  !B! Block .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothSylvia": {
     "NAME": "西尔维娅",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:蛾 之 tsh:准则 !P! NL 造成 !D! 点伤害，将层数最低的其他 tsh:准则 转化为 tsh:蛾 。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL Deal !D! damage.,将层数最低的其他 tsh: Principles 转化为 tsh:Moth .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothYsabet": {
     "NAME": "伊莎贝特",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:蛾 之 tsh:准则 !P! NL 每次获得 tsh:蛾 时对所有敌人造成 !M! 点伤害。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL 每Timesgain  tsh:Moth 时对所有敌人Deal !M! damage.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerKnockNeville": {
     "NAME": "内维尔",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:启 之 tsh:准则 !P! NL 造成 !D! 点伤害，本回合每从 tsh:漫宿 中获得牌，对随机敌人造成 !M! 伤害。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Knock !P! NL Deal !D! damage.,this turn每从 tsh:Mansus 中gain 牌,对随机敌人Deal !M! damage.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerKnockEnid": {
     "NAME": "伊妮德",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:启 之 tsh:准则 !P! NL 造成 !D! 点伤害，将随机 tsh:仪式 置入手牌。",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Knock !P! NL Deal !D! damage.,将随机 tsh:仪式 置入手牌.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayWood": {
     "NAME": "道路：林地",
-    "DESCRIPTION": " tsh:林地 NL 消耗2 tsh:灯 / tsh:蛾 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:林地 NL Exhaust2 tsh:Lantern / tsh:Moth / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayWhite": {
     "NAME": "道路：纯白之门",
-    "DESCRIPTION": " tsh:纯白之门 NL 消耗4 tsh:灯 / tsh:冬 / tsh:心 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:纯白之门 NL Exhaust4 tsh:Lantern / tsh:Winter / tsh:Heart / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayStag": {
     "NAME": "道路：通过牡鹿之门",
-    "DESCRIPTION": " tsh:牡鹿之门 NL 消耗6 tsh:灯 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:牡鹿之门 NL Exhaust6 tsh:Lantern / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WaySpider": {
     "NAME": "道路：蜘蛛之门",
-    "DESCRIPTION": " tsh:蜘蛛之门 NL 消耗8 tsh:灯 / tsh:杯 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:蜘蛛之门 NL Exhaust8 tsh:Lantern / tsh:Grail / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayPeacock": {
     "NAME": "道路：孔雀之门",
-    "DESCRIPTION": " tsh:孔雀之门 NL 消耗10 tsh:灯 / tsh:刃 / tsh:铸 / tsh:启 ，并选择一张牌加入手牌。",
+    "DESCRIPTION": " tsh:孔雀之门 NL Exhaust10 tsh:Lantern / tsh:Edge / tsh:Forge / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Health": {
     "NAME": "健康",
-    "DESCRIPTION": " 消耗 。 NL tsh:心 之 tsh:准则 !P! NL 恢复 !M! 点生命。",
+    "DESCRIPTION": " exhaust. NL tsh:Principle of tsh:Heart !P! NL heal !M!  Hp.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Reason": {
     "NAME": "理性",
-    "DESCRIPTION": " 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。",
-    "UPGRADE_DESCRIPTION": "保留 。 消耗 。 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。"
+    "DESCRIPTION": " exhaust. NL tsh:Principle of tsh:Lantern !P! NL 抽 !M! 张牌.",
+    "UPGRADE_DESCRIPTION": "Retain . exhaust. NL tsh:Principle of tsh:Lantern !P! NL 抽 !M! 张牌."
   },
 
   "TheSecretHistories:Passion": {
     "NAME": "激情",
-    "DESCRIPTION": " 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 !M! 点 [E] 。",
-    "UPGRADE_DESCRIPTION": " 保留 。 消耗 。 NL tsh:蛾 之 tsh:准则 !P! NL 获得 [E] 。"
+    "DESCRIPTION": " exhaust. NL tsh:Principle of tsh:Moth !P! NL gain  !M! [E] .",
+    "UPGRADE_DESCRIPTION": " Retain . exhaust. NL tsh:Principle of tsh:Moth !P! NL gain  [E] ."
   },
 
   "TheSecretHistories:GenericLantern": {
     "NAME": "小卒",
-    "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:灯 之 tsh:准则 !P! "
+    "DESCRIPTION": " tsh:追随者 NL Gain !B! block .",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL Gain !B! block . NL tsh:Principle of tsh:Lantern !P! "
   },
 
   "TheSecretHistories:GenericForge": {
     "NAME": "小卒",
-    "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:铸 之 tsh:准则 !P! "
+    "DESCRIPTION": " tsh:追随者 NL Gain !B! block .",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL Gain !B! block . NL tsh:Principle of tsh:Forge !P! "
   },
 
   "TheSecretHistories:GenericEdge": {
     "NAME": "小卒",
     "DESCRIPTION": " tsh:追随者 NL Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。 NL tsh:刃 之 tsh:准则 !P! "
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL Deal !D! damage . NL tsh:Principle of tsh:Edge !P! "
   },
 
   "TheSecretHistories:GenericWinter": {
     "NAME": "小卒",
-    "DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。 NL tsh:冬 之 tsh:准则 !P! "
+    "DESCRIPTION": " tsh:追随者 NL Deal !D! damage .",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL Deal !D! damage . NL tsh:Principle of tsh:Winter !P! "
   },
 
   "TheSecretHistories:GenericHeart": {
     "NAME": "小卒",
-    "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:心 之 tsh:准则 !P! "
+    "DESCRIPTION": " tsh:追随者 NL Gain !B! block .",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL Gain !B! block . NL tsh:Principle of tsh:Heart !P! "
   },
 
   "TheSecretHistories:GenericGrail": {
     "NAME": "小卒",
-    "DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 获得 !B! 点 格挡 。 NL tsh:杯 之 tsh:准则 !P! "
+    "DESCRIPTION": " tsh:追随者 NL Gain !B! block .",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL Gain !B! block . NL tsh:Principle of tsh:Grail !P! "
   },
 
   "TheSecretHistories:GenericMoth": {
     "NAME": "小卒",
-    "DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。 NL tsh:蛾 之 tsh:准则 !P! "
+    "DESCRIPTION": " tsh:追随者 NL Deal !D! damage .",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL Deal !D! damage . NL tsh:Principle of tsh:Moth !P! "
   },
 
   "TheSecretHistories:GenericKnock": {
     "NAME": "小卒",
-    "DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 NL 造成 !D! 点 伤害 。 NL tsh:启 之 tsh:准则 !P! "
+    "DESCRIPTION": " tsh:追随者 NL Deal !D! damage .",
+    "UPGRADE_DESCRIPTION": " tsh:追随者 NL Deal !D! damage . NL tsh:Principle of tsh:Knock !P! "
   },
 
   "TheSecretHistories:TheWood": {
@@ -618,211 +618,211 @@
 
   "TheSecretHistories:RiteFollowerConsumeInfluence": {
     "NAME": "日落仪式",
-    "DESCRIPTION": "消耗 12 tsh:冬 8 tsh:灯 NL 对随机敌人造成 !D! 点伤害。有 !M! %的概率命中自己。",
+    "DESCRIPTION": "Exhaust 12 tsh:Winter 8 tsh:Lantern NL 对随机敌人Deal !D! damage..有 !M! %的概率命中自己.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteFollowerConsumeIngredient": {
     "NAME": "仁母仪式",
-    "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
+    "DESCRIPTION": " tsh:Summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteFollowerConsumeTool": {
     "NAME": "抗逆仪式",
-    "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
+    "DESCRIPTION": " tsh:Summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteInfluenceConsumeFollower": {
     "NAME": "裂兽仪式",
-    "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
+    "DESCRIPTION": " tsh:Summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteInfluenceConsumeIngredient": {
     "NAME": "鸦餍仪式",
-    "DESCRIPTION": "消耗 12 tsh:灯 8 tsh:刃 NL 丢弃任意张手牌并抽满手牌。",
-    "UPGRADE_DESCRIPTION": " 保留 NL 消耗 12 tsh:灯 8 tsh:刃 NL 丢弃任意张手牌并抽满手牌。"
+    "DESCRIPTION": "Exhaust 12 tsh:Lantern 8 tsh:Edge NL 丢弃任意张手牌并抽满手牌.",
+    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:Lantern 8 tsh:Edge NL 丢弃任意张手牌并抽满手牌."
   },
 
   "TheSecretHistories:RiteToolConsumeFollower": {
     "NAME": "魂之埚仪式",
-    "DESCRIPTION": "消耗 12 tsh:铸 8 tsh:杯 NL 移除自身的所有负面效果。",
-    "UPGRADE_DESCRIPTION": " 保留 NL 消耗 12 tsh:铸 8 tsh:杯 NL 移除自身的所有负面效果。"
+    "DESCRIPTION": "Exhaust 12 tsh:Forge 8 tsh:Grail NL 移除自身的所有负面效果.",
+    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:Forge 8 tsh:Grail NL 移除自身的所有负面效果."
   },
 
   "TheSecretHistories:RiteToolConsumeInfluence": {
     "NAME": "地图之疆仪式",
-    "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
+    "DESCRIPTION": " tsh:Summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteToolConsumeIngredient": {
     "NAME": "海飨仪式",
-    "DESCRIPTION": "消耗 12 tsh:蛾 8 tsh:刃 NL 每回合额外获得 [E] 。",
-    "UPGRADE_DESCRIPTION": "消耗 12 tsh:蛾 8 tsh:刃 NL 每回合额外获得 [E] [E] 。"
+    "DESCRIPTION": "Exhaust 12 tsh:Moth 8 tsh:Edge NL 每回合额外gain  [E] .",
+    "UPGRADE_DESCRIPTION": "Exhaust 12 tsh:Moth 8 tsh:Edge NL 每回合额外gain  [E] [E] ."
   },
 
   "TheSecretHistories:RiteToolFollowerConsumeLore": {
     "NAME": "守夜人之怆仪式",
-    "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
+    "DESCRIPTION": " tsh:Summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteConsumeAll": {
     "NAME": "置闰仪式",
-    "DESCRIPTION": " tsh:召唤仪式 ",
-    "UPGRADE_DESCRIPTION": " tsh:召唤仪式 NL 保留 "
+    "DESCRIPTION": " tsh:Summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
   },
 
   "TheSecretHistories:SpiritWinterMoth": {
     "NAME": "无声亡者",
-    "DESCRIPTION": " 消耗 NL 给予自身的 tsh:蛾 等量的 tsh:冬 NL 消耗 所有 tsh:蛾 。",
-    "UPGRADE_DESCRIPTION": " 消耗 NL 给予自身的 tsh:蛾 !M! 倍的 tsh:冬 NL 消耗 所有 tsh:蛾 。"
+    "DESCRIPTION": " Exhaust NL Apply自身的 tsh:Moth 等量的 tsh:Winter NL Exhaust 所有 tsh:Moth .",
+    "UPGRADE_DESCRIPTION": " Exhaust NL Apply自身的 tsh:Moth !M! 倍的 tsh:Winter NL Exhaust 所有 tsh:Moth ."
   },
 
   "TheSecretHistories:SummonWinterMoth": {
-    "NAME": "召唤无声亡者",
-    "DESCRIPTION": "2 tsh:启 6 tsh:冬 2 tsh:心 ",
+    "NAME": "Summon 无声亡者",
+    "DESCRIPTION": "2 tsh:Knock 6 tsh:Winter 2 tsh:Heart ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritLanternEdge": {
     "NAME": "迹形",
-    "DESCRIPTION": " 消耗 NL 抽满手牌，每抽一张牌对所有敌人造成 !D! 点伤害。",
+    "DESCRIPTION": " Exhaust NL 抽满手牌,每抽一张牌对所有敌人Deal !D! damage..",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SummonLanternEdge": {
-    "NAME": "召唤迹形",
-    "DESCRIPTION": "2 tsh:启 10 tsh:灯 4 tsh:刃 ",
+    "NAME": "Summon 迹形",
+    "DESCRIPTION": "2 tsh:Knock 10 tsh:Lantern 4 tsh:Edge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritForgeMoth": {
     "NAME": "汽灵",
-    "DESCRIPTION": " 消耗 NL 造成 !D! 点伤害。在手牌中添加一张此牌的复制品。",
+    "DESCRIPTION": " Exhaust NL Deal !D! damage..在手牌中添加一张此牌的复制品.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SummonForgeMoth": {
-    "NAME": "召唤汽灵",
-    "DESCRIPTION": "2 tsh:启 10 tsh:铸 4 tsh:冬 ",
+    "NAME": "Summon 汽灵",
+    "DESCRIPTION": "2 tsh:Knock 10 tsh:Forge 4 tsh:Winter ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritGrailMoth": {
     "NAME": "原生先知",
-    "DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%×X倍的伤害。",
-    "UPGRADE_DESCRIPTION": " 消耗 NL 让目标在本场战斗中额外受到50%×(X+1)倍的伤害。"
+    "DESCRIPTION": " Exhaust NL 让目标在本场战斗中额外受到50%×X倍的damage.",
+    "UPGRADE_DESCRIPTION": " Exhaust NL 让目标在本场战斗中额外受到50%×(X+1)倍的damage."
   },
 
   "TheSecretHistories:SummonGrailMoth": {
-    "NAME": "召唤原生先知",
-    "DESCRIPTION": "2 tsh:启 10 tsh:杯 4 tsh:蛾 ",
+    "NAME": "Summon 原生先知",
+    "DESCRIPTION": "2 tsh:Knock 10 tsh:Grail 4 tsh:Moth ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritHeartEdge": {
     "NAME": "擂击者",
-    "DESCRIPTION": " 消耗 NL 造成 !D! 点伤害，获得等量 力量 和 敏捷 。",
+    "DESCRIPTION": " Exhaust NL Deal !D! damage.,gain 等量 Strength 和 敏捷 .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SummonHeartEdge": {
-    "NAME": "召唤擂击者",
-    "DESCRIPTION": "2 tsh:启 10 tsh:心 4 tsh:刃 ",
+    "NAME": "Summon 擂击者",
+    "DESCRIPTION": "2 tsh:Knock 10 tsh:Heart 4 tsh:Edge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritWinterEdge": {
     "NAME": "镜中少女",
-    "DESCRIPTION": " 消耗 NL 造成目标攻击意图双倍的伤害（根据怪物伤害基础值计算）。 NL 保留 。",
-    "UPGRADE_DESCRIPTION": " 消耗 NL 造成目标攻击意图三倍的伤害（根据怪物伤害基础值计算）。 NL 保留 。"
+    "DESCRIPTION": " Exhaust NL Deal目标攻击意图双倍的damage（根据怪物damage基础值计算）. NL Retain .",
+    "UPGRADE_DESCRIPTION": " Exhaust NL Deal目标攻击意图三倍的damage（根据怪物damage基础值计算）. NL Retain ."
   },
 
   "TheSecretHistories:SummonWinterEdge": {
-    "NAME": "召唤镜中少女",
-    "DESCRIPTION": "2 tsh:启 12 tsh:冬 5 tsh:刃 ",
+    "NAME": "Summon 镜中少女",
+    "DESCRIPTION": "2 tsh:Knock 12 tsh:Winter 5 tsh:Edge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritGrailEdge": {
     "NAME": "第二干渴者伊泽姆",
-    "DESCRIPTION": " 消耗 NL 将一名敌人变为 tsh:其他敌人 。",
-    "UPGRADE_DESCRIPTION": " 消耗 NL 将一名敌人变为 tsh:其他敌人 并继承其生命比例。"
+    "DESCRIPTION": " Exhaust NL 将一名敌人变为 tsh:其他敌人 .",
+    "UPGRADE_DESCRIPTION": " Exhaust NL 将一名敌人变为 tsh:其他敌人 并继 承其 Hp比例."
   },
 
   "TheSecretHistories:SummonGrailEdge": {
-    "NAME": "召唤第二干渴者伊泽姆",
-    "DESCRIPTION": " 2 tsh:启 14 tsh:杯 8 tsh:铸 ",
+    "NAME": "Summon 第二干渴者伊泽姆",
+    "DESCRIPTION": " 2 tsh:Knock 14 tsh:Grail 8 tsh:Forge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritForgeEdge": {
     "NAME": "坩埚王",
-    "DESCRIPTION": " 消耗 NL 对所有敌人造成 !M! 的X次幂点伤害。",
+    "DESCRIPTION": " Exhaust NL 对所有敌人Deal !M! 的XTimes幂damage.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SummonForgeEdge": {
-    "NAME": "召唤坩埚王",
-    "DESCRIPTION": " 2 tsh:启 14 tsh:铸 8 tsh:灯 ",
+    "NAME": "Summon 坩埚王",
+    "DESCRIPTION": " 2 tsh:Knock 14 tsh:Forge 8 tsh:Lantern ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SpiritLanternSecret": {
     "NAME": "特蕾莎",
-    "DESCRIPTION": " 消耗 NL 虚无 NL 本回合所有 tsh:准则 临时增加 !M! 层。",
+    "DESCRIPTION": " Exhaust NL Ethereal. NL this turn所有 tsh: Principles 临时增加 !M! 层.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SummonLanternSecret": {
-    "NAME": "召唤特蕾莎",
-    "DESCRIPTION": " 2 tsh:启 14 tsh:灯 6 tsh:秘史 ",
+    "NAME": "Summon 特蕾莎",
+    "DESCRIPTION": " 2 tsh:Knock 14 tsh:Lantern 6 tsh:SecretHistories ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Affliction": {
     "NAME": "病痛",
-    "DESCRIPTION": "回合结束时，受到 !M! 点伤害。",
+    "DESCRIPTION": "回合结束时,受到 !M! damage.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Hunger": {
     "NAME": "饥饿",
-    "DESCRIPTION": "回合结束时，失去 !M! 金币。",
+    "DESCRIPTION": "回合结束时,Lose !M! 金币.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Restlessness": {
-    "NAME": "躁动",
-    "DESCRIPTION": "消耗 。 NL 进入弃牌堆时，将 !M! 张恐惧加入弃牌堆。",
+    "NAME": "restlessness",
+    "DESCRIPTION": "Exhaust . NL 进入弃牌堆时,将 !M! 张恐惧加入弃牌堆.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Dread": {
     "NAME": "恐惧",
-    "DESCRIPTION": " 进入弃牌堆时，每回合失去 !M! 点临时 力量 。",
+    "DESCRIPTION": " 进入弃牌堆时,每回合Lose !M!临时 Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Fascination": {
     "NAME": "入迷",
-    "DESCRIPTION": " 进入弃牌堆时，每回合失去 !M! 点临时 敏捷 。",
+    "DESCRIPTION": " 进入弃牌堆时,每回合Lose !M!临时 敏捷 .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Favour": {
     "NAME": "当局欠下的人情",
-    "DESCRIPTION": " 虚无 NL 逃离战斗。",
-    "UPGRADE_DESCRIPTION": " 保留 NL 逃离战斗。"
+    "DESCRIPTION": " Ethereal. NL 逃离战斗.",
+    "UPGRADE_DESCRIPTION": " Retain NL 逃离战斗."
   },
 
   "TheSecretHistories:Rumour": {
     "NAME": "古怪的传闻",
-    "DESCRIPTION": "将一张随机 tsh:追随者 加入手牌。 NL 这张牌在本回合耗能变为0。",
-    "UPGRADE_DESCRIPTION": "保留 NL 将一张随机 tsh:追随者 加入手牌。 NL 这张牌在本回合耗能变为0。"
+    "DESCRIPTION": "将一张随机 tsh:追随者 加入手牌. NL 这张牌在this turn耗能变为0.",
+    "UPGRADE_DESCRIPTION": "Retain NL 将一张随机 tsh:追随者 加入手牌. NL 这张牌在this turn耗能变为0."
   }
 }
