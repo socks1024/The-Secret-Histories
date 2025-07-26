@@ -24,7 +24,7 @@ public class FollowerWinterAuclair extends AbstractFollower{
     private static final CardTarget TARGET = CardTarget.ENEMY;
     public FollowerWinterAuclair() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.damage = this.baseDamage = 8;
+        this.damage = this.baseDamage = 7;
         this.magicNumber = this.baseMagicNumber = 5;
     }
 
