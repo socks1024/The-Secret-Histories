@@ -23,7 +23,7 @@ public class Moth extends AbstractPrinciple{
 
         this.stack = true;
 
-        if (owner.hasPower(FollowerMothYPower.POWER_ID)) {
+        if (amount > 0 && owner.hasPower(FollowerMothYPower.POWER_ID)) {
             owner.getPower(FollowerMothYPower.POWER_ID).flash();
             addToTop(new DamageAllEnemiesAction(AbstractDungeon.player, PowerUtils.GetPowerAmount(FollowerMothYPower.POWER_ID, owner), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
         }

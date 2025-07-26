@@ -8,8 +8,6 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import java.util.ArrayList;
 import java.util.Random;
 
-import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.FRAGMENT;
-
 public class UpgradeRandomCardByTagAction extends AbstractGameAction {
 
     private final AbstractCard.CardTags tag;
