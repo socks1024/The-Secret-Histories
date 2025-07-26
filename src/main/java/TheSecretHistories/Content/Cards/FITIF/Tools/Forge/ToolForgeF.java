@@ -25,6 +25,8 @@ public class ToolForgeF extends AbstractTool {
     public ToolForgeF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
+        this.exhaust = true;
+
         this.block = this.baseBlock = 10;
         this.magicNumber = this.baseMagicNumber = 2;
     }
