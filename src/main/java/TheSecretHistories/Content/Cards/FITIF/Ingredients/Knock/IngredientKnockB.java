@@ -32,15 +32,16 @@ public class IngredientKnockB extends AbstractIngredient {
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
 
-        this.baseDamage = magicNumber;
+        this.baseDamage = magicNumber - PowerUtils.GetPowerAmount(Knock.POWER_ID, AbstractDungeon.player);
 
         calculateDamageDisplay(m);
 
         addToBot(new AbstractGameAction() {
             @Override
             public void update() {
-                damage -= PowerUtils.GetPowerAmount(Knock.POWER_ID, p);
-                addToTop(new DamageAllEnemiesAction(p, damage, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+
+                //damage -= PowerUtils.GetPowerAmount(Knock.POWER_ID, p);
+                addToTop(new DamageAllEnemiesAction(p, baseDamage, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
                 isDone = true;
             }
         });
@@ -50,10 +51,10 @@ public class IngredientKnockB extends AbstractIngredient {
         upgradeMagicNumber(3);
     }
 
-    @Override
-    protected void PreApplyPowers() {
-        super.PreApplyPowers();
-
-        this.baseDamage = magicNumber - PowerUtils.GetPowerAmount(Knock.POWER_ID, AbstractDungeon.player);
-    }
+//    @Override
+//    protected void PreApplyPowers() {
+//        super.PreApplyPowers();
+//
+//        this.baseDamage = magicNumber - PowerUtils.GetPowerAmount(Knock.POWER_ID, AbstractDungeon.player);
+//    }
 }

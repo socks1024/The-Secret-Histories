@@ -51,7 +51,7 @@ public class FollowerMothPorter extends AbstractFollower {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-        upgradeBlock(3);
+        upgradeBlock(1);
     }
 }
 ///*private static final CardTags PRINCIPLE_TAG = EDGE;
