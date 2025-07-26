@@ -62,15 +62,15 @@ public class Mansus extends TemplateMultiLevelCard {
     }
 
     private void TryAddWay(AbstractMansusWay way, ArrayList<AbstractCard> ways) {
-        if (way.GetAvailable()) ways.add(way.makeCopy());
+        if (way.GetAvailable()) ways.add(way.makeStatEquivalentCopy());
     }
 
     public void onRemoveFromMasterDeck() {
-        AbstractDungeon.player.masterDeck.addToHand(makeCopy());
+        AbstractDungeon.player.masterDeck.addToHand(makeStatEquivalentCopy());
     }
 
     public void triggerOnExhaust() {
-        addToBot(new MakeTempCardInHandAction(makeCopy()));
+        addToBot(new MakeTempCardInHandAction(makeStatEquivalentCopy()));
     }
 
     // TODO 中间门的预览
