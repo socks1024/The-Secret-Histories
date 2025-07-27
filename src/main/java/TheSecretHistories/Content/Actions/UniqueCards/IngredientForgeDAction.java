@@ -38,18 +38,12 @@ public class IngredientForgeDAction extends AbstractGameAction {
 
                     this.addToTop(new DrawCardAction(count));
 
-                    if (upgraded) {
-                        for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {
-                            AbstractDungeon.player.hand.moveToDiscardPile(c);
-                            GameActionManager.incrementDiscard(false);
-                            c.triggerOnManualDiscard();
-                        }
-                    } else {
-                        for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {
-                            AbstractDungeon.player.hand.moveToExhaustPile(c);
-                        }
-                        CardCrawlGame.dungeon.checkForPactAchievement();
+
+                    for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {
+                        AbstractDungeon.player.hand.moveToExhaustPile(c);
                     }
+                    CardCrawlGame.dungeon.checkForPactAchievement();
+
                 }
 
                 AbstractDungeon.handCardSelectScreen.wereCardsRetrieved = true;

@@ -17,7 +17,7 @@ public class IngredientKnockD extends AbstractIngredient {
     private static final CardTags PRINCIPLE_TAG = KNOCK;
     private static final String IMG_NAME = "ingredientknockd";
     private static final int COST = 1;
-    private static final CardType TYPE = CardType.SKILL;
+    private static final CardType TYPE = CardType.ATTACK;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 

@@ -22,7 +22,6 @@ public class FollowerHeartDorothy extends AbstractFollower{
     public FollowerHeartDorothy() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.baseBlock = this.block = 0;
         this.exhaust = true;
     }
 
@@ -30,14 +29,7 @@ public class FollowerHeartDorothy extends AbstractFollower{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        baseBlock = p.currentBlock;
-        calculateDamageDisplay(m);
-        addToBot(new ApplyPowerAction(p, p, new NextTurnBlockPower(p, block), block));
-    }
-
-    @Override
-    protected void PreApplyPowers() {
-        baseBlock = AbstractDungeon.player.currentBlock;
+        addToBot(new ApplyPowerAction(p, p, new NextTurnBlockPower(p, p.currentBlock), p.currentBlock));
     }
 
     @Override

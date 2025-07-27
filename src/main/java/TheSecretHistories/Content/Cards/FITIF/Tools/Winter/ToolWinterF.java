@@ -25,20 +25,20 @@ public class ToolWinterF extends AbstractTool {
     public ToolWinterF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 9;
+        // this.magicNumber = this.baseMagicNumber = 9;
         this.exhaust = true;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(4);
+        this.selfRetain = true;
     }
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new ApplyPowerAction(abstractMonster, abstractPlayer, new Winter(abstractMonster, magicNumber)));
+        // addToBot(new ApplyPowerAction(abstractMonster, abstractPlayer, new Winter(abstractMonster, magicNumber)));
         addToBot(new ApplyPowerAction(abstractMonster, abstractPlayer, new ToolWinterFPower(abstractMonster)));
     }
 }

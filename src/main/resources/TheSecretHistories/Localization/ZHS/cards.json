@@ -73,8 +73,8 @@
 
   "TheSecretHistories:ToolWinterF": {
     "NAME": "分裂之铃",
-    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 给予 !M! 层 tsh:冬 ，每回合获得对手的 tsh:冬 点 格挡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": ""
+    "DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 每回合获得对手的 tsh:冬 点 格挡 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " tsh:工具 NL tsh:冬 之 tsh:准则 !P! NL 保留 。每回合获得对手的 tsh:冬 点 格挡 。 NL 消耗 。"
   },
 
   "TheSecretHistories:ToolHeartB": {

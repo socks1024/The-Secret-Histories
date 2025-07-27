@@ -41,7 +41,7 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
             ArrayList<AbstractCard> principles = new ArrayList<>();
 
             for (CardTags tag : GetAvailableTags()) {
-                principles.add(GetMansusPrinciple(tag));
+                principles.add(GetMansusPrinciple(tag).makeStatEquivalentCopy());
             }
 
             addToBot(new ChooseOneAction(principles));
@@ -51,7 +51,7 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
         ArrayList<AbstractCard> locations = new ArrayList<>();
 
         for (AbstractCard location : relatedLocations) {
-            locations.add(location.makeCopy());
+            locations.add(location.makeCopy().makeStatEquivalentCopy());
         }
 
         addToBot(new ChooseOneAction(locations));

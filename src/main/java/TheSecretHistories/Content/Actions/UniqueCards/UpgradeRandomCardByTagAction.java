@@ -26,6 +26,10 @@ public class UpgradeRandomCardByTagAction extends AbstractGameAction {
 
         if (card.hasTag(tag)) cards.add(card);
 
+        for (int i = cards.size() - 1; i >= 0; i--) {
+            if (cards.get(i).upgraded) cards.remove(cards.get(i));
+        }
+
         if (!cards.isEmpty()) ((TemplateCustomCard)(cards.get(new Random().nextInt(cards.size())))).DoUpgrade(level);
 
         isDone = true;
