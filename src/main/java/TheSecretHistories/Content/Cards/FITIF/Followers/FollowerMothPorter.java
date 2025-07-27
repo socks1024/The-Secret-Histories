@@ -39,7 +39,7 @@ public class FollowerMothPorter extends AbstractFollower {
                 int mothAmount = PowerUtils.GetPowerAmount(Moth.POWER_ID, p);
                 int times = mothAmount / magicNumber;
                 if (times > 0) {
-                    addToBot(new GainBlockAction(p, p, times * baseBlock));
+                    addToBot(new GainBlockAction(p, p, times * block));
                 }
                 isDone=true;
             }

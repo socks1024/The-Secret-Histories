@@ -33,7 +33,7 @@ public class ToolMothF extends AbstractTool {
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(5);
+        this.selfRetain = true;
     }
 
     @Override
