@@ -49,13 +49,13 @@
 
   "TheSecretHistories:ToolEdgeD": {
     "NAME": "Biedde's Blade",
-    "DESCRIPTION": " tsh:tool. . NL tsh:principle of tsh:edge !P! NL Deal !D! damage, at the end of turn, Lose Block equal to your tsh:edge.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage, at the end of turn, Lose Block equal to your tsh:edge.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolEdgeF": {
     "NAME": "Furious Sliver",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage to all enemies.for each enemy gain !M! Strength . NL exhaust.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage to all enemies.for each enemy gain !M! Strength. NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -133,7 +133,7 @@
 
   "TheSecretHistories:ToolKnockB": {
     "NAME": "Icon of St Agnes",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL gain  tsh:mansus level of Block  !M! Times. NL Ethereal. .",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL gain  tsh:mansus level of Block  !M! Times. NL Ethereal.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -145,20 +145,20 @@
 
   "TheSecretHistories:ToolKnockF": {
     "NAME": "Frangiclave",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL to play tsh:mansus no longer Exhaust Principles. NL Ethereal. .",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL to play tsh:mansus no longer Exhaust Principles. NL Ethereal.",
     "UPGRADE_DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL to play tsh:mansus no longer Exhaust Principles."
   },
 
   "TheSecretHistories:ToolSecretHistoriesB": {
     "NAME": "Paradoxical Curio",
-    "DESCRIPTION": " tsh:tool. tsh:principle of tsh:secretHistories !P! NL this battle additionally drop !M! Times card,lose !M! [E] at the start of each turn.",
+    "DESCRIPTION": " tsh:tool. tsh:principle of tsh:secrethistories !P! NL this battle additionally drop !M! Times card,lose !M! [E] at the start of each turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolSecretHistoriesD": {
     "NAME": "Atlas of Dreams",
-    "DESCRIPTION": " tsh:tool. tsh:principle of tsh:secretHistories !P! NL Upgrade the tsh:secretHistories cards you gain from tsh:mansus !M! times.",
-    "UPGRADE_DESCRIPTION": " tsh:tool. tsh:principle of tsh:secretHistories !P! NL Retain . NL Upgrade the tsh:secretHistories cards you gain from tsh:mansus !M! times."
+    "DESCRIPTION": " tsh:tool. tsh:principle of tsh:secrethistories !P! NL Upgrade the tsh:secrethistories cards you gain from tsh:mansus !M! times.",
+    "UPGRADE_DESCRIPTION": " tsh:tool. tsh:principle of tsh:secrethistories !P! NL Retain . NL Upgrade the tsh:secrethistories cards you gain from tsh:mansus !M! times."
   },
 
   "TheSecretHistories:IngredientLanternB": {
@@ -205,13 +205,13 @@
 
   "TheSecretHistories:IngredientEdgeD": {
     "NAME": "Labhitic Grains",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:edge. NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:edge."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage. NL this turn every time you play attack card, gain !M! tsh:edge. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage. NL this turn every time you play attack card, gain !M! tsh:edge."
   },
 
   "TheSecretHistories:IngredientEdgeF": {
     "NAME": "Skaptodon Fang",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Exhaust all tsh:edge ,for every !M! tsh:edge,Deal !D! damage..",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Exhaust all tsh:edge ,for every !M! tsh:edge,Deal !D! damage.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -253,7 +253,7 @@
 
   "TheSecretHistories:IngredientGrailB": {
     "NAME": "Vital Pigment",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:grail !P! NL Deal !D! damage.. NL Apply !M! vulnerable .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:grail !P! NL Deal !D! damage. NL Apply !M! vulnerable .",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -360,7 +360,7 @@
 
   "TheSecretHistories:FollowerWinterAuclair": {
     "NAME": "Auclair",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:winter !P! NL Exhaust all tsh:winter ,for every !M! tsh:winter ,Deal !D! damage..",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:winter !P! NL Exhaust all tsh:winter ,for every !M! tsh:winter ,Deal !D! damage.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -396,7 +396,7 @@
 
   "TheSecretHistories:FollowerGrailSaliba": {
     "NAME": "Saliba",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:grail !P! NL Deal !D! damage.. NL heal Hp equal to your unBlocked damage .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:grail !P! NL Deal !D! damage. NL heal Hp equal to your unBlocked damage .",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -432,31 +432,31 @@
 
   "TheSecretHistories:WayWood": {
     "NAME": "Way: The Wood",
-    "DESCRIPTION": " tsh:way: The Wood NL Exhaust2 tsh:lantern / tsh:moth / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:wood NL Exhaust2 tsh:lantern / tsh:moth / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayWhite": {
     "NAME": "Way: The White Door",
-    "DESCRIPTION": " tsh:way: The White Door NL Exhaust4 tsh:lantern / tsh:winter / tsh:heart / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:whitedoor NL Exhaust4 tsh:lantern / tsh:winter / tsh:heart / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayStag": {
     "NAME": "Way: Through the Stag Door",
-    "DESCRIPTION": " tsh:way: Through the Stag Door NL Exhaust6 tsh:lantern / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:stagdoor NL Exhaust6 tsh:lantern / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WaySpider": {
     "NAME": "Way: The Spider's Door",
-    "DESCRIPTION": " tsh:way: The Spider's Door NL Exhaust8 tsh:lantern / tsh:grail / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:spiderdoor NL Exhaust8 tsh:lantern / tsh:grail / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayPeacock": {
     "NAME": "Way: The Peacock's Door",
-    "DESCRIPTION": " tsh:way: The Peacock's Door NL Exhaust10 tsh:lantern / tsh:edge / tsh:forge / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:peacockdoor NL Exhaust10 tsh:lantern / tsh:edge / tsh:forge / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -624,20 +624,20 @@
 
   "TheSecretHistories:RiteFollowerConsumeIngredient": {
     "NAME": "Rite of the Mother's Mercy",
-    "DESCRIPTION": " tsh:summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning NL Retain "
   },
 
   "TheSecretHistories:RiteFollowerConsumeTool": {
     "NAME": "Rite of the Rebel Striving",
-    "DESCRIPTION": " tsh:summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning NL Retain "
   },
 
   "TheSecretHistories:RiteInfluenceConsumeFollower": {
     "NAME": "Rite of the Beast's Division",
-    "DESCRIPTION": " tsh:summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning NL Retain "
   },
 
   "TheSecretHistories:RiteInfluenceConsumeIngredient": {
@@ -654,8 +654,8 @@
 
   "TheSecretHistories:RiteToolConsumeInfluence": {
     "NAME": "Rite of the Map's Edge",
-    "DESCRIPTION": " tsh:summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning NL Retain "
   },
 
   "TheSecretHistories:RiteToolConsumeIngredient": {
@@ -666,20 +666,20 @@
 
   "TheSecretHistories:RiteToolFollowerConsumeLore": {
     "NAME": "Rite of the Watchman's Sorrow",
-    "DESCRIPTION": " tsh:summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning NL Retain "
   },
 
   "TheSecretHistories:RiteConsumeAll": {
     "NAME": "Rite Intercalate",
-    "DESCRIPTION": " tsh:summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning NL Retain "
   },
 
   "TheSecretHistories:SpiritWinterMoth": {
     "NAME": "Voiceless Dead",
     "DESCRIPTION": " Exhaust NL change all your tsh:moth into tsh:winter.",
-    "UPGRADE_DESCRIPTION": " Exhaust NL change all your tsh:moth intp !M! times tsh:winter."
+    "UPGRADE_DESCRIPTION": " Exhaust NL change all your tsh:moth into !M! times tsh:winter."
   },
 
   "TheSecretHistories:SummonWinterMoth": {
@@ -774,13 +774,13 @@
 
   "TheSecretHistories:SpiritLanternSecret": {
     "NAME": "Teresa",
-    "DESCRIPTION": " Exhaust NL Ethereal. NL this turn, all tsh: Principles temporarily are increased by !M!.",
+    "DESCRIPTION": " Exhaust NL Ethereal. NL this turn, all tsh:principle temporarily are increased by !M!.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:SummonLanternSecret": {
     "NAME": "Summon Teresa",
-    "DESCRIPTION": " 2 tsh:knock 14 tsh:lantern 6 tsh:secretHistories ",
+    "DESCRIPTION": " 2 tsh:knock 14 tsh:lantern 6 tsh:secrethistories ",
     "UPGRADE_DESCRIPTION": ""
   },
 

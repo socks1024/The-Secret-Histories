@@ -1,7 +1,7 @@
 [
   {
-    "NAMES": ["principles"],
-    "DESCRIPTION": "The nine Principles are unique Aspects that embody the archetypal characteristics, ideas, or influences that underpin the entirety of the invisible arts. Power can be drawn from the veneration of a Principle[You may elevate your own Principle to the same intensity as the card’s tier.]"
+    "NAMES": ["principle"],
+    "DESCRIPTION": "The nine principle are unique Aspects that embody the archetypal characteristics, ideas, or influences that underpin the entirety of the invisible arts. Power can be drawn from the veneration of a Principle[You may elevate your own Principle to the same intensity as the card’s tier.]"
   },
 
   {
@@ -45,12 +45,12 @@
   },
 
   {
-    "NAMES": ["secretHistories"],
+    "NAMES": ["secrethistories"],
     "DESCRIPTION": "Secret Histories describe the unknown complexities of the world, and its many pasts.[It stacks instead of taking maximum,you get additional rewards based on this principle you have at checkout.]"
   },
 
   {
-    "NAMES": ["doors of Mansus"],
+    "NAMES": ["mansus"],
     "DESCRIPTION": "Beneath the skin of the world we find the Mansus, also called the World-Spine, also called the House of the Sun.[Cannot be removed and will be upgraded when resting.]"
   },
 
@@ -95,38 +95,38 @@
   },
 
   {
-    "NAMES": ["summoned Spirit"],
+    "NAMES": ["summoning"],
     "DESCRIPTION": "This one is not from here."
   },
 
   {
-    "NAMES": ["way: The Wood"],
+    "NAMES": ["wood"],
     "DESCRIPTION": "I've learned the path to the Wood, tangled darkness that grows around the walls of the Mansus (though the Mansus has no walls). "
   },
 
   {
-    "NAMES": ["way: The White Door"],
+    "NAMES": ["whitedoor"],
     "DESCRIPTION": "I've passed the white door, which has been called the Bone Door and the Gate of Ivory. My voice remains outside the House each time I enter."
   },
 
   {
-    "NAMES": ["way: Through the Stag Door"],
+    "NAMES": ["stagdoor"],
     "DESCRIPTION": "I've found the way to the Stag Door, sometimes called the Horn Gate or the Adept's Door. I have answered its riddle, and am counted among the Know."
   },
 
   {
-    "NAMES": ["way: The Spider's Door"],
+    "NAMES": ["spiderdoor"],
     "DESCRIPTION": " I've found the way to the Spider's Door, sometimes called the Bloody Gate or, more informally, the Wrong Door."
   },
 
   {
-    "NAMES": ["way: The Peacock's Door"],
+    "NAMES": ["peacockdoor"],
     "DESCRIPTION": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus."
   },
 
   {
-    "NAMES": ["rite of summoning"],
-    "DESCRIPTION": "Exhaust 2 knock and two types of principles to summon a spirit: Stronger spirits requires higher level of principle."
+    "NAMES": ["summoning"],
+    "DESCRIPTION": "Exhaust 2 knock and two types of principle to summon a spirit: Stronger spirits requires higher level of principle."
   },
 
   {
@@ -135,7 +135,7 @@
   },
 
   {
-    "NAMES": ["random debuff"],
+    "NAMES": ["randomdebuff"],
     "DESCRIPTION": "Apply 1 Weak or 1 Vulnerable or -1 Strength  。"
   },
 
