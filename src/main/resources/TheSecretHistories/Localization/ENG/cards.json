@@ -7,684 +7,684 @@
 
   "TheSecretHistories:ToolLanternB": {
     "NAME": "Noonstone",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Lantern !P! NL gain !B! block ,draw !M! cards.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:lantern !P! NL gain !B! block ,draw !M! cards.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolLanternD": {
     "NAME": "Wildering Mirror",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Lantern !P! NL exhaust. discard any number of cards then draw that many.",
-    "UPGRADE_DESCRIPTION": " Retain NL tsh:Tool. NL tsh:Principle of tsh:Lantern !P! NL exhaust. discard any number of cards then draw that many."
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:lantern !P! NL exhaust. discard any number of cards then draw that many.",
+    "UPGRADE_DESCRIPTION": " Retain NL tsh:tool. NL tsh:principle of tsh:lantern !P! NL exhaust. discard any number of cards then draw that many."
   },
 
   "TheSecretHistories:ToolLanternF": {
     "NAME": "Watchman's Glass",
-    "DESCRIPTION": " Ethereal. NL tsh:Tool. NL tsh:Principle of tsh:Lantern !P! NL At the start of your turn,for every !M! tsh:Lantern you have, draw 1 card.",
+    "DESCRIPTION": " Ethereal. NL tsh:tool. NL tsh:principle of tsh:lantern !P! NL At the start of your turn,for every !M! tsh:lantern you have, draw 1 card.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolForgeB": {
     "NAME": "Cinnabar Amulet",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Forge !P! NL If you have at least !M! tsh:Forge ,you can play and Exhaust status cards which are orignaly unplayable.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:forge !P! NL If you have at least !M! tsh:forge ,you can play and Exhaust status cards which are orignaly unplayable.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolForgeD": {
     "NAME": "Malleus Imperative",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Forge !P! NL Deal !D! damage. Upgrade all tsh:Tool in your handed cards.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:forge !P! NL Deal !D! damage. Upgrade all tsh:tool in your handed cards.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolForgeF": {
     "NAME": "Carcass Spark",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Forge !P! NL Gain !B! block ,Upgrade your handed tsh:Lore cards !M! times. NL exhaust.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:forge !P! NL Gain !B! block ,Upgrade your handed tsh:Lore cards !M! times. NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolEdgeB": {
     "NAME": " Meteoric Bullet",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage !M! Times, if Fatal, gain 1 Strength . NL exhaust.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage !M! Times, if Fatal, gain 1 Strength . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolEdgeD": {
     "NAME": "Biedde's Blade",
-    "DESCRIPTION": " tsh:Tool. . NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage, at the end of turn, Lose Block equal to your tsh:Edge.",
+    "DESCRIPTION": " tsh:tool. . NL tsh:principle of tsh:edge !P! NL Deal !D! damage, at the end of turn, Lose Block equal to your tsh:edge.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolEdgeF": {
     "NAME": "Furious Sliver",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage to all enemies.for each enemy gain !M! Strength . NL exhaust.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage to all enemies.for each enemy gain !M! Strength . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolWinterB": {
     "NAME": "Bone Flute",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Winter !P! NL Apply !M! tsh:Winter to all enemies.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:winter !P! NL Apply !M! tsh:winter to all enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolWinterD": {
     "NAME": "Elagabaline Manacle",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Winter !P! NL Let an enemy gain !M! tsh:Winter at the end of each turn.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:winter !P! NL Let an enemy gain !M! tsh:winter at the end of each turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolWinterF": {
     "NAME": "Division Bell",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Winter !P! NL Apply !M! tsh:Winter ,evey turn you gain Block equal to tsh:winter of your enemies.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:winter !P! NL Apply !M! tsh:winter ,evey turn you gain Block equal to tsh:winter of your enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolHeartB": {
     "NAME": "Marruvine Idol",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Heart !P! NL Gain !B! block !M! Times.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:heart !P! NL Gain !B! block !M! Times.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolHeartD": {
     "NAME": "Wakeful Tympanum",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Heart !P! NL Gain !B! block ,in !M! turns Block won't automatically return to zero.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:heart !P! NL Gain !B! block ,in !M! turns Block won't automatically return to zero.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolHeartF": {
     "NAME": "Kingskin Bodhrán",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Heart !P! NL heal 10 Hp.Lose !M! Max Hp. NL Ethereal. ",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:heart !P! NL heal 10 Hp.Lose !M! Max Hp. NL Ethereal. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolGrailB": {
     "NAME": "Stained Gloves",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Grail !P! NL Deal !D! damage.,gain !M! vulnerable .",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:grail !P! NL Deal !D! damage.,gain !M! vulnerable .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolGrailD": {
     "NAME": "Hallowed Polos",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Grail !P! NL enemies cannot gain Block.",
-    "UPGRADE_DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Grail !P! NL Retain NL enemies cannot gain Block."
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:grail !P! NL enemies cannot gain Block.",
+    "UPGRADE_DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:grail !P! NL Retain NL enemies cannot gain Block."
   },
 
   "TheSecretHistories:ToolGrailF": {
     "NAME": "Chalice Murmurous",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Grail !P! NL Exhaust all tsh:Grail ,for each !M! tsh:Grail,Apply to all enemies 1 vulnerable ,1 weak ,decrease 1 Strength . exhaust.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:grail !P! NL Exhaust all tsh:grail ,for each !M! tsh:grail,Apply to all enemies 1 vulnerable ,1 weak ,decrease 1 Strength . exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolMothB": {
     "NAME": "Winged Doll",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Moth !P! NL Deal !D! damage.,gain !M! restlessness",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:moth !P! NL Deal !D! damage.,gain !M! restlessness",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolMothD": {
     "NAME": "Dappled Mask",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Moth !P! NL this turn everytime you gain tsh:Moth, you gain additional !M! tsh:Moth.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:moth !P! NL this turn everytime you gain tsh:moth, you gain additional !M! tsh:moth.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolMothF": {
     "NAME": "Alakapurine Shears",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Moth !P! NL Deal current tsh:Moth damage.",
-    "UPGRADE_DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Moth !P! NL Deal current tsh:Moth damage. NL Retain ."
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:moth !P! NL Deal current tsh:moth damage.",
+    "UPGRADE_DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:moth !P! NL Deal current tsh:moth damage. NL Retain ."
   },
 
   "TheSecretHistories:ToolKnockB": {
     "NAME": "Icon of St Agnes",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL gain  tsh:Mansus level of Block  !M! Times. NL Ethereal. .",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL gain  tsh:mansus level of Block  !M! Times. NL Ethereal. .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolKnockD": {
     "NAME": "Consecrated Lintel",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL Upgrade all tsh:Follower in your deck.",
-    "UPGRADE_DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL Retain NL Upgrade all tsh:Follower in your deck."
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL Upgrade all tsh:follower in your deck.",
+    "UPGRADE_DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL Retain NL Upgrade all tsh:follower in your deck."
   },
 
   "TheSecretHistories:ToolKnockF": {
     "NAME": "Frangiclave",
-    "DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL to play tsh:Mansus no longer Exhaust Principles. NL Ethereal. .",
-    "UPGRADE_DESCRIPTION": " tsh:Tool. NL tsh:Principle of tsh:Knock !P! NL to play tsh:Mansus no longer Exhaust Principles."
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL to play tsh:mansus no longer Exhaust Principles. NL Ethereal. .",
+    "UPGRADE_DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:knock !P! NL to play tsh:mansus no longer Exhaust Principles."
   },
 
   "TheSecretHistories:ToolSecretHistoriesB": {
     "NAME": "Paradoxical Curio",
-    "DESCRIPTION": " tsh:Tool. tsh:Principle of tsh:SecretHistories !P! NL this battle additionally drop !M! Times card,lose !M! [E] at the start of each turn.",
+    "DESCRIPTION": " tsh:tool. tsh:principle of tsh:secretHistories !P! NL this battle additionally drop !M! Times card,lose !M! [E] at the start of each turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolSecretHistoriesD": {
     "NAME": "Atlas of Dreams",
-    "DESCRIPTION": " tsh:Tool. tsh:Principle of tsh:SecretHistories !P! NL Upgrade the tsh:SecretHistories cards you gain from tsh:Mansus !M! times.",
-    "UPGRADE_DESCRIPTION": " tsh:Tool. tsh:Principle of tsh:SecretHistories !P! NL Retain . NL Upgrade the tsh:SecretHistories cards you gain from tsh:Mansus !M! times."
+    "DESCRIPTION": " tsh:tool. tsh:principle of tsh:secretHistories !P! NL Upgrade the tsh:secretHistories cards you gain from tsh:mansus !M! times.",
+    "UPGRADE_DESCRIPTION": " tsh:tool. tsh:principle of tsh:secretHistories !P! NL Retain . NL Upgrade the tsh:secretHistories cards you gain from tsh:mansus !M! times."
   },
 
   "TheSecretHistories:IngredientLanternB": {
     "NAME": "Refulgin",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Lantern !P! NL draw !M! card , discard 1 card.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:lantern !P! NL draw !M! card , discard 1 card.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientLanternD": {
     "NAME": "Glassfinger Toxin",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Lantern !P! NL Deal !D! damage, this turn every time you play an attack card you draw !M! cards.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:lantern !P! NL Deal !D! damage, this turn every time you play an attack card you draw !M! cards.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientLanternF": {
     "NAME": "Ichor Vitreous",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Lantern !P! NL There is no limit to the number of cards in hand.",
-    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Lantern !P! NL Retain . NL There is no limit to the number of cards in hand."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:lantern !P! NL There is no limit to the number of cards in hand.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:lantern !P! NL Retain . NL There is no limit to the number of cards in hand."
   },
 
   "TheSecretHistories:IngredientForgeB": {
     "NAME": "Bitterblack Salts",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Forge !P! NL Gain !B! block , Exhaust !M! cards in hand.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Gain !B! block , Exhaust !M! cards in hand.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientForgeD": {
     "NAME": "Xanthotic Essence",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Forge !P! NL Exhaust all tsh:Tool and tsh:Ingredient ,gain !B! Block for every card you exhaust.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Exhaust all tsh:tool and tsh:ingredient ,gain !B! Block for every card you exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientForgeF": {
     "NAME": "Iotic Essence",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Forge !P! NL Gain !B! block , NL Upgrade a card at your hand during this battle, exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Forge !P! NL Gain !B! block , NL Upgrade all cards at your hand during this battle, exhaust."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Gain !B! block , NL Upgrade a card at your hand during this battle, exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Gain !B! block , NL Upgrade all cards at your hand during this battle, exhaust."
   },
 
   "TheSecretHistories:IngredientEdgeB": {
     "NAME": "Martensite Paste",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Edge !P! NL gain  !M! Strength ,at the end of this turn you Lose !M! Strength .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL gain  !M! Strength ,at the end of this turn you Lose !M! Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientEdgeD": {
     "NAME": "Labhitic Grains",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:Edge. NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:Edge."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:edge. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:edge."
   },
 
   "TheSecretHistories:IngredientEdgeF": {
     "NAME": "Skaptodon Fang",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Edge !P! NL Exhaust all tsh:Edge ,for every !M! tsh:Edge,Deal !D! damage..",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Exhaust all tsh:edge ,for every !M! tsh:edge,Deal !D! damage..",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterB": {
     "NAME": "Greydawn Oil",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Winter !P! NL at the end of this turn you don't take damage from tsh:Winter.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:winter !P! NL at the end of this turn you don't take damage from tsh:winter.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterD": {
     "NAME": "Wolf-Snow",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Winter !P! NL Deal !D! damage to all enemies, Apply the same amount of tsh:Winter .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:winter !P! NL Deal !D! damage to all enemies, Apply the same amount of tsh:winter .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientWinterF": {
     "NAME": "Watch-Worms",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Winter !P! NL Apply !M! tsh:Winter .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:winter !P! NL Apply !M! tsh:winter .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientHeartB": {
     "NAME": "Rose-Pearl Dust",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart !P! NL Retain . NL gain  !B! Block .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart !P! NL Retain . NL gain  !B! Block .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientHeartD": {
     "NAME": "Witch-Kissed Oil",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart !P! NL trun all tsh:Heart into the same amount of Block . NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart NL trun all tsh:Heart into the same amount of Block ."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart !P! NL trun all tsh:heart into the same amount of Block . NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart NL trun all tsh:heart into the same amount of Block ."
   },
 
   "TheSecretHistories:IngredientHeartF": {
     "NAME": "True Blood of St Januarius",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart !P! NL gain  !M! Intangible ,2 *restlessness .",
-    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart !P! NL gain  !M! Intangible ,2 *restlessness ."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart !P! NL gain  !M! Intangible ,2 *restlessness .",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart !P! NL gain  !M! Intangible ,2 *restlessness ."
   },
 
   "TheSecretHistories:IngredientGrailB": {
     "NAME": "Vital Pigment",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Grail !P! NL Deal !D! damage.. NL Apply !M! vulnerable .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:grail !P! NL Deal !D! damage.. NL Apply !M! vulnerable .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailD": {
     "NAME": "Amaranthine Nectar",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Grail !P! NL gain  !M!  tsh:amaranthine . NL exhaust.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:grail !P! NL gain  !M!  tsh:amaranthine . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailF": {
     "NAME": "Writhing Caul",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Grail !P! NL Let an enemy Lose !M! Strength this turn. NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Heart NL Let all enemies Lose !M! Strength this turn. NL exhaust."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:grail !P! NL Let an enemy Lose !M! Strength this turn. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart NL Let all enemies Lose !M! Strength this turn. NL exhaust."
   },
 
   "TheSecretHistories:IngredientMothB": {
     "NAME": "Piebald Pigment",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Moth !P! NL Deal !D! damage.,Gain !B! block .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:moth !P! NL Deal !D! damage.,Gain !B! block .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientMothD": {
     "NAME": "Leathy",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Moth !P! NL duplicate tsh:Moth . NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Moth !P! NL duplicate tsh:Moth ."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:moth !P! NL duplicate tsh:moth . NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:moth !P! NL duplicate tsh:moth ."
   },
 
   "TheSecretHistories:IngredientMothF": {
     "NAME": "Holiest Hemolymph",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Moth !P! NL this turn the next tsh:Tool or tsh:Ingredient you play are additionally played !M! Times.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:moth !P! NL this turn the next tsh:tool or tsh:ingredient you play are additionally played !M! Times.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockB": {
     "NAME": "The Byzantine Tinct",
-    "DESCRIPTION": " tsh:Ingredient NL to all Enemies Deal !M! - tsh:Knock damage. NL tsh:Principle of tsh:Knock !P! ",
+    "DESCRIPTION": " tsh:ingredient NL to all Enemies Deal !M! - tsh:knock damage. NL tsh:principle of tsh:knock !P! ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockD": {
     "NAME": "Sthenic Venom",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Knock !P! NL Deal damage same to the level of tsh:Mansus !M! Times. NL exhaust.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:knock !P! NL Deal damage same to the level of tsh:mansus !M! Times. NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientKnockF": {
     "NAME": "Azoth",
-    "DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Knock !P! NL reduce the cost of all cards you have in your hands by 1. NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:Ingredient NL tsh:Principle of tsh:Knock !P! NL reduce the cost of all cards you have in your hands by 1. NL Retain . exhaust."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:knock !P! NL reduce the cost of all cards you have in your hands by 1. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:knock !P! NL reduce the cost of all cards you have in your hands by 1. NL Retain . exhaust."
   },
 
   "TheSecretHistories:FollowerLanternClifton": {
     "NAME": "Clifton",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Lantern !P! NL Exhaust all tsh:Lantern ,For each !M! tsh:Lantern you exhaust you draw 1 card.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:lantern !P! NL Exhaust all tsh:lantern ,For each !M! tsh:lantern you exhaust you draw 1 card.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerLanternCat": {
     "NAME": "Cat Caro",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Lantern !P! NL disard any number of cards,Gain the same amount of tsh:Lantern .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:lantern !P! NL disard any number of cards,Gain the same amount of tsh:lantern .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerLanternSlee": {
     "NAME": "Slee",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Lantern !P! NL Exhaust !M! tsh:Lantern ,draw 2 card.Add 1 tsh:Lantern evey time you play it. NL Exhaust.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:lantern !P! NL Exhaust !M! tsh:lantern ,draw 2 card.Add 1 tsh:lantern evey time you play it. NL Exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeTristan": {
     "NAME": "Tristan",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Forge !P! NL Lose !M! Gold ,Deal !D! damage to all enemies.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:forge !P! NL Lose !M! Gold ,Deal !D! damage to all enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeLaidlaw": {
     "NAME": "Laidlaw",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Forge !P! NL *Upgrade all cards which are created during a combat.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:forge !P! NL *Upgrade all cards which are created during a combat.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerForgeValciane": {
     "NAME": "Valciane",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Forge !P! NL Exhaust all tsh:Forge ,For every !M! tsh:Forge, gain  [E] .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:forge !P! NL Exhaust all tsh:forge ,For every !M! tsh:forge, gain  [E] .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerEdgeElridge": {
     "NAME": "Elridge",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage, Choose !M! card from your draw pile and place it into your hand",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:edge !P! NL Deal !D! damage, Choose !M! card from your draw pile and place it into your hand",
     "UPGRADE_DESCRIPTION": ""
   },
   "TheSecretHistories:FollowerEdgeRose": {
     "NAME": "Rose",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Exhaust all tsh:Edge ,for every !M! tsh:Edge gain 1 Strength .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:edge !P! NL Exhaust all tsh:edge ,for every !M! tsh:edge gain 1 Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerEdgeVictor": {
     "NAME": "Victor",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage.,Lose !M! Strength .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:edge !P! NL Deal !D! damage.,Lose !M! Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerWinterAuclair": {
     "NAME": "Auclair",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Winter !P! NL Exhaust all tsh:Winter ,for every !M! tsh:Winter ,Deal !D! damage..",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:winter !P! NL Exhaust all tsh:winter ,for every !M! tsh:winter ,Deal !D! damage..",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerWinterViolet": {
     "NAME": "Violet",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Winter !P! NL transfer your tsh:Winter to your enemy. NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Winter !P! NL transfer your tsh:Winter to your enemy."
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:winter !P! NL transfer your tsh:winter to your enemy. NL exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL tsh:principle of tsh:winter !P! NL transfer your tsh:winter to your enemy."
   },
 
   "TheSecretHistories:FollowerHeartLeo": {
     "NAME": "Leo",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL Deal damage equal to your Block.",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL Retain . NL Deal damage equal to your Block."
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:heart !P! NL Deal damage equal to your Block.",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL tsh:principle of tsh:heart !P! NL Retain . NL Deal damage equal to your Block."
   },
 
   "TheSecretHistories:FollowerHeartClovette": {
     "NAME": "Clovette",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL Exhaust all tsh:Heart ,for every !M! tsh:Heart gain 1 Dexterity .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:heart !P! NL Exhaust all tsh:heart ,for every !M! tsh:heart gain 1 Dexterity .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerHeartDorothy": {
     "NAME": "Dorothy",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL At the start of your next turn,Double your current Block . NL exhaust.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:heart !P! NL At the start of your next turn,Double your current Block . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "Renira",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Grail !P! NL Exhaust all tsh:Grail ,for every !M! tsh:Grail Apply 1 Weak or Vulnerable or lose 1 Strength .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:grail !P! NL Exhaust all tsh:grail ,for every !M! tsh:grail Apply 1 Weak or Vulnerable or lose 1 Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailSaliba": {
     "NAME": "Saliba",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Grail !P! NL Deal !D! damage.. NL heal Hp equal to your unBlocked damage .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:grail !P! NL Deal !D! damage.. NL heal Hp equal to your unBlocked damage .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothPorter": {
     "NAME": "Porter",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL for every !M! tsh:Moth gain  !B! Block .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:moth !P! NL for every !M! tsh:moth gain  !B! Block .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothSylvia": {
     "NAME": "Sylvia",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL Deal !D! damage, change your lowest tsh: Principles into tsh:Moth .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:moth !P! NL Deal !D! damage, change your lowest tsh: Principles into tsh:moth .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothYsabet": {
     "NAME": "Ysabet",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL evey Time you gain tsh:Moth Deal !M! damage to all enemies.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:moth !P! NL evey Time you gain tsh:moth Deal !M! damage to all enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerKnockNeville": {
     "NAME": "Neville",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Knock !P! NL Deal !D! damage, this turn,every time you gain cards from tsh:Mansus, Deal !M! damage to an random enemy.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:knock !P! NL Deal !D! damage, this turn,every time you gain cards from tsh:mansus, Deal !M! damage to an random enemy.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerKnockEnid": {
     "NAME": "Enid",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Knock !P! NL Deal !D! damage, gain random tsh:Rite card.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:knock !P! NL Deal !D! damage, gain random tsh:Rite card.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayWood": {
     "NAME": "Way: The Wood",
-    "DESCRIPTION": " tsh:Way: The Wood NL Exhaust2 tsh:Lantern / tsh:Moth / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:way: The Wood NL Exhaust2 tsh:lantern / tsh:moth / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayWhite": {
     "NAME": "Way: The White Door",
-    "DESCRIPTION": " tsh:Way: The White Door NL Exhaust4 tsh:Lantern / tsh:Winter / tsh:Heart / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:way: The White Door NL Exhaust4 tsh:lantern / tsh:winter / tsh:heart / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayStag": {
     "NAME": "Way: Through the Stag Door",
-    "DESCRIPTION": " tsh:Way: Through the Stag Door NL Exhaust6 tsh:Lantern / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:way: Through the Stag Door NL Exhaust6 tsh:lantern / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WaySpider": {
     "NAME": "Way: The Spider's Door",
-    "DESCRIPTION": " tsh:Way: The Spider's Door NL Exhaust8 tsh:Lantern / tsh:Grail / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:way: The Spider's Door NL Exhaust8 tsh:lantern / tsh:grail / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:WayPeacock": {
     "NAME": "Way: The Peacock's Door",
-    "DESCRIPTION": " tsh:Way: The Peacock's Door NL Exhaust10 tsh:Lantern / tsh:Edge / tsh:Forge / tsh:Knock ,Choose 1 of 3 random cards to add to your hand. ",
+    "DESCRIPTION": " tsh:way: The Peacock's Door NL Exhaust10 tsh:lantern / tsh:edge / tsh:forge / tsh:knock ,Choose 1 of 3 random cards to add to your hand. ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Health": {
     "NAME": "Health",
-    "DESCRIPTION": " exhaust. NL tsh:Principle of tsh:Heart !P! NL heal !M!  Hp.",
+    "DESCRIPTION": " exhaust. NL tsh:principle of tsh:heart !P! NL heal !M!  Hp.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Reason": {
     "NAME": "Reason",
-    "DESCRIPTION": " exhaust. NL tsh:Principle of tsh:Lantern !P! NL draw !M! cards.",
-    "UPGRADE_DESCRIPTION": "Retain . exhaust. NL tsh:Principle of tsh:Lantern !P! NL draw !M! cards."
+    "DESCRIPTION": " exhaust. NL tsh:principle of tsh:lantern !P! NL draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "Retain . exhaust. NL tsh:principle of tsh:lantern !P! NL draw !M! cards."
   },
 
   "TheSecretHistories:Passion": {
     "NAME": "Passion",
-    "DESCRIPTION": " exhaust. NL tsh:Principle of tsh:Moth !P! NL gain  !M! [E] .",
-    "UPGRADE_DESCRIPTION": " Retain . exhaust. NL tsh:Principle of tsh:Moth !P! NL gain  [E] ."
+    "DESCRIPTION": " exhaust. NL tsh:principle of tsh:moth !P! NL gain  !M! [E] .",
+    "UPGRADE_DESCRIPTION": " Retain . exhaust. NL tsh:principle of tsh:moth !P! NL gain  [E] ."
   },
 
   "TheSecretHistories:GenericLantern": {
     "NAME": "A Pawn",
-    "DESCRIPTION": " tsh:Follower NL Gain !B! block .",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL Gain !B! block . NL tsh:Principle of tsh:Lantern !P! "
+    "DESCRIPTION": " tsh:follower NL Gain !B! block .",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL Gain !B! block . NL tsh:principle of tsh:lantern !P! "
   },
 
   "TheSecretHistories:GenericForge": {
     "NAME": "A Pawn",
-    "DESCRIPTION": " tsh:Follower NL Gain !B! block .",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL Gain !B! block . NL tsh:Principle of tsh:Forge !P! "
+    "DESCRIPTION": " tsh:follower NL Gain !B! block .",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL Gain !B! block . NL tsh:principle of tsh:forge !P! "
   },
 
   "TheSecretHistories:GenericEdge": {
     "NAME": "A Pawn",
-    "DESCRIPTION": " tsh:Follower NL Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL Deal !D! damage . NL tsh:Principle of tsh:Edge !P! "
+    "DESCRIPTION": " tsh:follower NL Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL Deal !D! damage . NL tsh:principle of tsh:edge !P! "
   },
 
   "TheSecretHistories:GenericWinter": {
     "NAME": "A Pawn",
-    "DESCRIPTION": " tsh:Follower NL Deal !D! damage .",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL Deal !D! damage . NL tsh:Principle of tsh:Winter !P! "
+    "DESCRIPTION": " tsh:follower NL Deal !D! damage .",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL Deal !D! damage . NL tsh:principle of tsh:winter !P! "
   },
 
   "TheSecretHistories:GenericHeart": {
     "NAME": "A Pawn",
-    "DESCRIPTION": " tsh:Follower NL Gain !B! block .",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL Gain !B! block . NL tsh:Principle of tsh:Heart !P! "
+    "DESCRIPTION": " tsh:follower NL Gain !B! block .",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL Gain !B! block . NL tsh:principle of tsh:heart !P! "
   },
 
   "TheSecretHistories:GenericGrail": {
     "NAME": "A Pawn",
-    "DESCRIPTION": " tsh:Follower NL Gain !B! block .",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL Gain !B! block . NL tsh:Principle of tsh:Grail !P! "
+    "DESCRIPTION": " tsh:follower NL Gain !B! block .",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL Gain !B! block . NL tsh:principle of tsh:grail !P! "
   },
 
   "TheSecretHistories:GenericMoth": {
     "NAME": "A Pawn",
-    "DESCRIPTION": " tsh:Follower NL Deal !D! damage .",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL Deal !D! damage . NL tsh:Principle of tsh:Moth !P! "
+    "DESCRIPTION": " tsh:follower NL Deal !D! damage .",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL Deal !D! damage . NL tsh:principle of tsh:moth !P! "
   },
 
   "TheSecretHistories:GenericKnock": {
     "NAME": "A Pawn",
-    "DESCRIPTION": " tsh:Follower NL Deal !D! damage .",
-    "UPGRADE_DESCRIPTION": " tsh:Follower NL Deal !D! damage . NL tsh:Principle of tsh:Knock !P! "
+    "DESCRIPTION": " tsh:follower NL Deal !D! damage .",
+    "UPGRADE_DESCRIPTION": " tsh:follower NL Deal !D! damage . NL tsh:principle of tsh:knock !P! "
   },
 
   "TheSecretHistories:TheWood": {
     "NAME": "The Wood",
-    "DESCRIPTION": " tsh:Visible NL ",
+    "DESCRIPTION": " tsh:visible NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheWell": {
     "NAME": "The Well",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheTempleOfTheWheel": {
     "NAME": "The Wheel temple",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheWhiteDoor": {
     "NAME": "The White Door",
-    "DESCRIPTION": " tsh:Visible NL ",
+    "DESCRIPTION": " tsh:visible NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheOrchardOfLights": {
     "NAME": "The Orchard of Lights",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:LodgeOfTheSageKnight": {
     "NAME": "The Lodge of the Sage-Knight",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheStagDoor": {
     "NAME": "The Stag Door",
-    "DESCRIPTION": " tsh:Visible NL ",
+    "DESCRIPTION": " tsh:visible NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ThePaintedRiver": {
     "NAME": "The Painted River",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheAscentOfTheKnives": {
     "NAME": "The Ascent of Knives",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheSpiderDoor": {
     "NAME": "The Spider's Door",
-    "DESCRIPTION": " tsh:Visible NL ",
+    "DESCRIPTION": " tsh:visible NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheMalleary": {
     "NAME": "The Malleary",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheChamberOfWays": {
     "NAME": "The Concursum",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ThePeacockDoor": {
     "NAME": "The Peacock Door",
-    "DESCRIPTION": " tsh:Visible NL ",
+    "DESCRIPTION": " tsh:visible NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheRedChurch": {
     "NAME": "The Red Church",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:TheWormMuseum": {
     "NAME": "The Worm Museum",
-    "DESCRIPTION": " tsh:Unknown NL ",
+    "DESCRIPTION": " tsh:unknown NL ",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteFollowerConsumeInfluence": {
     "NAME": "Sunset Rite",
-    "DESCRIPTION": "Exhaust 12 tsh:Winter 8 tsh:Lantern NL Deal !D! damage to random enemy.has a !M! % posibility to Deal !D! damage yourself.",
+    "DESCRIPTION": "Exhaust 12 tsh:winter 8 tsh:lantern NL Deal !D! damage to random enemy.has a !M! % posibility to Deal !D! damage yourself.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteFollowerConsumeIngredient": {
     "NAME": "Rite of the Mother's Mercy",
-    "DESCRIPTION": " tsh:Summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteFollowerConsumeTool": {
     "NAME": "Rite of the Rebel Striving",
-    "DESCRIPTION": " tsh:Summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteInfluenceConsumeFollower": {
     "NAME": "Rite of the Beast's Division",
-    "DESCRIPTION": " tsh:Summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteInfluenceConsumeIngredient": {
     "NAME": "The Rite of the Crow's Quenching",
-    "DESCRIPTION": "Exhaust 12 tsh:Lantern 8 tsh:Edge NL discard any card at your hand and draw cards until your hand is full.",
-    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:Lantern 8 tsh:Edge NL discard any card at your hand draw cards until your hand is full."
+    "DESCRIPTION": "Exhaust 12 tsh:lantern 8 tsh:edge NL discard any card at your hand and draw cards until your hand is full.",
+    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:lantern 8 tsh:edge NL discard any card at your hand draw cards until your hand is full."
   },
 
   "TheSecretHistories:RiteToolConsumeFollower": {
     "NAME": "Rite of the Crucible Soul",
-    "DESCRIPTION": "Exhaust 12 tsh:Forge 8 tsh:Grail NL  yourself .",
-    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:Forge 8 tsh:Grail NL reduce all your debuffs."
+    "DESCRIPTION": "Exhaust 12 tsh:forge 8 tsh:grail NL  yourself .",
+    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:forge 8 tsh:grail NL reduce all your debuffs."
   },
 
   "TheSecretHistories:RiteToolConsumeInfluence": {
     "NAME": "Rite of the Map's Edge",
-    "DESCRIPTION": " tsh:Summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteToolConsumeIngredient": {
     "NAME": "Rite of the Sea's Feasting",
-    "DESCRIPTION": "Exhaust 12 tsh:Moth 8 tsh:Edge NL gain additional [E] evey turn.",
-    "UPGRADE_DESCRIPTION": "Exhaust 12 tsh:Moth 8 tsh:Edge NL gain additional [E] [E] evey turn."
+    "DESCRIPTION": "Exhaust 12 tsh:moth 8 tsh:edge NL gain additional [E] evey turn.",
+    "UPGRADE_DESCRIPTION": "Exhaust 12 tsh:moth 8 tsh:edge NL gain additional [E] [E] evey turn."
   },
 
   "TheSecretHistories:RiteToolFollowerConsumeLore": {
     "NAME": "Rite of the Watchman's Sorrow",
-    "DESCRIPTION": " tsh:Summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
   },
 
   "TheSecretHistories:RiteConsumeAll": {
     "NAME": "Rite Intercalate",
-    "DESCRIPTION": " tsh:Summoning rite ",
-    "UPGRADE_DESCRIPTION": " tsh:Summoning rite NL Retain "
+    "DESCRIPTION": " tsh:summoning rite ",
+    "UPGRADE_DESCRIPTION": " tsh:summoning rite NL Retain "
   },
 
   "TheSecretHistories:SpiritWinterMoth": {
     "NAME": "Voiceless Dead",
-    "DESCRIPTION": " Exhaust NL change all your tsh:Moth into tsh:Winter.",
-    "UPGRADE_DESCRIPTION": " Exhaust NL change all your tsh:Moth intp !M! times tsh:Winter."
+    "DESCRIPTION": " Exhaust NL change all your tsh:moth into tsh:winter.",
+    "UPGRADE_DESCRIPTION": " Exhaust NL change all your tsh:moth intp !M! times tsh:winter."
   },
 
   "TheSecretHistories:SummonWinterMoth": {
     "NAME": "Summon Voiceless Dead",
-    "DESCRIPTION": "2 tsh:Knock 6 tsh:Winter 2 tsh:Heart ",
+    "DESCRIPTION": "2 tsh:knock 6 tsh:winter 2 tsh:heart ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -696,7 +696,7 @@
 
   "TheSecretHistories:SummonLanternEdge": {
     "NAME": "Summon Hint",
-    "DESCRIPTION": "2 tsh:Knock 10 tsh:Lantern 4 tsh:Edge ",
+    "DESCRIPTION": "2 tsh:knock 10 tsh:lantern 4 tsh:edge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -708,7 +708,7 @@
 
   "TheSecretHistories:SummonForgeMoth": {
     "NAME": "Summon Caligine",
-    "DESCRIPTION": "2 tsh:Knock 10 tsh:Forge 4 tsh:Winter ",
+    "DESCRIPTION": "2 tsh:knock 10 tsh:forge 4 tsh:winter ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -720,7 +720,7 @@
 
   "TheSecretHistories:SummonGrailMoth": {
     "NAME": "Summon Raw Prophet",
-    "DESCRIPTION": "2 tsh:Knock 10 tsh:Grail 4 tsh:Moth ",
+    "DESCRIPTION": "2 tsh:knock 10 tsh:grail 4 tsh:moth ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -732,7 +732,7 @@
 
   "TheSecretHistories:SummonHeartEdge": {
     "NAME": "Summon Percussigant",
-    "DESCRIPTION": "2 tsh:Knock 10 tsh:Heart 4 tsh:Edge ",
+    "DESCRIPTION": "2 tsh:knock 10 tsh:heart 4 tsh:edge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -744,7 +744,7 @@
 
   "TheSecretHistories:SummonWinterEdge": {
     "NAME": "Summon Maid-in-the-Mirror",
-    "DESCRIPTION": "2 tsh:Knock 12 tsh:Winter 5 tsh:Edge ",
+    "DESCRIPTION": "2 tsh:knock 12 tsh:winter 5 tsh:edge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -756,7 +756,7 @@
 
   "TheSecretHistories:SummonGrailEdge": {
     "NAME": "Summon Ezeem, the Second Thirstly",
-    "DESCRIPTION": " 2 tsh:Knock 14 tsh:Grail 8 tsh:Forge ",
+    "DESCRIPTION": " 2 tsh:knock 14 tsh:grail 8 tsh:forge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -768,7 +768,7 @@
 
   "TheSecretHistories:SummonForgeEdge": {
     "NAME": "Summon King Crucible",
-    "DESCRIPTION": " 2 tsh:Knock 14 tsh:Forge 8 tsh:Lantern ",
+    "DESCRIPTION": " 2 tsh:knock 14 tsh:forge 8 tsh:lantern ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -780,7 +780,7 @@
 
   "TheSecretHistories:SummonLanternSecret": {
     "NAME": "Summon Teresa",
-    "DESCRIPTION": " 2 tsh:Knock 14 tsh:Lantern 6 tsh:SecretHistories ",
+    "DESCRIPTION": " 2 tsh:knock 14 tsh:lantern 6 tsh:secretHistories ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -822,7 +822,7 @@
 
   "TheSecretHistories:Rumour": {
     "NAME": "Rumour",
-    "DESCRIPTION": "add a random tsh:Follower into your hand. NL this card costs zero this turn.",
-    "UPGRADE_DESCRIPTION": "Retain NL add a random tsh:Follower into your hand. NL this card costs zero this turn."
+    "DESCRIPTION": "add a random tsh:follower into your hand. NL this card costs zero this turn.",
+    "UPGRADE_DESCRIPTION": "Retain NL add a random tsh:follower into your hand. NL this card costs zero this turn."
   }
 }

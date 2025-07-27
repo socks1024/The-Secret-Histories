@@ -1,131 +1,131 @@
 [
   {
-    "NAMES": ["Principles"],
+    "NAMES": ["principles"],
     "DESCRIPTION": "The nine Principles are unique Aspects that embody the archetypal characteristics, ideas, or influences that underpin the entirety of the invisible arts. Power can be drawn from the veneration of a Principle[You may elevate your own Principle to the same intensity as the card’s tier.]"
   },
 
   {
-    "NAMES": ["Lantern"],
+    "NAMES": ["lantern"],
     "DESCRIPTION": "Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it."
   },
 
   {
-    "NAMES": ["Forge"],
+    "NAMES": ["forge"],
     "DESCRIPTION": "The principle of the Forge transforms and destroys."
   },
 
   {
-    "NAMES": ["Edge"],
+    "NAMES": ["edge"],
     "DESCRIPTION": "Edge is the principle of battle and of struggle."
   },
 
   {
-    "NAMES": ["Winter"],
+    "NAMES": ["winter"],
     "DESCRIPTION": "Winter is the principle of silence, of endings, and of those things that are not quite dead.[Characters take damage equal to the number of this principle they have at the end of turn.]"
   },
 
   {
-    "NAMES": ["Heart"],
+    "NAMES": ["heart"],
     "DESCRIPTION": "The Heart is the principle that continues and preserves."
   },
 
   {
-    "NAMES": ["Grail"],
+    "NAMES": ["grail"],
     "DESCRIPTION": "The principle of the Grail honours both the birth and the feast."
   },
 
   {
-    "NAMES": ["Moth"],
+    "NAMES": ["moth"],
     "DESCRIPTION": "Moth is the wild and perilous principle of chaos and yearning.[It stacks instead of taking maximum,but returns to zero at the end of your turn]"
   },
 
   {
-    "NAMES": ["Knock"],
+    "NAMES": ["knock"],
     "DESCRIPTION": "The Knock is the principle that opens doors and unseams barriers."
   },
 
   {
-    "NAMES": ["SecretHistories"],
+    "NAMES": ["secretHistories"],
     "DESCRIPTION": "Secret Histories describe the unknown complexities of the world, and its many pasts.[It stacks instead of taking maximum,you get additional rewards based on this principle you have at checkout.]"
   },
 
   {
-    "NAMES": ["Doors of Mansus"],
+    "NAMES": ["doors of Mansus"],
     "DESCRIPTION": "Beneath the skin of the world we find the Mansus, also called the World-Spine, also called the House of the Sun.[Cannot be removed and will be upgraded when resting.]"
   },
 
   {
-    "NAMES": ["Lore"],
+    "NAMES": ["lore"],
     "DESCRIPTION": "Knowledge of the invisible arts. I can use it to attract followers, to perform rites, to open the way to the Mansus, to seek my ascension...[Having two Lore cards of same level and principle in your deck will automaticaly merge into one upgraded Lore card.]"
   },
 
   {
-    "NAMES": ["Influence"],
+    "NAMES": ["influence"],
     "DESCRIPTION": "An echo, a resonance, an alignment. Something that will fade soon."
   },
 
   {
-    "NAMES": ["Tool"],
+    "NAMES": ["tool"],
     "DESCRIPTION": "A sword does not kill; it is an instrument in the hand of the killer."
   },
 
   {
-    "NAMES": ["Ingredient"],
+    "NAMES": ["ingredient"],
     "DESCRIPTION": "Fuel, ointment, pigment, patience: all are consumed in time."
   },
 
   {
-    "NAMES": ["Follower"],
+    "NAMES": ["follower"],
     "DESCRIPTION": "Student, helpmeet, defender, champion, dupe, sacrifice... companion."
   },
 
   {
-    "NAMES": ["Patron"],
+    "NAMES": ["patron"],
     "DESCRIPTION": "A figure of note in the circles where I move."
   },
 
   {
-    "NAMES": ["Hunter"],
+    "NAMES": ["hunter"],
     "DESCRIPTION": "The laws of civilization are younger than the Laws of the Hours, but they, too, sometimes require a sacrifice."
   },
 
   {
-    "NAMES": ["Rite"],
+    "NAMES": ["rite"],
     "DESCRIPTION": "'The proper things, in the proper manner, in the proper order. God help us all.'"
   },
 
   {
-    "NAMES": ["Summoned Spirit"],
+    "NAMES": ["summoned Spirit"],
     "DESCRIPTION": "This one is not from here."
   },
 
   {
-    "NAMES": ["Way: The Wood"],
+    "NAMES": ["way: The Wood"],
     "DESCRIPTION": "I've learned the path to the Wood, tangled darkness that grows around the walls of the Mansus (though the Mansus has no walls). "
   },
 
   {
-    "NAMES": ["Way: The White Door"],
+    "NAMES": ["way: The White Door"],
     "DESCRIPTION": "I've passed the white door, which has been called the Bone Door and the Gate of Ivory. My voice remains outside the House each time I enter."
   },
 
   {
-    "NAMES": ["Way: Through the Stag Door"],
+    "NAMES": ["way: Through the Stag Door"],
     "DESCRIPTION": "I've found the way to the Stag Door, sometimes called the Horn Gate or the Adept's Door. I have answered its riddle, and am counted among the Know."
   },
 
   {
-    "NAMES": ["Way: The Spider's Door"],
+    "NAMES": ["way: The Spider's Door"],
     "DESCRIPTION": " I've found the way to the Spider's Door, sometimes called the Bloody Gate or, more informally, the Wrong Door."
   },
 
   {
-    "NAMES": ["Way: The Peacock's Door"],
+    "NAMES": ["way: The Peacock's Door"],
     "DESCRIPTION": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus."
   },
 
   {
-    "NAMES": ["Rite of summoning"],
+    "NAMES": ["rite of summoning"],
     "DESCRIPTION": "Exhaust 2 knock and two types of principles to summon a spirit: Stronger spirits requires higher level of principle."
   },
 
@@ -140,17 +140,17 @@
   },
 
   {
-    "NAMES": ["Visible"],
+    "NAMES": ["visible"],
     "DESCRIPTION": "A card is randomly drawn from the card pool to add to the hand. While levitating, preview the drawn cards."
   },
 
   {
-    "NAMES": ["Unknown"],
+    "NAMES": ["unknown"],
     "DESCRIPTION": "A card is randomly drawn from the card pool to add to the hand. When hovering, preview the card pool."
   },
 
   {
-    "NAMES": ["Other Enemies"],
+    "NAMES": ["other Enemies"],
     "DESCRIPTION": "Does not include oneself NL Heart: NL 0.1% NL T3 Boss: NL 2.3% NL T2 Boss: NL 2.3% NL T1 Boss: NL 2.3% NL T3 Elite: NL 3.5% NL T2 Elite: NL 4.6% NL T1 Elite: NL 4.8% NL T3 Normal: NL 14.1% NL T2 Normal: NL 23.1% NL T1 Normal: NL 42.9%"
   }
 ]
