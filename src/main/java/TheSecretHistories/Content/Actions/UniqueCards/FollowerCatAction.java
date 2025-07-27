@@ -34,8 +34,6 @@ public class FollowerCatAction extends AbstractGameAction {
 
                     int count = AbstractDungeon.handCardSelectScreen.selectedCards.group.size();
 
-                    DebugUtils.Log(count);
-
                     this.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new Lantern(AbstractDungeon.player, count)));
 
                     for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {

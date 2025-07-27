@@ -17,7 +17,7 @@ public abstract class TemplateCustomPower extends AbstractPower{
 
         SetPowerImg(this, img);
 
-        this.powerStrings = CardCrawlGame.languagePack.getPowerStrings(id);
+        this.powerStrings = CardCrawlGame.languagePack.getPowerStrings(CutNumber(id));
         this.name = powerStrings.NAME;
 
         this.owner = owner;
@@ -56,5 +56,9 @@ public abstract class TemplateCustomPower extends AbstractPower{
         String s2 = img + "48.png";
 
         return s1+s2;
+    }
+
+    protected static String CutNumber(String input) {
+        return input.replaceAll("\\d", "");
     }
 }

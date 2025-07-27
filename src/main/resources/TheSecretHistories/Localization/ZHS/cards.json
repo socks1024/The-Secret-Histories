@@ -229,7 +229,7 @@
 
   "TheSecretHistories:IngredientWinterF": {
     "NAME": "守夜虫",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:冬 之 tsh:准则 !P! NL 给予 !M! tsh:冬 。",
+    "DESCRIPTION": " tsh:原料 。 NL tsh:冬 之 tsh:准则 !P! NL 给予 !M! tsh:冬 。 消耗 。",
     "UPGRADE_DESCRIPTION": ""
   },
 

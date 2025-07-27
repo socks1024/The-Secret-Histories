@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Actions.UniqueCards;
 
+import TheSecretHistories.Utils.DebugUtils;
 import basemod.BaseMod;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.GameActionManager;
@@ -23,12 +24,13 @@ public class DiscardAnyAndDrawFullAction extends AbstractGameAction {
     public void update() {
         if (this.duration == 0.5F) {
             AbstractDungeon.handCardSelectScreen.open(TEXT[1], 99, true, true);
-
             this.addToBot(new WaitAction(0.25F));
             this.tickDuration();
         } else {
             if (!AbstractDungeon.handCardSelectScreen.wereCardsRetrieved) {
                 if (!AbstractDungeon.handCardSelectScreen.selectedCards.group.isEmpty()) {
+
+                    DebugUtils.Log(AbstractDungeon.handCardSelectScreen.selectedCards.group);
 
                     this.addToTop(new ExpertiseAction(source, BaseMod.MAX_HAND_SIZE));
 
@@ -45,7 +47,7 @@ public class DiscardAnyAndDrawFullAction extends AbstractGameAction {
             this.tickDuration();
         }
 
-        this.isDone = true;
+        // this.isDone = true;
     }
 
     static {
