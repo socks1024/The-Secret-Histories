@@ -24,13 +24,13 @@ public class IngredientEdgeB extends AbstractIngredient {
 
     public IngredientEdgeB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseMagicNumber = 2;
+        this.baseMagicNumber = 3;
         this.magicNumber = this.baseMagicNumber;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(2);
+        upgradeMagicNumber(1);
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);

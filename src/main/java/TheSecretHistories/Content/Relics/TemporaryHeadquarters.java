@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Relics;
 
 import TheSecretHistories.Content.Relics.Template.TemplateCustomRelic;
+import TheSecretHistories.UI.Tutorial.TheSecretHistoriesFtue;
 import TheSecretHistories.Utils.StringUtils;
 import basemod.abstracts.CustomRelic;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;

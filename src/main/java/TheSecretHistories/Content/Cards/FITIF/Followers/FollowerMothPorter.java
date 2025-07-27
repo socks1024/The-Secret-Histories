@@ -26,7 +26,7 @@ public class FollowerMothPorter extends AbstractFollower {
 
     public FollowerMothPorter() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseBlock = 5;
+        this.baseBlock = 6;
         this.baseMagicNumber=this.magicNumber=4;
     }
 
@@ -51,19 +51,6 @@ public class FollowerMothPorter extends AbstractFollower {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-        upgradeBlock(1);
+        upgradeMagicNumber(-1);
     }
 }
-///*private static final CardTags PRINCIPLE_TAG = EDGE;
-//
-//    public static final String ID = StringUtils.MakeID(FollowerEdgeElridge.class.getSimpleName());
-//
-//    private static final String IMG_NAME = "elridge";
-//
-//    private static final int COST = 1;
-//
-//    private static final CardType TYPE = CardType.ATTACK;
-//
-//    private static final CardRarity RARITY = CardRarity.COMMON;
-//
-//    private static final CardTarget TARGET = CardTarget.ENEMY;*/

@@ -12,6 +12,7 @@ import basemod.abstracts.CustomRelic;
 import basemod.interfaces.*;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
+import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -19,7 +20,11 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.THE_SEEKER;
 import static com.megacrit.cardcrawl.core.Settings.language;
@@ -47,16 +52,53 @@ public class TheSecretHistories implements
     private static final String BIG_ORB = "TheSecretHistories/img/character/char/splendid_card_orb.png";
     private static final String ENERGY_ORB = "TheSecretHistories/img/character/char/splendid_cost_orb.png";
 
+    public static Map<String, Boolean> showedTutorials = new HashMap<>();
+
+    static {
+        showedTutorials.put("showedTutorial1", false);
+        showedTutorials.put("showedTutorial2", false);
+        showedTutorials.put("showedTutorial3", false);
+        showedTutorials.put("showedTutorial4", false);
+    }
+
     public TheSecretHistories(){
         BaseMod.subscribe(this);
         BaseMod.addColor(TheSeeker.PlayerColorEnum.CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,CULT_BLUE,BG_ATTACK_512,BG_SKILL_512,BG_POWER_512,ENERGY_ORB,BG_ATTACK_1024,BG_SKILL_1024,BG_POWER_1024,BIG_ORB,SMALL_ORB);
     }
 
-    // 事件的注册写在这里
+    // 事件的注册也写在这里
     @Override
     public void receivePostInitialize() {
-        // AutoAdd
-        // BaseMod.addEvent(BookShop.ID, BookShop.class);
+        try {
+            Properties defaults = new Properties();
+            for (String key : showedTutorials.keySet()) {
+                defaults.setProperty(key, "false");
+            }
+
+            SpireConfig config = new SpireConfig("TheSecretHistories", "Common", defaults);
+
+            for (String key : showedTutorials.keySet()) {
+                showedTutorials.replace(key, config.getBool(key));
+            }
+
+        } catch (IOException var2) {
+            var2.printStackTrace();
+        }
+    }
+
+    public static void SetShowedTutorialsBoolean(String key) {
+        SetShowedTutorialsBoolean(key, true);
+    }
+
+    public static void SetShowedTutorialsBoolean(String key, boolean b){
+        showedTutorials.replace(key, b);
+        try {
+            SpireConfig config = new SpireConfig("TheSecretHistories", "Common");
+            config.setBool(key, b);
+            config.save();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void initialize()
@@ -97,6 +139,7 @@ public class TheSecretHistories implements
         BaseMod.loadCustomStringsFile(RelicStrings.class, "TheSecretHistories/Localization/" + lang + "/relics.json");
         BaseMod.loadCustomStringsFile(PowerStrings.class, "TheSecretHistories/Localization/" + lang + "/powers.json");
         BaseMod.loadCustomStringsFile(EventStrings.class, StringUtils.MakeLocalizationPath("events.json"));
+        BaseMod.loadCustomStringsFile(TutorialStrings.class, StringUtils.MakeLocalizationPath("tutorials.json"));
     }
 
     @Override

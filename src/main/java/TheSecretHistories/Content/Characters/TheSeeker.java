@@ -7,6 +7,7 @@ import TheSecretHistories.Content.Cards.Starters.Passion;
 import TheSecretHistories.Content.Cards.Starters.Reason;
 import TheSecretHistories.ModCore.TheSecretHistories;
 import TheSecretHistories.Content.Relics.TemporaryHeadquarters;
+import TheSecretHistories.UI.Tutorial.TheSecretHistoriesFtue;
 import TheSecretHistories.Utils.StringUtils;
 import basemod.abstracts.CustomPlayer;
 import com.badlogic.gdx.graphics.Color;
@@ -19,6 +20,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.EnergyManager;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.cutscenes.CutscenePanel;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.events.city.Vampires;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.FontHelper;
@@ -77,14 +79,15 @@ public class TheSeeker extends CustomPlayer {
     public ArrayList<String> getStartingDeck(){
         ArrayList<String> retVal = new ArrayList<>();
 
-        retVal.add(GenericLantern.ID);
-        retVal.add(GenericForge.ID);
         retVal.add(GenericEdge.ID);
-        retVal.add(GenericWinter.ID);
+        retVal.add(GenericEdge.ID);
+        retVal.add(GenericEdge.ID);
+        retVal.add(GenericEdge.ID);
+        retVal.add(GenericEdge.ID);
         retVal.add(GenericHeart.ID);
-        retVal.add(GenericGrail.ID);
-        retVal.add(GenericMoth.ID);
-        retVal.add(GenericKnock.ID);
+        retVal.add(GenericHeart.ID);
+        retVal.add(GenericHeart.ID);
+        retVal.add(GenericHeart.ID);
         retVal.add(Health.ID);
         retVal.add(Reason.ID);
         retVal.add(Passion.ID);
@@ -151,6 +154,19 @@ public class TheSeeker extends CustomPlayer {
     @Override
     public BitmapFont getEnergyNumFont(){
         return FontHelper.energyNumFontBlue;
+    }
+
+    @Override
+    public void preBattlePrep() {
+
+        if (!TheSecretHistories.showedTutorials.get("showedTutorial1")) {
+
+            AbstractDungeon.ftue = new TheSecretHistoriesFtue();
+            TheSecretHistories.SetShowedTutorialsBoolean("showedTutorial1", true);
+
+        }
+
+        super.preBattlePrep();
     }
 
     @Override

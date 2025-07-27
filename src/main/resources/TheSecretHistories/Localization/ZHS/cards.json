@@ -391,7 +391,7 @@
   "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "芮妮拉",
     "DESCRIPTION": " tsh:追随者 。 NL tsh:杯 之 tsh:准则 !P! NL 消耗所有 tsh:杯 ，每有 !M! tsh:杯 给予1层 易伤 或 虚弱 或负 力量 。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:杯 之 tsh:准则 !P! NL 每有 !M! tsh:杯 给予1层 易伤 或 虚弱 或负 力量 。"
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailSaliba": {

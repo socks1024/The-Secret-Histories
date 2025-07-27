@@ -1,0 +1,16 @@
+{
+  "TheSecretHistoriesTutorial": {
+    "TEXT": [
+      "line1",
+      "line2",
+      "line3"
+    ],
+    "LABEL": [
+      "下一页",
+      "我明白了",
+      "教学",
+      "（第 ",
+      "页）"
+    ]
+  }
+}

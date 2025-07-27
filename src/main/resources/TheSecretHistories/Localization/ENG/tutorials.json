@@ -1,0 +1,16 @@
+{
+  "TheSecretHistoriesTutorial": {
+    "TEXT": [
+      "line1",
+      "line2",
+      "line3"
+    ],
+    "LABEL": [
+      "Next",
+      "Got it",
+      "Tutorial",
+      "(Page: ",
+      ")"
+    ]
+  }
+}
