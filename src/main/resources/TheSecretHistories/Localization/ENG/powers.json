@@ -14,7 +14,7 @@
   },
 
   "TheSecretHistories:Edge": {
-    "NAME": "刃",
+    "NAME": "Edge",
     "DESCRIPTIONS": [
       "[Edge is the principle of battle and of struggle."
     ]
@@ -159,70 +159,70 @@
   "TheSecretHistories:IngredientMothFPower": {
     "NAME": "Reusing",
     "DESCRIPTIONS": [
-      "使工具/原料额外打出1次"
+      "Duplicate Tool and Ingredient."
     ]
   },
 
   "TheSecretHistories:FollowerKnockNPower": {
-    "NAME": "内维尔",
+    "NAME": "Neville",
     "DESCRIPTIONS": [
-      "从漫宿中获得牌时，造成 %d 点伤害。"
+      "Deal %d damage when you draw cards from Mansus."
     ]
   },
 
   "TheSecretHistories:DreadPower": {
     "NAME": "Dread",
     "DESCRIPTIONS": [
-      "每回合临时失去1点力量"
+      "Every turn,lose 1 Strength temporarily"
     ]
   },
 
   "TheSecretHistories:FascinationPower": {
     "NAME": "Fascination",
     "DESCRIPTIONS": [
-      "每回合临时失去1点敏捷"
+      "Every turn,lose 1 Dexterity temporarily"
     ]
   },
 
   "TheSecretHistories:GainDexterityPower": {
     "NAME": "Obtain Dexterity",
     "DESCRIPTIONS": [
-      "回合结束时，获得 %d 点敏捷。"
+      "Obtain %d Dexterity at the end of this turn."
     ]
   },
 
   "TheSecretHistories:LoseAllAlignmentNextTurnPower": {
-    "NAME": "失去",
+    "NAME": "loss",
     "DESCRIPTIONS": [
-      "回合结束时所有准则失去 %d 层"
+      "All principles decrease by %d at the end of this turn."
     ]
   },
 
   "TheSecretHistories:IngredientEdgeDPower": {
-    "NAME": "狻猊颗粒",
+    "NAME": "Labhitic Grains",
     "DESCRIPTIONS": [
-      "本回合每打出攻击牌获得 %d 层刃"
+      "every time you play attack card, gain %d tsh:Edge"
     ]
   },
 
   "TheSecretHistories:SpiritGrailEEdgePower": {
-    "NAME": "原生先知",
+    "NAME": "Raw Prophet",
     "DESCRIPTIONS": [
-      "受到50%%乘 %d 倍伤害"
+      "Receive 50%% * %d times attack"
     ]
   },
 
   "TheSecretHistories:IngredientWinterBPower": {
-    "NAME": "灰晓之油",
+    "NAME": "Greydawn Oil",
     "DESCRIPTIONS": [
-      " %d 回合不受到冬的伤害"
+      " %d turn you don't take damage from tsh:Winter."
     ]
   },
 
   "TheSecretHistories:FollowerMothYPower": {
-    "NAME": "伊莎贝特",
+    "NAME": "Ysabet",
     "DESCRIPTIONS": [
-      "获得蛾时，对所有敌人造成 %d 点伤害。"
+      "Deal %d damage to all enemies when you gain moth"
     ]
   },
 

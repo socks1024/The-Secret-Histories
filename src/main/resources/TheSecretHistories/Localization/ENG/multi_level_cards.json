@@ -211,7 +211,7 @@
       "fragmentsecrethistoriesg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:SecretHistories !P! NL Exhaust 。"
+      " tsh:Lore NL tsh:Principle of tsh:SecretHistories !P! NL Exhaust ."
     ]
   },
 
@@ -229,7 +229,7 @@
       "influencelanterng"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:灯 tsh:Principle of !P! NL 虚无 。 消耗 。 NL 抽 !M! 张牌。"
+      " tsh:Influence NL tsh:Principle of tsh:Lantern !P! NL Ethereal . Exhaust . NL Draw !M! cards."
     ]
   },
 
@@ -247,7 +247,7 @@
       "influenceforgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:铸 tsh:Principle of !P! NL 虚无 。 消耗 。 NL 选择并 消耗 !M! 张手牌。"
+      " tsh:Influence NL tsh:Principle of tsh:Forge !P! NL Ethereal . Exhaust . NL Choose to Exhaust !M! cards."
     ]
   },
 
@@ -265,7 +265,7 @@
       "influenceedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:刃 tsh:Principle of !P! NL 虚无 。 消耗 。 NL 本回合获得 !M! 力量。"
+      " tsh:Influence NL tsh:Principle of tsh:Edge !P! NL Ethereal . Exhaust . NL gain !M! Strength this turn."
     ]
   },
 
@@ -283,7 +283,7 @@
       "influencewinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:冬 tsh:Principle of !P! NL 虚无 。 消耗 。 NL 对所有敌人造成 !D! 害。"
+      " tsh:Influence NL tsh:Principle of tsh:Winter !P! NL Ethereal . Exhaust . NL Deal !D! Damage to all enemies."
     ]
   },
 
@@ -301,7 +301,7 @@
       "influenceheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:心 tsh:Principle of !P! NL 虚无 。 消耗 。 NL 本回合获得 !M! 敏捷 。"
+      " tsh:Influence NL tsh:Principle of tsh:Heart !P! NL Ethereal . Exhaust . NL Gain !M! Dexterity this turn."
     ]
   },
 
@@ -319,7 +319,7 @@
       "influencegrailg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:杯 tsh:Principle of !P! NL 虚无 。 消耗 。 NL 获得 !M! 人工制品。"
+      " tsh:Influence NL tsh:Principle of tsh:Grail !P! NL Ethereal . Exhaust . NL Gain !M! Artifact."
     ]
   },
 
@@ -337,7 +337,7 @@
       "influencemothg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:蛾 tsh:Principle of !P! NL 虚无 。 消耗 。 NL 获得 !B! 格挡。"
+      " tsh:Influence NL tsh:Principle of tsh:Moth !P! NL Ethereal . Exhaust . NL Gain !B! block."
     ]
   },
 
@@ -355,7 +355,7 @@
       "influenceknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:启 tsh:Principle of !P! NL 虚无 。 消耗 。 NL 从弃牌堆中抽取 tsh:漫宿 牌。"
+      " tsh:Influence NL tsh:Principle of tsh:Moth !P! NL Ethereal . Exhaust . NL draw tsh:Mansus cards from discard pile."
     ]
   },
 
@@ -375,7 +375,7 @@
       "waypeacock"
     ],
     "DESCRIPTION": [
-      " tsh:漫宿 NL 消耗一定量的性相，从漫宿中抽取卡牌。"
+      " tsh:Mansus NL Exhaust principles, draw cards from Mansus."
     ]
   },
 
@@ -395,7 +395,7 @@
       "fragmentlanterne"
     ],
     "DESCRIPTION": [
-      "消耗 !P! tsh:灯 tsh:Principle of 。"
+      "Exhaust !P! tsh:Principle of tsh:Lantern." 
     ]
   },
 
@@ -415,7 +415,7 @@
       "fragmentforgee"
     ],
     "DESCRIPTION": [
-      "消耗 !P! tsh:铸 tsh:Principle of 。"
+      "Exhaust !P! tsh:Principle of tsh:Forge."
     ]
   },
 
@@ -435,7 +435,7 @@
       "fragmentedgee"
     ],
     "DESCRIPTION": [
-      "消耗 !P! tsh:刃 tsh:Principle of 。"
+      "Exhaust !P! tsh:Principle of tsh:Edge."
     ]
   },
 
@@ -455,7 +455,7 @@
       "fragmentwintere"
     ],
     "DESCRIPTION": [
-      "消耗 !P! tsh:冬 tsh:Principle of 。"
+      "Exhaust !P! tsh:Principle of tsh:Winter."
     ]
   },
 
@@ -475,7 +475,7 @@
       "fragmenthearte"
     ],
     "DESCRIPTION": [
-      "消耗 !P! tsh:心 tsh:Principle of 。"
+      "Exhaust !P! tsh:Principle of tsh:Heart."
     ]
   },
 
@@ -495,7 +495,7 @@
       "fragmentgraile"
     ],
     "DESCRIPTION": [
-      "消耗 !P! tsh:杯 tsh:Principle of 。"
+      "Exhaust !P! tsh:Principle of tsh:Grail."
     ]
   },
 
@@ -515,7 +515,7 @@
       "fragmentmothe"
     ],
     "DESCRIPTION": [
-      "消耗 !P! tsh:蛾 tsh:Principle of 。"
+      "Exhaust !P! tsh:Principle of tsh:Moth."
     ]
   },
 
@@ -535,7 +535,7 @@
       "fragmentknocke"
     ],
     "DESCRIPTION": [
-      "消耗 !P! tsh:启 tsh:Principle of 。"
+      "Exhaust !P! tsh:Principle of tsh:Knock." 
     ]
   }
 }

@@ -343,12 +343,12 @@
 
   "TheSecretHistories:FollowerEdgeElridge": {
     "NAME": "Elridge",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage, 选择抽牌堆中的 !M! 张牌置入手牌.",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Deal !D! damage, Choose !M! card from your draw pile and place it into your hand",
     "UPGRADE_DESCRIPTION": ""
   },
   "TheSecretHistories:FollowerEdgeRose": {
     "NAME": "Rose",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Exhaust all tsh:Edge ,for every !M! tsh:Edge gain 1点 Strength .",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Edge !P! NL Exhaust all tsh:Edge ,for every !M! tsh:Edge gain 1 Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -384,19 +384,19 @@
 
   "TheSecretHistories:FollowerHeartDorothy": {
     "NAME": "Dorothy",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL 下At the start of your turn,gain 当前 Block Block . NL exhaust.",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Heart !P! NL At the start of your next turn,Double your current Block . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "Renira",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Grail !P! NL Exhaust all tsh:Grail ,for every !M! tsh:Grail Apply1层 易伤 或 虚弱 或负 Strength .",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Grail !P! NL Exhaust all tsh:Grail ,for every !M! tsh:Grail Apply 1 Weak or Vulnerable or lose 1 Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailSaliba": {
     "NAME": "Saliba",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Grail !P! NL Deal !D! damage.. NL heal与未被Block的damage相 等的 Hp.",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Grail !P! NL Deal !D! damage.. NL heal Hp equal to your unBlocked damage .",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -408,25 +408,25 @@
 
   "TheSecretHistories:FollowerMothSylvia": {
     "NAME": "Sylvia",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL Deal !D! damage.,将层数最低的其他 tsh: Principles 转化为 tsh:Moth .",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL Deal !D! damage, change your lowest tsh: Principles into tsh:Moth .",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerMothYsabet": {
     "NAME": "Ysabet",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL 每Timesgain  tsh:Moth 时对所有敌人Deal !M! damage.",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Moth !P! NL evey Time you gain tsh:Moth Deal !M! damage to all enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerKnockNeville": {
     "NAME": "Neville",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Knock !P! NL Deal !D! damage.,this turn每从 tsh:Mansus 中gain 牌,对随机敌人Deal !M! damage.",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Knock !P! NL Deal !D! damage, this turn,every time you gain cards from tsh:Mansus, Deal !M! damage to an random enemy.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerKnockEnid": {
     "NAME": "Enid",
-    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Knock !P! NL Deal !D! damage.,将随机 tsh:仪式 置入手牌.",
+    "DESCRIPTION": " tsh:Follower NL tsh:Principle of tsh:Knock !P! NL Deal !D! damage, gain random tsh:Rite card.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -468,8 +468,8 @@
 
   "TheSecretHistories:Reason": {
     "NAME": "Reason",
-    "DESCRIPTION": " exhaust. NL tsh:Principle of tsh:Lantern !P! NL 抽 !M! 张牌.",
-    "UPGRADE_DESCRIPTION": "Retain . exhaust. NL tsh:Principle of tsh:Lantern !P! NL 抽 !M! 张牌."
+    "DESCRIPTION": " exhaust. NL tsh:Principle of tsh:Lantern !P! NL draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "Retain . exhaust. NL tsh:Principle of tsh:Lantern !P! NL draw !M! cards."
   },
 
   "TheSecretHistories:Passion": {
@@ -618,7 +618,7 @@
 
   "TheSecretHistories:RiteFollowerConsumeInfluence": {
     "NAME": "Sunset Rite",
-    "DESCRIPTION": "Exhaust 12 tsh:Winter 8 tsh:Lantern NL 对随机敌人Deal !D! damage..有 !M! %的概率命中自己.",
+    "DESCRIPTION": "Exhaust 12 tsh:Winter 8 tsh:Lantern NL Deal !D! damage to random enemy.has a !M! % posibility to Deal !D! damage yourself.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -642,14 +642,14 @@
 
   "TheSecretHistories:RiteInfluenceConsumeIngredient": {
     "NAME": "The Rite of the Crow's Quenching",
-    "DESCRIPTION": "Exhaust 12 tsh:Lantern 8 tsh:Edge NL 丢弃任意张手牌并抽满手牌.",
-    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:Lantern 8 tsh:Edge NL 丢弃任意张手牌并抽满手牌."
+    "DESCRIPTION": "Exhaust 12 tsh:Lantern 8 tsh:Edge NL discard any card at your hand and draw cards until your hand is full.",
+    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:Lantern 8 tsh:Edge NL discard any card at your hand draw cards until your hand is full."
   },
 
   "TheSecretHistories:RiteToolConsumeFollower": {
     "NAME": "Rite of the Crucible Soul",
-    "DESCRIPTION": "Exhaust 12 tsh:Forge 8 tsh:Grail NL 移除自身的所有负面效果.",
-    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:Forge 8 tsh:Grail NL 移除自身的所有负面效果."
+    "DESCRIPTION": "Exhaust 12 tsh:Forge 8 tsh:Grail NL  yourself .",
+    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:Forge 8 tsh:Grail NL reduce all your debuffs."
   },
 
   "TheSecretHistories:RiteToolConsumeInfluence": {
@@ -660,8 +660,8 @@
 
   "TheSecretHistories:RiteToolConsumeIngredient": {
     "NAME": "Rite of the Sea's Feasting",
-    "DESCRIPTION": "Exhaust 12 tsh:Moth 8 tsh:Edge NL 每回合额外gain  [E] .",
-    "UPGRADE_DESCRIPTION": "Exhaust 12 tsh:Moth 8 tsh:Edge NL 每回合额外gain  [E] [E] ."
+    "DESCRIPTION": "Exhaust 12 tsh:Moth 8 tsh:Edge NL gain additional [E] evey turn.",
+    "UPGRADE_DESCRIPTION": "Exhaust 12 tsh:Moth 8 tsh:Edge NL gain additional [E] [E] evey turn."
   },
 
   "TheSecretHistories:RiteToolFollowerConsumeLore": {
@@ -678,8 +678,8 @@
 
   "TheSecretHistories:SpiritWinterMoth": {
     "NAME": "Voiceless Dead",
-    "DESCRIPTION": " Exhaust NL Apply自身的 tsh:Moth 等量的 tsh:Winter NL Exhaust 所有 tsh:Moth .",
-    "UPGRADE_DESCRIPTION": " Exhaust NL Apply自身的 tsh:Moth !M! 倍的 tsh:Winter NL Exhaust 所有 tsh:Moth ."
+    "DESCRIPTION": " Exhaust NL change all your tsh:Moth into tsh:Winter.",
+    "UPGRADE_DESCRIPTION": " Exhaust NL change all your tsh:Moth intp !M! times tsh:Winter."
   },
 
   "TheSecretHistories:SummonWinterMoth": {
@@ -690,7 +690,7 @@
 
   "TheSecretHistories:SpiritLanternEdge": {
     "NAME": "Hint",
-    "DESCRIPTION": " Exhaust NL 抽满手牌,每抽一张牌对所有敌人Deal !D! damage..",
+    "DESCRIPTION": " Exhaust NL draw cards until your hand is full,Deal !D! damage for evey card you draw.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -702,7 +702,7 @@
 
   "TheSecretHistories:SpiritForgeMoth": {
     "NAME": "Caligine",
-    "DESCRIPTION": " Exhaust NL Deal !D! damage..在手牌中添加一张此牌的复制品.",
+    "DESCRIPTION": " Exhaust NL Deal !D! damage.add a copy of this card at your hand.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -714,8 +714,8 @@
 
   "TheSecretHistories:SpiritGrailMoth": {
     "NAME": "Raw Prophet",
-    "DESCRIPTION": " Exhaust NL 让目标在本场战斗中额外受到50%×X倍的damage.",
-    "UPGRADE_DESCRIPTION": " Exhaust NL 让目标在本场战斗中额外受到50%×(X+1)倍的damage."
+    "DESCRIPTION": " Exhaust NL let the target take 50% * X times extra damage.",
+    "UPGRADE_DESCRIPTION": " Exhaust NL let the target take 50% * (X+1) times extra damage."
   },
 
   "TheSecretHistories:SummonGrailMoth": {
@@ -726,7 +726,7 @@
 
   "TheSecretHistories:SpiritHeartEdge": {
     "NAME": "Percussigant",
-    "DESCRIPTION": " Exhaust NL Deal !D! damage.,gain 等量 Strength 和 敏捷 .",
+    "DESCRIPTION": " Exhaust NL Deal !D! damage.,gain same amount of Strength and Dexterity.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -738,8 +738,8 @@
 
   "TheSecretHistories:SpiritWinterEdge": {
     "NAME": "Maid-in-the-Mirror",
-    "DESCRIPTION": " Exhaust NL Deal目标攻击意图双倍的damage（根据怪物damage基础值计算）. NL Retain .",
-    "UPGRADE_DESCRIPTION": " Exhaust NL Deal目标攻击意图三倍的damage（根据怪物damage基础值计算）. NL Retain ."
+    "DESCRIPTION": " Exhaust NL Deals double the damage of the target's attack intent (based on the monster damage base). NL Retain .",
+    "UPGRADE_DESCRIPTION": " Exhaust NL Deals triple the damage of the target's attack intent (based on the monster damage base). NL Retain ."
   },
 
   "TheSecretHistories:SummonWinterEdge": {
@@ -750,8 +750,8 @@
 
   "TheSecretHistories:SpiritGrailEdge": {
     "NAME": "Ezeem, the Second Thirstly",
-    "DESCRIPTION": " Exhaust NL 将一名敌人变为 tsh:其他敌人 .",
-    "UPGRADE_DESCRIPTION": " Exhaust NL 将一名敌人变为 tsh:其他敌人 并继 承其 Hp比例."
+    "DESCRIPTION": " Exhaust NL change an enemy into tsh:Other Enemies.",
+    "UPGRADE_DESCRIPTION": " Exhaust NL change an enemy into tsh:Other Enemies and inherit the original Hp percentage."
   },
 
   "TheSecretHistories:SummonGrailEdge": {
@@ -762,7 +762,7 @@
 
   "TheSecretHistories:SpiritForgeEdge": {
     "NAME": "King Crucible",
-    "DESCRIPTION": " Exhaust NL 对所有敌人Deal !M! 的XTimes幂damage.",
+    "DESCRIPTION": " Exhaust NL Deal !M! ^X damage to all enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -774,7 +774,7 @@
 
   "TheSecretHistories:SpiritLanternSecret": {
     "NAME": "Teresa",
-    "DESCRIPTION": " Exhaust NL Ethereal. NL this turn所有 tsh: Principles 临时增加 !M! 层.",
+    "DESCRIPTION": " Exhaust NL Ethereal. NL this turn, all tsh: Principles temporarily are increased by !M!.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -786,31 +786,31 @@
 
   "TheSecretHistories:Affliction": {
     "NAME": "An Affliction",
-    "DESCRIPTION": "回合结束时,受到 !M! damage.",
+    "DESCRIPTION": "at the end of turn,Take !M! damage.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Hunger": {
     "NAME": "Hunger",
-    "DESCRIPTION": "回合结束时,Lose !M! 金币.",
+    "DESCRIPTION": "at the end of turn,Lose !M! Gold.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Restlessness": {
     "NAME": "restlessness",
-    "DESCRIPTION": "Exhaust . NL 进入弃牌堆时,将 !M! 张恐惧加入弃牌堆.",
+    "DESCRIPTION": "Exhaust . NL  When this card goes into your discard pile,add a Dread into your discard pile every turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Dread": {
     "NAME": "Dread",
-    "DESCRIPTION": " 进入弃牌堆时,每回合Lose !M!临时 Strength .",
+    "DESCRIPTION": " When this card goes into your discard pile,Lose !M! temporary Strength every turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Fascination": {
     "NAME": "Fascination",
-    "DESCRIPTION": " 进入弃牌堆时,每回合Lose !M!临时 敏捷 .",
+    "DESCRIPTION": " When this card goes into your discard pile,Lose !M! temporary Dexterity every turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -822,7 +822,7 @@
 
   "TheSecretHistories:Rumour": {
     "NAME": "Rumour",
-    "DESCRIPTION": "将一张随机 tsh:Follower 加入手牌. NL 这张牌在this turn耗能变为0.",
-    "UPGRADE_DESCRIPTION": "Retain NL 将一张随机 tsh:Follower 加入手牌. NL 这张牌在this turn耗能变为0."
+    "DESCRIPTION": "add a random tsh:Follower into your hand. NL this card costs zero this turn.",
+    "UPGRADE_DESCRIPTION": "Retain NL add a random tsh:Follower into your hand. NL this card costs zero this turn."
   }
 }
