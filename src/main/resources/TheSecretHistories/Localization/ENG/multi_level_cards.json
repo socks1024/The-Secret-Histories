@@ -19,7 +19,7 @@
       "fragmentlanterng"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:Lantern !P! NL draw !M! cards."
+      " tsh:lore NL tsh:principle of tsh:lantern !P! NL draw !M! cards."
     ]
   },
 
@@ -43,7 +43,7 @@
       "fragmentforgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:Forge !P! NL choose and Exhaust !M! cards."
+      " tsh:lore NL tsh:principle of tsh:forge !P! NL choose and Exhaust !M! cards."
     ]
   },
 
@@ -67,7 +67,7 @@
       "fragmentedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:Edge !P! NL Gain !M! Strength this turn."
+      " tsh:lore NL tsh:principle of tsh:edge !P! NL Gain !M! Strength this turn."
     ]
   },
 
@@ -91,7 +91,7 @@
       "fragmentwinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:Winter !P! NL deal !D! damage to all enemies."
+      " tsh:lore NL tsh:principle of tsh:winter !P! NL Apply !P! tsh:Winter."
     ]
   },
 
@@ -115,7 +115,7 @@
       "fragmentheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:Heart !P! NL Gain !M! Dexterity this turn."
+      " tsh:lore NL tsh:principle of tsh:heart !P! NL Gain !M! Dexterity this turn."
     ]
   },
 
@@ -139,7 +139,7 @@
       "fragmentgrailg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:Grail !P! NL Gain !M! Artifact."
+      " tsh:lore NL tsh:principle of tsh:grail !P! NL Gain !M! Artifact."
     ]
   },
 
@@ -163,7 +163,7 @@
       "fragmentmothg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:Moth !P! NL Gain !B! Block."
+      " tsh:lore NL tsh:principle of tsh:moth !P! NL For this combat, upgrade random tsh:lore in your deck."
     ]
   },
 
@@ -187,7 +187,7 @@
       "fragmentknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:Knock !P! NL Draw tsh:Mansus Cards from discard pile."
+      " tsh:lore NL tsh:principle of tsh:knock !P! NL Draw tsh:mansus Cards from discard pile."
     ]
   },
 
@@ -211,7 +211,7 @@
       "fragmentsecrethistoriesg"
     ],
     "DESCRIPTION":  [
-      " tsh:Lore NL tsh:Principle of tsh:SecretHistories !P! NL Exhaust ."
+      " tsh:lore NL tsh:principle of tsh:secretHistories !P! NL Exhaust ."
     ]
   },
 
@@ -229,7 +229,7 @@
       "influencelanterng"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:Principle of tsh:Lantern !P! NL Ethereal . Exhaust . NL Draw !M! cards."
+      " tsh:influence NL tsh:principle of tsh:lantern !P! NL Ethereal . Exhaust . NL Draw !M! cards."
     ]
   },
 
@@ -247,7 +247,7 @@
       "influenceforgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:Principle of tsh:Forge !P! NL Ethereal . Exhaust . NL Choose to Exhaust !M! cards."
+      " tsh:influence NL tsh:principle of tsh:forge !P! NL Ethereal . Exhaust . NL Choose to Exhaust !M! cards."
     ]
   },
 
@@ -265,7 +265,7 @@
       "influenceedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:Principle of tsh:Edge !P! NL Ethereal . Exhaust . NL gain !M! Strength this turn."
+      " tsh:influence NL tsh:principle of tsh:edge !P! NL Ethereal . Exhaust . NL gain !M! Strength this turn."
     ]
   },
 
@@ -283,7 +283,7 @@
       "influencewinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:Principle of tsh:Winter !P! NL Ethereal . Exhaust . NL Deal !D! Damage to all enemies."
+      " tsh:influence NL tsh:principle of tsh:winter !P! NL Ethereal . Exhaust . NL Apply !P! tsh:Winter."
     ]
   },
 
@@ -301,7 +301,7 @@
       "influenceheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:Principle of tsh:Heart !P! NL Ethereal . Exhaust . NL Gain !M! Dexterity this turn."
+      " tsh:influence NL tsh:principle of tsh:heart !P! NL Ethereal . Exhaust . NL Gain !M! Dexterity this turn."
     ]
   },
 
@@ -319,7 +319,7 @@
       "influencegrailg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:Principle of tsh:Grail !P! NL Ethereal . Exhaust . NL Gain !M! Artifact."
+      " tsh:influence NL tsh:principle of tsh:grail !P! NL Ethereal . Exhaust . NL Gain !M! Artifact."
     ]
   },
 
@@ -337,7 +337,7 @@
       "influencemothg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:Principle of tsh:Moth !P! NL Ethereal . Exhaust . NL Gain !B! block."
+      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL For this combat, upgrade random tsh:lore in your deck."
     ]
   },
 
@@ -355,7 +355,7 @@
       "influenceknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:Influence NL tsh:Principle of tsh:Moth !P! NL Ethereal . Exhaust . NL draw tsh:Mansus cards from discard pile."
+      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL draw tsh:mansus cards from discard pile."
     ]
   },
 
@@ -375,7 +375,7 @@
       "waypeacock"
     ],
     "DESCRIPTION": [
-      " tsh:Mansus NL Exhaust principles, draw cards from Mansus."
+      " tsh:mansus NL Exhaust principles, draw cards from Mansus."
     ]
   },
 
@@ -395,7 +395,7 @@
       "fragmentlanterne"
     ],
     "DESCRIPTION": [
-      "Exhaust !P! tsh:Principle of tsh:Lantern." 
+      "Exhaust !P! tsh:principle of tsh:lantern."
     ]
   },
 
@@ -415,7 +415,7 @@
       "fragmentforgee"
     ],
     "DESCRIPTION": [
-      "Exhaust !P! tsh:Principle of tsh:Forge."
+      "Exhaust !P! tsh:principle of tsh:forge."
     ]
   },
 
@@ -435,7 +435,7 @@
       "fragmentedgee"
     ],
     "DESCRIPTION": [
-      "Exhaust !P! tsh:Principle of tsh:Edge."
+      "Exhaust !P! tsh:principle of tsh:edge."
     ]
   },
 
@@ -455,7 +455,7 @@
       "fragmentwintere"
     ],
     "DESCRIPTION": [
-      "Exhaust !P! tsh:Principle of tsh:Winter."
+      "Exhaust !P! tsh:principle of tsh:winter."
     ]
   },
 
@@ -475,7 +475,7 @@
       "fragmenthearte"
     ],
     "DESCRIPTION": [
-      "Exhaust !P! tsh:Principle of tsh:Heart."
+      "Exhaust !P! tsh:principle of tsh:heart."
     ]
   },
 
@@ -495,7 +495,7 @@
       "fragmentgraile"
     ],
     "DESCRIPTION": [
-      "Exhaust !P! tsh:Principle of tsh:Grail."
+      "Exhaust !P! tsh:principle of tsh:grail."
     ]
   },
 
@@ -515,7 +515,7 @@
       "fragmentmothe"
     ],
     "DESCRIPTION": [
-      "Exhaust !P! tsh:Principle of tsh:Moth."
+      "Exhaust !P! tsh:principle of tsh:moth."
     ]
   },
 
@@ -535,7 +535,7 @@
       "fragmentknocke"
     ],
     "DESCRIPTION": [
-      "Exhaust !P! tsh:Principle of tsh:Knock." 
+      "Exhaust !P! tsh:principle of tsh:knock."
     ]
   }
 }

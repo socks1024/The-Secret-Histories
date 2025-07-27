@@ -205,7 +205,7 @@
 
   "TheSecretHistories:IngredientEdgeD": {
     "NAME": "狻猊颗粒",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 失去3生命，抽 !M! 张牌",
+    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 失去3生命，抽 !M! 张牌。",
     "UPGRADE_DESCRIPTION": ""
   },
 

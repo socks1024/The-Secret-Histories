@@ -73,7 +73,7 @@
 
   "TheSecretHistories:ToolWinterF": {
     "NAME": "Division Bell",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:winter !P! NL Apply !M! tsh:winter ,evey turn you gain Block equal to tsh:winter of your enemies.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:winter !P! NL Evey turn you gain Block equal to tsh:winter of your enemies.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -103,8 +103,8 @@
 
   "TheSecretHistories:ToolGrailD": {
     "NAME": "Hallowed Polos",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:grail !P! NL enemies cannot gain Block.",
-    "UPGRADE_DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:grail !P! NL Retain NL enemies cannot gain Block."
+    "DESCRIPTION": " tsh:tool. NL Ethereal. NL tsh:principle of tsh:grail !P! NL enemies cannot gain Block.",
+    "UPGRADE_DESCRIPTION": " tsh:tool. NL Ethereal.  NL tsh:principle of tsh:grail !P! NL Retain NL enemies cannot gain Block."
   },
 
   "TheSecretHistories:ToolGrailF": {
@@ -187,26 +187,26 @@
 
   "TheSecretHistories:IngredientForgeD": {
     "NAME": "Xanthotic Essence",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Exhaust all tsh:tool and tsh:ingredient ,gain !B! Block for every card you exhaust.",
-    "UPGRADE_DESCRIPTION": ""
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Choose any number of cards in your hand and Exhaust them. NL Draw that many cards, exhaust.",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Choose any number of cards in your hand and Exhaust them. NL Draw that many cards."
   },
 
   "TheSecretHistories:IngredientForgeF": {
     "NAME": "Iotic Essence",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Gain !B! block , NL Upgrade a card at your hand during this battle, exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL Gain !B! block , NL Upgrade all cards at your hand during this battle, exhaust."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL play the top !M! cards of your draw pile, exhaust.",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientEdgeB": {
     "NAME": "Martensite Paste",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL gain  !M! Strength ,at the end of this turn you Lose !M! Strength .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL gain !M! Strength",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientEdgeD": {
     "NAME": "Labhitic Grains",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:edge. NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage.. NL this turn every time you play attack card, gain !M! tsh:edge."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Lose 3 HP. NL Draw !M! cards.",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientEdgeF": {
@@ -271,7 +271,7 @@
 
   "TheSecretHistories:IngredientMothB": {
     "NAME": "Piebald Pigment",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:moth !P! NL Deal !D! damage.,Gain !B! block .",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:moth !P! NL For every 4 tsh:moth, draw !M! cards and discard 1 card.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -332,7 +332,7 @@
   "TheSecretHistories:FollowerForgeLaidlaw": {
     "NAME": "Laidlaw",
     "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:forge !P! NL *Upgrade all cards which are created during a combat.",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:follower NL tsh:principle of tsh:forge !P! NL *Upgrade all cards which are created during a combat NL Innate."
   },
 
   "TheSecretHistories:FollowerForgeValciane": {
@@ -391,7 +391,7 @@
   "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "Renira",
     "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:grail !P! NL Exhaust all tsh:grail ,for every !M! tsh:grail Apply 1 Weak or Vulnerable or lose 1 Strength .",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:follower NL tsh:principle of tsh:grail !P! NL For every !M! tsh:grail Apply 1 Weak or Vulnerable or lose 1 Strength ."
   },
 
   "TheSecretHistories:FollowerGrailSaliba": {
@@ -469,13 +469,13 @@
   "TheSecretHistories:Reason": {
     "NAME": "Reason",
     "DESCRIPTION": " exhaust. NL tsh:principle of tsh:lantern !P! NL draw !M! cards.",
-    "UPGRADE_DESCRIPTION": "Retain . exhaust. NL tsh:principle of tsh:lantern !P! NL draw !M! cards."
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Passion": {
     "NAME": "Passion",
     "DESCRIPTION": " exhaust. NL tsh:principle of tsh:moth !P! NL gain  !M! [E] .",
-    "UPGRADE_DESCRIPTION": " Retain . exhaust. NL tsh:principle of tsh:moth !P! NL gain  [E] ."
+    "UPGRADE_DESCRIPTION": " exhaust. NL tsh:principle of tsh:moth !P! NL gain  [E] [E] ."
   },
 
   "TheSecretHistories:GenericLantern": {
@@ -678,8 +678,8 @@
 
   "TheSecretHistories:SpiritWinterMoth": {
     "NAME": "Voiceless Dead",
-    "DESCRIPTION": " Exhaust NL change all your tsh:moth into tsh:winter.",
-    "UPGRADE_DESCRIPTION": " Exhaust NL change all your tsh:moth intp !M! times tsh:winter."
+    "DESCRIPTION": " Exhaust NL At end of turn, convert tsh:winter to Block.",
+    "UPGRADE_DESCRIPTION": " Exhaust NL At end of turn, convert tsh:winter into twice as much Block."
   },
 
   "TheSecretHistories:SummonWinterMoth": {
@@ -798,19 +798,19 @@
 
   "TheSecretHistories:Restlessness": {
     "NAME": "restlessness",
-    "DESCRIPTION": "Exhaust . NL  When this card goes into your discard pile,add a Dread into your discard pile every turn.",
+    "DESCRIPTION": "Exhaust . NL  When this card goes into your hand pile,add a Dread into your discard pile every turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Dread": {
     "NAME": "Dread",
-    "DESCRIPTION": " When this card goes into your discard pile,Lose !M! temporary Strength every turn.",
+    "DESCRIPTION": " When this card goes into your hand pile,Lose !M! temporary Strength every turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Fascination": {
     "NAME": "Fascination",
-    "DESCRIPTION": " When this card goes into your discard pile,Lose !M! temporary Dexterity every turn.",
+    "DESCRIPTION": " When this card goes into your hand pile,Lose !M! temporary Dexterity every turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
