@@ -18,23 +18,22 @@ public class IngredientEdgeB extends AbstractIngredient {
 
     private static final String IMG_NAME = "ingredientedgeb";
     private static final int COST = 1;
-    private static final CardType TYPE = CardType.SKILL;
+    private static final CardType TYPE = CardType.POWER;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
     public IngredientEdgeB() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseMagicNumber = 3;
+        this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeMagicNumber(1);
+        upgradeMagicNumber(2);
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
         addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, this.magicNumber), this.magicNumber));
-        //addToBot(new ApplyPowerAction(p, p, new LoseStrengthPower(p, this.magicNumber), this.magicNumber));
     }
 }

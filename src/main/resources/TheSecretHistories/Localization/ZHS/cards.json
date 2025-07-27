@@ -199,7 +199,7 @@
 
   "TheSecretHistories:IngredientEdgeB": {
     "NAME": "马氏膏",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 获得 !M! 力量 ，回合结束时失去 !M! 力量 。",
+    "DESCRIPTION": " tsh:原料 。 NL tsh:刃 之 tsh:准则 !P! NL 获得 !M! 力量 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
