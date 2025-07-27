@@ -18,8 +18,8 @@ public class IngredientLanternFPower extends TemplateCustomPower {
     }
 
     @Override
-    public void onRemove() {
-        super.onRemove();
+    public void onVictory() {
+        super.onVictory();
         BaseMod.MAX_HAND_SIZE = 10;
     }
 }
