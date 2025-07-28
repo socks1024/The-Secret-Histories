@@ -2,14 +2,8 @@ package TheSecretHistories.Content.Cards.Mansus;
 
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusWay.*;
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelCard;
-import TheSecretHistories.Content.Powers.UniqueCards.ToolSecretHistoriesDPower;
-import TheSecretHistories.Utils.DebugUtils;
-import TheSecretHistories.Utils.DeckUtils;
 import TheSecretHistories.Utils.StringUtils;
-import basemod.BaseMod;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
-import com.megacrit.cardcrawl.actions.defect.DiscardPileToHandAction;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -32,8 +26,6 @@ public class Mansus extends TemplateMultiLevelCard {
 
     public Mansus() {
         super(ID, COST, TYPE, COLOR, RARITY, TARGET, 4);
-
-        this.returnToHand = true;
     }
 
     @Override
