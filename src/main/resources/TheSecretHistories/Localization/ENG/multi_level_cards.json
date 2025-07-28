@@ -91,7 +91,7 @@
       "fragmentwinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:winter !P! NL deal !D! damage to all enemies."
+      " tsh:lore NL tsh:principle of tsh:winter !P! NL Apply !P! tsh:winter."
     ]
   },
 
@@ -163,7 +163,7 @@
       "fragmentmothg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:moth !P! NL Gain !B! Block."
+      " tsh:lore NL tsh:principle of tsh:moth !P! NL For this combat, upgrade all tsh:lore in your deck."
     ]
   },
 
@@ -283,7 +283,7 @@
       "influencewinterg"
     ],
     "DESCRIPTION":  [
-      " tsh:influence NL tsh:principle of tsh:winter !P! NL Ethereal . Exhaust . NL Deal !D! Damage to all enemies."
+      " tsh:influence NL tsh:principle of tsh:winter !P! NL Ethereal . Exhaust . NL Apply !P! tsh:Winter."
     ]
   },
 
@@ -337,7 +337,7 @@
       "influencemothg"
     ],
     "DESCRIPTION":  [
-      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL Gain !B! block."
+      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL For this combat, upgrade all tsh:lore in your deck."
     ]
   },
 
