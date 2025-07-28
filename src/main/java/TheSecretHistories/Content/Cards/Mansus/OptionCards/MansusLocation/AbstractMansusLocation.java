@@ -16,6 +16,8 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerColorEnum.CULT_BLUE;
@@ -27,19 +29,23 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
 
     protected AbstractCard[] cards;
 
-    protected ArrayList<AbstractCard> cardPool = new ArrayList<>();
+    protected static Map<String, ArrayList<AbstractCard>> pools = new HashMap<>();
 
     protected void InitializePool() {
-        cardPool.clear();
+
+        if (!pools.containsKey(cardID)) pools.put(cardID, new ArrayList<>());
+
+        pools.get(cardID).clear();
+
         for (AbstractCard card : cards) {
-            cardPool.add(card.makeStatEquivalentCopy());
+            pools.get(cardID).add(card.makeStatEquivalentCopy());
         }
     }
 
     protected AbstractCard GetRandomCardFromPool() {
-        if (cardPool.isEmpty()) InitializePool();
-        AbstractCard retCard = cardPool.get(new Random().nextInt(cardPool.size()));
-        cardPool.remove(retCard);
+        if (pools.get(cardID).isEmpty()) InitializePool();
+        AbstractCard retCard = pools.get(cardID).get(new Random().nextInt(pools.get(cardID).size()));
+        pools.get(cardID).remove(retCard);
         return retCard.makeStatEquivalentCopy();
     }
 

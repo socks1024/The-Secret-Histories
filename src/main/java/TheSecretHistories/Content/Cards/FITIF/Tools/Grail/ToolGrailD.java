@@ -26,12 +26,12 @@ public class ToolGrailD extends AbstractTool {
 
     public ToolGrailD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
+        this.isEthereal = true;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.isInnate = true;
-        this.isEthereal= true;
         super.OnUpgrade(timesUpgraded);
     }
 
