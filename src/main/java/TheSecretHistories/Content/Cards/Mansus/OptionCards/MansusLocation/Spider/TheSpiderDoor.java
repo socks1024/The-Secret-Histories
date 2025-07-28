@@ -17,7 +17,7 @@ public class TheSpiderDoor extends AbstractShowedLocation {
             new InfluenceGrail().DoUpgrade(2),
             new InfluenceHeart().DoUpgrade(2),
             new FragmentSecretHistories().DoUpgrade(3),
-            new Favour(),
+            // new Favour(),
     };
 
     public TheSpiderDoor() {

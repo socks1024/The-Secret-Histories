@@ -19,7 +19,7 @@ public class TheMalleary extends AbstractHiddenLocation {
             new InfluenceLantern().DoUpgrade(2),
             new IngredientForgeF(),
             new FragmentSecretHistories().DoUpgrade(4),
-            new Favour(),
+            // new Favour(),
     };
 
     public TheMalleary() {

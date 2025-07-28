@@ -21,7 +21,7 @@ public class LodgeOfTheSageKnight extends AbstractHiddenLocation {
             new Passion(),
             new Reason(),
             new Fascination(),
-            new Favour(),
+            // new Favour(),
     };
 
     public LodgeOfTheSageKnight() {

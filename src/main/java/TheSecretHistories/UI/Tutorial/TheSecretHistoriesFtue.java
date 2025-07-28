@@ -16,6 +16,8 @@ import com.megacrit.cardcrawl.localization.TutorialStrings;
 import com.megacrit.cardcrawl.ui.FtueTip;
 import com.megacrit.cardcrawl.vfx.combat.BattleStartEffect;
 
+import static com.megacrit.cardcrawl.core.Settings.language;
+
 public class TheSecretHistoriesFtue extends FtueTip {
     private static final TutorialStrings tutorialStrings = CardCrawlGame.languagePack.getTutorialString("TheSecretHistoriesTutorial");
 
@@ -59,10 +61,20 @@ public class TheSecretHistoriesFtue extends FtueTip {
 
     private static final String msg3 = MSG[2];
 
+    private static String GetImageUrl(String imgName){
+        String lang;
+        if (language == Settings.GameLanguage.ZHS) {
+            lang = "ZHS/";
+        } else {
+            lang = "ENG/";
+        }
+        return "TheSecretHistories/img/UI/tips/" + lang + imgName;
+    }
+
     public TheSecretHistoriesFtue() {
-        this.img1 = ImageMaster.loadImage("TheSecretHistories/img/UI/tips/doorofmansus.png");
-        this.img2 = ImageMaster.loadImage("TheSecretHistories/img/UI/tips/doorofmansus.png");
-        this.img3 = ImageMaster.loadImage("TheSecretHistories/img/UI/tips/doorofmansus.png");
+        this.img1 = ImageMaster.loadImage(GetImageUrl("1.png"));
+        this.img2 = ImageMaster.loadImage(GetImageUrl("2.jpg"));
+        this.img3 = ImageMaster.loadImage(GetImageUrl("3.jpg"));
         AbstractDungeon.player.releaseCard();
         if (AbstractDungeon.isScreenUp) {
             AbstractDungeon.dynamicBanner.hide();

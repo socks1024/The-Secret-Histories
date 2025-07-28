@@ -15,10 +15,10 @@ public class MansusChooseCardPower extends TemplateCustomPower {
         super(POWER_ID, IMG_NAME, owner, amount);
     }
 
-    @Override
-    public void atEndOfTurn(boolean isPlayer) {
-        super.atEndOfTurn(isPlayer);
-
-        addToBot(new RemoveSpecificPowerAction(owner, owner, this));
-    }
+//    @Override
+//    public void atEndOfTurn(boolean isPlayer) {
+//        super.atEndOfTurn(isPlayer);
+//
+//        addToBot(new RemoveSpecificPowerAction(owner, owner, this));
+//    }
 }

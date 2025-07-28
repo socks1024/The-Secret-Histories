@@ -18,7 +18,7 @@ public class TheRedChurch extends AbstractHiddenLocation {
             new InfluenceGrail().DoUpgrade(3),
             new IngredientGrailD(),
             new FragmentSecretHistories().DoUpgrade(5),
-            new Favour(),
+            // new Favour(),
             new Fascination(),
     };
 

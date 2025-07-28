@@ -21,6 +21,5 @@ public class TheWhiteDoor extends AbstractShowedLocation {
     public TheWhiteDoor() {
         super(ID, IMG_NAME, CARDS);
     }
-
 }
 

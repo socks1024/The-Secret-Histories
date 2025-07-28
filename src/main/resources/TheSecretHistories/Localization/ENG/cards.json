@@ -109,7 +109,7 @@
 
   "TheSecretHistories:ToolGrailF": {
     "NAME": "Chalice Murmurous",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:grail !P! NL Exhaust all tsh:grail ,for each !M! tsh:grail,Apply to all enemies 1 vulnerable ,1 weak ,decrease 1 Strength . exhaust.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:grail !P! NL Exhaust all tsh:grail ,for each !M! tsh:grail,Apply 1 vulnerable ,1 weak ,decrease 1 Strength . exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 

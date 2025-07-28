@@ -187,7 +187,7 @@
       "fragmentknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:启 之 tsh:准则 !P! NL 从弃牌堆中抽取 tsh:漫宿 牌。"
+      " tsh:密传 NL tsh:启 之 tsh:准则 !P! NL 下次进入 tsh:漫宿 可以主动选择卡牌。"
     ]
   },
 
@@ -355,7 +355,7 @@
       "influenceknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:启 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 从弃牌堆中抽取 tsh:漫宿 牌。"
+      " tsh:影响 NL tsh:启 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 下次进入 tsh:漫宿 可以主动选择卡牌。"
     ]
   },
 

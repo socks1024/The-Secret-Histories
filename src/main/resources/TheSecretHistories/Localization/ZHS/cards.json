@@ -109,7 +109,7 @@
 
   "TheSecretHistories:ToolGrailF": {
     "NAME": "低语之斛",
-    "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 消耗所有 tsh:杯 ，每有 !M! 层，给予所有敌人1 易伤 ，1 虚弱 ，减少1 力量 。 消耗 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:杯 之 tsh:准则 !P! NL 消耗所有 tsh:杯 ，每有 !M! 层，给予敌人1 易伤 ，1 虚弱 ，减少1 力量 。 消耗 。",
     "UPGRADE_DESCRIPTION": ""
   },
 

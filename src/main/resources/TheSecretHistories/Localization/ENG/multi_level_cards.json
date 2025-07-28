@@ -187,7 +187,7 @@
       "fragmentknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:knock !P! NL Draw tsh:Mansus Cards from discard pile."
+      " tsh:lore NL tsh:principle of tsh:knock !P! NL Next time you enter tsh:mansus , you can choose cards yourself."
     ]
   },
 
@@ -355,7 +355,7 @@
       "influenceknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL draw tsh:Mansus cards from discard pile."
+      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL Next time you enter tsh:mansus , you can choose cards yourself."
     ]
   },
 
