@@ -5,6 +5,7 @@ import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
 import TheSecretHistories.Content.Powers.UniqueCards.FollowerKnockNPower;
 import TheSecretHistories.Content.Powers.UniqueCards.MansusChooseCardPower;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolSecretHistoriesDPower;
+import TheSecretHistories.Utils.DebugUtils;
 import TheSecretHistories.Utils.PowerUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
@@ -43,10 +44,13 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
     }
 
     protected AbstractCard GetRandomCardFromPool() {
-        if (pools.get(cardID).isEmpty()) InitializePool();
-        AbstractCard retCard = pools.get(cardID).get(new Random().nextInt(pools.get(cardID).size()));
-        pools.get(cardID).remove(retCard);
-        return retCard.makeStatEquivalentCopy();
+        if (!pools.containsKey(cardID) || pools.get(cardID).isEmpty()) InitializePool();
+
+        ArrayList<AbstractCard> pool = pools.get(cardID);
+
+        DebugUtils.Log(pool);
+
+        return pool.get(new Random().nextInt(pool.size()));
     }
 
     protected ArrayList<AbstractCard> GetCards() {
@@ -84,7 +88,11 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
 
         } else {
 
-            AbstractCard card = chosenCard;
+            pools.get(cardID).remove(chosenCard);
+
+            DebugUtils.Log(pools.get(cardID));
+
+            AbstractCard card = chosenCard.makeStatEquivalentCopy();
 
             if (p.hasPower(ToolSecretHistoriesDPower.POWER_ID) && card.hasTag(SECRET_HISTORIES)) {
                 for (int i = 0; i < p.getPower(ToolSecretHistoriesDPower.POWER_ID).amount; i++) {
