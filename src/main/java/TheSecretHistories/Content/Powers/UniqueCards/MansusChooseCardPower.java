@@ -9,7 +9,7 @@ public class MansusChooseCardPower extends TemplateCustomPower {
 
     public static final String POWER_ID = StringUtils.MakeID(MansusChooseCardPower.class.getSimpleName());
 
-    private static final String IMG_NAME = "knock";
+    private static final String IMG_NAME = "influenceknockg";
 
     public MansusChooseCardPower(AbstractCreature owner, int amount) {
         super(POWER_ID, IMG_NAME, owner, amount);

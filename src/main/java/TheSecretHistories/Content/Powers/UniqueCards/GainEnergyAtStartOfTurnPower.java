@@ -9,11 +9,10 @@ public class GainEnergyAtStartOfTurnPower extends TemplateCustomPower {
 
     public static final String POWER_ID = StringUtils.MakeID(GainEnergyAtStartOfTurnPower.class.getSimpleName());
 
-    private static final String IMG_NAME = "forge";
+    private static final String IMG_NAME = "ritetoolconsumeingredient";
 
     public GainEnergyAtStartOfTurnPower(AbstractCreature owner, int amount) {
         super(POWER_ID, IMG_NAME, owner, amount);
-        loadRegion("Deva2");
     }
 
     @Override

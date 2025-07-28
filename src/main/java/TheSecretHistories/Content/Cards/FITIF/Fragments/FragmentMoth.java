@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.FITIF.Fragments;
 
+import TheSecretHistories.Content.Actions.UniqueCards.UpgradeByTagAction;
 import TheSecretHistories.Content.Actions.UniqueCards.UpgradeRandomCardByTagAction;
 import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
 import TheSecretHistories.Utils.DebugUtils;
@@ -33,6 +34,6 @@ public class FragmentMoth extends AbstractFragment{
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new UpgradeRandomCardByTagAction(FRAGMENT, magicNumber, this));
+        addToBot(new UpgradeByTagAction(abstractPlayer, FRAGMENT, DeckUtils.GetBattleDeck()));
     }
 }

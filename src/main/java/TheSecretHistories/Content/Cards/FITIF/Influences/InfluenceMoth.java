@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.FITIF.Influences;
 
+import TheSecretHistories.Content.Actions.UniqueCards.UpgradeByTagAction;
 import TheSecretHistories.Content.Actions.UniqueCards.UpgradeRandomCardByTagAction;
 import TheSecretHistories.Content.Cards.Template.TemplateCustomCard;
 import TheSecretHistories.Utils.DeckUtils;
@@ -30,6 +31,6 @@ public class InfluenceMoth extends AbstractInfluences {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new UpgradeRandomCardByTagAction(FRAGMENT, magicNumber, this));
+        addToBot(new UpgradeByTagAction(abstractPlayer, FRAGMENT, DeckUtils.GetBattleDeck()));
     }
 }

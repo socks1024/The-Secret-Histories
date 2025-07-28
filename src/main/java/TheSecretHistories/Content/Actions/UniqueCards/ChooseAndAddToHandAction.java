@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Actions.UniqueCards;
 
+import basemod.BaseMod;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.Settings;
@@ -37,7 +38,7 @@ public class ChooseAndAddToHandAction extends AbstractGameAction {
                 disCard.setCostForTurn(0);
                 disCard.current_x = -1000.0F * Settings.xScale;
 
-                if (AbstractDungeon.player.hand.size() < 10) {
+                if (AbstractDungeon.player.hand.size() < BaseMod.MAX_HAND_SIZE) {
                     AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(disCard, Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));
                 } else {
                     AbstractDungeon.effectList.add(new ShowCardAndAddToDiscardEffect(disCard, Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));
