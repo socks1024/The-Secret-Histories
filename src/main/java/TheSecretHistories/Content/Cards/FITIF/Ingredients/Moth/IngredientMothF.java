@@ -39,6 +39,7 @@ public class IngredientMothF extends AbstractIngredient {
     @Override
     public void OnUpgrade(int timesUpgraded) {
             upgradeMagicNumber(1);
+        super.OnUpgrade(timesUpgraded);
 
     }
 }

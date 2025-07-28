@@ -33,6 +33,7 @@ public class ToolForgeD extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeDamage(4);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

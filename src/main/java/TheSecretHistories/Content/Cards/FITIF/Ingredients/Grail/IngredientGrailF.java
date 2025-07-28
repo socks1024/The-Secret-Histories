@@ -53,5 +53,6 @@ public class IngredientGrailF extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
             this.target = CardTarget.ALL_ENEMY;
+        super.OnUpgrade(timesUpgraded);
     }
 }

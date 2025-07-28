@@ -46,5 +46,6 @@ public class IngredientMothD extends AbstractIngredient {
     @Override
     public void OnUpgrade(int timesUpgraded) {
         this.exhaust = false;
+        super.OnUpgrade(timesUpgraded);
     }
 }

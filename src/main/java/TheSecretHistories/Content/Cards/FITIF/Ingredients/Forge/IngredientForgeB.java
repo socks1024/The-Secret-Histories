@@ -29,6 +29,7 @@ public class IngredientForgeB extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeBlock(3);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

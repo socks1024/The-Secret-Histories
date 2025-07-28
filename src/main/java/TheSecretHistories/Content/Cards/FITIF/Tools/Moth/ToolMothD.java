@@ -30,6 +30,7 @@ public class ToolMothD extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeBaseCost(0);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

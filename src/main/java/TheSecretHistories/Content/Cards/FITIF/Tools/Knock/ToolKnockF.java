@@ -30,6 +30,7 @@ public class ToolKnockF extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.isEthereal = false;
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

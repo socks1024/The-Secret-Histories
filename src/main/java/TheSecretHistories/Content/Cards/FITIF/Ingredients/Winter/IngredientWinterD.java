@@ -33,6 +33,9 @@ public class IngredientWinterD extends AbstractIngredient {
     }
 
     @Override
-    protected void OnUpgrade(int timesUpgraded) {upgradeDamage(2);}
+    protected void OnUpgrade(int timesUpgraded) {
+        upgradeDamage(2);
+        super.OnUpgrade(timesUpgraded);
+    }
 
 }

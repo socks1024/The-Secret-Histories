@@ -33,10 +33,12 @@ public class IngredientEdgeD extends AbstractIngredient {
         super.use(p, m);
         this.addToBot(new LoseHPAction(p, p, 3));
         this.addToBot(new DrawCardAction(p, this.magicNumber));
+
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded){
         this.upgradeMagicNumber(1);
+        super.OnUpgrade(timesUpgraded);
     }
 }

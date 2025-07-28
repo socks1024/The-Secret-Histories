@@ -39,5 +39,6 @@ public class IngredientGrailB  extends AbstractIngredient {
     protected void OnUpgrade(int timesUpgraded) {
         this.upgradeDamage(2);
         this.upgradeMagicNumber(1);
+        super.OnUpgrade(timesUpgraded);
     }
 }

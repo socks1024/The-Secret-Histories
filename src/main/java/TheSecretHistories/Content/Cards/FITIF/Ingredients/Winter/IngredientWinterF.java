@@ -34,7 +34,10 @@ public class IngredientWinterF extends AbstractIngredient {
     }
 
     @Override
-    protected void OnUpgrade(int timesUpgraded) {upgradeMagicNumber(4);}
+    protected void OnUpgrade(int timesUpgraded) {
+        upgradeMagicNumber(4);
+        super.OnUpgrade(timesUpgraded);
+    }
 
 }
 
