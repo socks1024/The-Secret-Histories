@@ -243,7 +243,7 @@
   "TheSecretHistories:MansusChooseCardPower": {
     "NAME": "梦境之途",
     "DESCRIPTIONS": [
-      "本回合下 %d 次进入漫宿时，可以选择卡牌。"
+      "下 %d 次进入漫宿时，可以选择卡牌。"
     ]
   }
 }

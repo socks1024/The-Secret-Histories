@@ -231,5 +231,19 @@
     "DESCRIPTIONS": [
       "At the start of each turn, gain %d energy."
     ]
+  },
+
+  "TheSecretHistories:SpiritWinterMothPower": {
+    "NAME": "Voiceless Dead",
+    "DESCRIPTIONS": [
+      "when gained Winter, change it to block."
+    ]
+  },
+
+  "TheSecretHistories:MansusChooseCardPower": {
+    "NAME": "Way of Dream",
+    "DESCRIPTIONS": [
+      " %d times you can choose card from Mansus"
+    ]
   }
 }
