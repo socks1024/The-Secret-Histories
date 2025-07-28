@@ -205,8 +205,8 @@
 
   "TheSecretHistories:IngredientEdgeD": {
     "NAME": "Labhitic Grains",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage. NL this turn every time you play attack card, gain !M! tsh:edge. NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Deal !D! damage. NL this turn every time you play attack card, gain !M! tsh:edge."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:edge !P! NL Lose 3 HP. Draw !M! cards.",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientEdgeF": {
