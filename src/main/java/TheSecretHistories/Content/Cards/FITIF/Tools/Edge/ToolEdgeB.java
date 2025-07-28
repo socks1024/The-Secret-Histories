@@ -3,6 +3,7 @@ package TheSecretHistories.Content.Cards.FITIF.Tools.Edge;
 import TheSecretHistories.Content.Actions.UniqueCards.ToolEdgeBAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -29,7 +30,7 @@ public class ToolEdgeB extends AbstractTool {
         this.magicNumber = this.baseMagicNumber = 3;
         this.damage = this.baseDamage = 3;
 
-        this.exhaust = true;
+        //this.exhaust = true;
     }
 
     @Override
@@ -43,7 +44,7 @@ public class ToolEdgeB extends AbstractTool {
         super.use(abstractPlayer, abstractMonster);
 
         for (int i = 0; i < magicNumber; i++) {
-            addToBot(new ToolEdgeBAction(abstractMonster, abstractPlayer, new DamageInfo(abstractPlayer, damage), STRENGTH_AMOUNT));
+            addToBot(new DamageAction(abstractMonster, new DamageInfo(abstractPlayer, damage)));
         }
     }
 }

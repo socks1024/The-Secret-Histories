@@ -23,7 +23,7 @@ public class IngredientKnockD extends AbstractIngredient {
 
     public IngredientKnockD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.exhaust = true;
+        this.isEthereal = true;
 
         this.magicNumber = this.baseMagicNumber = 3;
         this.damage = this.baseDamage = 0;

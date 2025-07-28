@@ -43,7 +43,7 @@
 
   "TheSecretHistories:ToolEdgeB": {
     "NAME": "陨铁子弹",
-    "DESCRIPTION": " tsh:工具 NL tsh:刃 之 tsh:准则 !P! NL 对敌人造成 !D! 伤害 !M! 次， 斩杀 时获得1 力量 。 NL 消耗 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:刃 之 tsh:准则 !P! NL 对敌人造成 !D! 伤害 !M! 次。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -295,7 +295,7 @@
 
   "TheSecretHistories:IngredientKnockD": {
     "NAME": "生猛毒液",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 造成 tsh:漫宿 等级点伤害 !M! 次。 NL 消耗 。",
+    "DESCRIPTION": " tsh:原料 。 NL tsh:启 之 tsh:准则 !P! NL 造成 tsh:漫宿 等级点伤害 !M! 次。 NL 虚无 。",
     "UPGRADE_DESCRIPTION": ""
   },
 

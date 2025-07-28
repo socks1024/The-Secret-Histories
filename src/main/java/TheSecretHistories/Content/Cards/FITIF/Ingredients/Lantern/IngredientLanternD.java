@@ -16,7 +16,7 @@ public class IngredientLanternD extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientLanternD.class.getSimpleName());
     private static final AbstractCard.CardTags PRINCIPLE_TAG = LANTERN;
     private static final String IMG_NAME = "ingredientlanternd";
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final AbstractCard.CardType TYPE = AbstractCard.CardType.ATTACK;
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.RARE;
     private static final AbstractCard.CardTarget TARGET = AbstractCard.CardTarget.ENEMY;
@@ -24,7 +24,7 @@ public class IngredientLanternD extends AbstractIngredient {
     public IngredientLanternD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.damage = this.baseDamage = 10;
+        this.damage = this.baseDamage = 7;
         this.baseMagicNumber = this.magicNumber = 2;
     }
 

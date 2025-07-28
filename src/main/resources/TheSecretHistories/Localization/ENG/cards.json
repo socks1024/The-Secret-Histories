@@ -43,7 +43,7 @@
 
   "TheSecretHistories:ToolEdgeB": {
     "NAME": " Meteoric Bullet",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage !M! Times, if Fatal, gain 1 Strength . NL exhaust.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage !M! Times, if Fatal.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -295,7 +295,7 @@
 
   "TheSecretHistories:IngredientKnockD": {
     "NAME": "Sthenic Venom",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:knock !P! NL Deal damage same to the level of tsh:mansus !M! Times. NL exhaust.",
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:knock !P! NL Deal damage same to the level of tsh:mansus !M! Times. NL Ethereal.",
     "UPGRADE_DESCRIPTION": ""
   },
 

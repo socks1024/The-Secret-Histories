@@ -27,7 +27,7 @@ public class ToolGrailB extends AbstractTool {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
         this.magicNumber = this.baseMagicNumber = 1;
-        this.damage = this.baseDamage = 12;
+        this.damage = this.baseDamage = 14;
     }
 
     @Override

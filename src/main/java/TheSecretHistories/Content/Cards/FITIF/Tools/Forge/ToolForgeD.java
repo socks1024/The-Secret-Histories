@@ -27,12 +27,12 @@ public class ToolForgeD extends AbstractTool {
     public ToolForgeD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.damage = this.baseDamage = 9;
+        this.damage = this.baseDamage = 10;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        upgradeDamage(4);
+        upgradeDamage(3);
         super.OnUpgrade(timesUpgraded);
     }
 
