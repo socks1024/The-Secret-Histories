@@ -24,7 +24,7 @@ public class FollowerWinterAuclair extends AbstractFollower{
     private static final CardTarget TARGET = CardTarget.ENEMY;
     public FollowerWinterAuclair() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.damage = this.baseDamage = 10;
+        this.damage = this.baseDamage = 8;
         this.magicNumber = this.baseMagicNumber = 5;
     }
 
@@ -37,6 +37,6 @@ public class FollowerWinterAuclair extends AbstractFollower{
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-        upgradeMagicNumber(3);
+        upgradeDamage(4);
     }
 }

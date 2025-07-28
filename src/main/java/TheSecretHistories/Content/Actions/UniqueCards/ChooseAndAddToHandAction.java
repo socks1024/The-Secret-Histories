@@ -32,9 +32,7 @@ public class ChooseAndAddToHandAction extends AbstractGameAction {
         if (!this.retrieveCard) {
             if (AbstractDungeon.cardRewardScreen.discoveryCard != null) {
                 AbstractCard disCard = AbstractDungeon.cardRewardScreen.discoveryCard.makeStatEquivalentCopy();
-                if (AbstractDungeon.player.hasPower("MasterRealityPower")) {
-                    disCard.upgrade();
-                }
+
                 disCard.setCostForTurn(0);
                 disCard.current_x = -1000.0F * Settings.xScale;
 

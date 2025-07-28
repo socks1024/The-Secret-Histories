@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation;
 
+import TheSecretHistories.Content.Actions.UniqueCards.BetterMakeTempCardInHandAction;
 import TheSecretHistories.Content.Actions.UniqueCards.ChooseAndAddToHandAction;
 import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
 import TheSecretHistories.Content.Powers.UniqueCards.FollowerKnockNPower;
@@ -102,7 +103,7 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
                 addToTop(new DamageRandomEnemyAction(new DamageInfo(p ,PowerUtils.GetPowerAmount(FollowerKnockNPower.POWER_ID, p)), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
             }
 
-            addToTop(new MakeTempCardInHandAction(card));
+            addToTop(new BetterMakeTempCardInHandAction(card));
 
         }
     }

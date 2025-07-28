@@ -266,7 +266,7 @@
   "TheSecretHistories:IngredientGrailF": {
     "NAME": "扭动胎膜",
     "DESCRIPTION": " tsh:原料 。 NL tsh:杯 之 tsh:准则 !P! NL 令敌人本回合失去 !M! 力量 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 令所有敌人本回合失去 !M! 力量 。 NL 消耗 。"
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:杯 之 tsh:准则 NL 令所有敌人本回合失去 !M! 力量 。 NL 消耗 。"
   },
 
   "TheSecretHistories:IngredientMothB": {
