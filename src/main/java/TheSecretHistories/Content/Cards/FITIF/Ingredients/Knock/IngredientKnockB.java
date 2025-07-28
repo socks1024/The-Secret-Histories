@@ -49,6 +49,7 @@ public class IngredientKnockB extends AbstractIngredient {
 
     public void OnUpgrade(int timesUpgraded){
         upgradeMagicNumber(3);
+        super.OnUpgrade(timesUpgraded);
     }
 
 //    @Override

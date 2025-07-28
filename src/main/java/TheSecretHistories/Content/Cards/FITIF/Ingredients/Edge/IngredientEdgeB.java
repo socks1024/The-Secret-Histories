@@ -31,6 +31,7 @@ public class IngredientEdgeB extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeMagicNumber(1);
+        super.OnUpgrade(timesUpgraded);
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);

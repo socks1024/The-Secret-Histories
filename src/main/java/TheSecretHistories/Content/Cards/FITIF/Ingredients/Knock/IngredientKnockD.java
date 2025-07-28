@@ -31,6 +31,7 @@ public class IngredientKnockD extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeMagicNumber(1);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

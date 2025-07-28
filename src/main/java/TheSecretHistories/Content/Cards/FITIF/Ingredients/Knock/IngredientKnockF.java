@@ -32,5 +32,6 @@ public class IngredientKnockF extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.selfRetain = true;
+        super.OnUpgrade(timesUpgraded);
     }
 }

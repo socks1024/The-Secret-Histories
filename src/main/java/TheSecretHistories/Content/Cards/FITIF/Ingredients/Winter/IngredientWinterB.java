@@ -38,6 +38,7 @@ public class IngredientWinterB extends AbstractIngredient  {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeBaseCost(0);
+        super.OnUpgrade(timesUpgraded);
     }
 }
 

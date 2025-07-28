@@ -35,6 +35,7 @@ public class ToolForgeF extends AbstractTool {
     protected void OnUpgrade(int timesUpgraded) {
         upgradeMagicNumber(1);
         upgradeBlock(6);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

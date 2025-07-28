@@ -32,6 +32,7 @@ public class ToolGrailD extends AbstractTool {
     protected void OnUpgrade(int timesUpgraded) {
         this.isInnate = true;
         this.isEthereal= true;
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

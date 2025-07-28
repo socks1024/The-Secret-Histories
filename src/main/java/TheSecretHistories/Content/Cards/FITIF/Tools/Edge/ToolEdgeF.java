@@ -32,6 +32,7 @@ public class ToolEdgeF extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeMagicNumber(1);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

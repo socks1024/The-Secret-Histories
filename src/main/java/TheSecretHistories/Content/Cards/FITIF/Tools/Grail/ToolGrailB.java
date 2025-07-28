@@ -33,6 +33,7 @@ public class ToolGrailB extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeDamage(5);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

@@ -29,6 +29,7 @@ public class IngredientForgeD extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.exhaust = false;
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

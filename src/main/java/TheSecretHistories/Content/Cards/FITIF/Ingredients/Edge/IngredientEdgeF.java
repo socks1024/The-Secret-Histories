@@ -33,6 +33,7 @@ public class IngredientEdgeF extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeDamage(2);
+        super.OnUpgrade(timesUpgraded);
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {

@@ -28,6 +28,7 @@ public class ToolKnockD extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.isInnate = true;
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

@@ -32,6 +32,7 @@ public class ToolLanternF extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.upgradeMagicNumber(-1);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

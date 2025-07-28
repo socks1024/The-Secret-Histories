@@ -43,5 +43,6 @@ public class IngredientHeartF extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeMagicNumber(1);
+        super.OnUpgrade(timesUpgraded);
     }
 }

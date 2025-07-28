@@ -34,6 +34,7 @@ public class ToolSecretHistoriesB extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeBaseCost(0);
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override

@@ -30,5 +30,6 @@ public class IngredientHeartB extends AbstractIngredient {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         upgradeBlock(4);
+        super.OnUpgrade(timesUpgraded);
     }
 }

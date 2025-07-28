@@ -34,6 +34,7 @@ public class ToolMothF extends AbstractTool {
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.selfRetain = true;
+        super.OnUpgrade(timesUpgraded);
     }
 
     @Override
