@@ -48,8 +48,6 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
 
         ArrayList<AbstractCard> pool = pools.get(cardID);
 
-        DebugUtils.Log(pool);
-
         return pool.get(new Random().nextInt(pool.size()));
     }
 
