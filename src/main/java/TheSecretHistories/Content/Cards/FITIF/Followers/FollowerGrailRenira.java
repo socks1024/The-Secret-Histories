@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Cards.FITIF.Followers;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.GrailFAction2;
+import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
 import TheSecretHistories.Content.Powers.Principles.Grail;
 import TheSecretHistories.Content.Powers.Principles.Moth;
 import TheSecretHistories.Utils.PowerUtils;
@@ -35,29 +36,27 @@ public class FollowerGrailRenira extends AbstractFollower{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot(new AbstractGameAction() {
+        addToBot(new ConsumePrincipleAction(p, GRAIL) {
+
             @Override
-            public void update() {
-                int Amount = PowerUtils.GetPowerAmount(Grail.POWER_ID, p);
-                    int times = Amount / magicNumber;
-                    if (times > 0) {
-                        for (int i = 0; i < times; i++) {
-                            int roll = AbstractDungeon.miscRng.random(2);
-                            switch (roll) {
-                                case 0:
-                                    addToTop(new ApplyPowerAction(m, p, new StrengthPower(m, -1)));
-                                    break;
-                                case 1:
-                                    addToTop(new ApplyPowerAction(m, p, new WeakPower(m, 1, false)));
-                                    break;
-                                case 2:
-                                    addToTop(new ApplyPowerAction(m, p, new VulnerablePower(m, 1, false)));
-                                    break;
-                            }
+            protected void OnConsumedEnough(int consumedAmount) {
+                int times = consumedAmount / magicNumber;
+                if (times > 0) {
+                    for (int i = 0; i < times; i++) {
+                        int roll = AbstractDungeon.miscRng.random(2);
+                        switch (roll) {
+                            case 0:
+                                addToTop(new ApplyPowerAction(m, p, new StrengthPower(m, -1)));
+                                break;
+                            case 1:
+                                addToTop(new ApplyPowerAction(m, p, new WeakPower(m, 1, false)));
+                                break;
+                            case 2:
+                                addToTop(new ApplyPowerAction(m, p, new VulnerablePower(m, 1, false)));
+                                break;
                         }
                     }
-
-                this.isDone = true;
+                }
             }
         });
     }
