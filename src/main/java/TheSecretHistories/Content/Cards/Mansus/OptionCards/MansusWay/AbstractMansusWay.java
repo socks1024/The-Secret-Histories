@@ -42,7 +42,7 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
             ArrayList<AbstractCard> principles = new ArrayList<>();
 
             for (CardTags tag : GetAvailableTags()) {
-                principles.add(GetMansusPrinciple(tag).makeStatEquivalentCopy());
+                principles.add(GetMansusPrinciple(tag));
             }
 
             addToBot(new ChooseOneAction(principles));

@@ -48,6 +48,7 @@ public class Grail extends AbstractPrinciple{
                         }
                     }
                 }
+                isDone = true;
             }
         });
     }
