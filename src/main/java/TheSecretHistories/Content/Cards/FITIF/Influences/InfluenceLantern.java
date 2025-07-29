@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Cards.FITIF.Influences;
 
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.actions.common.ExhaustAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
@@ -17,6 +18,12 @@ public class InfluenceLantern extends AbstractInfluences {
         super(ID, PRINCIPLE_TAG);
 
         this.magicNumber = this.baseMagicNumber = 1;
+    }
+
+    @Override
+    protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
+        upgradeMagicNumber(1);
     }
 
     @Override

@@ -19,7 +19,7 @@
       "fragmentlanterng"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。"
+      " tsh:密传 NL tsh:灯 之 tsh:准则 !P! NL 抽 !M! 张牌。 NL 每升级3次提升效果。"
     ]
   },
 
@@ -43,7 +43,7 @@
       "fragmentforgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:铸 之 tsh:准则 !P! NL 选择并 消耗 !M! 张手牌。"
+      " tsh:密传 NL tsh:铸 之 tsh:准则 !P! NL 选择并 消耗 !M! 张手牌。 NL 每升级3次提升效果。"
     ]
   },
 
@@ -67,7 +67,7 @@
       "fragmentedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:刃 之 tsh:准则 !P! NL 本回合获得 !M! 点 力量 。"
+      " tsh:密传 NL tsh:刃 之 tsh:准则 !P! NL 造成 !D! 点伤害。"
     ]
   },
 
@@ -115,7 +115,7 @@
       "fragmentheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:心 之 tsh:准则 !P! NL 本回合获得 !M! 点 敏捷 。"
+      " tsh:密传 NL tsh:心 之 tsh:准则 !P! NL 获得 !B! 点 格挡 。"
     ]
   },
 
@@ -139,7 +139,7 @@
       "fragmentgrailg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:杯 之 tsh:准则 !P! NL 获得 !M! 层 人工制品 。"
+      " tsh:密传 NL tsh:杯 之 tsh:准则 !P! NL 获得 !M! 层 人工制品 。 NL 每升级3次提升效果。"
     ]
   },
 
@@ -163,7 +163,7 @@
       "fragmentmothg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:蛾 之 tsh:准则 !P! NL 本场战斗中升级卡组中所有 tsh:密传 !M! 级。"
+      " tsh:密传 NL tsh:蛾 之 tsh:准则 !P! NL 本场战斗中升级卡组中所有 tsh:密传 !M! 级。 NL 每升级3次提升效果。"
     ]
   },
 
@@ -187,7 +187,7 @@
       "fragmentknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:密传 NL tsh:启 之 tsh:准则 !P! NL 下次进入 tsh:漫宿 可以主动选择卡牌。"
+      " tsh:密传 NL tsh:启 之 tsh:准则 !P! NL 下 !M! 次打出 tsh:漫宿 不会丢弃卡牌。 NL 每升级3次提升效果。"
     ]
   },
 
@@ -265,7 +265,7 @@
       "influenceedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:刃 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 本回合获得 !M! 点 力量。"
+      " tsh:影响 NL tsh:刃 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 造成 !D! 点伤害。"
     ]
   },
 
@@ -301,7 +301,7 @@
       "influenceheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:心 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 本回合获得 !M! 点 敏捷 。"
+      " tsh:影响 NL tsh:心 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 获得 !B! 点 格挡 。"
     ]
   },
 
@@ -355,7 +355,7 @@
       "influenceknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:影响 NL tsh:启 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 下次进入 tsh:漫宿 可以主动选择卡牌。"
+      " tsh:影响 NL tsh:启 之 tsh:准则 !P! NL 虚无 。 消耗 。 NL 下 !M! 次打出 tsh:漫宿 不会丢弃卡牌。"
     ]
   },
 
@@ -375,7 +375,7 @@
       "waypeacock"
     ],
     "DESCRIPTION": [
-      " tsh:漫宿 NL 消耗一定量的性相，从漫宿中抽取卡牌。"
+      " tsh:漫宿 NL 消耗一定量的 tsh:准则 并抽取卡牌。"
     ]
   },
 

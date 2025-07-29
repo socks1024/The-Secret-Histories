@@ -24,6 +24,15 @@ public class FragmentKnock extends AbstractFragment{
     }
 
     @Override
+    protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
+
+        if (timesUpgraded == 3) upgradeMagicNumber(1);
+
+        if (timesUpgraded == 6) upgradeMagicNumber(1);
+    }
+
+    @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
         super.use(abstractPlayer, abstractMonster);
 

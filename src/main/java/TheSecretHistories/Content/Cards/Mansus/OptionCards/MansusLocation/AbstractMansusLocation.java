@@ -64,6 +64,8 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
 
     protected AbstractCard chosenCard;
 
+    public boolean enterByKnock = false;
+
     public AbstractMansusLocation(String id, String imgName, AbstractCard[] cards) {
         super(id, imgName, COLOR);
         this.cards = cards;
@@ -76,14 +78,9 @@ public abstract class AbstractMansusLocation extends TemplateOptionCard {
 
         AbstractPlayer p = AbstractDungeon.player;
 
-        if (p.hasPower(MansusChooseCardPower.POWER_ID)) {
+        if (enterByKnock) {
 
             addToTop(new ChooseAndAddToHandAction(GetCards()));
-
-            p.getPower(MansusChooseCardPower.POWER_ID).amount -= 1;
-            if (p.getPower(MansusChooseCardPower.POWER_ID).amount <= 0) {
-                addToTop(new RemoveSpecificPowerAction(p,p,MansusChooseCardPower.POWER_ID));
-            }
 
         } else {
 

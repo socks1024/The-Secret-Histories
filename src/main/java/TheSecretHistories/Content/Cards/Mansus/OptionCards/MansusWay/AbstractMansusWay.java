@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusWay;
 
+import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusLocation.AbstractMansusLocation;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusPrinciple.*;
 import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolKnockFPower;
@@ -47,11 +48,16 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
             addToBot(new ChooseOneAction(principles));
 
         }
+    }
+
+    public void onConsumedPrinciple(boolean isKnock) {
 
         ArrayList<AbstractCard> locations = new ArrayList<>();
 
         for (AbstractCard location : relatedLocations) {
-            locations.add(location.makeCopy().makeStatEquivalentCopy());
+            AbstractMansusLocation l = (AbstractMansusLocation) location.makeStatEquivalentCopy();
+            l.enterByKnock = isKnock;
+            locations.add(l);
         }
 
         addToBot(new ChooseOneAction(locations));
@@ -60,14 +66,14 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
     private AbstractMansusPrinciple GetMansusPrinciple(CardTags tag) {
         AbstractMansusPrinciple principle = null;
 
-        if(tag.equals(LANTERN)){principle = new MansusLantern();}
-        if(tag.equals(FORGE)){principle = new MansusForge();}
-        if(tag.equals(EDGE)){principle = new MansusEdge();}
-        if(tag.equals(WINTER)){principle = new MansusWinter();}
-        if(tag.equals(HEART)){principle = new MansusHeart();}
-        if(tag.equals(GRAIL)){principle = new MansusGrail();}
-        if(tag.equals(MOTH)){principle = new MansusMoth();}
-        if(tag.equals(KNOCK)){principle = new MansusKnock();}
+        if(tag.equals(LANTERN)){principle = new MansusLantern(this);}
+        if(tag.equals(FORGE)){principle = new MansusForge(this);}
+        if(tag.equals(EDGE)){principle = new MansusEdge(this);}
+        if(tag.equals(WINTER)){principle = new MansusWinter(this);}
+        if(tag.equals(HEART)){principle = new MansusHeart(this);}
+        if(tag.equals(GRAIL)){principle = new MansusGrail(this);}
+        if(tag.equals(MOTH)){principle = new MansusMoth(this);}
+        if(tag.equals(KNOCK)){principle = new MansusKnock(this);}
 
         if (principle != null) principle.DoUpgrade(principleCount / 2 - 1);
 

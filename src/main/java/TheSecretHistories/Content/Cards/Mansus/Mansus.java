@@ -1,9 +1,13 @@
 package TheSecretHistories.Content.Cards.Mansus;
 
+import TheSecretHistories.Content.Actions.UniqueCards.ChooseAndAddToHandAction;
 import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusWay.*;
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelCard;
+import TheSecretHistories.Content.Powers.UniqueCards.MansusChooseCardPower;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -34,7 +38,14 @@ public class Mansus extends TemplateMultiLevelCard {
     }
 
     @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
+    public void use(AbstractPlayer p, AbstractMonster m) {
+
+        if (p.hasPower(MansusChooseCardPower.POWER_ID)) {
+            this.returnToHand = true;
+            PowerUtils.ReducePowerAmount(p.getPower(MansusChooseCardPower.POWER_ID), 1, p);
+        } else {
+            this.returnToHand = false;
+        }
 
         addToBot(new ChooseOneAction(GetAvailableWays()));
     }
