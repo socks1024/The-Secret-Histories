@@ -24,7 +24,7 @@ public class IngredientHeartDPrincipleAction extends ConsumePrincipleAction {
 
     @Override
     protected void OnConsumedEnough(int consumedAmount) {
-        addToTop(new GainBlockAction(target, source, block));
+        addToTop(new GainBlockAction(target, source, block*2));
         isDone = true;
     }
 }

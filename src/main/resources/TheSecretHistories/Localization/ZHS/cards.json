@@ -241,8 +241,8 @@
 
   "TheSecretHistories:IngredientHeartD": {
     "NAME": "巫吻之油",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 将所有 tsh:心 转化为等量 格挡 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 将所有 tsh:心 转化为等量 格挡 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 将所有 tsh:心 转化为等量 格挡 。",
+    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 NL 将所有 tsh:心 转化为2倍 格挡 。"
   },
 
   "TheSecretHistories:IngredientHeartF": {

@@ -241,8 +241,8 @@
 
   "TheSecretHistories:IngredientHeartD": {
     "NAME": "Witch-Kissed Oil",
-    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart !P! NL trun all tsh:heart into the same amount of Block . NL exhaust.",
-    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart NL trun all tsh:heart into the same amount of Block ."
+    "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart !P! NL trun all tsh:heart into the same amount of Block .",
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart NL double all tsh:heart into the same amount of Block ."
   },
 
   "TheSecretHistories:IngredientHeartF": {
