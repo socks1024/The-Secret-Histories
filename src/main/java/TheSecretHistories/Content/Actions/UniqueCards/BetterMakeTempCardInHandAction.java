@@ -1,5 +1,7 @@
 package TheSecretHistories.Content.Actions.UniqueCards;
 
+import TheSecretHistories.Utils.DebugUtils;
+import basemod.BaseMod;
 import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.utility.WaitAction;
@@ -36,8 +38,6 @@ public class BetterMakeTempCardInHandAction extends AbstractGameAction {
         this.amount = amount;
         this.actionType = AbstractGameAction.ActionType.CARD_MANIPULATION;
         this.c = card;
-        if (this.c.type != AbstractCard.CardType.CURSE && this.c.type != AbstractCard.CardType.STATUS && AbstractDungeon.player.hasPower("MasterRealityPower"))
-            this.c.upgrade();
     }
 
     public BetterMakeTempCardInHandAction(AbstractCard card, int amount, boolean isOtherCardInCenter) {
@@ -58,9 +58,9 @@ public class BetterMakeTempCardInHandAction extends AbstractGameAction {
         }
         int discardAmount = 0;
         int handAmount = this.amount;
-        if (this.amount + AbstractDungeon.player.hand.size() > 10) {
+        if (this.amount + AbstractDungeon.player.hand.size() > BaseMod.MAX_HAND_SIZE) {
             AbstractDungeon.player.createHandIsFullDialog();
-            discardAmount = this.amount + AbstractDungeon.player.hand.size() - 10;
+            discardAmount = this.amount + AbstractDungeon.player.hand.size() - BaseMod.MAX_HAND_SIZE;
             handAmount -= discardAmount;
         }
         addToHand(handAmount);
@@ -77,18 +77,23 @@ public class BetterMakeTempCardInHandAction extends AbstractGameAction {
             case 1:
                 if (handAmt == 1)
                     if (this.isOtherCardInCenter) {
+                        DebugUtils.Log(1);
                         AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(
 
                                 makeNewCard(), Settings.WIDTH / 2.0F - PADDING + AbstractCard.IMG_WIDTH, Settings.HEIGHT / 2.0F));
                     } else {
+                        DebugUtils.Log(2);
                         AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(makeNewCard()));
                     }
+                break;
             case 2:
                 if (handAmt == 1) {
+                    DebugUtils.Log(3);
                     AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(
 
                             makeNewCard(), Settings.WIDTH / 2.0F - PADDING + AbstractCard.IMG_WIDTH * 0.5F, Settings.HEIGHT / 2.0F));
                 } else if (handAmt == 2) {
+                    DebugUtils.Log(4);
                     AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(
 
                             makeNewCard(), Settings.WIDTH / 2.0F + PADDING + AbstractCard.IMG_WIDTH, Settings.HEIGHT / 2.0F));
@@ -96,12 +101,15 @@ public class BetterMakeTempCardInHandAction extends AbstractGameAction {
 
                             makeNewCard(), Settings.WIDTH / 2.0F - PADDING + AbstractCard.IMG_WIDTH, Settings.HEIGHT / 2.0F));
                 }
+                break;
             case 3:
                 if (handAmt == 1) {
+                    DebugUtils.Log(5);
                     AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(
 
                             makeNewCard(), Settings.WIDTH / 2.0F - PADDING + AbstractCard.IMG_WIDTH, Settings.HEIGHT / 2.0F));
                 } else if (handAmt == 2) {
+                    DebugUtils.Log(6);
                     AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(
 
                             makeNewCard(), Settings.WIDTH / 2.0F + PADDING + AbstractCard.IMG_WIDTH, Settings.HEIGHT / 2.0F));
@@ -109,16 +117,15 @@ public class BetterMakeTempCardInHandAction extends AbstractGameAction {
 
                             makeNewCard(), Settings.WIDTH / 2.0F - PADDING + AbstractCard.IMG_WIDTH, Settings.HEIGHT / 2.0F));
                 } else if (handAmt == 3) {
-                    for (int j = 0; j < this.amount; j++)
+                    DebugUtils.Log(7);
+                    for (int j = 0; j < this.amount; j++){
+                        DebugUtils.Log(j);
                         AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(makeNewCard()));
-                }
-        }
-        for (int i = 0; i < handAmt; i++)
-            AbstractDungeon.effectList.add(new ShowCardAndAddToHandEffect(
 
-                    makeNewCard(),
-                    MathUtils.random(Settings.WIDTH * 0.2F, Settings.WIDTH * 0.8F),
-                    MathUtils.random(Settings.HEIGHT * 0.3F, Settings.HEIGHT * 0.7F)));
+                    }
+                }
+                break;
+        }
     }
 
     private void addToDiscard(int discardAmt) {
@@ -130,6 +137,7 @@ public class BetterMakeTempCardInHandAction extends AbstractGameAction {
                     AbstractDungeon.effectList.add(new ShowCardAndAddToDiscardEffect(
 
                             makeNewCard(), Settings.WIDTH / 2.0F + PADDING + AbstractCard.IMG_WIDTH, Settings.HEIGHT / 2.0F));
+                break;
             case 2:
                 if (discardAmt == 1) {
                     AbstractDungeon.effectList.add(new ShowCardAndAddToDiscardEffect(
@@ -143,6 +151,7 @@ public class BetterMakeTempCardInHandAction extends AbstractGameAction {
 
                             makeNewCard(), Settings.WIDTH * 0.5F + PADDING + AbstractCard.IMG_WIDTH * 0.5F, Settings.HEIGHT * 0.5F));
                 }
+                break;
             case 3:
                 if (discardAmt == 1) {
                     AbstractDungeon.effectList.add(new ShowCardAndAddToDiscardEffect(
@@ -166,13 +175,8 @@ public class BetterMakeTempCardInHandAction extends AbstractGameAction {
 
                             makeNewCard(), Settings.WIDTH * 0.5F + PADDING + AbstractCard.IMG_WIDTH, Settings.HEIGHT * 0.5F));
                 }
+                break;
         }
-        for (int i = 0; i < discardAmt; i++)
-            AbstractDungeon.effectList.add(new ShowCardAndAddToDiscardEffect(
-
-                    makeNewCard(),
-                    MathUtils.random(Settings.WIDTH * 0.2F, Settings.WIDTH * 0.8F),
-                    MathUtils.random(Settings.HEIGHT * 0.3F, Settings.HEIGHT * 0.7F)));
     }
 
     private AbstractCard makeNewCard() {

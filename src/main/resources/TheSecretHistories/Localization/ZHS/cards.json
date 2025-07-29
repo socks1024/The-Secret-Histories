@@ -247,8 +247,8 @@
 
   "TheSecretHistories:IngredientHeartF": {
     "NAME": "圣亚纳略的真血",
-    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，2张 *躁动 。",
-    "UPGRADE_DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，2张 *躁动 。"
+    "DESCRIPTION": " tsh:原料 。 NL tsh:心 之 tsh:准则 !P! NL 获得 !M! 层 灵体 ，2张 *躁动 。 消耗 。",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailB": {
@@ -756,7 +756,7 @@
 
   "TheSecretHistories:SummonGrailEdge": {
     "NAME": "召唤第二干渴者伊泽姆",
-    "DESCRIPTION": " 2 tsh:启 14 tsh:杯 8 tsh:铸 ",
+    "DESCRIPTION": " 2 tsh:启 14 tsh:杯 6 tsh:铸 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -768,7 +768,7 @@
 
   "TheSecretHistories:SummonForgeEdge": {
     "NAME": "召唤坩埚王",
-    "DESCRIPTION": " 2 tsh:启 14 tsh:铸 8 tsh:灯 ",
+    "DESCRIPTION": " 2 tsh:启 14 tsh:铸 6 tsh:灯 ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -798,7 +798,7 @@
 
   "TheSecretHistories:Restlessness": {
     "NAME": "躁动",
-    "DESCRIPTION": "消耗 。 NL 被抽到手牌时，将 !M! 张恐惧加入弃牌堆。",
+    "DESCRIPTION": "消耗 。 NL 被抽到手牌时，变为 *恐惧 。",
     "UPGRADE_DESCRIPTION": ""
   },
 

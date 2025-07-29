@@ -756,7 +756,7 @@
 
   "TheSecretHistories:SummonGrailEdge": {
     "NAME": "Summon Ezeem, the Second Thirstly",
-    "DESCRIPTION": " 2 tsh:knock 14 tsh:grail 8 tsh:forge ",
+    "DESCRIPTION": " 2 tsh:knock 14 tsh:grail 6 tsh:forge ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -768,7 +768,7 @@
 
   "TheSecretHistories:SummonForgeEdge": {
     "NAME": "Summon King Crucible",
-    "DESCRIPTION": " 2 tsh:knock 14 tsh:forge 8 tsh:lantern ",
+    "DESCRIPTION": " 2 tsh:knock 14 tsh:forge 6 tsh:lantern ",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -798,7 +798,7 @@
 
   "TheSecretHistories:Restlessness": {
     "NAME": "restlessness",
-    "DESCRIPTION": " Exhaust . NL  When this card goes into your hand pile,add a Dread into your discard pile every turn.",
+    "DESCRIPTION": " Exhaust . NL  When this card is drawn, turn into *Dread .",
     "UPGRADE_DESCRIPTION": ""
   },
 

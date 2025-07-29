@@ -2,8 +2,12 @@ package TheSecretHistories.Content.Cards.Others.Mental;
 
 import TheSecretHistories.Content.Cards.Others.TemplateCustomStatusCard;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.ExhaustAction;
+import com.megacrit.cardcrawl.actions.common.ExhaustSpecificCardAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDiscardAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class Restlessness extends TemplateCustomStatusCard {
@@ -19,6 +23,8 @@ public class Restlessness extends TemplateCustomStatusCard {
         this.exhaust = true;
 
         this.magicNumber = this.baseMagicNumber = 1;
+
+        this.cardsToPreview = new Dread();
     }
 
     @Override
@@ -33,7 +39,7 @@ public class Restlessness extends TemplateCustomStatusCard {
 
     @Override
     public void triggerWhenDrawn() {
-        super.onMoveToDiscard();
-        addToBot(new MakeTempCardInDiscardAction(new Dread(), magicNumber));
+        addToBot(new ExhaustSpecificCardAction(this, AbstractDungeon.player.hand));
+        addToBot(new MakeTempCardInHandAction(new Dread(), magicNumber));
     }
 }
