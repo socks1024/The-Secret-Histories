@@ -29,7 +29,7 @@ public class FollowerEdgeVictor extends AbstractFollower{
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
         this.damage = this.baseDamage = 20;
-        this.magicNumber=this.baseMagicNumber=2;
+        this.magicNumber=this.baseMagicNumber=1;
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {

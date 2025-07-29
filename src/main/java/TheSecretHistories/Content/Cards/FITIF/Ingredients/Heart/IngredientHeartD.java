@@ -21,14 +21,14 @@ public class IngredientHeartD extends AbstractIngredient {
 
     public IngredientHeartD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.exhaust = true;
+        //this.exhaust = true;
 
         this.baseBlock = this.block = 0;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
-        this.exhaust = false;
+        //this.exhaust = false;
         super.OnUpgrade(timesUpgraded);
     }
 
