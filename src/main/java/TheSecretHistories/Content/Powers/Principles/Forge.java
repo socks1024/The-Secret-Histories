@@ -21,5 +21,7 @@ public class Forge extends AbstractPrinciple{
         super.atStartOfTurn();
 
         addToBot(new GainEnergyAction(amount / 7));
+
+        this.flash();
     }
 }

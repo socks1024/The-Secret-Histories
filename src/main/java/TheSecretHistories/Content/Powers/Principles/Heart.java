@@ -23,5 +23,7 @@ public class Heart extends AbstractPrinciple{
 
         addToBot(new ApplyPowerAction(owner, owner, new DexterityPower(owner, amount / 3)));
         addToBot(new ApplyPowerAction(owner, owner, new LoseDexterityPower(owner, amount / 3)));
+
+        this.flash();
     }
 }

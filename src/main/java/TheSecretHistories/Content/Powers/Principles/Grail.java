@@ -29,27 +29,26 @@ public class Grail extends AbstractPrinciple{
         addToBot(new AbstractGameAction() {
             @Override
             public void update() {
-                ArrayList<AbstractMonster> monsters = AbstractDungeon.getMonsters().monsters;
-                int times = amount / 5;
-                if (times > 0) {
-                    for (int i = 0; i < times; i++) {
-                        int roll = AbstractDungeon.miscRng.random(2);
-                        AbstractMonster rmo = monsters.get(new Random().nextInt(monsters.size()));
-                        switch (roll) {
-                            case 0:
-                                addToTop(new ApplyPowerAction(rmo, owner, new StrengthPower(rmo, -1)));
-                                break;
-                            case 1:
-                                addToTop(new ApplyPowerAction(rmo, owner, new WeakPower(rmo, 1, false)));
-                                break;
-                            case 2:
-                                addToTop(new ApplyPowerAction(rmo, owner, new VulnerablePower(rmo, 1, false)));
-                                break;
-                        }
+                ArrayList<AbstractMonster> monsters = AbstractDungeon.getCurrRoom().monsters.monsters;
+                for (int i = 0; i < amount / 5; i++) {
+                    int roll = AbstractDungeon.miscRng.random(2);
+                    AbstractMonster rmo = monsters.get(new Random().nextInt(monsters.size()));
+                    switch (roll) {
+                        case 0:
+                            addToTop(new ApplyPowerAction(rmo, owner, new StrengthPower(rmo, -1)));
+                            break;
+                        case 1:
+                            addToTop(new ApplyPowerAction(rmo, owner, new WeakPower(rmo, 1, false)));
+                            break;
+                        case 2:
+                            addToTop(new ApplyPowerAction(rmo, owner, new VulnerablePower(rmo, 1, false)));
+                            break;
                     }
                 }
                 isDone = true;
             }
         });
+
+        this.flash();
     }
 }

@@ -21,5 +21,7 @@ public class Edge extends AbstractPrinciple{
 
         addToBot(new ApplyPowerAction(owner, owner, new StrengthPower(owner, amount / 3)));
         addToBot(new ApplyPowerAction(owner, owner, new LoseStrengthPower(owner, amount / 3)));
+
+        this.flash();
     }
 }

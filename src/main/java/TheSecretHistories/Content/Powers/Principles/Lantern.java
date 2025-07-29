@@ -19,5 +19,7 @@ public class Lantern extends AbstractPrinciple{
         super.atStartOfTurn();
 
         addToBot(new DrawCardAction(amount / 5));
+
+        this.flash();
     }
 }
