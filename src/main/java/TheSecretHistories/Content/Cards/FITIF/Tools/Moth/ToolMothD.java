@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Moth;
 
+import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientMothFToLanternAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolMothDPower;
 import TheSecretHistories.Utils.StringUtils;
@@ -24,7 +25,7 @@ public class ToolMothD extends AbstractTool {
     public ToolMothD() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
-        this.magicNumber = this.baseMagicNumber = 4;
+        //this.magicNumber = this.baseMagicNumber = 4;
     }
 
     @Override
@@ -37,6 +38,7 @@ public class ToolMothD extends AbstractTool {
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer, new ToolMothDPower(abstractPlayer, magicNumber)));
+        addToBot(new IngredientMothFToLanternAction(abstractPlayer,abstractPlayer,PRINCIPLE_TAG,1,1));
+
     }
 }

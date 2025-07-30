@@ -25,7 +25,7 @@ public class SpiritLanternEdge extends AbstractSpirit {
 
     public SpiritLanternEdge() {
         super(ID, IMG_NAME, COST, TYPE, TARGET, INFOS);
-        this.damage = this.baseDamage = 2;
+        this.damage = this.baseDamage = 3;
         this.exhaust = true;
     }
 

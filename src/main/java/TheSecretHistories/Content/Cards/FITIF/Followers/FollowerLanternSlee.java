@@ -6,10 +6,7 @@ import TheSecretHistories.Content.Powers.Principles.Lantern;
 import TheSecretHistories.Content.Powers.Principles.Winter;
 import TheSecretHistories.Utils.PowerUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DrawCardAction;
-import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
-import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import TheSecretHistories.Utils.StringUtils;
@@ -19,36 +16,36 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.LANT
 public class FollowerLanternSlee extends AbstractFollower{
     public static final String ID = StringUtils.MakeID(FollowerLanternSlee.class.getSimpleName());
     private static final String IMG_NAME = "slee_a";
-    private static final int COST = 0;
+    private static final int COST = 1;
     private static final CardType TYPE = CardType.SKILL;
     public static CardTags PRINCIPLE_TAG = LANTERN;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
     public FollowerLanternSlee() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseMagicNumber = this.magicNumber = 3;
-        this.exhaust = false;
+        this.baseBlock = this.block = 10;
+        this.baseMagicNumber = this.magicNumber;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
 
-        addToBot(new ConsumePrincipleAction(p, LANTERN, magicNumber) {
-            @Override
-            protected void OnConsumedEnough(int consumedAmount) {
-                addToTop(new DrawCardAction(2));
-            }
-        });
-
-        baseMagicNumber++;
+//        addToBot(new ConsumePrincipleAction(p, LANTERN, magicNumber) {
+//            @Override
+//            protected void OnConsumedEnough(int consumedAmount) {
+//                addToTop(new DrawCardAction(2));
+//            }
+//        });
+//        baseMagicNumber++;
+        addToBot(new DiscardAction(p, p, magicNumber, false));
 
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-        upgradeMagicNumber(-1);
+        upgradeBlock(4);
     }
 
 }

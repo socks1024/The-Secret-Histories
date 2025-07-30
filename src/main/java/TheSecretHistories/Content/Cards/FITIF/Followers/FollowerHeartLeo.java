@@ -43,6 +43,6 @@ public class FollowerHeartLeo extends AbstractFollower{
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-        this.selfRetain = true;
+        upgradeBaseCost(0);
     }
 }

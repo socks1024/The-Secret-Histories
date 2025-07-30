@@ -25,7 +25,7 @@ public class SpiritGrailEdge extends AbstractSpirit {
     public static final String ID = StringUtils.MakeID(SpiritGrailEdge.class.getSimpleName());
 
     private static final String IMG_NAME = "spirit_graile_edge";
-    private static final int COST = 0;
+    private static final int COST = 3;
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final PrincipleUtils.ReducePrincipleInfo[] INFOS = new PrincipleUtils.ReducePrincipleInfo[]{

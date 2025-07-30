@@ -19,7 +19,7 @@
 
   "TheSecretHistories:ToolLanternF": {
     "NAME": "守夜人之镜",
-    "DESCRIPTION": " 虚无 NL tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 回合开始时，每有 !M! tsh:灯 抽1张牌。",
+    "DESCRIPTION": " tsh:工具 NL tsh:灯 之 tsh:准则 !P! NL 从消耗牌堆中选择一张牌加入手牌 NL 消耗 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -37,7 +37,7 @@
 
   "TheSecretHistories:ToolForgeF": {
     "NAME": "尸骸火花",
-    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 获得 !B! 点 格挡 ，卡组中所有 tsh:密传 升 !M! 级。 NL 消耗 。",
+    "DESCRIPTION": " tsh:工具 NL tsh:铸 之 tsh:准则 !P! NL 消耗卡牌时，直接获得其准则 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -121,7 +121,7 @@
 
   "TheSecretHistories:ToolMothD": {
     "NAME": "斑驳面具",
-    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 本回合获得 tsh:蛾 时额外获得 !M! 层。",
+    "DESCRIPTION": " tsh:工具 NL tsh:蛾 之 tsh:准则 !P! NL 消耗所有 tsh:蛾 相并获得等量 tsh:灯 相，消耗。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -307,7 +307,7 @@
 
   "TheSecretHistories:FollowerLanternClifton": {
     "NAME": "克利夫顿",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 消耗所有 tsh:灯 ，每消耗 !M! tsh:灯 抽1张牌。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 造成 !M! 点伤害，下回合抽牌数-2",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -319,7 +319,7 @@
 
   "TheSecretHistories:FollowerLanternSlee": {
     "NAME": "思雷",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 消耗 !M! tsh:灯 ，抽2张牌。每次打出增加1点 tsh:灯 消耗。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:灯 之 tsh:准则 !P! NL 获得 !B! 点格挡，丢弃 !M! 张牌",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -373,7 +373,7 @@
   "TheSecretHistories:FollowerHeartLeo": {
     "NAME": "里奥",
     "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 造成你当前格挡值的伤害。",
-    "UPGRADE_DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 保留 。 NL 造成你当前格挡值的伤害。"
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerHeartClovette": {
@@ -390,7 +390,7 @@
 
   "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "芮妮拉",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:杯 之 tsh:准则 !P! NL 消耗所有 tsh:杯 ，每有 !M! tsh:杯 给予1层 易伤 或 虚弱 或负 力量 。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:杯 之 tsh:准则 !P! NL 造成 !D! 点伤害，每有1层负面效果额外造成 !M! 点伤害 。",
     "UPGRADE_DESCRIPTION": ""
   },
 

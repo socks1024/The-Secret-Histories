@@ -2,18 +2,16 @@ package TheSecretHistories.Content.Actions.Principle.ConsumePrinciple;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
 
-import TheSecretHistories.Content.Powers.Principles.Winter;
+import TheSecretHistories.Content.Powers.Principles.Lantern;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-public class IngredientMothFToWinterAction extends ConsumePrincipleAction {
+public class IngredientMothFToLanternAction extends ConsumePrincipleAction {
     private final AbstractCreature target;
     private final int principleNeed;
     private final int damagePerTrigger;
 
-    public IngredientMothFToWinterAction(
+    public IngredientMothFToLanternAction(
             AbstractCreature target,
             AbstractCreature source,
             AbstractCard.CardTags principleTag,
@@ -31,7 +29,7 @@ public class IngredientMothFToWinterAction extends ConsumePrincipleAction {
     protected void OnConsumedEnough(int consumedAmount) {
         int times = consumedAmount / principleNeed;
         for (int i = 0; i < times; i++) {
-            addToBot(new ApplyPowerAction(target, source, new Winter(target, this.damagePerTrigger)));
+            addToBot(new ApplyPowerAction(target, source, new Lantern(target, this.damagePerTrigger)));
         }
         isDone = true;
     }

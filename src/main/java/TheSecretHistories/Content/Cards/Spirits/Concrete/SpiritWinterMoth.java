@@ -1,8 +1,6 @@
 package TheSecretHistories.Content.Cards.Spirits.Concrete;
 
-import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientMothFToWinterAction;
 import TheSecretHistories.Content.Cards.Spirits.AbstractSpirit;
-import TheSecretHistories.Content.Powers.Principles.Moth;
 import TheSecretHistories.Content.Powers.UniqueCards.SpiritWinterMothPower;
 import TheSecretHistories.Utils.PrincipleUtils;
 import TheSecretHistories.Utils.StringUtils;
