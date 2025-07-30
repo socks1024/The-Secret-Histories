@@ -28,9 +28,17 @@ public class InfluenceMoth extends AbstractInfluences {
     }
 
     @Override
+    protected void OnUpgrade(int timesUpgraded) {
+        super.OnUpgrade(timesUpgraded);
+        upgradeMagicNumber(1);
+    }
+
+    @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
         super.use(abstractPlayer, abstractMonster);
 
-        addToBot(new UpgradeByTagAction(abstractPlayer, FRAGMENT, DeckUtils.GetBattleDeck()));
+        for (int i = 0; i < magicNumber; i++) {
+            addToBot(new UpgradeByTagAction(abstractPlayer, FRAGMENT, DeckUtils.GetBattleDeck()));
+        }
     }
 }

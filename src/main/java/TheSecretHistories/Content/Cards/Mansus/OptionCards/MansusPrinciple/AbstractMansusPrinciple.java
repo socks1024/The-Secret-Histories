@@ -1,6 +1,7 @@
 package TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusPrinciple;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.SimpleConsumePrincipleAction;
+import TheSecretHistories.Content.Cards.Mansus.OptionCards.MansusWay.AbstractMansusWay;
 import TheSecretHistories.Content.Cards.Template.TemplateMultiLevelOptionCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
@@ -10,14 +11,16 @@ public abstract class AbstractMansusPrinciple extends TemplateMultiLevelOptionCa
 
     private static final CardColor COLOR = CULT_BLUE;
 
-    private final CardTags principleTag;
+    protected final CardTags principleTag;
+    protected final AbstractMansusWay way;
 
-    public AbstractMansusPrinciple(String id, String imgName, CardTags principleTag) {
+    public AbstractMansusPrinciple(String id, CardTags principleTag, AbstractMansusWay way) {
         super(id, COLOR, 4);
 
         this.principleTag = principleTag;
 
         this.principleCount = this.basePrincipleCount = 2;
+        this.way = way;
     }
 
     @Override
@@ -28,5 +31,6 @@ public abstract class AbstractMansusPrinciple extends TemplateMultiLevelOptionCa
     @Override
     public void onChoseThisOption() {
         addToTop(new SimpleConsumePrincipleAction(AbstractDungeon.player, principleTag, principleCount));
+        way.onConsumedPrinciple(false);
     }
 }

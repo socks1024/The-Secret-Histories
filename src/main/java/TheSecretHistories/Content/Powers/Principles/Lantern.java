@@ -1,6 +1,8 @@
 package TheSecretHistories.Content.Powers.Principles;
 
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 
 public class Lantern extends AbstractPrinciple{
@@ -10,5 +12,14 @@ public class Lantern extends AbstractPrinciple{
 
     public Lantern(AbstractCreature owner, int amount){
         super(POWER_ID, IMG_NAME, owner, amount);
+    }
+
+    @Override
+    public void atStartOfTurn() {
+        super.atStartOfTurn();
+
+        addToBot(new DrawCardAction(amount / 5));
+
+        this.flash();
     }
 }

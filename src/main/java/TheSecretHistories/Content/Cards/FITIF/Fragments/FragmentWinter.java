@@ -17,10 +17,12 @@ public class FragmentWinter extends AbstractFragment{
 
     public static String ID = StringUtils.MakeID(FragmentWinter.class.getSimpleName());
 
-    public static CardTags PRINCIPLE_TAG = WINTER;
+    private static final CardTags PRINCIPLE_TAG = WINTER;
+    private static final CardType TYPE = CardType.SKILL;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public FragmentWinter() {
-        super(ID, PRINCIPLE_TAG, CardTarget.ENEMY);
+        super(ID, PRINCIPLE_TAG, TYPE, TARGET);
     }
 
     @Override

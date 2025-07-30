@@ -26,11 +26,11 @@ public abstract class AbstractFragment extends TemplateMultiLevelCard {
     private static final int UPGRADE_TIMES_LIMIT = 6;
 
     public AbstractFragment(String id, CardTags principleTag) {
-        this(id, principleTag, TARGET);
+        this(id, principleTag, TYPE, TARGET);
     }
 
-    public AbstractFragment(String id, CardTags principleTag, CardTarget target) {
-        super(id, COST, TYPE, COLOR, RARITY, target, UPGRADE_TIMES_LIMIT);
+    public AbstractFragment(String id, CardTags principleTag, CardType type, CardTarget target) {
+        super(id, COST, type, COLOR, RARITY, target, UPGRADE_TIMES_LIMIT);
 
         this.tags.add(FRAGMENT);
         this.tags.add(principleTag);
@@ -38,6 +38,7 @@ public abstract class AbstractFragment extends TemplateMultiLevelCard {
         this.principleTag = principleTag;
 
         this.principleCount = this.basePrincipleCount = 2;
+
     }
 
     @Override

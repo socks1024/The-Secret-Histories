@@ -15,12 +15,14 @@ import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.WINT
 
 public class InfluenceWinter extends AbstractInfluences {
 
-    public static String ID = StringUtils.MakeID(InfluenceWinter.class.getSimpleName());
+    public static final String ID = StringUtils.MakeID(InfluenceWinter.class.getSimpleName());
 
-    public static CardTags PRINCIPLE_TAG = WINTER;
+    private static final CardTags PRINCIPLE_TAG = WINTER;
+    private static final CardType TYPE = CardType.SKILL;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
 
     public InfluenceWinter() {
-        super(ID, PRINCIPLE_TAG, CardTarget.ENEMY);
+        super(ID, PRINCIPLE_TAG, TYPE, TARGET);
     }
 
     @Override

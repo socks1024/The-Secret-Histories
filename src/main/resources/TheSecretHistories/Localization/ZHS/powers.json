@@ -2,21 +2,21 @@
   "TheSecretHistories:Lantern": {
     "NAME": "灯",
     "DESCRIPTIONS": [
-      "灯是有太阳之居屋之称的隐秘场所与其上光芒的准则。"
+      "灯是有太阳之居屋之称的隐秘场所与其上光芒的准则。[回合开始时，每有 5 灯额外抽 1 张牌。]"
     ]
   },
 
   "TheSecretHistories:Forge": {
     "NAME": "铸",
     "DESCRIPTIONS": [
-      "铸是变换与毁灭的准则。"
+      "铸是变换与毁灭的准则。[回合开始时，每有 7 铸额外抽 1 张牌。]"
     ]
   },
 
   "TheSecretHistories:Edge": {
     "NAME": "刃",
     "DESCRIPTIONS": [
-      "刃是战斗与抗争的准则。"
+      "刃是战斗与抗争的准则。[回合开始时，每有 3 刃获得 1 临时力量。]"
     ]
   },
 
@@ -30,14 +30,14 @@
   "TheSecretHistories:Heart": {
     "NAME": "心",
     "DESCRIPTIONS": [
-      "心是长存与延续的准则。"
+      "心是长存与延续的准则。[回合开始时，每有 3 心获得 1 临时敏捷。]"
     ]
   },
 
   "TheSecretHistories:Grail": {
     "NAME": "杯",
     "DESCRIPTIONS": [
-      "杯是生育与飨宴的准则。"
+      "杯是生育与飨宴的准则。[回合开始时，每有 5 杯给予随机敌人 1 虚弱易伤或负力量。]"
     ]
   },
 
@@ -51,7 +51,7 @@
   "TheSecretHistories:Knock": {
     "NAME": "启",
     "DESCRIPTIONS": [
-      "启是开启与拆解的准则。"
+      "启是开启与拆解的准则。[消耗启进入漫宿时，可以自行选择获得的卡牌。]"
     ]
   },
 
@@ -173,14 +173,14 @@
   "TheSecretHistories:DreadPower": {
     "NAME": "恐惧",
     "DESCRIPTIONS": [
-      "每回合临时失去1点力量"
+      "每回合临时失去1点力量，可以抵消入迷。"
     ]
   },
 
   "TheSecretHistories:FascinationPower": {
     "NAME": "入迷",
     "DESCRIPTIONS": [
-      "每回合临时失去1点敏捷"
+      "每回合临时失去1点敏捷，可以抵消入迷。"
     ]
   },
 
@@ -241,9 +241,9 @@
   },
 
   "TheSecretHistories:MansusChooseCardPower": {
-    "NAME": "梦境之途",
+    "NAME": "洞开",
     "DESCRIPTIONS": [
-      "下 %d 次进入漫宿时，可以选择卡牌。"
+      "下 %d 次打出漫宿牌时，漫宿牌不会进入弃牌堆。"
     ]
   }
 }

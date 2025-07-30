@@ -173,14 +173,14 @@
   "TheSecretHistories:DreadPower": {
     "NAME": "Dread",
     "DESCRIPTIONS": [
-      "Every turn,lose 1 Strength temporarily"
+      "Every turn,lose 1 Strength temporarily, Dread can counteract Fascination."
     ]
   },
 
   "TheSecretHistories:FascinationPower": {
     "NAME": "Fascination",
     "DESCRIPTIONS": [
-      "Every turn,lose 1 Dexterity temporarily"
+      "Every turn,lose 1 Dexterity temporarily, Dread can counteract Fascination."
     ]
   },
 
