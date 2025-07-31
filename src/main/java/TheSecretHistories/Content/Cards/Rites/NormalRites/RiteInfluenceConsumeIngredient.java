@@ -5,12 +5,11 @@ import TheSecretHistories.Content.Actions.UniqueCards.DiscardAnyAndDrawFullActio
 import TheSecretHistories.Content.Cards.Rites.AbstractNormalRite;
 import TheSecretHistories.Utils.PrincipleUtils.ReducePrincipleInfo;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
-import com.megacrit.cardcrawl.actions.common.DiscardAction;
+import com.megacrit.cardcrawl.actions.common.*;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.BarricadePower;
 
 import java.util.Random;
 
@@ -21,7 +20,7 @@ public class RiteInfluenceConsumeIngredient extends AbstractNormalRite {
     public static final String ID = StringUtils.MakeID(RiteInfluenceConsumeIngredient.class.getSimpleName());
 
     private static final String IMG_NAME = "riteinfluenceconsumeingredient";
-    private static final int COST = 0;
+    private static final int COST = 1;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardTarget TARGET = CardTarget.NONE;
 
@@ -32,21 +31,18 @@ public class RiteInfluenceConsumeIngredient extends AbstractNormalRite {
 
     public RiteInfluenceConsumeIngredient() {
         super(ID, IMG_NAME, COST, TYPE, TARGET, INFOS);
+        this.baseBlock = this.block = 40;
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         this.selfRetain = true;
+        upgradeBlock(20);
     }
 
     @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-
-        addToBot(new ConsumePrincipleAction(abstractPlayer, INFOS) {
-            @Override
-            protected void OnConsumedEnough(int consumedAmount) {
-                addToBot(new DiscardAnyAndDrawFullAction(abstractPlayer));
-            }
-        });
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        this.addToBot(new GainBlockAction(p, p, this.block));
+        this.addToBot(new ApplyPowerAction(p, p, new BarricadePower(p)));
     }
 }

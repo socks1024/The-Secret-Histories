@@ -1,20 +1,13 @@
 package TheSecretHistories.Content.Cards.Rites.NormalRites;
 
-import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
-import TheSecretHistories.Content.Actions.UniqueCards.DiscardAnyAndDrawFullAction;
 import TheSecretHistories.Content.Cards.Rites.AbstractNormalRite;
 import TheSecretHistories.Utils.PrincipleUtils.ReducePrincipleInfo;
 import TheSecretHistories.Utils.StringUtils;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
-import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
-import com.megacrit.cardcrawl.actions.common.DiscardAction;
-import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
-import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.AbstractPower;
-
-import java.util.Random;
+import com.megacrit.cardcrawl.powers.DexterityPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
 
@@ -30,29 +23,29 @@ public class RiteToolConsumeFollower extends AbstractNormalRite {
     private static final ReducePrincipleInfo[] INFOS = new ReducePrincipleInfo[]{
             new ReducePrincipleInfo(FORGE, 12),
             new ReducePrincipleInfo(GRAIL, 8)
+
     };
 
     public RiteToolConsumeFollower() {
         super(ID, IMG_NAME, COST, TYPE, TARGET, INFOS);
+        this.magicNumber = this.baseMagicNumber = 4;
     }
 
     @Override
-    protected void OnUpgrade(int timesUpgraded) {
-        this.selfRetain = true;
-    }
-
-    @Override
-    public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-
-        addToBot(new ConsumePrincipleAction(abstractPlayer, INFOS) {
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new AbstractGameAction() {
             @Override
-            protected void OnConsumedEnough(int consumedAmount) {
-                for (AbstractPower p : abstractPlayer.powers) {
-                    if (p.type == AbstractPower.PowerType.DEBUFF) {
-                        addToTop(new RemoveSpecificPowerAction(abstractPlayer, abstractPlayer, p));
-                    }
-                }
+            public void update() {
+                AbstractDungeon.player.increaseMaxHp(baseMagicNumber, true);
+                isDone=true;
             }
         });
     }
+    @Override
+    protected void OnUpgrade(int timesUpgraded) {
+        this.selfRetain = true;
+        upgradeMagicNumber(2);
+    }
+
+
 }

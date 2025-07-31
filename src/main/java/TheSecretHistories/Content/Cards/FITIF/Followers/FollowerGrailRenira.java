@@ -8,6 +8,9 @@ import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -30,40 +33,26 @@ public class FollowerGrailRenira extends AbstractFollower{
 
     public FollowerGrailRenira() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
-        this.baseMagicNumber = this.magicNumber = 4;
+        this.baseMagicNumber = this.magicNumber = 1;
+        this.baseDamage = this.damage = 7;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        super.use(p, m);
-        addToBot(new ConsumePrincipleAction(p, GRAIL) {
+        int extraDamage = 0;
 
-            @Override
-            protected void OnConsumedEnough(int consumedAmount) {
-                int times = consumedAmount / magicNumber;
-                if (times > 0) {
-                    for (int i = 0; i < times; i++) {
-                        int roll = AbstractDungeon.miscRng.random(2);
-                        switch (roll) {
-                            case 0:
-                                addToTop(new ApplyPowerAction(m, p, new StrengthPower(m, -1)));
-                                break;
-                            case 1:
-                                addToTop(new ApplyPowerAction(m, p, new WeakPower(m, 1, false)));
-                                break;
-                            case 2:
-                                addToTop(new ApplyPowerAction(m, p, new VulnerablePower(m, 1, false)));
-                                break;
-                        }
-                    }
-                }
+        for (AbstractPower power : p.powers) {
+            if (power.type == AbstractPower.PowerType.DEBUFF) {
+                extraDamage+= power.amount;
             }
-        });
+        }
+        int totalDamage = this.baseDamage + extraDamage;
+        addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
     }
 
     @Override
     protected void OnUpgrade(int timesUpgraded) {
         super.OnUpgrade(timesUpgraded);
-        upgradeMagicNumber(-1);
+        upgradeMagicNumber(1);
     }
 }

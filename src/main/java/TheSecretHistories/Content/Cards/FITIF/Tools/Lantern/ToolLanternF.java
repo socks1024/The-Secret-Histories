@@ -19,9 +19,9 @@ public class ToolLanternF extends AbstractTool {
 
     private static final String IMG_NAME = "toollanternf";
     private static final int COST = 1;
-    private static final CardType TYPE = CardType.ATTACK;
+    private static final CardType TYPE = CardType.SKILL;
     private static final CardRarity RARITY = CardRarity.RARE;
-    private static final CardTarget TARGET = CardTarget.ENEMY;
+    private static final CardTarget TARGET = CardTarget.SELF;
 
 
     public ToolLanternF() {
