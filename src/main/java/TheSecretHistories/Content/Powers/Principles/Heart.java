@@ -20,10 +20,10 @@ public class Heart extends AbstractPrinciple{
     @Override
     public void atStartOfTurn() {
         super.atStartOfTurn();
-
-        addToBot(new ApplyPowerAction(owner, owner, new DexterityPower(owner, amount / 3)));
-        addToBot(new ApplyPowerAction(owner, owner, new LoseDexterityPower(owner, amount / 3)));
-
+        if(amount / 3 >= 1) {
+            addToBot(new ApplyPowerAction(owner, owner, new DexterityPower(owner, amount / 3)));
+            addToBot(new ApplyPowerAction(owner, owner, new LoseDexterityPower(owner, amount / 3)));
+        }
         this.flash();
     }
 }

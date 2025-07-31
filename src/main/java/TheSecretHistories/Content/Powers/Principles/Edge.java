@@ -18,9 +18,10 @@ public class Edge extends AbstractPrinciple{
     @Override
     public void atStartOfTurn() {
         super.atStartOfTurn();
-
-        addToBot(new ApplyPowerAction(owner, owner, new StrengthPower(owner, amount / 3)));
-        addToBot(new ApplyPowerAction(owner, owner, new LoseStrengthPower(owner, amount / 3)));
+        if(amount / 3 >= 1) {
+            addToBot(new ApplyPowerAction(owner, owner, new StrengthPower(owner, amount / 3)));
+            addToBot(new ApplyPowerAction(owner, owner, new LoseStrengthPower(owner, amount / 3)));
+        }
 
         this.flash();
     }

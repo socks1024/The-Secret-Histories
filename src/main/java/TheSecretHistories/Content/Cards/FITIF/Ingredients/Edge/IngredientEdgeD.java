@@ -18,7 +18,7 @@ public class IngredientEdgeD extends AbstractIngredient {
     public static final String ID = StringUtils.MakeID(IngredientEdgeD.class.getSimpleName());
     private static final AbstractCard.CardTags PRINCIPLE_TAG = EDGE;
     private static final String IMG_NAME = "ingredientedged";
-    private static final int COST = 1;
+    private static final int COST = 0;
     private static final AbstractCard.CardType TYPE = CardType.SKILL;
     private static final AbstractCard.CardRarity RARITY = AbstractCard.CardRarity.UNCOMMON;
     private static final AbstractCard.CardTarget TARGET = CardTarget.SELF;

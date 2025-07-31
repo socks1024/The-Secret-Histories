@@ -9,7 +9,7 @@
   "TheSecretHistories:Forge": {
     "NAME": "铸",
     "DESCRIPTIONS": [
-      "铸是变换与毁灭的准则。[回合开始时，每有 7 铸额外抽 1 张牌。]"
+      "铸是变换与毁灭的准则。[回合开始时，每有 7 铸额外获得 1 费。]"
     ]
   },
 
@@ -244,6 +244,13 @@
     "NAME": "洞开",
     "DESCRIPTIONS": [
       "下 %d 次打出漫宿牌时，漫宿牌不会进入弃牌堆。"
+    ]
+  },
+
+  "TheSecretHistories:SimpleDrawReductionPower": {
+    "NAME": "减少抽取",
+    "DESCRIPTIONS": [
+      "下回合少抽 %d 张牌。"
     ]
   }
 }

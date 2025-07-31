@@ -2,13 +2,20 @@ package TheSecretHistories.Content.Cards.FITIF.Followers;
 
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.HeartPrincipleAction;
 import TheSecretHistories.Content.Actions.Principle.ConsumePrinciple.IngredientWinterPrincipleAction;
+import TheSecretHistories.Content.Powers.Principles.Heart;
+import TheSecretHistories.Content.Powers.Principles.Moth;
 import TheSecretHistories.Utils.DeckUtils;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.utility.DiscardToHandAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.DexterityPower;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.HEART;
 
@@ -29,7 +36,20 @@ public class FollowerHeartClovette extends AbstractFollower{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
-        addToBot(new HeartPrincipleAction(m, p, PRINCIPLE_TAG, magicNumber, 1));
+        addToBot(new AbstractGameAction() {
+            @Override
+            public void update() {
+                int heartAmount = PowerUtils.GetPowerAmount(Heart.POWER_ID, p);
+                int times = heartAmount / magicNumber;
+                if (times > 0) {
+                    for (int i = 0; i < times; i++) {
+                        addToBot(new ApplyPowerAction(p, p, new DexterityPower(p, 1), 1));
+
+                    }
+                }
+                isDone=true;
+            }
+        });
     }
 
     @Override

@@ -337,7 +337,7 @@
 
   "TheSecretHistories:FollowerForgeValciane": {
     "NAME": "万查妮",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 消耗所有 tsh:铸 ，每 !M! 铸获得 [E] 。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:铸 之 tsh:准则 !P! NL 消耗所有手牌，造成其准则层数之和的伤害，消耗 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -348,7 +348,7 @@
   },
   "TheSecretHistories:FollowerEdgeRose": {
     "NAME": "萝丝",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 消耗所有 tsh:刃 ，每有 !M! tsh:刃 获得1点 力量 。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:刃 之 tsh:准则 !P! NL 每有 !M! tsh:刃 获得1点 力量 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -378,7 +378,7 @@
 
   "TheSecretHistories:FollowerHeartClovette": {
     "NAME": "克罗薇特",
-    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 消耗所有 tsh:心 ，每有 !M! tsh:心 获得1点 敏捷 。",
+    "DESCRIPTION": " tsh:追随者 。 NL tsh:心 之 tsh:准则 !P! NL 每有 !M! tsh:心 获得1点 敏捷 。",
     "UPGRADE_DESCRIPTION": ""
   },
 
