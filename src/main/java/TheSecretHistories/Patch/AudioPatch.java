@@ -1,5 +1,6 @@
 package TheSecretHistories.Patch;
 
+import TheSecretHistories.ModConfig.TSHModConfig;
 import com.badlogic.gdx.audio.Music;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.audio.MainMusic;
@@ -13,11 +14,16 @@ public class AudioPatch {
 
         @SpirePrefixPatch
         public static SpireReturn<Music> GetMusicPatchMethod(MainMusic __mainMusic, String key) {
-            Music song = GetCultistSong(key);
 
-            if (song != null) {
+            if (TSHModConfig.EnableCultistSimulatorMusic){
 
-                return SpireReturn.Return(song);
+                Music song = GetCultistSong(key);
+
+                if (song != null) {
+
+                    return SpireReturn.Return(song);
+
+                }
 
             }
 

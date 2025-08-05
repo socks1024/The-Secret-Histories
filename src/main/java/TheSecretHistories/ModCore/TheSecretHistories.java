@@ -140,6 +140,7 @@ public class TheSecretHistories implements
         BaseMod.loadCustomStringsFile(PowerStrings.class, "TheSecretHistories/Localization/" + lang + "/powers.json");
         BaseMod.loadCustomStringsFile(EventStrings.class, StringUtils.MakeLocalizationPath("events.json"));
         BaseMod.loadCustomStringsFile(TutorialStrings.class, StringUtils.MakeLocalizationPath("tutorials.json"));
+        BaseMod.loadCustomStringsFile(UIStrings.class, StringUtils.MakeLocalizationPath("ui.json"));
     }
 
     @Override
