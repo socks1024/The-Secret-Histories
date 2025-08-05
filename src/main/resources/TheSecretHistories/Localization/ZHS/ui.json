@@ -1,7 +1,7 @@
 {
-  "TheSecretHistories:MyModConfig": {
+  "TheSecretHistories:TSHModConfig": {
     "TEXT_DICT": {
-      "EnableCultistSimulatorMusic": "使用来自《密教模拟器》的背景音乐"
+      "EnableCultistSimulatorMusic": "使用来自《密教模拟器》的背景音乐（从下一首开始）"
     }
   }
 }

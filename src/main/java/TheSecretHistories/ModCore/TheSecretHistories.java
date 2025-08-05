@@ -4,6 +4,7 @@ import TheSecretHistories.Content.Cards.Template.TemplateOptionCard;
 import TheSecretHistories.Content.Characters.TheSeeker;
 import TheSecretHistories.Content.Events.BookShop;
 import TheSecretHistories.Data.DynamicVariable.PrincipleVariant;
+import TheSecretHistories.ModConfig.TSHModConfig;
 import TheSecretHistories.Utils.DebugUtils;
 import TheSecretHistories.Utils.StringUtils;
 import basemod.AutoAdd;
@@ -84,6 +85,8 @@ public class TheSecretHistories implements
         } catch (IOException var2) {
             var2.printStackTrace();
         }
+
+        TSHModConfig.SetUpModConfig();
     }
 
     public static void SetShowedTutorialsBoolean(String key) {
