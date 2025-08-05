@@ -46,8 +46,10 @@ public class FollowerGrailRenira extends AbstractFollower{
                 extraDamage+= power.amount;
             }
         }
-        int totalDamage = this.baseDamage + extraDamage;
-        addToBot(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
+
+        // int totalDamage = this.baseDamage + extraDamage;
+
+        addToBot(new DamageAction(m, new DamageInfo(p, this.damage + extraDamage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
     }
 
     @Override

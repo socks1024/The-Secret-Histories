@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Powers.UniqueCards;
 
 import TheSecretHistories.Content.Powers.Principles.Edge;
 import TheSecretHistories.Content.Powers.Template.TemplateCustomPower;
+import TheSecretHistories.Utils.PowerUtils;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
@@ -22,12 +23,11 @@ public class ToolEdgeDPower extends TemplateCustomPower {
     public void atEndOfTurn(boolean isPlayer) {
         super.atEndOfTurn(isPlayer);
 
-        int edge = owner.getPower(Edge.POWER_ID).amount;
+        int edge = PowerUtils.GetPowerAmount(Edge.POWER_ID, owner);
 
-        if (isPlayer) {
-            owner.loseBlock(edge);
+        owner.loseBlock(edge);
 
-            addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, this.ID));
-        }
+        addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, this.ID));
+
     }
 }

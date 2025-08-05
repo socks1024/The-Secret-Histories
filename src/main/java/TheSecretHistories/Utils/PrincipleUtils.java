@@ -96,4 +96,20 @@ public class PrincipleUtils {
             this.reduceAmount = reduceAmount;
         }
     }
+
+    public static AbstractCard.CardTags GetCardPrincipleTag(AbstractCard card){
+
+        if (card.hasTag(LANTERN)) return LANTERN;
+        if (card.hasTag(FORGE)) return EDGE;
+        if (card.hasTag(EDGE)) return EDGE;
+        if (card.hasTag(WINTER)) return WINTER;
+        if (card.hasTag(HEART)) return HEART;
+        if (card.hasTag(GRAIL)) return GRAIL;
+        if (card.hasTag(MOTH)) return MOTH;
+        if (card.hasTag(KNOCK)) return KNOCK;
+        if (card.hasTag(SECRET_HISTORIES)) return SECRET_HISTORIES;
+
+        return AbstractCard.CardTags.EMPTY;
+
+    }
 }

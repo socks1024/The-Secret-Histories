@@ -1,7 +1,10 @@
 package TheSecretHistories.Content.Cards.Template;
 
 import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
+import TheSecretHistories.Content.Powers.UniqueCards.ToolForgeFPower;
+import TheSecretHistories.Utils.PrincipleUtils;
 import basemod.abstracts.CustomCard;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -148,4 +151,15 @@ public abstract class TemplateCustomCard extends CustomCard {
     public AbstractCard lowerCardToPreview;
 
     public AbstractCard higherCardToPreview;
+
+    @Override
+    public void triggerOnExhaust() {
+        super.triggerOnExhaust();
+
+        if (AbstractDungeon.player.hasPower(ToolForgeFPower.POWER_ID) && PrincipleUtils.GetCardPrincipleTag(this) != CardTags.EMPTY){
+            int amount = AbstractDungeon.player.getPower(ToolForgeFPower.POWER_ID).amount;
+
+            addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, PrincipleUtils.GetPrinciplePower(PrincipleUtils.GetCardPrincipleTag(this), principleCount * amount)));
+        }
+    }
 }
