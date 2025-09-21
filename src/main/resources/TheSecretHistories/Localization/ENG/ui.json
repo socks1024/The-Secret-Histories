@@ -1,7 +1,7 @@
 {
   "TheSecretHistories:TSHModConfig": {
     "TEXT_DICT": {
-      "EnableCultistSimulatorMusic": "Use the BGM from Cultist Simulator(from next song)"
+      "EnableCultistSimulatorMusic": "Background music from Cultist Simulator(from next song) is applied."
     }
   }
 }

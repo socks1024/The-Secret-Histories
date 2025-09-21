@@ -152,5 +152,16 @@
   {
     "NAMES": ["other Enemies"],
     "DESCRIPTION": "Does not include oneself NL Heart: NL 0.1% NL T3 Boss: NL 2.3% NL T2 Boss: NL 2.3% NL T1 Boss: NL 2.3% NL T3 Elite: NL 3.5% NL T2 Elite: NL 4.6% NL T1 Elite: NL 4.8% NL T3 Normal: NL 14.1% NL T2 Normal: NL 23.1% NL T1 Normal: NL 42.9%"
+  },
+
+  {
+    "NAMES": ["dread"],
+    "DESCRIPTION": "Every turn temporarily lose %d strength."
+  },
+
+  {
+    "NAMES": ["fascination"],
+    "DESCRIPTION": "Every turn temporarily lose %d dexterity."
   }
+
 ]

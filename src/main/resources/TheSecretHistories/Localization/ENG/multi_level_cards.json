@@ -19,7 +19,7 @@
       "fragmentlanterng"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:lantern !P! NL draw !M! cards."
+      " tsh:lore NL tsh:principle of tsh:lantern !P! NL draw !M! cards. NL Enhance the effect every 3 times you upgrade it."
     ]
   },
 
@@ -43,7 +43,7 @@
       "fragmentforgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:forge !P! NL choose and Exhaust !M! cards."
+      " tsh:lore NL tsh:principle of tsh:forge !P! NL choose and Exhaust !M! cards. NL Enhance the effect every 3 times you upgrade it"
     ]
   },
 
@@ -67,7 +67,7 @@
       "fragmentedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:edge !P! NL Gain !M! Strength this turn."
+      " tsh:lore NL tsh:principle of tsh:edge !P! NL Deal !D! damage."
     ]
   },
 
@@ -115,7 +115,7 @@
       "fragmentheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:heart !P! NL Gain !M! Dexterity this turn."
+      " tsh:lore NL tsh:principle of tsh:heart !P! NL Gain !B! block."
     ]
   },
 
@@ -139,7 +139,7 @@
       "fragmentgrailg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:grail !P! NL Gain !M! Artifact."
+      " tsh:lore NL tsh:principle of tsh:grail !P! NL Gain !M! Artifact. NL Enhance the effect every 3 times you upgrade it"
     ]
   },
 
@@ -163,7 +163,7 @@
       "fragmentmothg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:moth !P! NL For this combat, upgrade all tsh:lore in your deck."
+      " tsh:lore NL tsh:principle of tsh:moth !P! NL For this combat, upgrade all tsh:lore in your deck. NL Enhance the effect every 3 times you upgrade it"
     ]
   },
 
@@ -187,7 +187,7 @@
       "fragmentknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:lore NL tsh:principle of tsh:knock !P! NL Next time you enter tsh:mansus , you can choose cards yourself."
+      " tsh:lore NL tsh:principle of tsh:knock !P! NL Next !M! time you enter tsh:mansus , the way of Mansus card won't discard. NL Enhance the effect every 3 times you upgrade it"
     ]
   },
 
@@ -265,7 +265,7 @@
       "influenceedgeg"
     ],
     "DESCRIPTION":  [
-      " tsh:influence NL tsh:principle of tsh:edge !P! NL Ethereal . Exhaust . NL gain !M! Strength this turn."
+      " tsh:influence NL tsh:principle of tsh:edge !P! NL Ethereal . Exhaust . NL Deal !D! damage."
     ]
   },
 
@@ -301,7 +301,7 @@
       "influenceheartg"
     ],
     "DESCRIPTION":  [
-      " tsh:influence NL tsh:principle of tsh:heart !P! NL Ethereal . Exhaust . NL Gain !M! Dexterity this turn."
+      " tsh:influence NL tsh:principle of tsh:heart !P! NL Ethereal . Exhaust . NL Gain !B! block."
     ]
   },
 
@@ -337,7 +337,7 @@
       "influencemothg"
     ],
     "DESCRIPTION":  [
-      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL For this combat, upgrade all tsh:lore in your deck."
+      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL For this combat, upgrade all tsh:lore !M! times in your deck."
     ]
   },
 
@@ -355,7 +355,7 @@
       "influenceknockg"
     ],
     "DESCRIPTION":  [
-      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL Next time you enter tsh:mansus , you can choose cards yourself."
+      " tsh:influence NL tsh:principle of tsh:moth !P! NL Ethereal . Exhaust . NL Next time you enter tsh:mansus , the way of Mansus card won't be discarded."
     ]
   },
 

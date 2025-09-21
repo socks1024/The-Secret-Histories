@@ -2,21 +2,21 @@
   "TheSecretHistories:Lantern": {
     "NAME": "Lantern",
     "DESCRIPTIONS": [
-      "Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it."
+      "Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it.[At the start of each turn,draw 1 extra card for every 5 lantern you have.]"
     ]
   },
 
   "TheSecretHistories:Forge": {
     "NAME": "Forge",
     "DESCRIPTIONS": [
-      "The principle of the Forge transforms and destroys."
+      "The principle of the Forge transforms and destroys.[At the start of each turn,gain 1 extra energy for every 7 forge you have]"
     ]
   },
 
   "TheSecretHistories:Edge": {
     "NAME": "Edge",
     "DESCRIPTIONS": [
-      "[Edge is the principle of battle and of struggle."
+      "[Edge is the principle of battle and of struggle.[At the start of each turn,gain 1 temporary strength for every 3 edge you have.]"
     ]
   },
 
@@ -30,14 +30,14 @@
   "TheSecretHistories:Heart": {
     "NAME": "Heart",
     "DESCRIPTIONS": [
-      "The Heart is the principle that continues and preserves."
+      "The Heart is the principle that continues and preserves.[At the start of each turn,gain 1 temporary dexterity for every 3 heart you have.]"
     ]
   },
 
   "TheSecretHistories:Grail": {
     "NAME": "Grail",
     "DESCRIPTIONS": [
-      "The principle of the Grail honours both the birth and the feast."
+      "The principle of the Grail honours both the birth and the feast.[At the start of each turn,apply 1 weak or vulnerable or -1 strength to a random enemy for every 5 grail you have.]"
     ]
   },
 
@@ -51,7 +51,7 @@
   "TheSecretHistories:Knock": {
     "NAME": "Knock",
     "DESCRIPTIONS": [
-      "The Knock is the principle that opens doors and unseams barriers."
+      "The Knock is the principle that opens doors and unseams barriers.[When you exhaust knock to enter the Mansus, you can choose which card to obtain.]"
     ]
   },
 
@@ -180,7 +180,7 @@
   "TheSecretHistories:FascinationPower": {
     "NAME": "Fascination",
     "DESCRIPTIONS": [
-      "Every turn,lose 1 Dexterity temporarily, Dread can counteract Fascination."
+      "Every turn,lose 1 Dexterity temporarily, Fascination can counteract Dread."
     ]
   },
 
@@ -243,7 +243,14 @@
   "TheSecretHistories:MansusChooseCardPower": {
     "NAME": "Way of Dream",
     "DESCRIPTIONS": [
-      " %d times you can choose card from Mansus"
+      " %d times you choose card from Mansus, the way of Mansus card won't go into disacrd pile."
+    ]
+  },
+
+    "TheSecretHistories:SimpleDrawReductionPower": {
+    "NAME": "Reduced Draw",
+    "DESCRIPTIONS": [
+      "Draw %d less cards next turn."
     ]
   }
 }

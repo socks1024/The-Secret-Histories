@@ -19,7 +19,7 @@
 
   "TheSecretHistories:ToolLanternF": {
     "NAME": "Watchman's Glass",
-    "DESCRIPTION": " Ethereal. NL tsh:tool. NL tsh:principle of tsh:lantern !P! NL At the start of your turn,for every !M! tsh:lantern you have, draw 1 card.",
+    "DESCRIPTION": " Ethereal. NL tsh:tool. NL tsh:principle of tsh:lantern !P! NL Put a card from your exhaust pile into your hand NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -31,19 +31,19 @@
 
   "TheSecretHistories:ToolForgeD": {
     "NAME": "Malleus Imperative",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:forge !P! NL Deal !D! damage. Upgrade all tsh:tool in your handed cards.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:forge !P! NL For every card exhausted, increase its sth:principle",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolForgeF": {
     "NAME": "Carcass Spark",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:forge !P! NL Gain !B! block ,Upgrade your handed tsh:Lore cards !M! times. NL exhaust.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:forge !P! NL When you exhaust cards,you directly gain their principles.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:ToolEdgeB": {
     "NAME": " Meteoric Bullet",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage !M! Times, if Fatal.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:edge !P! NL Deal !D! damage !M! Times.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -74,7 +74,7 @@
   "TheSecretHistories:ToolWinterF": {
     "NAME": "Division Bell",
     "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:winter !P! NL Evey turn you gain Block equal to tsh:winter of your enemies.",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:winter !P! NL Retain NL Evey turn you gain Block equal to tsh:winter of your enemies."
   },
 
   "TheSecretHistories:ToolHeartB": {
@@ -121,7 +121,7 @@
 
   "TheSecretHistories:ToolMothD": {
     "NAME": "Dappled Mask",
-    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:moth !P! NL this turn everytime you gain tsh:moth, you gain additional !M! tsh:moth.",
+    "DESCRIPTION": " tsh:tool. NL tsh:principle of tsh:moth !P! NL lose all tsh:moth and gain equal tsh:lantern,exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -194,7 +194,7 @@
   "TheSecretHistories:IngredientForgeF": {
     "NAME": "Iotic Essence",
     "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL play the top !M! cards of your draw pile, exhaust.",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:forge !P! NL  NL play the top !M! cards of your draw pile, exhaust."
   },
 
   "TheSecretHistories:IngredientEdgeB": {
@@ -248,7 +248,7 @@
   "TheSecretHistories:IngredientHeartF": {
     "NAME": "True Blood of St Januarius",
     "DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart !P! NL gain  !M! Intangible ,2 *restlessness .",
-    "UPGRADE_DESCRIPTION": " tsh:ingredient NL tsh:principle of tsh:heart !P! NL gain  !M! Intangible ,2 *restlessness ."
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:IngredientGrailB": {
@@ -307,7 +307,7 @@
 
   "TheSecretHistories:FollowerLanternClifton": {
     "NAME": "Clifton",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:lantern !P! NL Exhaust all tsh:lantern ,For each !M! tsh:lantern you exhaust you draw 1 card.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:lantern !P! NL Deal !M! damage, you draw 2 less card next turn.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -319,7 +319,7 @@
 
   "TheSecretHistories:FollowerLanternSlee": {
     "NAME": "Slee",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:lantern !P! NL Exhaust !M! tsh:lantern ,draw 2 card.Add 1 tsh:lantern evey time you play it. NL Exhaust.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:lantern !P! NL Gain !B! block, discard !M! cards.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -337,7 +337,7 @@
 
   "TheSecretHistories:FollowerForgeValciane": {
     "NAME": "Valciane",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:forge !P! NL Exhaust all tsh:forge ,For every !M! tsh:forge, gain  [E] .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:forge !P! NL Exhaust all cards at hand, for every card exhausted, deal damage equal to its tsh:principle.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -348,7 +348,7 @@
   },
   "TheSecretHistories:FollowerEdgeRose": {
     "NAME": "Rose",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:edge !P! NL Exhaust all tsh:edge ,for every !M! tsh:edge gain 1 Strength .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:edge !P! NL for every !M! tsh:edge gain 1 Strength .",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -373,7 +373,7 @@
   "TheSecretHistories:FollowerHeartLeo": {
     "NAME": "Leo",
     "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:heart !P! NL Deal damage equal to your Block.",
-    "UPGRADE_DESCRIPTION": " tsh:follower NL tsh:principle of tsh:heart !P! NL Retain . NL Deal damage equal to your Block."
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerHeartClovette": {
@@ -384,13 +384,13 @@
 
   "TheSecretHistories:FollowerHeartDorothy": {
     "NAME": "Dorothy",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:heart !P! NL At the start of your next turn,Double your current Block . NL exhaust.",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:heart !P! NL At the start of your next turn,gain your current Block . NL exhaust.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:FollowerGrailRenira": {
     "NAME": "Renira",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:grail !P! NL Exhaust all tsh:grail ,for every !M! tsh:grail Apply 1 Weak or Vulnerable or lose 1 Strength .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:grail !P! NL Deal !D! damage, deal extra !M! damage times equal to debuff.",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -408,7 +408,7 @@
 
   "TheSecretHistories:FollowerMothSylvia": {
     "NAME": "Sylvia",
-    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:moth !P! NL Deal !D! damage, change your lowest tsh: Principles into tsh:moth .",
+    "DESCRIPTION": " tsh:follower NL tsh:principle of tsh:moth !P! NL Deal !D! damage, change your lowest tsh:principle into tsh:moth .",
     "UPGRADE_DESCRIPTION": ""
   },
 
@@ -642,14 +642,14 @@
 
   "TheSecretHistories:RiteInfluenceConsumeIngredient": {
     "NAME": "The Rite of the Crow's Quenching",
-    "DESCRIPTION": "Exhaust 12 tsh:lantern 8 tsh:edge NL discard any card at your hand and draw cards until your hand is full.",
-    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:lantern 8 tsh:edge NL discard any card at your hand draw cards until your hand is full."
+    "DESCRIPTION": "Exhaust 12 tsh:lantern 8 tsh:edge NL Gain !B! block, Block won't automatically reduce this fight.",
+    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:lantern 8 tsh:edge NL Gain !B! block, Block won't automatically reduce this fight."
   },
 
   "TheSecretHistories:RiteToolConsumeFollower": {
     "NAME": "Rite of the Crucible Soul",
-    "DESCRIPTION": "Exhaust 12 tsh:forge 8 tsh:grail NL  yourself .",
-    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:forge 8 tsh:grail NL reduce all your debuffs."
+    "DESCRIPTION": "Exhaust 12 tsh:forge 8 tsh:grail NL Increase !M! Max Hp.",
+    "UPGRADE_DESCRIPTION": " Retain NL Exhaust 12 tsh:forge 8 tsh:grail NL Increase !M! Max Hp."
   },
 
   "TheSecretHistories:RiteToolConsumeInfluence": {
@@ -660,8 +660,8 @@
 
   "TheSecretHistories:RiteToolConsumeIngredient": {
     "NAME": "Rite of the Sea's Feasting",
-    "DESCRIPTION": "Exhaust 12 tsh:moth 8 tsh:edge NL gain additional [E] evey turn.",
-    "UPGRADE_DESCRIPTION": "Exhaust 12 tsh:moth 8 tsh:edge NL gain additional [E] [E] evey turn."
+    "DESCRIPTION": "Exhaust 12 tsh:moth 8 tsh:edge NL Apply !M! vulnerable and weak to enemy NL Exhaust.",
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:RiteToolFollowerConsumeLore": {
@@ -775,7 +775,7 @@
   "TheSecretHistories:SpiritLanternSecret": {
     "NAME": "Teresa",
     "DESCRIPTION": " Exhaust NL Ethereal. NL this turn, all tsh:principle temporarily are increased by !M!.",
-    "UPGRADE_DESCRIPTION": ""
+    "UPGRADE_DESCRIPTION": " Exhaust NL this turn, all tsh:principle temporarily are increased by !M!"
   },
 
   "TheSecretHistories:SummonLanternSecret": {
@@ -804,13 +804,13 @@
 
   "TheSecretHistories:Dread": {
     "NAME": "Dread",
-    "DESCRIPTION": " When this card goes into your hand pile,Lose !M! temporary Strength every turn.",
+    "DESCRIPTION": " When this card goes into your hand pile,Gain !M! tsh:Dread.",
     "UPGRADE_DESCRIPTION": ""
   },
 
   "TheSecretHistories:Fascination": {
     "NAME": "Fascination",
-    "DESCRIPTION": " When this card goes into your hand pile,Lose !M! temporary Dexterity every turn.",
+    "DESCRIPTION": " When this card goes into your hand pile,Gain !M! tsh:Fascination.",
     "UPGRADE_DESCRIPTION": ""
   },
 
