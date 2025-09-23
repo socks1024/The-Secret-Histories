@@ -24,21 +24,15 @@ public class FollowerLanternSlee extends AbstractFollower{
     public FollowerLanternSlee() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
         this.baseBlock = this.block = 10;
-        this.baseMagicNumber = this.magicNumber;
+        this.baseMagicNumber = this.magicNumber = 1;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         super.use(p, m);
 
-//        addToBot(new ConsumePrincipleAction(p, LANTERN, magicNumber) {
-//            @Override
-//            protected void OnConsumedEnough(int consumedAmount) {
-//                addToTop(new DrawCardAction(2));
-//            }
-//        });
-//        baseMagicNumber++;
-        addToBot(new DiscardAction(p, p, magicNumber, false));
+        addToBot(new GainBlockAction(p, p, this.block));
+        addToBot(new DiscardAction(p, p, this.magicNumber, false));
 
     }
 
@@ -49,16 +43,3 @@ public class FollowerLanternSlee extends AbstractFollower{
     }
 
 }
-//*private static final CardTags PRINCIPLE_TAG = EDGE;
-//
-//    public static final String ID = StringUtils.MakeID(FollowerEdgeElridge.class.getSimpleName());
-//
-//    private static final String IMG_NAME = "elridge";
-//
-//    private static final int COST = 1;
-//
-//    private static final CardType TYPE = CardType.ATTACK;
-//
-//    private static final CardRarity RARITY = CardRarity.COMMON;
-//
-//    private static final CardTarget TARGET = CardTarget.ENEMY;*/
