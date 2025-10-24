@@ -180,7 +180,7 @@
   "TheSecretHistories:FascinationPower": {
     "NAME": "入迷",
     "DESCRIPTIONS": [
-      "每回合临时失去1点敏捷，可以抵消入迷。"
+      "每回合临时失去1点敏捷，可以抵消恐惧。"
     ]
   },
 
