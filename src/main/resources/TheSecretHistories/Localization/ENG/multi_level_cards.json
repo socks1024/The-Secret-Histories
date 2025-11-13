@@ -537,5 +537,21 @@
     "DESCRIPTION": [
       "Exhaust !P! tsh:principle of tsh:knock." 
     ]
+  },
+
+  "TheSecretHistories:MansusFrangiclave": {
+    "NAMES": [
+      "The Wood: Frangiclave",
+      "The White Door: Frangiclave",
+      "the Stag Door: Frangiclave",
+      "The Spider's Door: Frangiclave",
+      "The Peacock's Door: Frangiclave"
+    ],
+    "IMG_PATHS": [
+      "toolknockf"
+    ],
+    "DESCRIPTION": [
+      "Does not exhaust tsh:principle 。"
+    ]
   }
 }

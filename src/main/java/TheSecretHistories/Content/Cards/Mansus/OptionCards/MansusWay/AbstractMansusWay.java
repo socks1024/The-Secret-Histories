@@ -37,17 +37,19 @@ public abstract class AbstractMansusWay extends TemplateOptionCard {
     @Override
     public void onChoseThisOption() {
 
-        if (!AbstractDungeon.player.hasPower(ToolKnockFPower.POWER_ID)) {
+        ArrayList<AbstractCard> principles = new ArrayList<>();
 
-            ArrayList<AbstractCard> principles = new ArrayList<>();
+        for (CardTags tag : GetAvailableTags()) {
+            principles.add(GetMansusPrinciple(tag));
+        }
 
-            for (CardTags tag : GetAvailableTags()) {
-                principles.add(GetMansusPrinciple(tag));
-            }
+        if (AbstractDungeon.player.hasPower(ToolKnockFPower.POWER_ID)) {
 
-            addToBot(new ChooseOneAction(principles));
+            principles.add(new MansusFrangiclave(this));
 
         }
+
+        addToBot(new ChooseOneAction(principles));
     }
 
     public void onConsumedPrinciple(boolean isKnock) {

@@ -537,5 +537,21 @@
     "DESCRIPTION": [
       "消耗 !P! 层 tsh:启 之 tsh:准则 。"
     ]
+  },
+
+  "TheSecretHistories:MansusFrangiclave": {
+    "NAMES": [
+      "去往林地之道：碎门之钥",
+      "去往纯白之门：碎门之钥",
+      "去往牡鹿之门：碎门之钥",
+      "去往蜘蛛之门：碎门之钥",
+      "去往孔雀之门：碎门之钥"
+    ],
+    "IMG_PATHS": [
+      "toolknockf"
+    ],
+    "DESCRIPTION": [
+      "不消耗 tsh:准则 。"
+    ]
   }
 }
