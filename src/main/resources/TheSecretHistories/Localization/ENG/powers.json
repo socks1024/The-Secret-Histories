@@ -79,6 +79,13 @@
     ]
   },
 
+  "TheSecretHistories:ToolForgeFPower": {
+    "NAME": "Carcass Spark",
+    "DESCRIPTIONS": [
+      "When you exhaust cards,you directly gain their principles."
+    ]
+  },
+
   "TheSecretHistories:ToolEdgeDPower": {
     "NAME": "Biedde's Blade",
     "DESCRIPTIONS": [

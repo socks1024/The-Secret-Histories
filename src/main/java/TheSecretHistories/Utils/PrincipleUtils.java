@@ -100,7 +100,7 @@ public class PrincipleUtils {
     public static AbstractCard.CardTags GetCardPrincipleTag(AbstractCard card){
 
         if (card.hasTag(LANTERN)) return LANTERN;
-        if (card.hasTag(FORGE)) return EDGE;
+        if (card.hasTag(FORGE)) return FORGE;
         if (card.hasTag(EDGE)) return EDGE;
         if (card.hasTag(WINTER)) return WINTER;
         if (card.hasTag(HEART)) return HEART;

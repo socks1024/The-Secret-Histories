@@ -79,6 +79,13 @@
     ]
   },
 
+  "TheSecretHistories:ToolForgeFPower": {
+    "NAME": "尸骸火花",
+    "DESCRIPTIONS": [
+      "消耗卡牌时，直接获得其准则。"
+    ]
+  },
+
   "TheSecretHistories:ToolEdgeDPower": {
     "NAME": "比得之刃",
     "DESCRIPTIONS": [

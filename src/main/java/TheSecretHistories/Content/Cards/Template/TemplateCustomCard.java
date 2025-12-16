@@ -2,6 +2,7 @@ package TheSecretHistories.Content.Cards.Template;
 
 import TheSecretHistories.Content.Actions.Principle.GainPrincipleAction;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolForgeFPower;
+import TheSecretHistories.Utils.DebugUtils;
 import TheSecretHistories.Utils.PrincipleUtils;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -160,6 +161,8 @@ public abstract class TemplateCustomCard extends CustomCard {
             int amount = AbstractDungeon.player.getPower(ToolForgeFPower.POWER_ID).amount;
 
             addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, PrincipleUtils.GetPrinciplePower(PrincipleUtils.GetCardPrincipleTag(this), principleCount * amount)));
+
+            DebugUtils.Log(cardID + " is Exhausted and triggered ToolForgeFPower, extra principle:" + PrincipleUtils.GetCardPrincipleTag(this));
         }
     }
 }

@@ -36,8 +36,7 @@ public class IngredientForgeF extends AbstractIngredient {
         for (int i = 0; i < this.magicNumber; i++) {
             AbstractMonster target = AbstractDungeon.getCurrRoom()
                     .monsters.getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
-            this.addToBot((AbstractGameAction)
-                    new PlayTopCardAction((AbstractCreature)target, false));
+            this.addToBot(new PlayTopCardAction(target, false));
         }
     }
 
