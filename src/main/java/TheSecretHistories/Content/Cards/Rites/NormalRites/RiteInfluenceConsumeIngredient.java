@@ -42,7 +42,12 @@ public class RiteInfluenceConsumeIngredient extends AbstractNormalRite {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new GainBlockAction(p, p, this.block));
-        this.addToBot(new ApplyPowerAction(p, p, new BarricadePower(p)));
+        addToBot(new ConsumePrincipleAction(p, INFOS) {
+            @Override
+            protected void OnConsumedEnough(int consumedAmount) {
+                this.addToBot(new GainBlockAction(p, p, block));
+                this.addToBot(new ApplyPowerAction(p, p, new BarricadePower(p)));
+            }
+        });
     }
 }

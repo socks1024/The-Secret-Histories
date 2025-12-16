@@ -1,13 +1,19 @@
 package TheSecretHistories.Content.Cards.Rites.NormalRites;
 
+import TheSecretHistories.Content.Actions.Principle.ConsumePrincipleAction;
 import TheSecretHistories.Content.Cards.Rites.AbstractNormalRite;
 import TheSecretHistories.Utils.PrincipleUtils.ReducePrincipleInfo;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
+
+import java.util.Random;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
 
@@ -33,9 +39,9 @@ public class RiteToolConsumeFollower extends AbstractNormalRite {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new AbstractGameAction() {
+        addToBot(new ConsumePrincipleAction(p, INFOS) {
             @Override
-            public void update() {
+            protected void OnConsumedEnough(int consumedAmount) {
                 AbstractDungeon.player.increaseMaxHp(baseMagicNumber, true);
                 isDone=true;
             }

@@ -9,7 +9,6 @@ import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 
 public class Moth extends AbstractPrinciple{
 
@@ -23,7 +22,8 @@ public class Moth extends AbstractPrinciple{
 
         if (amount > 0 && owner.hasPower(FollowerMothYPower.POWER_ID)) {
             owner.getPower(FollowerMothYPower.POWER_ID).flash();
-            addToTop(new DamageAllEnemiesAction(AbstractDungeon.player, PowerUtils.GetPowerAmount(FollowerMothYPower.POWER_ID, owner), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
+            addToTop(new DamageAllEnemiesAction(null,
+                    DamageInfo.createDamageMatrix(PowerUtils.GetPowerAmount(FollowerMothYPower.POWER_ID, owner), true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
         }
     }
 

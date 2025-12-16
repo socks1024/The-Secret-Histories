@@ -16,14 +16,14 @@
   "TheSecretHistories:Edge": {
     "NAME": "Edge",
     "DESCRIPTIONS": [
-      "[Edge is the principle of battle and of struggle.[At the start of each turn,gain 1 temporary strength for every 3 edge you have.]"
+      "Edge is the principle of battle and of struggle.[At the start of each turn,gain 1 temporary strength for every 3 edge you have.]"
     ]
   },
 
   "TheSecretHistories:Winter": {
     "NAME": "Winter",
     "DESCRIPTIONS": [
-      "Winter is the principle of silence, of endings, and of those things that are not quite dead.[at the end of turn,take %d damage.]"
+      "Winter is the principle of silence, of endings, and of those things that are not quite dead.[At the end of turn,take %d damage.]"
     ]
   },
 

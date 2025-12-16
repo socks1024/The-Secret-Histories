@@ -39,6 +39,7 @@ public class FollowerGrailRenira extends AbstractFollower{
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        super.use(p,m);
         int extraDamage = 0;
 
         for (AbstractPower power : p.powers) {

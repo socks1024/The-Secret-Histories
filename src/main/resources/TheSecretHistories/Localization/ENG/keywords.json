@@ -6,17 +6,17 @@
 
   {
     "NAMES": ["lantern"],
-    "DESCRIPTION": "Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it."
+    "DESCRIPTION": "Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it.[At the start of each turn,draw 1 extra card for every 5 lantern you have.]"
   },
 
   {
     "NAMES": ["forge"],
-    "DESCRIPTION": "The principle of the Forge transforms and destroys."
+    "DESCRIPTION": "The principle of the Forge transforms and destroys.[At the start of each turn,gain 1 extra energy for every 7 forge you have]"
   },
 
   {
     "NAMES": ["edge"],
-    "DESCRIPTION": "Edge is the principle of battle and of struggle."
+    "DESCRIPTION": "Edge is the principle of battle and of struggle.[At the start of each turn,gain 1 temporary strength for every 3 edge you have.]"
   },
 
   {
@@ -26,12 +26,12 @@
 
   {
     "NAMES": ["heart"],
-    "DESCRIPTION": "The Heart is the principle that continues and preserves."
+    "DESCRIPTION": "The Heart is the principle that continues and preserves.[At the start of each turn,gain 1 temporary dexterity for every 3 heart you have.]"
   },
 
   {
     "NAMES": ["grail"],
-    "DESCRIPTION": "The principle of the Grail honours both the birth and the feast."
+    "DESCRIPTION": "The principle of the Grail honours both the birth and the feast.[At the start of each turn,apply 1 weak or vulnerable or -1 strength to a random enemy for every 5 grail you have.]"
   },
 
   {
@@ -41,12 +41,12 @@
 
   {
     "NAMES": ["knock"],
-    "DESCRIPTION": "The Knock is the principle that opens doors and unseams barriers."
+    "DESCRIPTION": "The Knock is the principle that opens doors and unseams barriers.[When you exhaust knock to enter the Mansus, you can choose which card to obtain.]"
   },
 
   {
     "NAMES": ["secrethistories"],
-    "DESCRIPTION": "Secret Histories describe the unknown complexities of the world, and its many pasts.[It stacks instead of taking maximum,you get additional rewards based on this principle you have at checkout.]"
+    "DESCRIPTION": "Secret Histories describe the unknown complexities of the world, and its many pasts.[You get additional rewards based on this principle you have at checkout.]"
   },
 
   {

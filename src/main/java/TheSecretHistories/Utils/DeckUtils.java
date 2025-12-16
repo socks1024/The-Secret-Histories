@@ -15,7 +15,7 @@ public class DeckUtils {
 
     public static int GetMansusLevel() {
 
-        AbstractCard mansusCard = GetFirstCardInMasterDeck(Mansus.ID);
+        AbstractCard mansusCard = GetMansusCard();
 
         if (mansusCard != null) {
             return mansusCard.timesUpgraded + 1;
@@ -38,6 +38,7 @@ public class DeckUtils {
         battleDecks.addAll(AbstractDungeon.player.hand.group);
         battleDecks.addAll(AbstractDungeon.player.discardPile.group);
         battleDecks.addAll(AbstractDungeon.player.drawPile.group);
+        battleDecks.addAll(AbstractDungeon.player.exhaustPile.group);
 
         return battleDecks;
     }

@@ -6,7 +6,10 @@ import TheSecretHistories.Content.Powers.UniqueCards.GainEnergyAtStartOfTurnPowe
 import TheSecretHistories.Utils.PrincipleUtils.ReducePrincipleInfo;
 import TheSecretHistories.Utils.StringUtils;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -15,6 +18,8 @@ import com.megacrit.cardcrawl.powers.GainStrengthPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
 import com.megacrit.cardcrawl.powers.WeakPower;
+
+import java.util.Random;
 
 import static TheSecretHistories.Content.Characters.TheSeeker.PlayerTagEnum.*;
 
@@ -47,14 +52,19 @@ public class RiteToolConsumeIngredient extends AbstractNormalRite {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
+        addToBot(new ConsumePrincipleAction(p, INFOS) {
+            @Override
+            protected void OnConsumedEnough(int consumedAmount) {
 
-        if (!this.upgraded) {
-            applydebuff(p, m);
-        } else {
-            for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
-                applydebuff(p, mo);
+                if (!upgraded) {
+                    applydebuff(p, m);
+                } else {
+                    for (AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
+                        applydebuff(p, mo);
+                    }
+                }
             }
-        }
+        });
     }
 
     private void applydebuff(AbstractCreature source, AbstractCreature target) {

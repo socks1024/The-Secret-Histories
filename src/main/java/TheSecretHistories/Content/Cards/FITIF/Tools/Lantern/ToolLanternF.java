@@ -1,5 +1,6 @@
 package TheSecretHistories.Content.Cards.FITIF.Tools.Lantern;
 
+import TheSecretHistories.Content.Actions.UniqueCards.ToolLanternFAction;
 import TheSecretHistories.Content.Cards.FITIF.Tools.AbstractTool;
 import TheSecretHistories.Content.Powers.UniqueCards.ToolLanternFPower;
 import TheSecretHistories.Utils.StringUtils;
@@ -23,13 +24,10 @@ public class ToolLanternF extends AbstractTool {
     private static final CardRarity RARITY = CardRarity.RARE;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-
     public ToolLanternF() {
         super(ID, IMG_NAME, COST, TYPE, RARITY, TARGET, PRINCIPLE_TAG);
 
         this.exhaust = true;
-
-//        this.magicNumber = this.baseMagicNumber = 4;
     }
 
     @Override
@@ -41,7 +39,6 @@ public class ToolLanternF extends AbstractTool {
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster){
         super.use(abstractPlayer, abstractMonster);
-        addToBot((AbstractGameAction)new ExhumeAction(false));
-        //addToBot(new ApplyPowerAction(abstractPlayer, abstractPlayer,new ToolLanternFPower(abstractPlayer, magicNumber)));
+        addToBot(new ToolLanternFAction(false));
     }
 }
